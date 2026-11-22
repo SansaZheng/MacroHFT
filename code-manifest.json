@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "sha256": {
+    "scripts/cq_archive_smoke.py": "462007097be6d2e7d355d245c0af9ce315bca549af22d60598b9d8d0e61ab1f0",
+    "scripts/prepare_github_archive.py": "a9c056e258040900b3b2d10b9118e868125a9dbbc10ec27b559992d72617bccb",
+    "scripts/restore_archive.py": "eb8a747d22519983435f94fdd8793f0de0c2a50bed1c150beb199011bc7baebd",
+    "tests/test_archive.py": "7e05c050a4b895ac09d8e2c30985f3e0095d6e8d4f73ce579f5379fa7a59b3ca"
+  }
+}
