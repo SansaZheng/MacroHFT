@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "repository": "https://github.com/SansaZheng/MacroHFT",
+  "local_checkout": "/Users/zyy/.local/share/macrohft/repository",
+  "cq": "blocked on server repository allowlist",
+  "training_resumed": false,
+  "final_reproduction_verified": false,
+  "submission_ready": false,
+  "archive": "partial; iCloud source bytes unavailable",
+  "archive_tests_passed": 5
+}

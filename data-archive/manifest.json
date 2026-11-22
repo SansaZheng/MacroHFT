@@ -1,0 +1,2839 @@
+{
+  "schema": 1,
+  "source_scope": "local MacroHFT project snapshot",
+  "remote_training_artifacts_retrieved": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 59,
+      "sha256": "fefdce4e1c5f6fe0c098ad429612e38853f5c140bab1ea4b67ffbed7de86c986",
+      "storage": "git",
+      "provenance": "new recovery artifact"
+    },
+    {
+      "path": "README.md",
+      "size": 1569,
+      "sha256": "9829d9d4aefa99913ca936eede90edaf3d09a5103c968d6dd75972fcc95eb6ee",
+      "storage": "git",
+      "provenance": "new recovery artifact"
+    },
+    {
+      "path": "RECOVERY.md",
+      "size": 2735,
+      "sha256": "b19c4a966d5360beac847f102aa4a1829b772e45312c6a1484d49bdfa271c09b",
+      "storage": "git",
+      "provenance": "new recovery artifact"
+    },
+    {
+      "path": "docs/ARCHIVE.md",
+      "size": 1957,
+      "sha256": "bbd89cf157966fde003a0de70a328e83990e2c2380218f32c603d3e83f767059",
+      "storage": "git",
+      "provenance": "new recovery documentation or execution receipt"
+    },
+    {
+      "path": "docs/RECOVERY-RUNBOOK.md",
+      "size": 2422,
+      "sha256": "c3f333a6e143474c1f9b3052ed1c6dc1fbf1d022a6b49f58bc3251862b875b28",
+      "storage": "git",
+      "provenance": "new recovery documentation or execution receipt"
+    },
+    {
+      "path": "docs/RESEARCH-GATES.md",
+      "size": 2204,
+      "sha256": "5f13ca3d2a6c28b23d027c45ce30e0dc07743df1d195a494640386e02c7a5eaa",
+      "storage": "git",
+      "provenance": "new recovery documentation or execution receipt"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "size": 1261,
+      "sha256": "749e2137effde38a05efff0cae3947991bcf0ff02f79339bfabea942a7f7153d",
+      "storage": "git",
+      "provenance": "new recovery documentation or execution receipt"
+    },
+    {
+      "path": "docs/legacy/README-20261002.md",
+      "size": 6700,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/preview-published.png",
+      "size": 439170,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/preview.png",
+      "size": 460895,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/claim-map.md",
+      "size": 1812,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-changes.md",
+      "size": 927,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-1.json",
+      "size": 446,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-2.json",
+      "size": 519,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-3-before-research-upgrade.json",
+      "size": 787,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-4-before-cq-resume.json",
+      "size": 1521,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-5-before-github-archive.json",
+      "size": 1711,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config.json",
+      "size": 1996,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/current.md",
+      "size": 431,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/events.jsonl",
+      "size": 4880,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/evidence-audit.md",
+      "size": 7296,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/experiment-report.md",
+      "size": 8950,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/literature.md",
+      "size": 5190,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/001-reproduce.md",
+      "size": 483,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/002-experiments.md",
+      "size": 584,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/003-cluster-acceleration.md",
+      "size": 1141,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/004-storage-recovery.md",
+      "size": 1364,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/005-research-upgrade.md",
+      "size": 1543,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/006-cq-resume.md",
+      "size": 1248,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/007-versioned-recovery.md",
+      "size": 1654,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/results.csv",
+      "size": 20322,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/state-before-upgrade-20261014.md",
+      "size": 2352,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/state.md",
+      "size": 5816,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/venue-profiles/kdd-research-provisional.md",
+      "size": 1364,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-01.zip",
+      "size": 2127988,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-02.zip",
+      "size": 2021779,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-03.zip",
+      "size": 2213444,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-01.zip",
+      "size": 2068379,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-02.zip",
+      "size": 1918913,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-03.zip",
+      "size": 2086704,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-01.zip",
+      "size": 1856325,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-02.zip",
+      "size": 1705395,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-03.zip",
+      "size": 1853276,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/docs/impact-and-gates.md",
+      "size": 2866,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/docs/method.md",
+      "size": 3595,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/docs/pilot-report.md",
+      "size": 4656,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/protocol.json",
+      "size": 1744,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/BTCUSDT-guarded-decision-trace.npz",
+      "size": 11292,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/ETHUSDT-guarded-decision-trace.npz",
+      "size": 10263,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/SOLUSDT-guarded-decision-trace.npz",
+      "size": 9672,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/activity-control-plan.json",
+      "size": 295,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/activity-control.json",
+      "size": 5888,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/activity-control.log",
+      "size": 1378,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/data-manifest.json",
+      "size": 3530,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/decision.json",
+      "size": 322,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/delivery-manifest.json",
+      "size": 604,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/environment.json",
+      "size": 70,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/execution-manifest.json",
+      "size": 584,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot-diagnostic.png",
+      "size": 175553,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot-diagnostic.svg",
+      "size": 95372,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot.csv",
+      "size": 20524,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot.json",
+      "size": 50345,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot.log",
+      "size": 304,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/tests.log",
+      "size": 104,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/scripts/activity_control.py",
+      "size": 3993,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/scripts/pilot.py",
+      "size": 5645,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/scripts/report.py",
+      "size": 6086,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/src/memory.py",
+      "size": 5740,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/tests/test_core.py",
+      "size": 2394,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/controller-launch.json",
+      "size": 101,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/controller-recovery-launch.json",
+      "size": 269,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/controller-recovery.log",
+      "size": 0,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/controller-tests.log",
+      "size": 102,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/controller.log",
+      "size": 385,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/execution-manifest.json",
+      "size": 3241,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/first-completed-trials.json",
+      "size": 1844,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/handoff-recovery.json",
+      "size": 2768,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/handoff.json",
+      "size": 2491,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/inventory.json",
+      "size": 5914,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/launch-c203.json",
+      "size": 318,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/launch-c219.json",
+      "size": 170,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/launch-c220.json",
+      "size": 168,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/launch-c224.json",
+      "size": 328,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/launch-c237.json",
+      "size": 344,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/prelaunch-capacity.json",
+      "size": 978,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/runtime-inventory.json",
+      "size": 3018,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/runtime-pack.log",
+      "size": 41975,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/runtime-provenance.json",
+      "size": 1411,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/runtime-tests.log",
+      "size": 1646,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c203.json",
+      "size": 1500,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c203.log",
+      "size": 535,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c219.json",
+      "size": 1498,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c219.log",
+      "size": 541,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c220.json",
+      "size": 1498,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c220.log",
+      "size": 541,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c224.json",
+      "size": 1498,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c224.log",
+      "size": 541,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c237.json",
+      "size": 1499,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-c237.log",
+      "size": 541,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c203.json",
+      "size": 623,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c219.json",
+      "size": 623,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c220.json",
+      "size": 623,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c224.json",
+      "size": 623,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c237.json",
+      "size": 623,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c203.json",
+      "size": 586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c219.json",
+      "size": 586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c220.json",
+      "size": 586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c224.json",
+      "size": 586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c237.json",
+      "size": 586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cluster/start-failure.json",
+      "size": 255,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/combined-seed12345/validation.jsonl",
+      "size": 525,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cq-resume-20261020/inventory-c225.spec.json",
+      "size": 3212,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cq-resume-20261020/inventory.py",
+      "size": 2039,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cq-resume-20261020/job-final.json",
+      "size": 5324,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cq-resume-20261020/job-j-1020-197b77.json",
+      "size": 5640,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/cq-resume-20261020/queue-audit.json",
+      "size": 365,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/data-audit.json",
+      "size": 1062,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/data-listing.json",
+      "size": 518,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/download.log",
+      "size": 10089,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/drive-folder.html",
+      "size": 323902,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/first-epoch-validation.json",
+      "size": 1489,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/latest-status-output.json",
+      "size": 0,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/latest-status.txt",
+      "size": 5780,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/local-environment.txt",
+      "size": 1932,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/official-runtime-and-variants.patch",
+      "size": 11284,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/pipeline-status.json",
+      "size": 46335,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/prepare.log",
+      "size": 95187,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/prepared-data-manifest.json",
+      "size": 546,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/provenance.json",
+      "size": 1255,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/recovery-20261002/controller.log",
+      "size": 0,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/recovery-20261002/coordinator-launch.json",
+      "size": 160,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/recovery-20261002/failed-controller-status.json",
+      "size": 54630,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/recovery-20261002/launch.json",
+      "size": 320,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/recovery-20261002/preflight.json",
+      "size": 60,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/recovery-20261123/archive-tests.log",
+      "size": 103,
+      "sha256": "fa950bcf358d8f3453279c84ddce78a4fc485544705befcc0fc7d5d175bdacb7",
+      "storage": "git",
+      "provenance": "new recovery documentation or execution receipt"
+    },
+    {
+      "path": "results/recovery-20261123/cq-submission.json",
+      "size": 340,
+      "sha256": "9b695c01c4ebd92c85754c5daa30a6a39f52233754d9f2cde688414bbd01f7c3",
+      "storage": "git",
+      "provenance": "new recovery documentation or execution receipt"
+    },
+    {
+      "path": "results/recovery-20261123/inventory-c225.spec.json",
+      "size": 1267,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/recovery-20261123/status.json",
+      "size": 386,
+      "sha256": "16ad8a62ef25b3b87b23b91e07989e8dc013f6e456ecdb9824d8394b7a06fb06",
+      "storage": "git",
+      "provenance": "new recovery documentation or execution receipt"
+    },
+    {
+      "path": "results/recovery-20261123/submission-receipt.json",
+      "size": 189,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/reference-seed12345/validation.jsonl",
+      "size": 523,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/remote-environment.txt",
+      "size": 4986,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/remote-tests.log",
+      "size": 1646,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/selection-frozen.json",
+      "size": 740,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/smoke-action-memory-cost.json",
+      "size": 381,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/smoke-action-memory-cost.log",
+      "size": 1076,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/smoke-reference-fast.json",
+      "size": 400,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/smoke-reference-fast.log",
+      "size": 1007,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/smoke-reference.json",
+      "size": 377,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/smoke-reference.log",
+      "size": 1071,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/tests.log",
+      "size": 1718,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "results/training-health.json",
+      "size": 1061,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/array_environment.py",
+      "size": 3659,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cached_experts.py",
+      "size": 2997,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cluster_controller.py",
+      "size": 13634,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cluster_launch.py",
+      "size": 1758,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cluster_plan.json",
+      "size": 1876,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cluster_prepare.py",
+      "size": 4646,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cluster_query.py",
+      "size": 960,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cluster_runtime_probe.py",
+      "size": 848,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cluster_worker.py",
+      "size": 2458,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/cq_inventory.py",
+      "size": 3128,
+      "sha256": "414a22a16be08fbcc0b943460e0d1794815fd3e513ce6d10b1e888b31c851502",
+      "storage": "git",
+      "provenance": "new recovery artifact"
+    },
+    {
+      "path": "scripts/experiment_pipeline.py",
+      "size": 6163,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/fast_evaluation.py",
+      "size": 4072,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/fetch_status.py",
+      "size": 1611,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/patch_official.py",
+      "size": 855,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "size": 2945,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/prepare_github_archive.py",
+      "size": 5949,
+      "sha256": "871e451809089394ec0eac1b28c0d7703e408c638dc408b62ca7a782cf1d6fb4",
+      "storage": "git"
+    },
+    {
+      "path": "scripts/probe_cluster.py",
+      "size": 1105,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/recover_failed_trials.py",
+      "size": 6302,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/restore_archive.py",
+      "size": 4116,
+      "sha256": "eb8a747d22519983435f94fdd8793f0de0c2a50bed1c150beb199011bc7baebd",
+      "storage": "git",
+      "provenance": "new/revised archival tooling, 2026-11-23"
+    },
+    {
+      "path": "scripts/run_experiment.py",
+      "size": 3350,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "scripts/smoke_train.py",
+      "size": 2205,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "tests/test_archive.py",
+      "size": 3102,
+      "sha256": "7e05c050a4b895ac09d8e2c30985f3e0095d6e8d4f73ce579f5379fa7a59b3ca",
+      "storage": "git",
+      "provenance": "new/revised archival tooling, 2026-11-23"
+    },
+    {
+      "path": "tests/test_cluster_controller.py",
+      "size": 1209,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "tests/test_reproduction.py",
+      "size": 7995,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/.gitignore",
+      "size": 52,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/RL/agent/high_level.py",
+      "size": 29555,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/RL/agent/low_level.py",
+      "size": 21143,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/RL/util/memory.py",
+      "size": 3584,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/RL/util/replay_buffer.py",
+      "size": 6261,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/RL/util/utili.py",
+      "size": 847,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_test.feather",
+      "size": 106921826,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_train.feather",
+      "size": 261693410,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_val.feather",
+      "size": 85196722,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_0.feather",
+      "size": 2101218,
+      "sha256": "40c7e9ba94b09ce8a676d79482c54803b1a0565f8bfc648f591e352c8868e857",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_1.feather",
+      "size": 2111370,
+      "sha256": "01a3f7b6f191b2920ade3430f7a6833c322d5ad1e2c6d59598506c28c126fafa",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_10.feather",
+      "size": 2136690,
+      "sha256": "7ff6f6539171beceec2edc16ced5ecbb72df08003a5d76c4dd939f6623112f17",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_11.feather",
+      "size": 2135690,
+      "sha256": "3b3c0f73af980357d115dd2869346b3fb99dd3aeea3e844ecd7271b812825deb",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_12.feather",
+      "size": 2111146,
+      "sha256": "4a9799d64733ec61b40dfabbcce1f65cb6916689f7e99272b03a056b5582e1aa",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_13.feather",
+      "size": 2122234,
+      "sha256": "803bc963f48117f773d09af540583be011ebbf3eaaf5b3f161bddf6855c65559",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_14.feather",
+      "size": 2138834,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_15.feather",
+      "size": 2125490,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_16.feather",
+      "size": 2122362,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_17.feather",
+      "size": 2095714,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_18.feather",
+      "size": 2111618,
+      "sha256": "a01508f69c7d6638dd5defc63449aa6a579d8360e5348993968279e4cd52c4d4",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_19.feather",
+      "size": 2046866,
+      "sha256": "415b81253a57de204a92f311b9d5e212094420f514eb0598de6f673d15a41f3e",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_2.feather",
+      "size": 2122634,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_20.feather",
+      "size": 2112842,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_21.feather",
+      "size": 2077226,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_22.feather",
+      "size": 2069186,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_23.feather",
+      "size": 2055122,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_24.feather",
+      "size": 1942290,
+      "sha256": "a1e095d35c37516d2d056b9c7d7ab23acb9fdeed50c02a3b2395d5dd122cd0e3",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_25.feather",
+      "size": 2066570,
+      "sha256": "e1d5c21530822742cbb00c395101c1830c1f342d2b9878eb7e3e969022d9529a",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_26.feather",
+      "size": 2131130,
+      "sha256": "30a30f3da07fa30abd657262c7a529bde1a511c5c99c7229183a14e548f4b40a",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_27.feather",
+      "size": 2133546,
+      "sha256": "0a5d05598cd8f38109533cfc523bb35f80d316c911b513b7974bcf9dd5fc8eac",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_28.feather",
+      "size": 2093354,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_29.feather",
+      "size": 2104074,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_3.feather",
+      "size": 2136146,
+      "sha256": "b77e3a9949ea0323774219c2c351fb1dd9554c0dd08ecc2a3e3583a0cd5c3cef",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_30.feather",
+      "size": 2125586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_31.feather",
+      "size": 2082314,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_32.feather",
+      "size": 2102490,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_33.feather",
+      "size": 2064714,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_34.feather",
+      "size": 2140018,
+      "sha256": "b285ec6dc69db6df8b3125563b825440042bbd8db429ee1b1424a8b65f22e0eb",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_35.feather",
+      "size": 2112522,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_36.feather",
+      "size": 2115242,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_37.feather",
+      "size": 2126810,
+      "sha256": "c6d01ef59b33100e9467ab46da940c823272a09a3b46b0ddb73c148fc93cc683",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_38.feather",
+      "size": 2040714,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_39.feather",
+      "size": 2118890,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_4.feather",
+      "size": 2138074,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_40.feather",
+      "size": 2101290,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_41.feather",
+      "size": 2132770,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_42.feather",
+      "size": 2101802,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_43.feather",
+      "size": 2112642,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_44.feather",
+      "size": 2126930,
+      "sha256": "ba39fd1f969aa881c61affce727cbc3d9488599e79ab2d3b17e06df94251db9e",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_45.feather",
+      "size": 2088490,
+      "sha256": "ce5a4e2d6bd27e70e1db6f3070b4415dd228c20b6507fda666c03f4fd090cc5a",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_46.feather",
+      "size": 2120890,
+      "sha256": "d3959ec44e8b41d9becbf2e8521847d564d03a150d75a1257fe1cbcbf0bf9224",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_47.feather",
+      "size": 2128274,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_48.feather",
+      "size": 2158138,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_49.feather",
+      "size": 2140826,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_5.feather",
+      "size": 2116162,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_50.feather",
+      "size": 2130690,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_6.feather",
+      "size": 2137578,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_7.feather",
+      "size": 2134274,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_8.feather",
+      "size": 2138442,
+      "sha256": "3fd8994e91681fa4bfa81c1ce16938c6c4c7a28ffa13f9c63325145a2ecfd02d",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_9.feather",
+      "size": 2151450,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/slope_labels.pkl",
+      "size": 134,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/vol_labels.pkl",
+      "size": 132,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather",
+      "size": 2183410,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_1.feather",
+      "size": 2185986,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_10.feather",
+      "size": 2188674,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_100.feather",
+      "size": 2152602,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_101.feather",
+      "size": 2145354,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_102.feather",
+      "size": 2143554,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_103.feather",
+      "size": 2143378,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_104.feather",
+      "size": 2114602,
+      "sha256": "9f3b0d219e4cec2e7799889124663700d2549a20c8ae3cfc25dc5955c618341f",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_105.feather",
+      "size": 2147010,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_106.feather",
+      "size": 2135970,
+      "sha256": "d8ab264685a24b764b59de44454d56fbc54d56a211deb6719d1675dd338a98ec",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_107.feather",
+      "size": 2138010,
+      "sha256": "99d35d02ebf3570244daf74b0b09abc0f9ed3e7f687b759700398790a2d5f6d6",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_108.feather",
+      "size": 2111370,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_109.feather",
+      "size": 2104986,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_11.feather",
+      "size": 2184250,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_110.feather",
+      "size": 2123354,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_111.feather",
+      "size": 2081802,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_112.feather",
+      "size": 2116642,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_113.feather",
+      "size": 2063722,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_114.feather",
+      "size": 2134554,
+      "sha256": "f9b55724ecffffa1f707bb1a42f840703dcb71ef4a401280982866975752a8b6",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_115.feather",
+      "size": 2163418,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_116.feather",
+      "size": 2151138,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_117.feather",
+      "size": 2154162,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_118.feather",
+      "size": 2143722,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_119.feather",
+      "size": 2151914,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_12.feather",
+      "size": 2186250,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_120.feather",
+      "size": 2145306,
+      "sha256": "c5b61275bba12cfcd2cdced5ad7faa7989adaa7eb1e49dad40d9bc00fd69b103",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_13.feather",
+      "size": 2177530,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_14.feather",
+      "size": 2186250,
+      "sha256": "cee09e78c8c3a8e72727874648cb8dda1041f4ba35f752b9dd877c902c718c6b",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_15.feather",
+      "size": 2181978,
+      "sha256": "58a6dc6bca0de300e20f4f4620172596edde77724363d64ee6127bb07d52a7e9",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_16.feather",
+      "size": 2180178,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_17.feather",
+      "size": 2175570,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_18.feather",
+      "size": 2181906,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_19.feather",
+      "size": 2184618,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_2.feather",
+      "size": 2189450,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_20.feather",
+      "size": 2180218,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_21.feather",
+      "size": 2190354,
+      "sha256": "0fd658e407f68827ebc925900b633ae5972342df36c24b78cb93d3fcdb38ea38",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_22.feather",
+      "size": 2173066,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_23.feather",
+      "size": 2185066,
+      "sha256": "ed532a8e4c5467ca80f7c4993bfc7ef26e5695cfdd7b3b08f0d8805673b204fd",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_24.feather",
+      "size": 2167842,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_25.feather",
+      "size": 2178762,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_26.feather",
+      "size": 2180354,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_27.feather",
+      "size": 2178258,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_28.feather",
+      "size": 2180234,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_29.feather",
+      "size": 2178802,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_3.feather",
+      "size": 2195450,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_30.feather",
+      "size": 2180082,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_31.feather",
+      "size": 2182010,
+      "sha256": "19ed3dfd13565d75362556605c8e17abd50c35a5680dd95d5918ccca98fcf558",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_32.feather",
+      "size": 2192962,
+      "sha256": "96dc7054c6b25ed22df16a8993e48ec5feec4b64290ec2b60cf888a29d1143a7",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_33.feather",
+      "size": 2204882,
+      "sha256": "1c1d4b86323dc38b7ca232c93b579300de4553c83b62116105cfe42503ce67f6",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_34.feather",
+      "size": 2176794,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_35.feather",
+      "size": 2177906,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_36.feather",
+      "size": 2160802,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_37.feather",
+      "size": 2169658,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_38.feather",
+      "size": 2172178,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_39.feather",
+      "size": 2171538,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_4.feather",
+      "size": 2188586,
+      "sha256": "2e1f6e4fc545940e470c640160f8c39c16414c8ddb77d9a24d491c246f1e91bc",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_40.feather",
+      "size": 2166258,
+      "sha256": "197bc2b09625495ecf194a5be4f350cfa64ab0a42947128e020911d4a3d035ac",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_41.feather",
+      "size": 2157346,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_42.feather",
+      "size": 2164234,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_43.feather",
+      "size": 2179818,
+      "sha256": "b525ab109cce0b97c3c73c1b59f25ad9f33c49244692a5e8c70d1ae5c290d68a",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_44.feather",
+      "size": 2187170,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_45.feather",
+      "size": 2181818,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_46.feather",
+      "size": 2175546,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_47.feather",
+      "size": 2171626,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_48.feather",
+      "size": 2162338,
+      "sha256": "807183ea5f9429559277ee58a144cac62ee238c7bc0f5bd7a4d5dd9d5c8f3c9f",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_49.feather",
+      "size": 2173674,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_5.feather",
+      "size": 2191562,
+      "sha256": "5c69d5c2dcc8c4a0f6ab34c6ef67adc45406d25bd2c744417848e46768ac2cb2",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_50.feather",
+      "size": 2152146,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_51.feather",
+      "size": 2163378,
+      "sha256": "db6502e9c7c067b82b013007c7a6ea5377a284637928a2ae613841b73fa141d0",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_52.feather",
+      "size": 2159330,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_53.feather",
+      "size": 2161746,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_54.feather",
+      "size": 2170362,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_55.feather",
+      "size": 2177626,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_56.feather",
+      "size": 2170658,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_57.feather",
+      "size": 2172650,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_58.feather",
+      "size": 2178298,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_59.feather",
+      "size": 2172106,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_6.feather",
+      "size": 2187090,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_60.feather",
+      "size": 2170050,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_61.feather",
+      "size": 2168762,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_62.feather",
+      "size": 2163658,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_63.feather",
+      "size": 2169178,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_64.feather",
+      "size": 2164402,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_65.feather",
+      "size": 2163698,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_66.feather",
+      "size": 2175466,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_67.feather",
+      "size": 2164474,
+      "sha256": "1b3c6dc3026db20892d44f15905ddac5fa641a7a65f4e304eec86d1440831bcd",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_68.feather",
+      "size": 2166458,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_69.feather",
+      "size": 2165722,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_7.feather",
+      "size": 2195906,
+      "sha256": "b43c72e67119e706f3be1aff886f9939848e5b72b22007186e0e3361e4e99920",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_70.feather",
+      "size": 2166090,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_71.feather",
+      "size": 2151842,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_72.feather",
+      "size": 2168714,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_73.feather",
+      "size": 2163834,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_74.feather",
+      "size": 2165858,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_75.feather",
+      "size": 2173514,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_76.feather",
+      "size": 2160258,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_77.feather",
+      "size": 2168290,
+      "sha256": "71e564df23c1ed7fdf6ccbd8d527254f87546cd86bb3ceb034d14ef2c28c03eb",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_78.feather",
+      "size": 2153066,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_79.feather",
+      "size": 2163378,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_8.feather",
+      "size": 2189242,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_80.feather",
+      "size": 2148978,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_81.feather",
+      "size": 2150154,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_82.feather",
+      "size": 2152802,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_83.feather",
+      "size": 2134634,
+      "sha256": "532ad4bf5da670e4cb4ebe60b60043cd60009740375a0440d3a54f723e1a597a",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_84.feather",
+      "size": 2151978,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_85.feather",
+      "size": 2136482,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_86.feather",
+      "size": 2137706,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_87.feather",
+      "size": 2131266,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_88.feather",
+      "size": 2144962,
+      "sha256": "98c3fce99f59fd269b00d38694c625775bcdd771f21e3fc8073491a7c7ee8ca8",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_89.feather",
+      "size": 2156810,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_9.feather",
+      "size": 2190778,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_90.feather",
+      "size": 2154618,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_91.feather",
+      "size": 2154650,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_92.feather",
+      "size": 2147426,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_93.feather",
+      "size": 2182546,
+      "sha256": "8ae50e878b735af7e21bcd9d334105f66ad0d58dbd8e67211f13a8db1dcb5714",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_94.feather",
+      "size": 2172842,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_95.feather",
+      "size": 2160674,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_96.feather",
+      "size": 2154906,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_97.feather",
+      "size": 2148746,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_98.feather",
+      "size": 2157906,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_99.feather",
+      "size": 2147786,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/slope_labels.pkl",
+      "size": 278,
+      "sha256": "3e33bf0dd8e39f3750b6b5b4d5491905813563336fc7c8062232508a6d7129cb",
+      "storage": "git"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/vol_labels.pkl",
+      "size": 278,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_0.feather",
+      "size": 2145970,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_1.feather",
+      "size": 2140186,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_10.feather",
+      "size": 2125418,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_11.feather",
+      "size": 2131770,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_12.feather",
+      "size": 2164842,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_13.feather",
+      "size": 2174082,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_14.feather",
+      "size": 2168922,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_15.feather",
+      "size": 2160210,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_16.feather",
+      "size": 2163538,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_17.feather",
+      "size": 2088346,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_18.feather",
+      "size": 2157594,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_19.feather",
+      "size": 2144314,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_2.feather",
+      "size": 2153530,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_20.feather",
+      "size": 2150858,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_21.feather",
+      "size": 2143394,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_22.feather",
+      "size": 2124818,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_23.feather",
+      "size": 2147170,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_24.feather",
+      "size": 2154322,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_25.feather",
+      "size": 2161202,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_26.feather",
+      "size": 2152066,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_27.feather",
+      "size": 2145682,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_28.feather",
+      "size": 2153146,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_29.feather",
+      "size": 2125514,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_3.feather",
+      "size": 2145466,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_30.feather",
+      "size": 2139690,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_31.feather",
+      "size": 2148522,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_32.feather",
+      "size": 2146962,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_33.feather",
+      "size": 2145490,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_34.feather",
+      "size": 2130746,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_35.feather",
+      "size": 2127418,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_36.feather",
+      "size": 2085154,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_37.feather",
+      "size": 2134866,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_38.feather",
+      "size": 2103562,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_39.feather",
+      "size": 2122770,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_4.feather",
+      "size": 2154746,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_5.feather",
+      "size": 2149362,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_6.feather",
+      "size": 2146266,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_7.feather",
+      "size": 2157586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_8.feather",
+      "size": 2141338,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_9.feather",
+      "size": 2138610,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/slope_labels.pkl",
+      "size": 112,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/vol_labels.pkl",
+      "size": 111,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/test.feather",
+      "size": 111887530,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/train.feather",
+      "size": 274100090,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/val.feather",
+      "size": 89130786,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/feature_list/single_features.npy",
+      "size": 3152,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/feature_list/trend_features.npy",
+      "size": 848,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/env/high_level_env.py",
+      "size": 9354,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/env/low_level_env.py",
+      "size": 9394,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/model/net.py",
+      "size": 3986,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/preprocess/decomposition.py",
+      "size": 7940,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/readme.md",
+      "size": 726,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790888070.zyydeMacBook-Air.local.87478.0",
+      "size": 88,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790888140.zyydeMacBook-Air.local.87624.0",
+      "size": 88,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/best_model.pkl",
+      "size": 64373,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/trained_model.pkl",
+      "size": 64424,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/action_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/final_balance_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/require_money_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/reward_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/trained_model.pkl",
+      "size": 64424,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/action_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/final_balance_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/require_money_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/reward_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/log/events.out.tfevents.1790888046.zyydeMacBook-Air.local.87401.0",
+      "size": 4743,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/best_model.pkl",
+      "size": 64373,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/trained_model.pkl",
+      "size": 64424,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/action_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/final_balance_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/require_money_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/reward_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/trained_model.pkl",
+      "size": 64424,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/action_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/final_balance_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/require_money_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/reward_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/log/events.out.tfevents.1790888161.zyydeMacBook-Air.local.87656.0",
+      "size": 4743,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/best_model.pkl",
+      "size": 64373,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/trained_model.pkl",
+      "size": 64424,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/action_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/final_balance_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/require_money_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/reward_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/trained_model.pkl",
+      "size": 64424,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/action_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/final_balance_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/require_money_val.npy",
+      "size": 136,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/reward_val.npy",
+      "size": 16504,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/log/events.out.tfevents.1790887820.zyydeMacBook-Air.local.86502.0",
+      "size": 4743,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl",
+      "size": 187425,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl",
+      "size": 187425,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl",
+      "size": 187425,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl",
+      "size": 187425,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl",
+      "size": 187425,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl",
+      "size": 187425,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/scripts/decomposition.sh",
+      "size": 43,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/scripts/high_level.sh",
+      "size": 120,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/scripts/low_level.sh",
+      "size": 997,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/tools/demonstration.py",
+      "size": 3001,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "paper/MacroHFT-KDD2024-published.pdf",
+      "reason": "third-party paper; linked in provenance document"
+    },
+    {
+      "path": "paper/MacroHFT-KDD2024-published.txt",
+      "reason": "third-party paper; linked in provenance document"
+    },
+    {
+      "path": "paper/MacroHFT-KDD2024.pdf",
+      "reason": "third-party paper; linked in provenance document"
+    },
+    {
+      "path": "paper/MacroHFT-KDD2024.txt",
+      "reason": "third-party paper; linked in provenance document"
+    },
+    {
+      "path": "results/archive-preparation-20261123.log",
+      "reason": "environment, metadata or symlink"
+    }
+  ],
+  "complete_local_snapshot": false
+}
