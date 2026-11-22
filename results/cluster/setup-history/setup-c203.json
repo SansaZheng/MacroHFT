@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "host": "c203",
+  "error": "CalledProcessError(1, ['ssh', 'c203', 'cd /data/zyy/macrohft-cluster && mkdir -p .venv && tar -xzf incoming/runtime.tar.gz -C .venv && .venv/bin/python .venv/bin/conda-unpack && tar -xzf incoming/worker-source.tar.gz && OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 TMPDIR=/data/zyy/macrohft-cluster/tmp .venv/bin/python tests/test_reproduction.py > results/setup-tests.log 2>&1 && .venv/bin/python -m pip freeze > results/environment.txt'])",
+  "log": "/date/zyy/macrohft-reproduction/results/cluster/setup-c203.log"
+}

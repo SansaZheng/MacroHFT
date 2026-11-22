@@ -12,11 +12,13 @@ nor CCF A submission readiness has been established.
 - [Archive verification](docs/ARCHIVE.md)
 - [Research completion gates](docs/RESEARCH-GATES.md)
 - [Current recovery status](docs/STATUS.md)
-- Legacy workflow documents and source: pending hydration; see the archive manifest.
+- [Workflow status](paper/workflow/current.md) and [latest novelty review](docs/NOVELTY-UPDATE-20261123.md)
 
 The upstream source revision is `31e5ef41f93b2aea6e63e6ae2267675c997a8e54`.
-New recovery code has its own commits here. Legacy modified training source
-is still being recovered. The upstream SHA must not identify modified code.
+New recovery and modified training code have their own commits here. Four
+unavailable source files were reconstructed from the pinned upstream plus the
+recorded patch; that provenance is explicit. The upstream SHA must not identify
+modified code. `code-provenance.json` binds the runtime files to this project.
 
 The initial reproduction retrains the hyper-agent with six released ETH
 experts. It does not reproduce all four markets or expert training from

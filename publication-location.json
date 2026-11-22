@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-23",
+  "repository": "https://github.com/SansaZheng/MacroHFT",
+  "working_checkout": "/Users/zyy/.local/share/macrohft/repository",
+  "note": "Use this non-iCloud checkout for publication; macrohft/publication is an interrupted staging copy, not the active Git checkout.",
+  "cq_blocker": "Server only permits SuuTTT repositories; exact SansaZheng/MacroHFT allowlisting required."
+}

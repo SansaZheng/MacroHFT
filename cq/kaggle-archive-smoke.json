@@ -1,0 +1,69 @@
+{
+  "name": "MacroHFT code identity and archive integrity CPU smoke 20261123",
+  "work": "MacroHFT",
+  "code": {
+    "github": "SansaZheng/MacroHFT",
+    "commit": "00ae80b8dee7691bd73dd4d4c95f8dce1e88d1b2"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_archive_smoke.py"
+  ],
+  "env": {
+    "SOURCE_COMMIT": "00ae80b8dee7691bd73dd4d4c95f8dce1e88d1b2",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "resources": {
+    "gpus": 0,
+    "gpu_mem_gb": 0,
+    "cpus": 1,
+    "ram_gb": 1,
+    "disk_gb": 0.25
+  },
+  "limits": {
+    "max_hours": 0.1,
+    "max_attempts": 1,
+    "max_wait_hours": 0.5,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "kaggle",
+    "allow_rent": false
+  },
+  "outputs": {
+    "dest": "/Users/sudingli/.local/share/cq/kaggle/results/macrohft-archive-smoke-20261123",
+    "expect": [
+      {
+        "path": "receipt.json",
+        "contains": "\"archive_tests_passed\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "\"source_manifest_verified\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "00ae80b8dee7691bd73dd4d4c95f8dce1e88d1b2"
+      },
+      {
+        "path": "archive-tests.log",
+        "contains": "Ran 5 tests"
+      },
+      {
+        "path": "progress.log",
+        "contains": "3/3"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 5
+    }
+  },
+  "resource_basis": {
+    "scope": "standard-library archive tests only, no scientific data or model training",
+    "local_test_seconds": 1.995,
+    "envelope": "conservative unmeasured remote bound; receipt records actual RSS and elapsed time"
+  }
+}

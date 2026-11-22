@@ -1,0 +1,21 @@
+{
+  "revision": 2,
+  "project_path": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
+  "venue": {
+    "name": "KDD 2024 reproduction",
+    "year": 2024
+  },
+  "research": {
+    "topic": "MacroHFT regime-aware cryptocurrency trading",
+    "route_id": "macrohft-reproduction",
+    "route": "Official reproduction then validation-selected improvements"
+  },
+  "compute": {
+    "authorized_hosts": [
+      "local",
+      "c225"
+    ],
+    "remote_workspace": "/date/zyy/macrohft-reproduction",
+    "budget": null
+  }
+}

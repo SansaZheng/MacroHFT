@@ -1,0 +1,21 @@
+{
+  "status": "smoke_passed",
+  "not_paper_reproduction": true,
+  "variant": "reference",
+  "fast_runtime": true,
+  "seed": 12345,
+  "training_rows": 4608,
+  "validation_rows": 2048,
+  "epochs": 2,
+  "seconds": 90.01609937500001,
+  "validation_returns": [
+    {
+      "epoch": 1,
+      "return_pct": 4.5818734835218065
+    },
+    {
+      "epoch": 2,
+      "return_pct": 4.5818734835218065
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "registered_before_pilot",
+  "registered_client_date": "2026-10-14",
+  "scope": "Component falsification pilot, not a full RL method or published benchmark reproduction",
+  "symbols": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+  "training_months": ["2026-01", "2026-02"],
+  "validation_months": ["2026-03"],
+  "sealed_future_test_months": ["2026-07", "2026-08", "2026-09"],
+  "test_access": "forbidden in this pilot; protocol must be separately frozen before any later evaluation",
+  "horizon_minutes": 60,
+  "memory_stride_minutes": 60,
+  "k": 32,
+  "nominal_cost_bps": 5,
+  "evaluation_costs_bps": [2, 5, 10, 20],
+  "uncertainty_penalty": 1.0,
+  "support_quantile": 0.95,
+  "capital_usd": 100000,
+  "fixed_unit_exposure_at_start": 0.25,
+  "execution": "decision after bar t closes; buy at open t+1 and close at open t+61; both sides charged; gap-crossing blocks excluded",
+  "variants": ["cash", "long_blocks", "momentum", "reversal", "scalar_memory", "transport_memory", "guarded_transport"],
+  "selection": "No best-model selection in this diagnostic; report all assets, costs and variants, including failures. These hand-coded controls are not claimed to be seven published baselines.",
+  "compute": {"threads": 1, "maximum_download_bytes": 200000000, "minimum_local_free_gib": 10},
+  "hypotheses": [
+    "Transporting gross reward and turnover changes rankings as costs change and exactly reproduces fixed-trajectory linear-fee accounting.",
+    "Support-aware rejection improves robustness beyond merely reducing activity; compare with cash and report participation.",
+    "If the rejection policy mostly holds cash or does not consistently improve transported memory, do not claim predictive or methodological superiority."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+ "id": "j-1123-7725b2",
+ "new": true,
+ "job": {
+  "id": "j-1123-7725b2",
+  "name": "MacroHFT source identity regression CPU qualification 20261123",
+  "work": "MacroHFT",
+  "state": "queued",
+  "host": null,
+  "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+  "attempt_dir": null,
+  "last_heartbeat_s": null,
+  "progress_lines": null,
+  "avoiding": [],
+  "gpu": null,
+  "agent": "MacroHFT",
+  "reason": "waiting for the first placement pass",
+  "attempts": 0,
+  "submitted": "2026-11-22T18:54:55Z",
+  "started": null,
+  "phase": null,
+  "provider_status": null,
+  "provider_error": null,
+  "colab_metering": null,
+  "execution": null,
+  "transport_errors": null,
+  "first_transport_error": null,
+  "collection": null,
+  "progress": {
+   "log_age_seconds": null,
+   "stage_age_seconds": null
+  }
+ },
+ "warning": null
+}

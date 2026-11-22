@@ -1,0 +1,9 @@
+{
+  "cost_aligned-seed42": {
+    "pid": 2990887,
+    "root": "/data/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "cost_aligned",
+    "seed": 42
+  }
+}

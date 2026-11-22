@@ -1,0 +1,101 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "month": "2026-01",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-01.zip",
+    "sha256": "d28b369da32a6ea84ba0af517b1847ab67b2fcc1e0e111c1b24d56ae07240cb9",
+    "rows": 44640,
+    "timestamp_unit": "us",
+    "first": "2026-01-01 00:00:00+00:00",
+    "last": "2026-01-31 23:59:00+00:00",
+    "bytes": 2127988
+  },
+  {
+    "symbol": "BTCUSDT",
+    "month": "2026-02",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-02.zip",
+    "sha256": "cee2e913ed07e02834e2387c65ca430fe3576f620588bad8a02229238f385407",
+    "rows": 40320,
+    "timestamp_unit": "us",
+    "first": "2026-02-01 00:00:00+00:00",
+    "last": "2026-02-28 23:59:00+00:00",
+    "bytes": 2021779
+  },
+  {
+    "symbol": "BTCUSDT",
+    "month": "2026-03",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-03.zip",
+    "sha256": "a2c1e689d39aa7877e218f436f15162e9a4436778a377d32e9d9b81b081381cd",
+    "rows": 44640,
+    "timestamp_unit": "us",
+    "first": "2026-03-01 00:00:00+00:00",
+    "last": "2026-03-31 23:59:00+00:00",
+    "bytes": 2213444
+  },
+  {
+    "symbol": "ETHUSDT",
+    "month": "2026-01",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-01.zip",
+    "sha256": "cadd060ab73bd03fee94708b78738144da76d007fc2170d8ad2cec678de7a654",
+    "rows": 44640,
+    "timestamp_unit": "us",
+    "first": "2026-01-01 00:00:00+00:00",
+    "last": "2026-01-31 23:59:00+00:00",
+    "bytes": 2068379
+  },
+  {
+    "symbol": "ETHUSDT",
+    "month": "2026-02",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-02.zip",
+    "sha256": "1ddb64d08739a40b7f66a37bccf5ca5fec58339c7f01e83311086116f41b445f",
+    "rows": 40320,
+    "timestamp_unit": "us",
+    "first": "2026-02-01 00:00:00+00:00",
+    "last": "2026-02-28 23:59:00+00:00",
+    "bytes": 1918913
+  },
+  {
+    "symbol": "ETHUSDT",
+    "month": "2026-03",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/1m/ETHUSDT-1m-2026-03.zip",
+    "sha256": "5747c9f1f76be7afbf9513d50ea65ff6e979fa9684c75a775b6974e64c751844",
+    "rows": 44640,
+    "timestamp_unit": "us",
+    "first": "2026-03-01 00:00:00+00:00",
+    "last": "2026-03-31 23:59:00+00:00",
+    "bytes": 2086704
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2026-01",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2026-01.zip",
+    "sha256": "9d0fbac86d898a8a2b821d2856a5c282dc6b9638d8a83ef47e632edf4541e695",
+    "rows": 44640,
+    "timestamp_unit": "us",
+    "first": "2026-01-01 00:00:00+00:00",
+    "last": "2026-01-31 23:59:00+00:00",
+    "bytes": 1856325
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2026-02",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2026-02.zip",
+    "sha256": "acfd300f0eabe9f1485e121222d67a03da180c539bd9e43b2afacc602f631120",
+    "rows": 40320,
+    "timestamp_unit": "us",
+    "first": "2026-02-01 00:00:00+00:00",
+    "last": "2026-02-28 23:59:00+00:00",
+    "bytes": 1705395
+  },
+  {
+    "symbol": "SOLUSDT",
+    "month": "2026-03",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/SOLUSDT/1m/SOLUSDT-1m-2026-03.zip",
+    "sha256": "b98d056aafa1b4e188a1863855749548ac4e062f5f1002e9da353795863216bc",
+    "rows": 44640,
+    "timestamp_unit": "us",
+    "first": "2026-03-01 00:00:00+00:00",
+    "last": "2026-03-31 23:59:00+00:00",
+    "bytes": 1853276
+  }
+]

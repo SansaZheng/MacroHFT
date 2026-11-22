@@ -1,0 +1,27 @@
+[
+  {
+    "host": "c219",
+    "output": "Socket(s):                            2\nModel name:                           Intel(R) Xeon(R) Silver 4214R CPU @ 2.40GHz\nCPU MHz:                              2016.803\nPython 3.8.10\npip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)\n\nOWNED_RUNTIME_CANDIDATES\n/data/zyy/slow-momentum-fast-reversion/train-env/bin/python3\n/home/sudingli/miniconda3/bin/python\n/home/sudingli/miniconda3/bin/python3\n/home/sudingli/miniconda3/bin/python3-config\n/home/sudingli/miniconda3/bin/python3.9\n/home/sudingli/miniconda3/bin/python3.9-config\n\nPROJECT_PREEXISTS\n",
+    "error": ""
+  },
+  {
+    "host": "c220",
+    "output": "CPU MHz\uff1a                             2101.666\nPython 3.8.10\npip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)\n\nOWNED_RUNTIME_CANDIDATES\n/data/zyy/FinancialAD/gae-instability-v2/.venv/bin/python3\n/home/sudingli/miniconda3/bin/python\n/home/sudingli/miniconda3/bin/python3\n/home/sudingli/miniconda3/bin/python3-config\n/home/sudingli/miniconda3/bin/python3.1\n/home/sudingli/miniconda3/bin/python3.10\n/home/sudingli/miniconda3/bin/python3.10-config\n\nPROJECT_PREEXISTS\n",
+    "error": ""
+  },
+  {
+    "host": "c224",
+    "output": "Socket(s):                            1\nModel name:                           Intel(R) Xeon(R) Platinum 8336C CPU @ 2.30GHz\nCPU MHz:                              800.000\nPython 3.8.10\npip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)\n\nOWNED_RUNTIME_CANDIDATES\n/home/sudingli/miniconda3/bin/python\n/home/sudingli/miniconda3/bin/python3\n/home/sudingli/miniconda3/bin/python3-config\n/home/sudingli/miniconda3/bin/python3.1\n/home/sudingli/miniconda3/bin/python3.11\n/home/sudingli/miniconda3/bin/python3.11-config\n\nPROJECT_PREEXISTS\n",
+    "error": ""
+  },
+  {
+    "host": "c237",
+    "output": "Model name:                              Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz\nSocket(s):                               2\nPython 3.12.11\npip 25.1.1 from /home/sudingli/miniforge3/lib/python3.12/site-packages/pip (python 3.12)\n\nOWNED_RUNTIME_CANDIDATES\n/home/sudingli/miniforge3/bin/python\n/home/sudingli/miniforge3/bin/python3\n/home/sudingli/miniforge3/bin/python3-config\n/home/sudingli/miniforge3/bin/python3.1\n/home/sudingli/miniforge3/bin/python3.12\n/home/sudingli/miniforge3/bin/python3.12-config\n\nPROJECT_PREEXISTS\n",
+    "error": ""
+  },
+  {
+    "host": "c203",
+    "output": "Model name:                              Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz\nSocket(s):                               2\nPython 3.13.11\npip 25.3 from /home/sudingli/miniconda3/lib/python3.13/site-packages/pip (python 3.13)\n\nOWNED_RUNTIME_CANDIDATES\n/home/sudingli/miniconda3/bin/python\n/home/sudingli/miniconda3/bin/python3\n/home/sudingli/miniconda3/bin/python3-config\n/home/sudingli/miniconda3/bin/python3.1\n/home/sudingli/miniconda3/bin/python3.13\n/home/sudingli/miniconda3/bin/python3.13-config\n\nPROJECT_PREEXISTS\n",
+    "error": ""
+  }
+]

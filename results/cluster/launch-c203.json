@@ -1,0 +1,16 @@
+{
+  "reference-seed42": {
+    "pid": 605710,
+    "root": "/data/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "reference",
+    "seed": 42
+  },
+  "combined-seed42": {
+    "pid": 605711,
+    "root": "/data/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "combined",
+    "seed": 42
+  }
+}

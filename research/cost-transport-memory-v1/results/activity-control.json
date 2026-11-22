@@ -1,0 +1,146 @@
+{
+  "plan": {
+    "client_date": "2026-10-14",
+    "timing": "post-hoc after primary pilot; validation only",
+    "purpose": "separate selective trading from simply trading less",
+    "random_schedules": 500,
+    "seed": 1973,
+    "all_symbols_and_costs": true,
+    "not_formal_p_values": true,
+    "test_accessed": false
+  },
+  "rows": [
+    {
+      "symbol": "BTCUSDT",
+      "cost_bps": 2,
+      "trades": 31,
+      "guarded_return_pct": -0.04015575721943998,
+      "random_median_return_pct": -0.2844714333897047,
+      "random_5th_return_pct": -1.48989782522289,
+      "random_95th_return_pct": 0.9890832906542572,
+      "fraction_random_at_least_guarded": 0.384,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "cost_bps": 5,
+      "trades": 5,
+      "guarded_return_pct": -0.11615209908061308,
+      "random_median_return_pct": -0.1688822953196445,
+      "random_5th_return_pct": -0.6052161225702418,
+      "random_95th_return_pct": 0.2973348067044988,
+      "fraction_random_at_least_guarded": 0.428,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "cost_bps": 10,
+      "trades": 0,
+      "guarded_return_pct": 0.0,
+      "random_median_return_pct": 0.0,
+      "random_5th_return_pct": 0.0,
+      "random_95th_return_pct": 0.0,
+      "fraction_random_at_least_guarded": 1.0,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "cost_bps": 20,
+      "trades": 0,
+      "guarded_return_pct": 0.0,
+      "random_median_return_pct": 0.0,
+      "random_5th_return_pct": 0.0,
+      "random_95th_return_pct": 0.0,
+      "fraction_random_at_least_guarded": 1.0,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "cost_bps": 2,
+      "trades": 51,
+      "guarded_return_pct": -1.3642141843102307,
+      "random_median_return_pct": -0.4366716073781751,
+      "random_5th_return_pct": -2.498831028944661,
+      "random_95th_return_pct": 1.5532929637629966,
+      "fraction_random_at_least_guarded": 0.782,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "cost_bps": 5,
+      "trades": 18,
+      "guarded_return_pct": -0.1641343924584926,
+      "random_median_return_pct": -0.507759087334414,
+      "random_5th_return_pct": -1.5450064535649688,
+      "random_95th_return_pct": 0.8543397543432154,
+      "fraction_random_at_least_guarded": 0.306,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "cost_bps": 10,
+      "trades": 4,
+      "guarded_return_pct": -0.11771621676829325,
+      "random_median_return_pct": -0.17367634892913597,
+      "random_5th_return_pct": -0.7699066626834516,
+      "random_95th_return_pct": 0.45133020038605404,
+      "fraction_random_at_least_guarded": 0.418,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "cost_bps": 20,
+      "trades": 0,
+      "guarded_return_pct": 0.0,
+      "random_median_return_pct": 0.0,
+      "random_5th_return_pct": 0.0,
+      "random_95th_return_pct": 0.0,
+      "fraction_random_at_least_guarded": 1.0,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "cost_bps": 2,
+      "trades": 44,
+      "guarded_return_pct": 1.1129136648163618,
+      "random_median_return_pct": -0.5450924176213623,
+      "random_5th_return_pct": -2.3841140014172613,
+      "random_95th_return_pct": 1.7150847112318504,
+      "fraction_random_at_least_guarded": 0.11,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "cost_bps": 5,
+      "trades": 12,
+      "guarded_return_pct": 0.08872091649931857,
+      "random_median_return_pct": -0.3699413901027515,
+      "random_5th_return_pct": -1.314534959253597,
+      "random_95th_return_pct": 0.8360166676508793,
+      "fraction_random_at_least_guarded": 0.244,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "cost_bps": 10,
+      "trades": 1,
+      "guarded_return_pct": 0.08159914963976611,
+      "random_median_return_pct": -0.0467580016534741,
+      "random_5th_return_pct": -0.306973396716657,
+      "random_95th_return_pct": 0.23150451753867535,
+      "fraction_random_at_least_guarded": 0.198,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "cost_bps": 20,
+      "trades": 0,
+      "guarded_return_pct": 0.0,
+      "random_median_return_pct": 0.0,
+      "random_5th_return_pct": 0.0,
+      "random_95th_return_pct": 0.0,
+      "fraction_random_at_least_guarded": 1.0,
+      "interpretation": "descriptive hindsight activity-matched randomization; not a valid significance test or implementable deployed benchmark"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "b243af03c62dc7c819484cfe02d21402da20dcda",
+  "verified_git_objects": 227,
+  "verified_stored_bytes": 910717268,
+  "represented_original_files": 208,
+  "represented_original_bytes": 1010231907,
+  "pending_files": 263,
+  "complete_local_snapshot": false,
+  "remote_training_artifacts_retrieved": false,
+  "verification": "SHA-256 of actual objects from a separate Git clone; no training or evaluation"
+}

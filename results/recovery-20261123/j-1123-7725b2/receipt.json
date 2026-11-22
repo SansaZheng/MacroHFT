@@ -1,0 +1,26 @@
+{
+  "source_manifest_verified": true,
+  "declared_commit": "1049c46b99c60458254bc3ee345225f5519256cd",
+  "observed_git_commit": null,
+  "source_manifest": {
+    "schema": 1,
+    "sha256": {
+      "scripts/cq_archive_smoke.py": "136b8ae585fff5a56fa65fd2453506ad4462ca857c256dba7875bf779eb4d9f9",
+      "scripts/prepare_github_archive.py": "a9c056e258040900b3b2d10b9118e868125a9dbbc10ec27b559992d72617bccb",
+      "scripts/restore_archive.py": "eb8a747d22519983435f94fdd8793f0de0c2a50bed1c150beb199011bc7baebd",
+      "tests/test_archive.py": "7e05c050a4b895ac09d8e2c30985f3e0095d6e8d4f73ce579f5379fa7a59b3ca",
+      "scripts/verify_source.py": "8c79c117d41b4ee4a953ef6642fa846b5ccb908eeb8ea1647c464a8f516c46cb",
+      "tests/test_source_identity.py": "618cc0ea93c17dfdf243b661774df34ea515644650c54f1a12d27132f0473ccb"
+    }
+  },
+  "archive_tests_passed": true,
+  "archive_test_count": 5,
+  "source_identity_tests_passed": true,
+  "source_identity_test_count": 6,
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "elapsed_seconds": 3.8800488389999828,
+  "children_peak_rss_bytes": 29274112,
+  "training_performed": false,
+  "market_test_evaluations": 0,
+  "purpose": "code and archive qualification only; not reproduction performance"
+}

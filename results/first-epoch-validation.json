@@ -1,0 +1,42 @@
+{
+  "status": "interim_validation_only",
+  "paper_test_not_evaluated": true,
+  "seed": 12345,
+  "epochs_completed": 1,
+  "validation_start": "2023-02-01 06:00:00",
+  "validation_end": "2023-05-31 23:59:00",
+  "results": {
+    "reference": {
+      "epoch": 1,
+      "return_pct": 16.15828638407664,
+      "profit": 59.482387200000346,
+      "required_capital": 368.1231151999999,
+      "fees": 4.293612800000001,
+      "buys": 30,
+      "position_changes": 60,
+      "rows": 172440,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 11.64609309312592,
+      "annual_volatility_pct": 22.272847001600155,
+      "annual_sharpe": 2.161142569938028,
+      "annual_calmar": 4.133128373951098,
+      "annual_sortino": 1.2586027987671522
+    },
+    "combined": {
+      "epoch": 1,
+      "return_pct": 16.481994044355886,
+      "profit": 60.768657600000324,
+      "required_capital": 368.6972427999998,
+      "fees": 8.599342400000001,
+      "buys": 60,
+      "position_changes": 120,
+      "rows": 172440,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 4.954533903292613,
+      "annual_volatility_pct": 14.38514292742364,
+      "annual_sharpe": 3.3045709449540275,
+      "annual_calmar": 9.594590789939657,
+      "annual_sortino": 1.1423449682228397
+    }
+  }
+}

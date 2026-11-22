@@ -1,0 +1,22 @@
+{
+  "source_manifest_verified": true,
+  "declared_commit": "00ae80b8dee7691bd73dd4d4c95f8dce1e88d1b2",
+  "observed_git_commit": null,
+  "source_manifest": {
+    "schema": 1,
+    "sha256": {
+      "scripts/cq_archive_smoke.py": "462007097be6d2e7d355d245c0af9ce315bca549af22d60598b9d8d0e61ab1f0",
+      "scripts/prepare_github_archive.py": "a9c056e258040900b3b2d10b9118e868125a9dbbc10ec27b559992d72617bccb",
+      "scripts/restore_archive.py": "eb8a747d22519983435f94fdd8793f0de0c2a50bed1c150beb199011bc7baebd",
+      "tests/test_archive.py": "7e05c050a4b895ac09d8e2c30985f3e0095d6e8d4f73ce579f5379fa7a59b3ca"
+    }
+  },
+  "archive_tests_passed": true,
+  "archive_test_count": 5,
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "elapsed_seconds": 4.355086490000019,
+  "children_peak_rss_bytes": 29175808,
+  "training_performed": false,
+  "market_test_evaluations": 0,
+  "purpose": "code and archive qualification only; not reproduction performance"
+}

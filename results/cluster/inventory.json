@@ -1,0 +1,56 @@
+[
+  {
+    "host": "c219",
+    "exit_code": 0,
+    "output": "c219\nuid=1007(sudingli) gid=1009(sudingli) groups=1009(sudingli),1003(docker),1004(lab)\n\nCPU_MEMORY\n48\n 05:22:02 up 14 days, 19:16,  4 users,  load average: 14.63, 10.90, 6.28\n              total        used        free      shared  buff/cache   available\nMem:          96292       22820       51999          31       21473       71829\nSwap:          2047        2011          36\n\nSTORAGE\ndrwxrwxr-x 12 root lab 4096 Oct  2 05:14 /data\n/dev/sda2             7569040 5151837   2035671      72% /\nwritable\ndrwxrwxr-x 3 sudingli sudingli 4096 Oct  2 05:14 /data/zyy\n/dev/sda2             7569040 5151837   2035671      72% /\nwritable\n\nGPUS\n0, Tesla T4, 15360 MiB, 9685 MiB, 0 %\n1, Tesla T4, 15360 MiB, 14363 MiB, 0 %\n\nRUNTIME\n/usr/bin/python3\n",
+    "error": ""
+  },
+  {
+    "host": "c220",
+    "exit_code": 0,
+    "output": "c220\n\u7528\u6237id=1006(sudingli) \u7ec4id=1007(sudingli) \u7ec4=1007(sudingli),998(docker),1002(lab)\n\nCPU_MEMORY\n64\n 05:22:02 up 14 days, 19:16,  3 users,  load average: 25.82, 18.28, 8.89\n              \u603b\u8ba1         \u5df2\u7528        \u7a7a\u95f2      \u5171\u4eab    \u7f13\u51b2/\u7f13\u5b58    \u53ef\u7528\n\u5185\u5b58\uff1a      515363       20624      249139         894      245598      490573\n\u4ea4\u6362\uff1a        2047           0        2047\n\nSTORAGE\ndrwxrwxr-x 18 root lab 4096 Oct  2 05:14 /data\n/dev/sda2        11354399 5934471 4847625  56% /\nwritable\ndrwxrwxr-x 4 sudingli sudingli 4096 Oct  2 05:16 /data/zyy\n/dev/sda2        11354399 5934472 4847625  56% /\nwritable\n\nGPUS\n0, Tesla T4, 15360 MiB, 6116 MiB, 0 %\n1, Tesla T4, 15360 MiB, 6116 MiB, 0 %\n\nRUNTIME\n/usr/bin/python3\n",
+    "error": ""
+  },
+  {
+    "host": "c221",
+    "exit_code": 255,
+    "output": "",
+    "error": "ssh: connect to host 10.130.159.221 port 22: No route to host\n"
+  },
+  {
+    "host": "c222",
+    "exit_code": 255,
+    "output": "",
+    "error": "ssh: connect to host 10.130.159.222 port 22: No route to host\n"
+  },
+  {
+    "host": "c223",
+    "exit_code": 0,
+    "output": "c223\nuid=1005(sudingli) gid=1006(sudingli) groups=1006(sudingli),998(systemd-network),1001(lab)\n\nCPU_MEMORY\n36\n 05:22:03 up 3 days, 12:49,  5 users,  load average: 3.93, 4.08, 4.09\n               total        used        free      shared  buff/cache   available\nMem:          257413       14320      178789         643       67087      243092\nSwap:           8191           0        8191\n\nSTORAGE\ndrwxr-xr-x 4 root root 4096 Oct 13  2025 /date\n/dev/sdc2             1801573 1484306    225681      87% /\ndrwxrwxr-x 20 root lab 4096 Sep 30 13:04 /data\n/dev/sda              7569603 7181113      6930     100% /data\nwritable\n\nGPUS\n0, NVIDIA RTX A6000, 49140 MiB, 11321 MiB, 100 %\n1, NVIDIA RTX A6000, 49140 MiB, 11305 MiB, 100 %\n\nRUNTIME\n/usr/bin/python3\n",
+    "error": ""
+  },
+  {
+    "host": "c224",
+    "exit_code": 0,
+    "output": "c224\nuid=1005(sudingli) gid=1006(sudingli) groups=1006(sudingli),998(docker),1001(lab)\n\nCPU_MEMORY\n64\n 05:22:05 up 22:11,  0 users,  load average: 27.77, 24.55, 19.16\n              total        used        free      shared  buff/cache   available\nMem:         515385       36440      137848        6711      341095      467945\nSwap:          2047           0        2047\n\nSTORAGE\ndrwxrwxr-x 48 root lab 4096 Sep 30 13:04 /date\n/dev/sda1            28495343 22819796   4245020      85% /date\nwritable\ndrwxr-xr-x 5 root lab 4096 Sep 10 15:50 /data\n/dev/sdb2             1801071 1598046    111464      94% /\ndrwxrwxr-x 5 sudingli sudingli 4096 Oct  2 05:14 /date/zyy\n/dev/sda1            28495343 22819796   4245020      85% /date\nwritable\n\nGPUS\n0, NVIDIA A800-SXM4-80GB, 81920 MiB, 31728 MiB, 100 %\n1, NVIDIA A800-SXM4-80GB, 81920 MiB, 76148 MiB, 33 %\n\nRUNTIME\n/usr/bin/python3\n",
+    "error": ""
+  },
+  {
+    "host": "c232",
+    "exit_code": 255,
+    "output": "",
+    "error": "ssh: connect to host 10.130.159.232 port 22: No route to host\n"
+  },
+  {
+    "host": "c237",
+    "exit_code": 0,
+    "output": "server\nuid=1005(sudingli) gid=1006(sudingli) groups=1006(sudingli),1001(lab)\n\nCPU_MEMORY\n64\n 05:22:07 up 14 days, 12:10, 23 users,  load average: 7.87, 7.38, 7.43\n               total        used        free      shared  buff/cache   available\nMem:          515615       88516       45677         215      381420      423255\nSwap:         131071       27284      103787\n\nSTORAGE\ndrwxrwxr-x 17 root lab 4096 Oct  1 11:50 /data\n/dev/sda4            11223650 8887100   1770837      84% /\nwritable\n\nGPUS\n0, NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 18211 MiB, 35 %\n1, NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 96652 MiB, 0 %\n\nRUNTIME\n/home/sudingli/miniforge3/bin/python3\n",
+    "error": ""
+  },
+  {
+    "host": "c203",
+    "exit_code": 0,
+    "output": "phtower0\nuid=1005(sudingli) gid=1006(sudingli) groups=1006(sudingli),1001(lab)\n\nCPU_MEMORY\n80\n 05:22:07 up 23:19,  8 users,  load average: 1.57, 1.93, 1.62\n               total        used        free      shared  buff/cache   available\nMem:          514612       16875      419543           8       81996      497737\nSwap:           8191           0        8191\n\nSTORAGE\ndrwxr-xr-x 3 root root 4096 Dec 26  2025 /date\n/dev/mapper/ubuntu--vg-ubuntu--lv        3196577 2982129     83466      98% /\ndrwxrwxr-x 10 root lab 4096 Oct  2 05:15 /data\n/dev/mapper/ubuntu--vg-ubuntu--lv        3196577 2982129     83466      98% /\nwritable\ndrwxrwxr-x 3 sudingli sudingli 4096 Oct  2 05:15 /data/zyy\n/dev/mapper/ubuntu--vg-ubuntu--lv        3196577 2982129     83466      98% /\nwritable\n\nGPUS\n0, NVIDIA RTX 6000 Ada Generation, 49140 MiB, 48508 MiB, 0 %\n1, NVIDIA RTX 6000 Ada Generation, 49140 MiB, 48508 MiB, 0 %\n\nRUNTIME\n/home/sudingli/miniconda3/bin/python3\n",
+    "error": ""
+  }
+]

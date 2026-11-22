@@ -2,10 +2,21 @@
   "date": "2026-11-23",
   "repository": "https://github.com/SansaZheng/MacroHFT",
   "local_checkout": "/Users/zyy/.local/share/macrohft/repository",
-  "cq": "blocked on server repository allowlist",
+  "lab_cq": "blocked: repository owner allowlist rejects SansaZheng",
+  "kaggle_cq_completed": [
+    "j-1123-5f1786",
+    "j-1123-7725b2"
+  ],
+  "archive_tests_passed": 5,
+  "source_identity_tests_passed": 6,
+  "runtime_manifest_files": 51,
+  "python_files_parse": 38,
   "training_resumed": false,
+  "new_market_test_evaluations": 0,
   "final_reproduction_verified": false,
   "submission_ready": false,
-  "archive": "partial; iCloud source bytes unavailable",
-  "archive_tests_passed": 5
+  "paid_compute_used": false,
+  "archive": "expanded partial snapshot; follow remote verification receipt",
+  "remaining_legacy_files": 66,
+  "reconstructed_source_files": 4
 }

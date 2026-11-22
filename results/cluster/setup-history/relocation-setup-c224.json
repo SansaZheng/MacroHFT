@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "host": "c224",
+  "error": "CalledProcessError(1, ['ssh', 'c224', 'cd /date/zyy/macrohft-cluster && mkdir -p .venv && tar -xzf incoming/runtime-isolated.tar.gz -C .venv && .venv/bin/python -I .venv/bin/conda-unpack && tar -xzf incoming/worker-source.tar.gz && PYTHONNOUSERSITE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 TMPDIR=/date/zyy/macrohft-cluster/tmp .venv/bin/python -I tests/test_reproduction.py > results/setup-tests.log 2>&1 && .venv/bin/python -I -m pip freeze > results/environment.txt'])",
+  "log": "/date/zyy/macrohft-reproduction/results/cluster/setup-c224.log"
+}

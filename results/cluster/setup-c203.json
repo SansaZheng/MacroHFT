@@ -1,0 +1,25 @@
+{
+  "module_paths": {
+    "numpy": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/numpy/__init__.py",
+    "pandas": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/pandas/__init__.py",
+    "torch": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/torch/__init__.py",
+    "scipy": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/scipy/__init__.py",
+    "sklearn": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/sklearn/__init__.py",
+    "pyarrow": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/pyarrow/__init__.py",
+    "numba": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/numba/__init__.py",
+    "tensorboard": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/tensorboard/__init__.py",
+    "gym": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/gym/__init__.py",
+    "yaml": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/yaml/__init__.py",
+    "joblib": "/data/zyy/macrohft-cluster/.venv/lib/python3.10/site-packages/joblib/__init__.py"
+  },
+  "status": "verified",
+  "host": "phtower0",
+  "root": "/data/zyy/macrohft-cluster",
+  "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:42:31) [GCC 14.4.0]",
+  "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39",
+  "free_bytes": 83548938240,
+  "verified_at": "2026-10-02T13:04:27.095087+08:00",
+  "tests": 10,
+  "elapsed_seconds": 53.157113790512085,
+  "alias": "c203"
+}

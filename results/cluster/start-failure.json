@@ -1,0 +1,11 @@
+{
+  "pid": 671567,
+  "phase": "failed",
+  "started_at": "2026-10-02T13:05:49.212969+08:00",
+  "device": "cpu",
+  "workers": 10,
+  "jobs": {},
+  "selection": null,
+  "plan_revision": 2,
+  "error": "BlockingIOError(11, 'Resource temporarily unavailable')"
+}

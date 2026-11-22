@@ -1,0 +1,158 @@
+{
+  "id": "j-1123-7725b2",
+  "name": "MacroHFT source identity regression CPU qualification 20261123",
+  "work": "MacroHFT",
+  "spec": {
+    "workdir": ".",
+    "env": {
+      "SOURCE_COMMIT": "1049c46b99c60458254bc3ee345225f5519256cd",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "resources": {
+      "gpus": 0,
+      "gpu_mem_gb": 0,
+      "exclusive_gpu": false,
+      "cpus": 1,
+      "ram_gb": 1,
+      "disk_gb": 0.25,
+      "gpu_models": [],
+      "requires": []
+    },
+    "data": [],
+    "limits": {
+      "max_hours": 0.1,
+      "max_usd": 0,
+      "max_attempts": 1,
+      "max_wait_hours": 0.5
+    },
+    "placement": {
+      "prefer": [],
+      "avoid": [],
+      "never": [],
+      "allow_rent": false,
+      "target": "kaggle"
+    },
+    "idempotent": true,
+    "depends_on": [],
+    "priority": 0,
+    "name": "MacroHFT source identity regression CPU qualification 20261123",
+    "work": "MacroHFT",
+    "code": {
+      "github": "SansaZheng/MacroHFT",
+      "commit": "1049c46b99c60458254bc3ee345225f5519256cd"
+    },
+    "command": [
+      "python3",
+      "scripts/cq_archive_smoke.py"
+    ],
+    "outputs": {
+      "dest": "/Users/sudingli/.local/share/cq/kaggle/results/macrohft-source-identity-20261123",
+      "expect": [
+        {
+          "path": "receipt.json",
+          "contains": "\"archive_tests_passed\": true"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "\"source_manifest_verified\": true"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "1049c46b99c60458254bc3ee345225f5519256cd"
+        },
+        {
+          "path": "archive-tests.log",
+          "contains": "Ran 5 tests"
+        },
+        {
+          "path": "progress.log",
+          "contains": "3/3"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "\"source_identity_tests_passed\": true"
+        },
+        {
+          "path": "source-identity-tests.log",
+          "contains": "Ran 6 tests"
+        }
+      ],
+      "progress": {
+        "path": "progress.log",
+        "stall_min": 5
+      },
+      "direct": false
+    },
+    "resource_basis": {
+      "scope": "six source identity regression tests plus five archive tests; no training or market data",
+      "preceding_cq_job": "j-1123-5f1786",
+      "measured_prior_rss_bytes": 29175808,
+      "measured_prior_elapsed_seconds": 4.35508649,
+      "local_new_identity_tests_seconds": 1.078,
+      "envelope": "1 CPU, 0 GPU, 1 GB RAM, 0.25 GB disk, 6 min, zero paid spend"
+    }
+  },
+  "spec_sha": "b5cddb9e624c2b150398029cfe95bc0c69832461ec88f22e8891c90faa686311",
+  "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+  "state": "done",
+  "reason": "outputs verified (Kaggle, 0.01 h); results in /Users/sudingli/.local/share/cq/kaggle/results/j-1123-7725b2/out; copied to /Users/sudingli/.local/share/cq/kaggle/results/macrohft-source-identity-20261123",
+  "host": "kaggle",
+  "gpu": null,
+  "priority": 0,
+  "attempts": 1,
+  "lease_id": "kaggle",
+  "lease_until": 1795460103.107115,
+  "created": 1795373695.8159869,
+  "updated": 1795373778.6792,
+  "started": null,
+  "finished": 1795373775.159126,
+  "exit_code": 0,
+  "detail": null,
+  "avoid": {},
+  "attempt_dir": "/Users/sudingli/.local/share/cq/kaggle/results/j-1123-7725b2",
+  "last_hb": 1795373740.522727,
+  "progress": null,
+  "progress_at": null,
+  "gpu_mem_mib": null,
+  "gpu_pids": null,
+  "limit_rev": null,
+  "mem_peak_mib": null,
+  "shared_max": null,
+  "shared_sum": null,
+  "hb_n": null,
+  "brief": {
+    "id": "j-1123-7725b2",
+    "name": "MacroHFT source identity regression CPU qualification 20261123",
+    "work": "MacroHFT",
+    "state": "done",
+    "host": "kaggle",
+    "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+    "attempt_dir": "/Users/sudingli/.local/share/cq/kaggle/results/j-1123-7725b2",
+    "last_heartbeat_s": 105,
+    "progress_lines": null,
+    "avoiding": [],
+    "gpu": null,
+    "agent": "MacroHFT",
+    "reason": "outputs verified (Kaggle, 0.01 h); results in /Users/sudingli/.local/share/cq/kaggle/results/j-1123-7725b2/out; copied to /Users/sudingli/.local/share/cq/kaggle/results/macrohft-source-identity-20261123",
+    "attempts": 1,
+    "submitted": "2026-11-22T18:54:55Z",
+    "started": null,
+    "phase": "done",
+    "provider_status": "COMPLETE",
+    "provider_error": null,
+    "colab_metering": null,
+    "execution": null,
+    "transport_errors": null,
+    "first_transport_error": null,
+    "collection": null,
+    "progress": {
+      "log_age_seconds": null,
+      "stage_age_seconds": null
+    }
+  },
+  "staging": null,
+  "dispatch": null,
+  "ram": null
+}

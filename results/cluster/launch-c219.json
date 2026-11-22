@@ -1,0 +1,9 @@
+{
+  "action_memory-seed42": {
+    "pid": 2313022,
+    "root": "/data/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "action_memory",
+    "seed": 42
+  }
+}

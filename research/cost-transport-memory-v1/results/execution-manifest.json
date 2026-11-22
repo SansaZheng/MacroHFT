@@ -1,0 +1,13 @@
+{
+  "code_sha256": {
+    "protocol.json": "68fbfb61759498d30f4eb19dde1292db6f33c595fd24d6828091962f2a0e0a46",
+    "src/memory.py": "318a29ef29fe9f4f44e74727c8591e5167fc185679452365d5664aba76591c46",
+    "scripts/pilot.py": "117c2d95441da9d84ff663194f51e1723e6e4974713b706ab6f22abd983157f2",
+    "tests/test_core.py": "c2ccb3d64b04df5e6abc818fcbb4c8ae88d28523e9f32ffe272c141ea35cf8da"
+  },
+  "python": "3.9.6 (default, Dec  2 2025, 07:27:58) \n[Clang 17.0.0 (clang-1700.6.3.2)]",
+  "client_date": "2026-10-14",
+  "threads": 1,
+  "remote_compute_used": false,
+  "test_accessed": false
+}

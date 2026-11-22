@@ -1,0 +1,46 @@
+{
+  "revision": 5,
+  "project_path": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
+  "venue": {
+    "name": "KDD research track (provisional)",
+    "year": null,
+    "profile_id": "kdd-research-provisional",
+    "profile_path": "paper/workflow/venue-profiles/kdd-research-provisional.md",
+    "quality_target": "CCF A submission-ready research; acceptance not guaranteed"
+  },
+  "research": {
+    "topic": "MacroHFT regime-aware cryptocurrency trading",
+    "route_id": "cost-transport-memory-v1",
+    "route": "Audit completed reproduction; investigate cost-transported causal memory under regime shift; hypotheses provisional",
+    "method_name": null
+  },
+  "compute": {
+    "authorized_hosts": [
+      "local",
+      "c225",
+      "SSH-configured lab servers reachable through c225"
+    ],
+    "remote_workspace": "/date/zyy/macrohft-reproduction",
+    "budget": null,
+    "storage_roots": [
+      "/date",
+      "/data"
+    ],
+    "protect_other_jobs_envs_files": true,
+    "priority": "minimize_wall_clock",
+    "vast_total_usd_cap": null,
+    "vast_max_runtime_hours": null,
+    "local_pilot_max_new_data_mb": 200,
+    "cq_enabled": true,
+    "cq_disabled_by_user_on": "2026-10-15",
+    "cq_policy": "Use CQ for authorized MacroHFT research. Verify queue, resources and inputs before submission; do not restart cancelled jobs from other projects. Preserve artifacts and other users work. No paid cloud usage without a confirmed project budget.",
+    "cq_reauthorized_by_user_on": "2026-10-20"
+  },
+  "experiment_targets": {
+    "datasets": 10,
+    "baselines": 10,
+    "baseline_years": "2021-2026",
+    "minimum_2026_baselines": 2,
+    "status": "planning targets, compatibility to verify"
+  }
+}

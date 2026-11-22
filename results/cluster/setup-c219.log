@@ -1,0 +1,10 @@
+{"uid": 1007, "root": "/data/zyy/macrohft-cluster", "free_bytes": 2132897878016}
+archive hashes verified
+{"uid": 1007, "root": "/data/zyy/macrohft-cluster", "free_bytes": 2130234167296}
+archive hashes verified
+Traceback (most recent call last):
+  File "/data/zyy/macrohft-cluster/.venv/bin/conda-unpack", line 3, in <module>
+    from conda_unpack_progress import progressbar
+ModuleNotFoundError: No module named 'conda_unpack_progress'
+{"uid": 1007, "root": "/data/zyy/macrohft-cluster", "free_bytes": 2129409884160}
+archive hashes verified

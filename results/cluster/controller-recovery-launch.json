@@ -1,0 +1,6 @@
+{
+  "pid": 675721,
+  "started_at": "2026-10-02T13:06:50.251191+08:00",
+  "reason": "Scheduling lock release race after old parent exit; original training children remain alive",
+  "controller_sha256": "d90360adb20390eeb90dfedf80a50b66b211861bd678d56aa807b903ce0f6f5c"
+}

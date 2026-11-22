@@ -1,0 +1,16 @@
+{
+  "source_url": "https://github.com/ZONG0004/MacroHFT",
+  "commit": "31e5ef41f93b2aea6e63e6ae2267675c997a8e54",
+  "paper_url": "https://arxiv.org/pdf/2406.14537",
+  "paper_sha256": "f36a8260c071a2788fb6391e3fc4982386d8bb303b74464b79a57014499ab76f",
+  "checkpoints": {
+    "result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl": "5b6edb6095d1c8a595e0152365ab6ba1f7ce9eae166ae6c805f3611cbe3b9810",
+    "result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl": "111bcdb7512699016745b79f58b6f4c66f8fa384f8a1cfff6c73e2281438708a",
+    "result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl": "3a35ff84913c1c5b4598a5a41c066b505ec16fc5d5b8f49ecfe18098165a242b",
+    "result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl": "8123553407dca732500d90b55e1eb1e336e517038c5fb3e7360be1acf88bfae5",
+    "result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl": "eace24ae14dd997cb4120ad6f074d887b2c9b8f9e7cefb512a5fd16a6ad40a58",
+    "result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl": "61897d57e41ac496231da6d3874a19097f3d13d829e4d2196c35e026c114dcb6"
+  },
+  "published_paper_url": "https://personal.ntu.edu.sg/boan/papers/KDD24_MacroHFT.pdf",
+  "published_paper_sha256": "2beff54ce55ebf31a5849b859272a483688a6ad48f0899f4d86070dfacf9968e"
+}

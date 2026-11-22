@@ -1,0 +1,233 @@
+diff --git a/RL/agent/high_level.py b/RL/agent/high_level.py
+index f2083f0..1b9ece7 100644
+--- a/RL/agent/high_level.py
++++ b/RL/agent/high_level.py
+@@ -2,6 +2,8 @@ import pathlib
+ import sys
+ import random
+ import argparse
++import copy
++import time
+ 
+ import torch
+ import torch.nn as nn
+@@ -29,6 +31,9 @@ os.environ["OMP_NUM_THREADS"] = "1"
+ os.environ["F_ENABLE_ONEDNN_OPTS"] = "0"
+ 
+ parser = argparse.ArgumentParser()
++parser.add_argument("--skip_test", action="store_true", help="Reserve test evaluation until selection is frozen")
++parser.add_argument("--memory_mode", choices=["original", "action_conditioned"], default="original")
++parser.add_argument("--teacher_cost", type=float, default=0.001)
+ parser.add_argument("--buffer_size",type=int,default=1000000,)
+ parser.add_argument("--dataset",type=str,default="ETHUSDT")
+ parser.add_argument("--q_value_memorize_freq",type=int, default=10,)
+@@ -66,6 +71,8 @@ def seed_torch(seed):
+ 
+ class DQN(object):
+     def __init__(self, args):  # 定义DQN的一系列属性
++        self.skip_test = args.skip_test
++        self.teacher_cost = args.teacher_cost
+         self.seed = args.seed
+         seed_torch(self.seed)
+         if torch.cuda.is_available():
+@@ -148,6 +155,8 @@ class DQN(object):
+             torch.load(model_list_vol[1], map_location=self.device))
+         self.vol_3.load_state_dict(
+             torch.load(model_list_vol[2], map_location=self.device))
++        for expert in (self.slope_1, self.slope_2, self.slope_3, self.vol_1, self.vol_2, self.vol_3):
++            expert.requires_grad_(False)
+         self.slope_1.eval()
+         self.slope_2.eval()
+         self.slope_3.eval()
+@@ -182,7 +191,7 @@ class DQN(object):
+         self.decay_length = args.decay_length
+         self.epsilon_scheduler = LinearDecaySchedule(start_epsilon=self.epsilon_start, end_epsilon=self.epsilon_end, decay_length=self.decay_length)
+         self.epsilon = args.epsilon_start
+-        self.memory = episodicmemory(4320, 5, self.n_state_1, self.n_state_2, 64, self.device)
++        self.memory = episodicmemory(4320, 5, self.n_state_1, self.n_state_2, 64, self.device, mode=args.memory_mode)
+ 
+     def calculate_q(self, w, qs):
+         q_tensor = torch.stack(qs)
+@@ -335,6 +344,7 @@ class DQN(object):
+         best_return_rate = -float('inf')
+         best_model = None
+         self.replay_buffer = ReplayBuffer_High(args, self.n_state_1, self.n_state_2, self.n_action) 
++        train_start = time.time()
+         for sample in range(self.epoch_number):
+             print('epoch ', epoch_counter + 1)
+             self.df = pd.read_feather(
+@@ -350,7 +360,7 @@ class DQN(object):
+                     back_time_length=self.back_time_length,
+                     max_holding_number=self.max_holding_number,
+                     initial_action=random.choices(range(self.n_action), k=1)[0],
+-                    alpha = 0)
++                    alpha = 0, teacher_cost=self.teacher_cost)
+             s, s2, s3, info = train_env.reset()
+             episode_reward_sum = 0
+             
+@@ -369,6 +379,8 @@ class DQN(object):
+ 
+                 s, s2, s3, info = s_, s2_, s3_, info_
+                 step_counter += 1
++                if step_counter % 10000 == 0:
++                    print({"event": "training_progress", "epoch": epoch_counter + 1, "steps": step_counter, "elapsed_seconds": time.time() - train_start}, flush=True)
+                 if step_counter % self.eval_update_freq == 0 and step_counter > (
+                         self.batch_size + self.n_step):
+                     for i in range(self.update_times):
+@@ -469,16 +481,17 @@ class DQN(object):
+             return_rate_eval = self.val_cluster(epoch_path, val_path)
+             if return_rate_eval > best_return_rate:
+                 best_return_rate = return_rate_eval
+-                best_model = self.hyperagent.state_dict()
++                best_model = copy.deepcopy(self.hyperagent.state_dict())
+             epoch_return_rate_train_list = []
+             epoch_final_balance_train_list = []
+             epoch_required_money_train_list = []
+             epoch_reward_sum_train_list = []
+-        best_model_path = os.path.join("./result/high_level", 
+-                                        '{}'.format(self.dataset), 'best_model.pkl')
+-        torch.save(best_model.state_dict(), best_model_path)
++        best_model_path = os.path.join(self.model_path, "best_model.pkl")
++        os.makedirs(os.path.dirname(best_model_path), exist_ok=True)
++        torch.save(best_model, best_model_path)
+         final_result_path = os.path.join("./result/high_level", '{}'.format(self.dataset))
+-        self.test_cluster(best_model_path, final_result_path)
++        if not self.skip_test:
++            self.test_cluster(best_model_path, os.path.join(self.model_path, "test"))
+ 
+ 
+     def val_cluster(self, epoch_path, save_path):
+@@ -538,8 +551,9 @@ class DQN(object):
+         return return_rate
+ 
+     def test_cluster(self, epoch_path, save_path):
++        os.makedirs(save_path, exist_ok=True)
+         self.hyperagent.load_state_dict(
+-            torch.load(os.path.join(epoch_path, "trained_model.pkl")))
++            torch.load(epoch_path, map_location=self.device, weights_only=True))
+         self.hyperagent.eval()
+         counter = False
+         action_list = []
+diff --git a/RL/agent/low_level.py b/RL/agent/low_level.py
+index 3b66e35..a509510 100644
+--- a/RL/agent/low_level.py
++++ b/RL/agent/low_level.py
+@@ -2,6 +2,7 @@ import pathlib
+ import sys
+ import random
+ import argparse
++import copy
+ 
+ import torch
+ import torch.nn as nn
+@@ -360,7 +361,7 @@ class DQN(object):
+             return_rate_eval = (return_rate_0 + return_rate_1) / 2
+             if return_rate_eval > best_return_rate:
+                 best_return_rate = return_rate_eval
+-                best_model = self.eval_net.state_dict()
++                best_model = copy.deepcopy(self.eval_net.state_dict())
+                 print("best model updated to epoch ", epoch_counter)
+             epoch_return_rate_train_list = []
+             epoch_final_balance_train_list = []
+@@ -368,7 +369,8 @@ class DQN(object):
+             epoch_reward_sum_train_list = []
+         best_model_path = os.path.join("./result/low_level", 
+                                         '{}'.format(self.dataset), '{}'.format(self.clf), str(self.label), 'best_model.pkl')
+-        torch.save(best_model.state_dict(), best_model_path)
++        os.makedirs(os.path.dirname(best_model_path), exist_ok=True)
++        torch.save(best_model, best_model_path)
+ 
+ 
+     def val_cluster(self, epoch_path, save_path, initial_action):
+diff --git a/RL/util/memory.py b/RL/util/memory.py
+index 11ecae5..82d9cde 100644
+--- a/RL/util/memory.py
++++ b/RL/util/memory.py
+@@ -17,7 +17,8 @@ def custom_kernel(h, hi):
+     return 1 / (squared_distance + 1e-3)
+ 
+ class episodicmemory():
+-    def __init__(self, capacity, k, state_dim, state_dim_2, hidden_dim, device):
++    def __init__(self, capacity, k, state_dim, state_dim_2, hidden_dim, device, mode="original"):
++        self.mode = mode
+         self.capacity = capacity
+         self.k = k
+         self.current_size = 0
+@@ -45,15 +46,21 @@ class episodicmemory():
+         if self.current_size != self.capacity:
+             weighted_q_value = np.nan
+         else:
+-            kernel_values = np.array([custom_kernel(query_hidden_state, hs) for hs in self.buffer["hidden_state"]])
+-            top_k_indices = np.argsort(kernel_values)[-self.k:]
+-            top_k_actions = self.buffer["action"][top_k_indices]
+-            top_k_q_values = self.buffer["q_value"][top_k_indices]
+-            mask = (top_k_actions == action).astype(float)
+-            weights = kernel_values[top_k_indices] / np.sum(kernel_values[top_k_indices])
+-            masked_weights = weights * mask
+-            normalized_weights = masked_weights / np.sum(masked_weights)
+-            weighted_q_value = np.dot(normalized_weights, top_k_q_values)
++            # Preserve original retrieval semantics by default; vectorize distance.
++            distances = np.sum((self.buffer["hidden_state"] - query_hidden_state) ** 2, axis=1)
++            kernel_values = 1 / (distances + 1e-3)
++            if self.mode == "action_conditioned":
++                candidates = np.flatnonzero(self.buffer["action"] == action)
++                if len(candidates) == 0:
++                    return np.nan
++                top_k_indices = candidates[np.argsort(kernel_values[candidates])[-self.k:]]
++            else:
++                top_k_indices = np.argsort(kernel_values)[-self.k:]
++            mask = self.buffer["action"][top_k_indices] == action
++            weights = kernel_values[top_k_indices] * mask
++            if weights.sum() == 0:
++                return np.nan
++            weighted_q_value = np.dot(weights / weights.sum(), self.buffer["q_value"][top_k_indices])
+ 
+         return weighted_q_value
+ 
+diff --git a/env/high_level_env.py b/env/high_level_env.py
+index 7f3c769..3ccd97e 100644
+--- a/env/high_level_env.py
++++ b/env/high_level_env.py
+@@ -170,9 +170,7 @@ class Testing_Env(gym.Env):
+         needed_money_memory = np.array(self.needed_money_memory)
+         true_money = sell_money_memory - needed_money_memory
+         final_balance = np.sum(true_money)
+-        balance_list = []
+-        for i in range(len(true_money)):
+-            balance_list.append(np.sum(true_money[:i + 1]))
++        balance_list = np.cumsum(true_money)
+         required_money = -np.min(balance_list)
+         commission_fee = np.sum(self.comission_fee_history)
+         return final_balance / required_money, final_balance, required_money, commission_fee
+@@ -190,6 +188,7 @@ class Training_Env(Testing_Env):
+         max_holding_number=max_holding_number,
+         initial_action = 0,
+         alpha=alpha,
++        teacher_cost=0.001,
+     ):
+         super(Training_Env,
+               self).__init__(df, tech_indicator_list, tech_indicator_list_trend, clf_list, transcation_cost,
+@@ -197,7 +196,7 @@ class Training_Env(Testing_Env):
+         self.q_table = make_q_table_reward(df,
+                                            num_action=2,
+                                            max_holding=max_holding_number,
+-                                           commission_fee=0.001,
++                                           commission_fee=teacher_cost,
+                                            reward_scale=1,
+                                            gamma=0.99,
+                                            max_punish=1e12)
+diff --git a/env/low_level_env.py b/env/low_level_env.py
+index 0f2fa3c..48b6ef5 100644
+--- a/env/low_level_env.py
++++ b/env/low_level_env.py
+@@ -171,9 +171,7 @@ class Testing_Env(gym.Env):
+         needed_money_memory = np.array(self.needed_money_memory)
+         true_money = sell_money_memory - needed_money_memory
+         final_balance = np.sum(true_money)
+-        balance_list = []
+-        for i in range(len(true_money)):
+-            balance_list.append(np.sum(true_money[:i + 1]))
++        balance_list = np.cumsum(true_money)
+         required_money = -np.min(balance_list)
+         commission_fee = np.sum(self.comission_fee_history)
+         return final_balance / required_money, final_balance, required_money, commission_fee

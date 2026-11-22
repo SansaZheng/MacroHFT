@@ -1,22 +1,34 @@
 # Recovery status — 2026-11-23
 
-GitHub SSH write access is working. CQ rejected the designated repository owner
-before assigning a job ID; its operator must allow SansaZheng/MacroHFT. Training
-has not restarted and the legacy final results remain unverified.
+GitHub SSH write access works. The expanded archive contains all raw ETH splits,
+all whole prepared ETH splits, released experts, available local training logs,
+the three-market pilot and its negative/mixed diagnostics. Large files contain
+real lossless bytes with hashes. The manifest still lists 66 missing legacy
+files; four additional source files were reconstructed from pinned upstream plus
+the recorded patch. Remote final training artifacts remain unretrieved.
 
-The first archive is partial. Many original files are iCloud dataless entries
-and did not return bytes within bounded reads. Download requests and Finder
-Keep Downloaded were enabled for this project; no unavailable content is
-represented by an empty replacement. The manifest names every pending file.
+The original b243af0 upload was independently downloaded and all 227 Git objects
+verified. The expanded local archive passed original-file/part SHA-256 checks;
+its remote verification is recorded separately after publication.
 
-All locally archived data must pass size/SHA-256 checks. Archive tests cover
-round-trip, corruption rejection, overwrite protection, path boundaries and
-refusal to certify incomplete backups. Passing those five tooling tests does
-not demonstrate RL effectiveness.
+CQ jobs j-1123-5f1786 and j-1123-7725b2 completed on free Kaggle CPU and were
+fetched. Five archive tests and six source-identity regression tests pass. The
+new source verifier uses the actual project commit and 51 runtime artifact
+hashes; nested vendor Git metadata is not needed. Four missing source files
+were rebuilt from the official pinned commit and historical patch. These are
+engineering checks, not model-training or trading-effectiveness evidence.
 
-Next: enable the exact repository in CQ, finish source-data hydration, archive
-and verify missing bytes, recover original server artifacts, then qualify and
-run missing experiments under the frozen protocol. No CCF A readiness claim.
+Lab CQ rejected code.git=SansaZheng/MacroHFT at its repository-owner allowlist.
+The CQ operator must enable that exact repository before legacy inventory and
+training recovery. No lab policy, other users' jobs or shared environment was
+changed. No paid compute was used. There are no active MacroHFT training jobs
+established by this recovery work.
 
-中文：GitHub 已可写入；CQ 白名单仍阻塞训练。此次为部分归档，缺失项明确列出，
-没有用清单或空文件替代数据。方法提升与完整验证仍未完成。
+Next: complete missing-byte archive, enable the lab repository, recover original
+final artifacts, qualify the environment, then run only missing experiments
+under the frozen protocol. New-method implementation, paired comparisons,
+execution stress and a submission-ready manuscript remain incomplete. No CCF A
+readiness claim. See NOVELTY-UPDATE-20261123.md and RESEARCH-GATES.md.
+
+中文：已完成 GitHub 部分数据归档、真实代码身份修复和两次 CQ CPU 验证。
+实验室白名单仍阻塞旧结果回收与训练恢复；没有把通过工具测试当成方法有效。

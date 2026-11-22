@@ -1,0 +1,18 @@
+{
+  "python": "3.10.18 (main, Jun  4 2025, 08:56:00) [GCC 9.4.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.35",
+  "prepared_files": {
+    "train": {
+      "sha256": "46b08b620402ca8209a928c078fd60ec43a0267cbd9f0f89dec2910656bd3c33",
+      "bytes": 274100090
+    },
+    "val": {
+      "sha256": "4c3e2627013c97f1286b7e1e7b590296d938957f8e227ac4d0d2b066d59495b5",
+      "bytes": 89130786
+    },
+    "test": {
+      "sha256": "5cf78277fc89fbb48275df052dfaeb6f0f3d6def8787b19543a348a2aebe05c9",
+      "bytes": 111887530
+    }
+  }
+}

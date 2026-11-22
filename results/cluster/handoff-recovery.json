@@ -1,0 +1,89 @@
+{
+  "previous_handoff": {
+    "old_status": {
+      "started_at": "2026-10-02T04:59:37.191287+08:00",
+      "pid": 2792765,
+      "phase": "training_candidates",
+      "workers": 2,
+      "device": "cpu",
+      "jobs": {
+        "combined-seed12345": {
+          "status": "completed",
+          "pid": 2792772,
+          "log": "/date/zyy/macrohft-reproduction/results/combined-seed12345/train.log",
+          "command": [
+            "/date/zyy/macrohft-reproduction/.venv/bin/python",
+            "-u",
+            "/date/zyy/macrohft-reproduction/scripts/run_experiment.py",
+            "--variant",
+            "combined",
+            "--seed",
+            "12345",
+            "--device",
+            "cpu"
+          ],
+          "exit_code": 0
+        },
+        "reference-seed12345": {
+          "status": "completed",
+          "pid": 2792773,
+          "log": "/date/zyy/macrohft-reproduction/results/reference-seed12345/train.log",
+          "command": [
+            "/date/zyy/macrohft-reproduction/.venv/bin/python",
+            "-u",
+            "/date/zyy/macrohft-reproduction/scripts/run_experiment.py",
+            "--variant",
+            "reference",
+            "--seed",
+            "12345",
+            "--device",
+            "cpu"
+          ],
+          "exit_code": 0
+        },
+        "action_memory-seed12345": {
+          "status": "running",
+          "pid": 75811,
+          "log": "/date/zyy/macrohft-reproduction/results/action_memory-seed12345/train.log",
+          "command": [
+            "/date/zyy/macrohft-reproduction/.venv/bin/python",
+            "-u",
+            "/date/zyy/macrohft-reproduction/scripts/run_experiment.py",
+            "--variant",
+            "action_memory",
+            "--seed",
+            "12345",
+            "--device",
+            "cpu"
+          ]
+        },
+        "cost_aligned-seed12345": {
+          "status": "running",
+          "pid": 102861,
+          "log": "/date/zyy/macrohft-reproduction/results/cost_aligned-seed12345/train.log",
+          "command": [
+            "/date/zyy/macrohft-reproduction/.venv/bin/python",
+            "-u",
+            "/date/zyy/macrohft-reproduction/scripts/run_experiment.py",
+            "--variant",
+            "cost_aligned",
+            "--seed",
+            "12345",
+            "--device",
+            "cpu"
+          ]
+        }
+      },
+      "selection": null
+    },
+    "adopted_pids": {
+      "action_memory-seed12345": 75811,
+      "cost_aligned-seed12345": 102861
+    },
+    "new_controller_pid": 671567,
+    "timestamp": "2026-10-02T13:05:49.217443+08:00",
+    "action": "Terminate only the scheduling parent; preserve existing training children"
+  },
+  "new_controller_pid": 675721,
+  "timestamp": "2026-10-02T13:06:50.299757+08:00"
+}

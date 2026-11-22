@@ -1,0 +1,10 @@
+{
+  "decision": "do_not_promote_component_as_novel_RL_method",
+  "test_evaluated": false,
+  "evaluated_settings": 84,
+  "market_count": 3,
+  "training_seed_replications": 0,
+  "raw_rows": 388800,
+  "raw_archive_bytes": 17852203,
+  "caveat": "deterministic validation diagnostic; no significance or CCF A readiness claim"
+}

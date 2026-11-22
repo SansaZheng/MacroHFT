@@ -1,0 +1,10 @@
+{
+  "client_date": "2026-10-14",
+  "timing": "post-hoc after primary pilot; validation only",
+  "purpose": "separate selective trading from simply trading less",
+  "random_schedules": 500,
+  "seed": 1973,
+  "all_symbols_and_costs": true,
+  "not_formal_p_values": true,
+  "test_accessed": false
+}

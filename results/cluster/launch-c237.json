@@ -1,0 +1,16 @@
+{
+  "action_memory-seed2024": {
+    "pid": 3536606,
+    "root": "/data/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "action_memory",
+    "seed": 2024
+  },
+  "cost_aligned-seed2024": {
+    "pid": 3536607,
+    "root": "/data/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "cost_aligned",
+    "seed": 2024
+  }
+}

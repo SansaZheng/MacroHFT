@@ -12,6 +12,8 @@ python3 scripts/restore_archive.py --root .
 python3 scripts/restore_archive.py --root . --destination /date/zyy/macrohft-restored
 # Meaningful integrity tests: round-trip, corruption, overwrite, path boundaries.
 python3 tests/test_archive.py
+# Explicit partial inspection (does not certify backup completeness).
+python3 scripts/restore_archive.py --root . --allow-partial
 ```
 
 Directly stored files remain in the checkout. `--destination` reconstructs the
@@ -19,6 +21,8 @@ large data files; configure data paths accordingly. The current build recipe is:
 
 ```sh
 python3 scripts/prepare_github_archive.py --source /path/to/original-project --destination /path/to/git-clone
+# Later: fill only small pending files; preserve published files and new code.
+python3 scripts/fill_pending_archive.py --source /path/to/original-project --destination /path/to/git-clone
 ```
 
 `--metadata-only` or `--skip-unavailable` are preparation modes. Pending bytes
@@ -36,3 +40,16 @@ when their bytes are available.
 Before claiming GitHub persistence, verify the push, remote commit and objects.
 The user's old iCloud-backed project is preserved; the new Git checkout used
 for publication is outside iCloud to avoid repeated eviction while archiving.
+
+The initial expanded snapshot b243af0 was downloaded into an independent bare
+clone: 227 Git objects (910,717,268 stored bytes) passed SHA-256. Its receipt is
+in results/recovery-20261123/github-b243af0-verification.json. Later verification
+streams new/changed GitHub objects and checks unchanged Git blob IDs against
+that verified baseline, avoiding a second full copy on a nearly full disk.
+
+`reconstructed_from_upstream` names four source files recovered from a fresh
+official checkout plus the recorded patch. They are executable source with
+verified construction, not evidence that the legacy originals were retrieved.
+The missing legacy files and unknown remote training artifacts prevent a claim
+that every experiment is archived, even though all three raw ETH split files
+and all three prepared whole-split files are now represented by real bytes.

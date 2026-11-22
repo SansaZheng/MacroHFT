@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1FGPpH7j4-0dLGuR4TRiJkiwE_gHJxFEA",
+    "path": "df_test.feather",
+    "local_path": "/Users/zyy/Documents/ChatGPT/FinancialAD/ETHUSDT/df_test.feather"
+  },
+  {
+    "id": "1iHUs5726pFGYzOwO62JQhNoOu0MvZdT4",
+    "path": "df_train.feather",
+    "local_path": "/Users/zyy/Documents/ChatGPT/FinancialAD/ETHUSDT/df_train.feather"
+  },
+  {
+    "id": "1T-O4qaidU-PUpW3XC9lT11bzdGhPqS3R",
+    "path": "df_val.feather",
+    "local_path": "/Users/zyy/Documents/ChatGPT/FinancialAD/ETHUSDT/df_val.feather"
+  }
+]

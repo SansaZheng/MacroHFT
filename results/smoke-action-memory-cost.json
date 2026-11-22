@@ -1,0 +1,20 @@
+{
+  "status": "smoke_passed",
+  "not_paper_reproduction": true,
+  "variant": "action-memory-cost",
+  "seed": 12345,
+  "training_rows": 4608,
+  "validation_rows": 2048,
+  "epochs": 2,
+  "seconds": 149.098910875,
+  "validation_returns": [
+    {
+      "epoch": 1,
+      "return_pct": 4.5818734835218065
+    },
+    {
+      "epoch": 2,
+      "return_pct": 4.5818734835218065
+    }
+  ]
+}

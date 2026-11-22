@@ -1,0 +1,56 @@
+{
+  "reference": {
+    "td_error": {
+      "step": 8221,
+      "value": 0.10750336945056915,
+      "finite": true
+    },
+    "memory_error": {
+      "step": 8221,
+      "value": 0.07153361290693283,
+      "finite": true
+    },
+    "KL_loss": {
+      "step": 8221,
+      "value": 0.028240539133548737,
+      "finite": true
+    },
+    "q_eval": {
+      "step": 8221,
+      "value": 2.5440566539764404,
+      "finite": true
+    },
+    "q_target": {
+      "step": 8221,
+      "value": 2.596513271331787,
+      "finite": true
+    }
+  },
+  "combined": {
+    "td_error": {
+      "step": 8451,
+      "value": 0.09224802255630493,
+      "finite": true
+    },
+    "memory_error": {
+      "step": 8451,
+      "value": 0.034543316811323166,
+      "finite": true
+    },
+    "KL_loss": {
+      "step": 8451,
+      "value": 0.02120112255215645,
+      "finite": true
+    },
+    "q_eval": {
+      "step": 8451,
+      "value": 2.154893398284912,
+      "finite": true
+    },
+    "q_target": {
+      "step": 8451,
+      "value": 2.1713082790374756,
+      "finite": true
+    }
+  }
+}

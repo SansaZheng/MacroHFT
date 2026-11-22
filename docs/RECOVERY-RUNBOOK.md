@@ -11,6 +11,28 @@ are allowed. No new job ID was issued. The CQ operator must permit this exact
 repository. Do not evade the allowlist or use fabricated hashes or another
 project's identity.
 
+CQ's separately documented Kaggle CPU backend accepted pinned GitHub code.
+Job j-1123-5f1786 completed and its results were fetched: four source hashes and
+five archive-integrity tests passed. It did not access lab files or train a model.
+The follow-up j-1123-7725b2 qualifies six new source-identity regression tests;
+consult its fetched receipt for completion. Both jobs prohibit rentals/paid spend.
+
+## Source identity after recovery
+
+The published vendor tree is already patched and does not need nested `.git`.
+Pass the actual full **project** commit from the CQ specification:
+
+```sh
+python3 scripts/verify_source.py --expected-commit "$SOURCE_COMMIT"
+python3 scripts/patch_official.py --expected-commit "$SOURCE_COMMIT"
+```
+
+The second command verifies the already patched tree without changing it.
+For an independently cloned official checkout, use `--repo /path/to/fresh/clone`;
+the script verifies that directory is the exact Git root and has the pinned
+upstream commit before applying the recorded patch. It cannot borrow the parent
+project's Git identity. Missing/altered source or an altered manifest fails closed.
+
 ## Execution sequence after repository access is enabled
 
 1. Inspect queue/fleet and current code SHA again. Pin the actual pushed commit.

@@ -1,0 +1,17 @@
+{
+  "status": "self_contained",
+  "modules": {
+    "numpy": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/numpy/__init__.py",
+    "pandas": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/pandas/__init__.py",
+    "torch": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/torch/__init__.py",
+    "scipy": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/scipy/__init__.py",
+    "sklearn": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/sklearn/__init__.py",
+    "numba": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/numba/__init__.py",
+    "pyarrow": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/pyarrow/__init__.py",
+    "gym": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/gym/__init__.py",
+    "tensorboard": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/tensorboard/__init__.py",
+    "yaml": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/yaml/__init__.py",
+    "joblib": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/joblib/__init__.py",
+    "conda_pack": "/date/zyy/macrohft-reproduction/cluster/runtime/lib/python3.10/site-packages/conda_pack/__init__.py"
+  }
+}

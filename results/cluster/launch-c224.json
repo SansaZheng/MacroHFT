@@ -1,0 +1,16 @@
+{
+  "reference-seed2024": {
+    "pid": 1434265,
+    "root": "/date/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "reference",
+    "seed": 2024
+  },
+  "combined-seed2024": {
+    "pid": 1434266,
+    "root": "/date/zyy/macrohft-cluster",
+    "status": "launched",
+    "variant": "combined",
+    "seed": 2024
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "upstream_commit": "31e5ef41f93b2aea6e63e6ae2267675c997a8e54",
+  "patch_sha256": "fffe9931f078dd1673bc68895232fd52dd9f593d445c2a41fa19db26d37336c4",
+  "patch_applied_cleanly": true,
+  "matching_available_archived_upstream_files": [
+    ".gitignore",
+    "data/feature_list/single_features.npy",
+    "data/feature_list/trend_features.npy",
+    "env/high_level_env.py",
+    "env/low_level_env.py",
+    "model/net.py",
+    "preprocess/decomposition.py",
+    "readme.md",
+    "result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl",
+    "result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl",
+    "result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl",
+    "result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl",
+    "result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl",
+    "result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl",
+    "scripts/decomposition.sh",
+    "scripts/high_level.sh",
+    "scripts/low_level.sh",
+    "tools/demonstration.py"
+  ],
+  "not_yet_available_in_archive": [
+    "RL/agent/high_level.py",
+    "RL/agent/low_level.py",
+    "RL/util/__pycache__/replay_buffer.cpython-311.pyc",
+    "RL/util/__pycache__/utili.cpython-311.pyc",
+    "RL/util/memory.py",
+    "RL/util/replay_buffer.py",
+    "RL/util/utili.py",
+    "model/__pycache__/net.cpython-311.pyc",
+    "tools/__pycache__/demonstration.cpython-311.pyc"
+  ],
+  "training_performed": false,
+  "reconstructed_into_archive": [
+    "vendor/MacroHFT/RL/agent/high_level.py",
+    "vendor/MacroHFT/RL/util/memory.py",
+    "vendor/MacroHFT/RL/util/replay_buffer.py",
+    "vendor/MacroHFT/RL/util/utili.py"
+  ],
+  "excluded_upstream_compiled_bytecode": [
+    "vendor/MacroHFT/RL/util/__pycache__/replay_buffer.cpython-311.pyc",
+    "vendor/MacroHFT/RL/util/__pycache__/utili.cpython-311.pyc",
+    "vendor/MacroHFT/model/__pycache__/net.cpython-311.pyc",
+    "vendor/MacroHFT/tools/__pycache__/demonstration.cpython-311.pyc"
+  ]
+}
