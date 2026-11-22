@@ -1,0 +1,68 @@
+{
+  "name": "MacroHFT pinned GitHub legacy inventory 20261123",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SansaZheng/MacroHFT",
+    "commit": "6c164570461c269d04ed2cee719247beb3317d50"
+  },
+  "home": {
+    "name": "macrohft-recovery-20261123",
+    "from": "c225"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_inventory.py",
+    "--root",
+    "/date/zyy/macrohft-reproduction"
+  ],
+  "resources": {
+    "gpus": 0,
+    "gpu_mem_gb": 0,
+    "cpus": 1,
+    "ram_gb": 0.25,
+    "disk_gb": 0.01
+  },
+  "limits": {
+    "max_hours": 0.05,
+    "max_attempts": 1,
+    "max_wait_hours": 0.1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "never": [
+      "c219",
+      "c220",
+      "c221",
+      "c222",
+      "c223",
+      "c224",
+      "c226",
+      "c227",
+      "c237",
+      "c203",
+      "pc4070"
+    ],
+    "allow_rent": false
+  },
+  "outputs": {
+    "dest": "/date/zyy/macrohft-reproduction/results/cq-inventory-20261123",
+    "expect": [
+      {
+        "path": "inventory.json",
+        "contains": "\"inventory_complete\": true"
+      },
+      {
+        "path": "progress.log",
+        "contains": "6/6"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 2
+    }
+  }
+}

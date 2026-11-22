@@ -1,0 +1,101 @@
+{
+  "revision": 2,
+  "coordinator_host": "c225",
+  "coordinator_root": "/date/zyy/macrohft-reproduction",
+  "minimum_free_gib": 60,
+  "max_workers_per_new_host": 2,
+  "threads_per_worker": 1,
+  "seeds": [
+    12345,
+    2024,
+    42
+  ],
+  "variants": [
+    "reference",
+    "combined",
+    "action_memory",
+    "cost_aligned"
+  ],
+  "selection": "Use only seed 12345 full-validation returns to choose a candidate, exactly as originally registered. Other seed runs are speculative compute and cannot change candidate selection. Test only reference and selected candidate.",
+  "hosts": {
+    "c225": {
+      "root": "/date/zyy/macrohft-reproduction",
+      "jobs": [
+        [
+          "reference",
+          12345
+        ],
+        [
+          "combined",
+          12345
+        ],
+        [
+          "action_memory",
+          12345
+        ],
+        [
+          "cost_aligned",
+          12345
+        ]
+      ],
+      "adopt_existing": true
+    },
+    "c224": {
+      "root": "/date/zyy/macrohft-cluster",
+      "jobs": [
+        [
+          "reference",
+          2024
+        ],
+        [
+          "combined",
+          2024
+        ]
+      ]
+    },
+    "c203": {
+      "root": "/data/zyy/macrohft-cluster",
+      "jobs": [
+        [
+          "reference",
+          42
+        ],
+        [
+          "combined",
+          42
+        ]
+      ]
+    },
+    "c237": {
+      "root": "/data/zyy/macrohft-cluster",
+      "jobs": [
+        [
+          "action_memory",
+          2024
+        ],
+        [
+          "cost_aligned",
+          2024
+        ]
+      ]
+    },
+    "c219": {
+      "root": "/data/zyy/macrohft-cluster",
+      "jobs": [
+        [
+          "action_memory",
+          42
+        ]
+      ]
+    },
+    "c220": {
+      "root": "/data/zyy/macrohft-cluster",
+      "jobs": [
+        [
+          "cost_aligned",
+          42
+        ]
+      ]
+    }
+  }
+}

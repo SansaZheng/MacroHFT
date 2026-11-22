@@ -8,49 +8,67 @@
       "size": 59,
       "sha256": "fefdce4e1c5f6fe0c098ad429612e38853f5c140bab1ea4b67ffbed7de86c986",
       "storage": "git",
-      "provenance": "new recovery artifact"
+      "provenance": "recovery/archival tooling; distinct from historical experiments"
     },
     {
       "path": "README.md",
       "size": 1569,
       "sha256": "9829d9d4aefa99913ca936eede90edaf3d09a5103c968d6dd75972fcc95eb6ee",
       "storage": "git",
-      "provenance": "new recovery artifact"
+      "provenance": "recovery/archival tooling; distinct from historical experiments"
     },
     {
       "path": "RECOVERY.md",
       "size": 2735,
       "sha256": "b19c4a966d5360beac847f102aa4a1829b772e45312c6a1484d49bdfa271c09b",
       "storage": "git",
-      "provenance": "new recovery artifact"
+      "provenance": "recovery/archival tooling; distinct from historical experiments"
     },
     {
       "path": "docs/ARCHIVE.md",
       "size": 1957,
       "sha256": "bbd89cf157966fde003a0de70a328e83990e2c2380218f32c603d3e83f767059",
       "storage": "git",
-      "provenance": "new recovery documentation or execution receipt"
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "docs/RECOVERY-RUNBOOK.md",
       "size": 2422,
       "sha256": "c3f333a6e143474c1f9b3052ed1c6dc1fbf1d022a6b49f58bc3251862b875b28",
       "storage": "git",
-      "provenance": "new recovery documentation or execution receipt"
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "docs/RESEARCH-GATES.md",
       "size": 2204,
       "sha256": "5f13ca3d2a6c28b23d027c45ce30e0dc07743df1d195a494640386e02c7a5eaa",
       "storage": "git",
-      "provenance": "new recovery documentation or execution receipt"
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "docs/STATUS.md",
       "size": 1261,
       "sha256": "749e2137effde38a05efff0cae3947991bcf0ff02f79339bfabea942a7f7153d",
       "storage": "git",
-      "provenance": "new recovery documentation or execution receipt"
+      "provenance": "new recovery/archival artifact"
+    },
+    {
+      "path": "docs/legacy-tooling/prepare_github_archive-v1.py",
+      "size": 5949,
+      "sha256": "871e451809089394ec0eac1b28c0d7703e408c638dc408b62ca7a782cf1d6fb4",
+      "storage": "git"
+    },
+    {
+      "path": "docs/legacy-tooling/restore_archive-v1.py",
+      "size": 3873,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "docs/legacy-tooling/test_archive-v1.py",
+      "size": 2813,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
     },
     {
       "path": "docs/legacy/README-20261002.md",
@@ -439,8 +457,8 @@
     {
       "path": "results/cluster/controller-recovery.log",
       "size": 0,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "storage": "git"
     },
     {
       "path": "results/cluster/controller-tests.log",
@@ -673,38 +691,38 @@
     {
       "path": "results/combined-seed12345/validation.jsonl",
       "size": 525,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e850c53754ae7e3d9c43577a14e6fc2ed57c09fd97b7cc9a6272e8e9fc7dc571",
+      "storage": "git"
     },
     {
       "path": "results/cq-resume-20261020/inventory-c225.spec.json",
       "size": 3212,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "72d0a30a981d4336ce22e08d13673879231040d4f3d61971f0233c0e26e6c014",
+      "storage": "git"
     },
     {
       "path": "results/cq-resume-20261020/inventory.py",
       "size": 2039,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "263868c83b1bc2368f845e23e4fc00c2af932dfedd9b71bb3b26655dce88756f",
+      "storage": "git"
     },
     {
       "path": "results/cq-resume-20261020/job-final.json",
       "size": 5324,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2c0b332fa0233f72268c04efb33af29889b43bf5a858d73389c8a4e103a7a18a",
+      "storage": "git"
     },
     {
       "path": "results/cq-resume-20261020/job-j-1020-197b77.json",
       "size": 5640,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "5babd19d20e438a7e40165118a8a9f23bf7b20cc245366454e16b8f26f7ed3d0",
+      "storage": "git"
     },
     {
       "path": "results/cq-resume-20261020/queue-audit.json",
       "size": 365,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f3bb1b41a8b6c8a853ababc43e60308c4e4fb12201f7fd61c9ea394006ee58f5",
+      "storage": "git"
     },
     {
       "path": "results/data-audit.json",
@@ -739,8 +757,8 @@
     {
       "path": "results/latest-status-output.json",
       "size": 0,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "storage": "git"
     },
     {
       "path": "results/latest-status.txt",
@@ -787,71 +805,80 @@
     {
       "path": "results/recovery-20261002/controller.log",
       "size": 0,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "storage": "git"
     },
     {
       "path": "results/recovery-20261002/coordinator-launch.json",
       "size": 160,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "b9ff88c3d0a886b8b92a528cf6e95f60de404d57c7416f536c01eb142815596c",
+      "storage": "git"
     },
     {
       "path": "results/recovery-20261002/failed-controller-status.json",
       "size": 54630,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "125408ab041c2bc9e20f32cb91471e079567ea279e65f6486f2696d5b25ea29d",
+      "storage": "git"
     },
     {
       "path": "results/recovery-20261002/launch.json",
       "size": 320,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "5cd2a180e1f8bffe87dfd5dda23dd4c65e48824c21a6359079ff87b787fdf7fd",
+      "storage": "git"
     },
     {
       "path": "results/recovery-20261002/preflight.json",
       "size": 60,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "42f7321c1e14c6964a0f57ba9fd24b76a243b5231f678c872242da07d1295313",
+      "storage": "git"
     },
     {
       "path": "results/recovery-20261123/archive-tests.log",
       "size": 103,
       "sha256": "fa950bcf358d8f3453279c84ddce78a4fc485544705befcc0fc7d5d175bdacb7",
       "storage": "git",
-      "provenance": "new recovery documentation or execution receipt"
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "results/recovery-20261123/cq-submission.json",
       "size": 340,
       "sha256": "9b695c01c4ebd92c85754c5daa30a6a39f52233754d9f2cde688414bbd01f7c3",
       "storage": "git",
-      "provenance": "new recovery documentation or execution receipt"
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "results/recovery-20261123/inventory-c225.spec.json",
       "size": 1267,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "1645c5bb183abf24d8fbf8395c0b95c368730dee96b522ff1237c4449e5b3958",
+      "storage": "git",
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "results/recovery-20261123/status.json",
       "size": 386,
       "sha256": "16ad8a62ef25b3b87b23b91e07989e8dc013f6e456ecdb9824d8394b7a06fb06",
       "storage": "git",
-      "provenance": "new recovery documentation or execution receipt"
+      "provenance": "new recovery/archival artifact"
+    },
+    {
+      "path": "results/recovery-20261123/steps.json",
+      "size": 1533,
+      "sha256": "3ac5206c9953c1459a93a049048031f4596d485a377d26dc038a49be9d72ab7d",
+      "storage": "git",
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "results/recovery-20261123/submission-receipt.json",
       "size": 189,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "153085f7edd5f20abec4e4a78a8ab685171beb61758e6e754aab3e3cb4c440e2",
+      "storage": "git",
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "results/reference-seed12345/validation.jsonl",
       "size": 523,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "9f6de44ce3f8e0465b4f199b376511773ff8a9fc2369c965f854d24c6b1e964d",
+      "storage": "git"
     },
     {
       "path": "results/remote-environment.txt",
@@ -922,137 +949,138 @@
     {
       "path": "scripts/array_environment.py",
       "size": 3659,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "fc0032ce52bd437b6f004c6645aae103abf258cea124714b4392174508935287",
+      "storage": "git"
     },
     {
       "path": "scripts/cached_experts.py",
       "size": 2997,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "aa7dbe29237c04d8efba27d9cd1e1b52899a7ce3f26d71ce2e8338feafce712a",
+      "storage": "git"
     },
     {
       "path": "scripts/cluster_controller.py",
       "size": 13634,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d90360adb20390eeb90dfedf80a50b66b211861bd678d56aa807b903ce0f6f5c",
+      "storage": "git"
     },
     {
       "path": "scripts/cluster_launch.py",
       "size": 1758,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "60ba0a6d96c615e3354eea77eb169f9c51f8e4a6614f74ed09fb8f66446578cd",
+      "storage": "git"
     },
     {
       "path": "scripts/cluster_plan.json",
       "size": 1876,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "ab0ed4a177bcbec97ea1478377c0a9889c0f3ace2a8faaa3eff268977fe94dd1",
+      "storage": "git"
     },
     {
       "path": "scripts/cluster_prepare.py",
       "size": 4646,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "30b1b70f039f7fd1e4af8c7fc0a6322cafaa2028ca85c7efd384618871952ad2",
+      "storage": "git"
     },
     {
       "path": "scripts/cluster_query.py",
       "size": 960,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d185e9e3e840a22045b6177458f8415efec70cbaa438d6e1204428f32169a713",
+      "storage": "git"
     },
     {
       "path": "scripts/cluster_runtime_probe.py",
       "size": 848,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "1c24505059088646eec46f8ddbfaee78c36e5cada97efaa6da50295227bc9804",
+      "storage": "git"
     },
     {
       "path": "scripts/cluster_worker.py",
       "size": 2458,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "89795e4f1f6569d1cf616c09daf0f09f012d449ce187936e85cd134734a806d6",
+      "storage": "git"
     },
     {
       "path": "scripts/cq_inventory.py",
       "size": 3128,
       "sha256": "414a22a16be08fbcc0b943460e0d1794815fd3e513ce6d10b1e888b31c851502",
       "storage": "git",
-      "provenance": "new recovery artifact"
+      "provenance": "recovery/archival tooling; distinct from historical experiments"
     },
     {
       "path": "scripts/experiment_pipeline.py",
       "size": 6163,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "9ed1047e6e468a516a1fdf142d862713d289074deade7a01fc8b9f9eed972acb",
+      "storage": "git"
     },
     {
       "path": "scripts/fast_evaluation.py",
       "size": 4072,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "bd47f984937b623b6ed68da8b202f5123aca012f4d17cdfaffb9a45836a783cd",
+      "storage": "git"
     },
     {
       "path": "scripts/fetch_status.py",
       "size": 1611,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "6c2f711225cdd9ad5e0075c5da0da4c437f670edc807c7e296f19d55ed2945d2",
+      "storage": "git"
     },
     {
       "path": "scripts/patch_official.py",
       "size": 855,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d8d764bd8f07fc25c43ca9dfa413f0261589e9e0fb62373ada45387d90a97efa",
+      "storage": "git"
     },
     {
       "path": "scripts/prepare_data.py",
       "size": 2945,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "3a1b7e4ce540a085280f8c212e463bd524286f43dacf39eaea3e04ef053ddff3",
+      "storage": "git"
     },
     {
       "path": "scripts/prepare_github_archive.py",
-      "size": 5949,
-      "sha256": "871e451809089394ec0eac1b28c0d7703e408c638dc408b62ca7a782cf1d6fb4",
-      "storage": "git"
+      "size": 6421,
+      "sha256": "a9c056e258040900b3b2d10b9118e868125a9dbbc10ec27b559992d72617bccb",
+      "storage": "git",
+      "provenance": "recovery/archival tooling; distinct from historical experiments"
     },
     {
       "path": "scripts/probe_cluster.py",
       "size": 1105,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "cc103ec9708412ae46eef6d84d083c773145548fff36d5a1f656a2b77b937efa",
+      "storage": "git"
     },
     {
       "path": "scripts/recover_failed_trials.py",
       "size": 6302,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "b306fa73dc2822606e328891a9188e8e18c11bfb5d29a1195a74a8226710b7e2",
+      "storage": "git"
     },
     {
       "path": "scripts/restore_archive.py",
       "size": 4116,
       "sha256": "eb8a747d22519983435f94fdd8793f0de0c2a50bed1c150beb199011bc7baebd",
       "storage": "git",
-      "provenance": "new/revised archival tooling, 2026-11-23"
+      "provenance": "recovery/archival tooling; distinct from historical experiments"
     },
     {
       "path": "scripts/run_experiment.py",
       "size": 3350,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "9f21249be43c99c109532d1cb1d0fb00b487f46be9828115afdfefe60820b4d3",
+      "storage": "git"
     },
     {
       "path": "scripts/smoke_train.py",
       "size": 2205,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "778682ca9c25f045c682cdbedcdbfbc837dc8cfe999b51d4ce41b34f0a25d48e",
+      "storage": "git"
     },
     {
       "path": "tests/test_archive.py",
       "size": 3102,
       "sha256": "7e05c050a4b895ac09d8e2c30985f3e0095d6e8d4f73ce579f5379fa7a59b3ca",
       "storage": "git",
-      "provenance": "new/revised archival tooling, 2026-11-23"
+      "provenance": "new recovery/archival artifact"
     },
     {
       "path": "tests/test_cluster_controller.py",
@@ -1069,8 +1097,8 @@
     {
       "path": "vendor/MacroHFT/.gitignore",
       "size": 52,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "77514f42418aa411485e9817a57dbaacb7052cc0eb15f3f0f41849e9aee7c470",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/RL/agent/high_level.py",
@@ -1111,14 +1139,68 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/df_train.feather",
       "size": 261693410,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e0fc269339de6775c06639bd18691e1c41c0329c0a2b27239ac8f504ac9f4a33",
+      "storage": "gzip-parts",
+      "parts": [
+        {
+          "path": "data-archive/ec5193c5539f83ad41dc/part-0000.gzpart",
+          "size": 33554432,
+          "sha256": "364e168ab5e19123886a6d38b6c41b5bfb9f2d1421979303c042bc22c90f90d2"
+        },
+        {
+          "path": "data-archive/ec5193c5539f83ad41dc/part-0001.gzpart",
+          "size": 33554432,
+          "sha256": "a3ef42dbb68a728fc68c38bcd89457e1e9a949639b815b6860b6c13544eb3a24"
+        },
+        {
+          "path": "data-archive/ec5193c5539f83ad41dc/part-0002.gzpart",
+          "size": 33554432,
+          "sha256": "ebccababe885baf80f6aca78538338029238513b3a04abc8072f42b202172915"
+        },
+        {
+          "path": "data-archive/ec5193c5539f83ad41dc/part-0003.gzpart",
+          "size": 33554432,
+          "sha256": "e577a647c8485341547d6dd9065e827dd8efce96f03b368dd7ace4d699278822"
+        },
+        {
+          "path": "data-archive/ec5193c5539f83ad41dc/part-0004.gzpart",
+          "size": 33554432,
+          "sha256": "c0fa6890d71a816f5bc15c788363adcf8ae35464fc9622237bde53bba0f2f9ec"
+        },
+        {
+          "path": "data-archive/ec5193c5539f83ad41dc/part-0005.gzpart",
+          "size": 33554432,
+          "sha256": "2ac9dfb97f753092db64886d93faae67efb13e9c44b731910d5e0e5090afc56c"
+        },
+        {
+          "path": "data-archive/ec5193c5539f83ad41dc/part-0006.gzpart",
+          "size": 28716486,
+          "sha256": "a0c9f9156134a900c2a102c12ba379b8906a17995352b38c2fb6fd74c0c6fe18"
+        }
+      ]
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/df_val.feather",
       "size": 85196722,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "86e6bf159c1e13aac390c0fc9a026733435be990aa3d1e73cf98e5e7d5039dc8",
+      "storage": "gzip-parts",
+      "parts": [
+        {
+          "path": "data-archive/3dba242600877cdc6c3e/part-0000.gzpart",
+          "size": 33554432,
+          "sha256": "0283c01b2daa34d5325d67cfa94881fba5532c3ed7a4d66c047fef4777435296"
+        },
+        {
+          "path": "data-archive/3dba242600877cdc6c3e/part-0001.gzpart",
+          "size": 33554432,
+          "sha256": "17a1659f08a7418bcb1831ba6e74445ec2cc7de9e1fcd6a34c71f4e76eab0d7e"
+        },
+        {
+          "path": "data-archive/3dba242600877cdc6c3e/part-0002.gzpart",
+          "size": 7660740,
+          "sha256": "0222de3d69c219e0c0cb2dab77c1450741cc20e6b92cc4cc7c0af08e47f47ceb"
+        }
+      ]
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_0.feather",
@@ -1136,13 +1218,15 @@
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_10.feather",
       "size": 2136690,
       "sha256": "7ff6f6539171beceec2edc16ced5ecbb72df08003a5d76c4dd939f6623112f17",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_11.feather",
       "size": 2135690,
       "sha256": "3b3c0f73af980357d115dd2869346b3fb99dd3aeea3e844ecd7271b812825deb",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_12.feather",
@@ -1159,20 +1243,20 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_14.feather",
       "size": 2138834,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "573aa0ff9f543db2213415229c89e7ad140d15caaf6d740b53350ef7c94cef59",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_15.feather",
       "size": 2125490,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "9b726b3d9743cdabbace8cf19b32f72ad64bca90112916d23b0cc0da115e19bd",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_16.feather",
       "size": 2122362,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "b80fcaaafdb33d0ca6aab6164f59691948880635c15eaeb1556c62ec1d7cacc5",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_17.feather",
@@ -1190,19 +1274,20 @@
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_19.feather",
       "size": 2046866,
       "sha256": "415b81253a57de204a92f311b9d5e212094420f514eb0598de6f673d15a41f3e",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_2.feather",
       "size": 2122634,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "a3f2e70c4a53f3b6f50a56969d8b01f727afb8e5b89acf017a0f5f1ed606aafd",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_20.feather",
       "size": 2112842,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "3b5623983c85f113c9966f9352b6b23bf5b1925fb269c990e2a52e8bb7800584",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_21.feather",
@@ -1219,14 +1304,15 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_23.feather",
       "size": 2055122,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7b2138868099100a5282fc47490ea4b3a4e5e1a63552fd719d09cbe7457d3053",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_24.feather",
       "size": 1942290,
       "sha256": "a1e095d35c37516d2d056b9c7d7ab23acb9fdeed50c02a3b2395d5dd122cd0e3",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_25.feather",
@@ -1238,13 +1324,15 @@
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_26.feather",
       "size": 2131130,
       "sha256": "30a30f3da07fa30abd657262c7a529bde1a511c5c99c7229183a14e548f4b40a",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_27.feather",
       "size": 2133546,
       "sha256": "0a5d05598cd8f38109533cfc523bb35f80d316c911b513b7974bcf9dd5fc8eac",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_28.feather",
@@ -1255,14 +1343,15 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_29.feather",
       "size": 2104074,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "390a514cb0eb16fa18a12dcaeeb641d4e8e58de2b904151730ca82cf3a5298c8",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_3.feather",
       "size": 2136146,
       "sha256": "b77e3a9949ea0323774219c2c351fb1dd9554c0dd08ecc2a3e3583a0cd5c3cef",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_30.feather",
@@ -1279,14 +1368,14 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_32.feather",
       "size": 2102490,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "1414b2eb1e5b484b39d8b0dd613c936eee9b1a65eca864e79dfb49a364309b8c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_33.feather",
       "size": 2064714,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "53e6101d06311410dadd84a4c7f8d0c12469345716ac7d33dbcbc149a05b1050",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_34.feather",
@@ -1297,68 +1386,70 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_35.feather",
       "size": 2112522,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "c8a630d9de740645fae5556b2bb2c80a69834fddbb67c98a38fa1dd31816154c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_36.feather",
       "size": 2115242,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "5b15d26cf4008314f69fe991ccc6c37d8503347864e78304290a98a7f8771857",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_37.feather",
       "size": 2126810,
       "sha256": "c6d01ef59b33100e9467ab46da940c823272a09a3b46b0ddb73c148fc93cc683",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_38.feather",
       "size": 2040714,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "ed0b6b0e43cb0468d9858beee7f6b8ea178070877c15a1c812df2ae3bf372925",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_39.feather",
       "size": 2118890,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "8c27372e22250e081c8858cb06c71493176c41df58d1d9700bc6b5a1ee040f0a",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_4.feather",
       "size": 2138074,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "8926067d1cf414a42ad2c3e398f09c1c4a03e22ea352c7168ea441877e7e0595",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_40.feather",
       "size": 2101290,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "16f085227edf563c48c395c0113075566790899799d1b0a5c502b1be9f5d61fb",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_41.feather",
       "size": 2132770,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7d4fdceb2a1fb302288af4fad7bf19126008b7f65df5d9be05fdfb869ca4672a",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_42.feather",
       "size": 2101802,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d9ffe93c7518d5e5a024c8cbcf7cd8218df329de26694fa4646f905d650a7a4d",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_43.feather",
       "size": 2112642,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "67a960c2db11ad59c16f5593a935ff41e9562e2138bc0d0534c3bab32b3337f5",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_44.feather",
       "size": 2126930,
       "sha256": "ba39fd1f969aa881c61affce727cbc3d9488599e79ab2d3b17e06df94251db9e",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_45.feather",
@@ -1375,44 +1466,44 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_47.feather",
       "size": 2128274,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "c81e96ccf987fd1c51bb29f0c528f55c7d49f0571f902fb35443e6a642a53b59",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_48.feather",
       "size": 2158138,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "c1841f9a65b89875cde879fea12d2b28e8c36a6d92580baa4e7c9d7fb68e1e38",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_49.feather",
       "size": 2140826,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d7ab3fb7de60160e732c2735796be9bc54bf6f20f6a4eff3e6360f8e6fd89e97",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_5.feather",
       "size": 2116162,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2d7806eea79382a530315550f013bb7bc7e931f54526ab80deee0b111287e728",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_50.feather",
       "size": 2130690,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "feab905cfd5761959e24d54e81e675d87b0aefd780b42c211721c757f6b62a97",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_6.feather",
       "size": 2137578,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d329e8b81d61b7a1983ed32ca4e4cd2c53b617de0a5b8e7f0689106dd1047e0b",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_7.feather",
       "size": 2134274,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "a08e8c00e90d26aa42bab528162c19fe79ebe273fb6705e0949a9f79a27bf841",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_8.feather",
@@ -1423,20 +1514,20 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/df_9.feather",
       "size": 2151450,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "4e97ea95cd41e80b420a0f8620cac7ea7849d2289f0d7fc9d1e866307c5553e3",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/slope_labels.pkl",
       "size": 134,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "c34e8cb4812044e8343799881486e47dbe082dad9adf89ae0dde151c6c836f90",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/test/vol_labels.pkl",
       "size": 132,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "0d3dd7f65e16ec4a98f3ebd04f8fd555e5d8e82dc2728223029aa4b2e7a7121d",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather",
@@ -1453,8 +1544,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_10.feather",
       "size": 2188674,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "5afc050e0dbce2790f04d5953a6f7ca26c17f7afdc10827d9665924cbd87f80b",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_100.feather",
@@ -1496,13 +1587,15 @@
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_106.feather",
       "size": 2135970,
       "sha256": "d8ab264685a24b764b59de44454d56fbc54d56a211deb6719d1675dd338a98ec",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_107.feather",
       "size": 2138010,
       "sha256": "99d35d02ebf3570244daf74b0b09abc0f9ed3e7f687b759700398790a2d5f6d6",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_108.feather",
@@ -1550,7 +1643,8 @@
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_114.feather",
       "size": 2134554,
       "sha256": "f9b55724ecffffa1f707bb1a42f840703dcb71ef4a401280982866975752a8b6",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_115.feather",
@@ -1561,14 +1655,14 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_116.feather",
       "size": 2151138,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "8985abf5eba9a6248ed10e017d8292c097492fa5fc25c11c42e5efecf3932c86",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_117.feather",
       "size": 2154162,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "37888320b297386a02b34652da1396c0907918d9e1202058c0573b5c253b01cd",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_118.feather",
@@ -1621,8 +1715,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_17.feather",
       "size": 2175570,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "5f9bc7dbc76bdf9cd0bd088864ef72e61af1c5d6c1520e74754de120a9da8504",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_18.feather",
@@ -1657,14 +1751,15 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_22.feather",
       "size": 2173066,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "59cfe6fc9dcf0b88a0a584d7a73821c7efe879f8f31fb6da32a8272fbd192354",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_23.feather",
       "size": 2185066,
       "sha256": "ed532a8e4c5467ca80f7c4993bfc7ef26e5695cfdd7b3b08f0d8805673b204fd",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_24.feather",
@@ -1778,13 +1873,14 @@
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_40.feather",
       "size": 2166258,
       "sha256": "197bc2b09625495ecf194a5be4f350cfa64ab0a42947128e020911d4a3d035ac",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_41.feather",
       "size": 2157346,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "37d0eb9900d58ffd5c811234233905ef77c53b047bddddbfe6b87455b21509a2",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_42.feather",
@@ -1801,8 +1897,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_44.feather",
       "size": 2187170,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e270e0f86c97e0df49eb081298aa57514b769e5814b9d69381ac3ab169b8af26",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_45.feather",
@@ -1826,13 +1922,14 @@
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_48.feather",
       "size": 2162338,
       "sha256": "807183ea5f9429559277ee58a144cac62ee238c7bc0f5bd7a4d5dd9d5c8f3c9f",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_49.feather",
       "size": 2173674,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "de1366708983f7734bf0e5793064073d2d0decf6cdeb32e5684fbbe8cf71d47d",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_5.feather",
@@ -1843,14 +1940,15 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_50.feather",
       "size": 2152146,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d6c467b2883c327c85c8d3376d8b07659bb8a9a1285387a21c4b265830d1b3f1",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_51.feather",
       "size": 2163378,
       "sha256": "db6502e9c7c067b82b013007c7a6ea5377a284637928a2ae613841b73fa141d0",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_52.feather",
@@ -1861,8 +1959,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_53.feather",
       "size": 2161746,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "574d3d3f4e131c6670a9a5917b970659f23e82a92d6bc7b33562f6420788c402",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_54.feather",
@@ -1891,14 +1989,14 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_58.feather",
       "size": 2178298,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "3f96c2076373a869618530ca67e4d84a39c236465f017fda47f7bf2ac24fdeb7",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_59.feather",
       "size": 2172106,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "1ad80155bd11fbe755da25905e8883619656e25281f59b7dd0d64470fed398bd",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_6.feather",
@@ -1945,14 +2043,15 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_66.feather",
       "size": 2175466,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "ecc763682a8ea9c7b9d29a2b38a1ab4a9b147c63afafb08427019192f2caf4d7",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_67.feather",
       "size": 2164474,
       "sha256": "1b3c6dc3026db20892d44f15905ddac5fa641a7a65f4e304eec86d1440831bcd",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_68.feather",
@@ -2011,8 +2110,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_76.feather",
       "size": 2160258,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "29bd2c8c27bba97da228cfa0812feeb324f52a41b0683fe34dc0738b07ea50f2",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_77.feather",
@@ -2035,8 +2134,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_8.feather",
       "size": 2189242,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7ddd8c12ec71aa667c2ec983d2dd642fda00c9696a3134becf654fe8a8442820",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_80.feather",
@@ -2053,14 +2152,15 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_82.feather",
       "size": 2152802,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "9eba6c7c94e1f762f86f612ae98278a02273d368471161a2a827898d579c80d7",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_83.feather",
       "size": 2134634,
       "sha256": "532ad4bf5da670e4cb4ebe60b60043cd60009740375a0440d3a54f723e1a597a",
-      "storage": "git"
+      "storage": "git",
+      "capture_note": "Reused verified bytes from preceding Git commit; source currently unavailable"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_84.feather",
@@ -2119,8 +2219,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_92.feather",
       "size": 2147426,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "a8fb190b8c52e0c7a4a0c52752e4e1e596ccf6ab7aeab395160dedc5fa29efab",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_93.feather",
@@ -2155,8 +2255,8 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_98.feather",
       "size": 2157906,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "17b5a6201180653fb11d50cda98fd72f6b5a84d367bfeeff2afbf2b7147878ca",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/train/df_99.feather",
@@ -2431,386 +2531,469 @@
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/whole/test.feather",
       "size": 111887530,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "5cf78277fc89fbb48275df052dfaeb6f0f3d6def8787b19543a348a2aebe05c9",
+      "storage": "gzip-parts",
+      "parts": [
+        {
+          "path": "data-archive/9836341d0f4bf1e340a7/part-0000.gzpart",
+          "size": 33554432,
+          "sha256": "154de6f7a532339ef6d3567d1613d11fe08e728bf3bd6abf77f232c9c2d325d2"
+        },
+        {
+          "path": "data-archive/9836341d0f4bf1e340a7/part-0001.gzpart",
+          "size": 33554432,
+          "sha256": "43bbe512cca8e8cd2dd3b7c3ff10f9f256e4e139139a2cfcb8c9327e8c40109e"
+        },
+        {
+          "path": "data-archive/9836341d0f4bf1e340a7/part-0002.gzpart",
+          "size": 31059087,
+          "sha256": "5a00ed61c6d11d35da9f93cd26e0fd3955e6199008f99dbc19f7825f07e3a9fb"
+        }
+      ]
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/whole/train.feather",
       "size": 274100090,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "46b08b620402ca8209a928c078fd60ec43a0267cbd9f0f89dec2910656bd3c33",
+      "storage": "gzip-parts",
+      "parts": [
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0000.gzpart",
+          "size": 33554432,
+          "sha256": "5afd8b74b63a8b08c7cf8f087131798a10d85dac121ffd3184e08f5870deb092"
+        },
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0001.gzpart",
+          "size": 33554432,
+          "sha256": "1f748e3072bf9b1f8e56e816ab5975db2cd4a7d93d46e93cd8c57c10780996cd"
+        },
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0002.gzpart",
+          "size": 33554432,
+          "sha256": "1efb99fbde766b164a039aff6c8032b61bd7bb8b4f6838ff03b40c2f01ba2a36"
+        },
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0003.gzpart",
+          "size": 33554432,
+          "sha256": "d6631200cf4594f5e06ccc23e4944b51f046ea2ce550f3851c67b86b056dfca2"
+        },
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0004.gzpart",
+          "size": 33554432,
+          "sha256": "c1bec022c7921bb54c0079e297ef7c783dd8f98588c52de2663b6d80f7ad6f4c"
+        },
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0005.gzpart",
+          "size": 33554432,
+          "sha256": "83591d1ec88c508185575b675d404de7f23183bb8ffe4f7d6db943266a3abc20"
+        },
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0006.gzpart",
+          "size": 33554432,
+          "sha256": "33455a9f4824c4af521f889b7437e30cc28ef3bf525186b4b2eaaa043cbabf9d"
+        },
+        {
+          "path": "data-archive/a3faa27cf0596559ddcd/part-0007.gzpart",
+          "size": 6329030,
+          "sha256": "98b98ab440221bbcb54730bbca47f188f4b754f522d758d37bbde50c55bc10cc"
+        }
+      ]
     },
     {
       "path": "vendor/MacroHFT/data/ETHUSDT/whole/val.feather",
       "size": 89130786,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "4c3e2627013c97f1286b7e1e7b590296d938957f8e227ac4d0d2b066d59495b5",
+      "storage": "gzip-parts",
+      "parts": [
+        {
+          "path": "data-archive/14b428fe51d72d927e2b/part-0000.gzpart",
+          "size": 33554432,
+          "sha256": "3662ec0fe577184f1d8a4aea3ee7f332a096d07c4db16334828a21cc4ee52137"
+        },
+        {
+          "path": "data-archive/14b428fe51d72d927e2b/part-0001.gzpart",
+          "size": 33554432,
+          "sha256": "813f69a935c2a16b71d5f5d8e6f74f94ca167dec540bfb8656d8ffe0065d0eff"
+        },
+        {
+          "path": "data-archive/14b428fe51d72d927e2b/part-0002.gzpart",
+          "size": 11194348,
+          "sha256": "830628a15e8f9780f43fa0217374025b4f99c9f667c8933456e92f6856d27440"
+        }
+      ]
     },
     {
       "path": "vendor/MacroHFT/data/feature_list/single_features.npy",
       "size": 3152,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e6f13e77af4669aa6affb71e3eb717d882e0f702ac2b416a3245b6b0c03a08c9",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/data/feature_list/trend_features.npy",
       "size": 848,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "ca19f94a37d0a728300aea874534896b5b6bd9f88aa7ba5796b7eb5ce006cef5",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/env/high_level_env.py",
       "size": 9354,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "fb17337f4e48f2d7827c39dcf733da173340a07918475714d865e891d25da100",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/env/low_level_env.py",
       "size": 9394,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "c0433e1e1924095890d3639376abcc2290d7b70424b0feddbf013fbe5e514a23",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/model/net.py",
       "size": 3986,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "1f73f916597b6637208c3bf63a08c2b122b69a9897e9ef8719e778b18050a79a",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/preprocess/decomposition.py",
       "size": 7940,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "e205f4c02fc5e34737b21c05b09d46f2c545f7a6b149dd01215841d85951e92e",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/readme.md",
       "size": 726,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "09fcd5d9ebe96da0c66d6614ddafe6215b06921ff0c12df8d55ebd3332c5eb0c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790888070.zyydeMacBook-Air.local.87478.0",
       "size": 88,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7003ea75099a777084d6c05047f0da300f0ec074f7d462831c5ab495ff055880",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790888140.zyydeMacBook-Air.local.87624.0",
       "size": 88,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "10300b77f151d161852ea64cd02254fe5a64004f41a0668bda9755f7be9a6c87",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/best_model.pkl",
       "size": 64373,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "8dc941ccb8ed76c3a94dc2121c19f72cff41c9221874c679e6b044f41b31a58b",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/trained_model.pkl",
       "size": 64424,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "dbafc0b847da40288941aa820c5e0563e5cc265dbe84bc79243ef6ebf9133947",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/action_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/commission_fee_history_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/final_balance_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/require_money_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/reward_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/trained_model.pkl",
       "size": 64424,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f62e9f7632e7f1c8eefdb6d2fa3617ede8d47c85a8b74195cfa5ff30199cab76",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/action_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/commission_fee_history_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/final_balance_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/require_money_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/reward_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/log/events.out.tfevents.1790888046.zyydeMacBook-Air.local.87401.0",
       "size": 4743,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "b5051592d43881f23cfff5b54551495720d095d24d243664499824ea02790fac",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/best_model.pkl",
       "size": 64373,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d811df6668cafc3740d97632215857246898e43fef49e17c5442f4c820bb0286",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/trained_model.pkl",
       "size": 64424,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "8267110400813d1046b15818176644e67de3cea0c74d622662349f0486f9bccf",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/action_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/commission_fee_history_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/final_balance_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/require_money_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/reward_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/trained_model.pkl",
       "size": 64424,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "542c292f93672eda56eeee153355d1c3807f251c1396c1964309fadc07514a50",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/action_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/commission_fee_history_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/final_balance_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/require_money_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/reward_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/log/events.out.tfevents.1790888161.zyydeMacBook-Air.local.87656.0",
       "size": 4743,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "9525c828c01e9bad9a9b6a27734387e08c9ffbb4628a933a7ac39a64fdae8566",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/best_model.pkl",
       "size": 64373,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "c9ec99c7889766b8f7b5b3946c2a593524ec912c4492dba0ce5353a7242f135d",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/trained_model.pkl",
       "size": 64424,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "af97cc59a53e988fb92925eb019cd613d15ced28b54dd6ccb22c98392ace8d5b",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/action_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/commission_fee_history_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/final_balance_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/require_money_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/reward_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/trained_model.pkl",
       "size": 64424,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "077671ace6ea6c440260aaa720f1446b5d3ebe3a0e9a8e7e2bf1030f495b5f62",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/action_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/commission_fee_history_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/final_balance_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/require_money_val.npy",
       "size": 136,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/reward_val.npy",
       "size": 16504,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/log/events.out.tfevents.1790887820.zyydeMacBook-Air.local.86502.0",
       "size": 4743,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "4767138927cfa4b659901b8939e6c4c1b87bc79c51b76aa29ebed15302b6ce4d",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl",
       "size": 187425,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "5b6edb6095d1c8a595e0152365ab6ba1f7ce9eae166ae6c805f3611cbe3b9810",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl",
       "size": 187425,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "111bcdb7512699016745b79f58b6f4c66f8fa384f8a1cfff6c73e2281438708a",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl",
       "size": 187425,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "3a35ff84913c1c5b4598a5a41c066b505ec16fc5d5b8f49ecfe18098165a242b",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl",
       "size": 187425,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "8123553407dca732500d90b55e1eb1e336e517038c5fb3e7360be1acf88bfae5",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl",
       "size": 187425,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "eace24ae14dd997cb4120ad6f074d887b2c9b8f9e7cefb512a5fd16a6ad40a58",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl",
       "size": 187425,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "61897d57e41ac496231da6d3874a19097f3d13d829e4d2196c35e026c114dcb6",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/scripts/decomposition.sh",
       "size": 43,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "54935452be3323ed2f56edfdd2dd2773862647bd2a94fc47989abc78b27bd2b0",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/scripts/high_level.sh",
       "size": 120,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "6760266d3efe8390ba9c3e602d04af824de82f570b9a9fc084935152c3c59932",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/scripts/low_level.sh",
       "size": 997,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "aed1f27dc756ebbf62fccc5699b2f0ac6055abe449369becfc5eb45f78bd502e",
+      "storage": "git"
     },
     {
       "path": "vendor/MacroHFT/tools/demonstration.py",
       "size": 3001,
-      "storage": "pending",
-      "reason": "iCloud data not locally materialized"
+      "sha256": "579164f1c17560e52448ed4671565bf93f5bf277301ee4a4234c0b37efd98cf6",
+      "storage": "git"
+    },
+    {
+      "path": "results/recovery-20261123/final-validation.log",
+      "size": 229,
+      "sha256": "6cd9f1e05802582c980ecdf7bb8e893c0ac51f22aa7975b5a35bb719a766f591",
+      "storage": "git",
+      "provenance": "verification executed in this session"
     }
   ],
   "excluded": [

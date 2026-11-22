@@ -1,0 +1,143 @@
+{
+  "id": "j-1020-197b77",
+  "name": "MacroHFT legacy c225 read-only inventory 20261020",
+  "work": "MacroHFT",
+  "spec": {
+    "workdir": ".",
+    "env": {},
+    "resources": {
+      "gpus": 0,
+      "gpu_mem_gb": 0,
+      "exclusive_gpu": false,
+      "cpus": 1,
+      "ram_gb": 0.25,
+      "disk_gb": 0.01,
+      "gpu_models": [],
+      "requires": []
+    },
+    "data": [],
+    "limits": {
+      "max_hours": 0.05,
+      "max_usd": 0,
+      "max_attempts": 1,
+      "max_wait_hours": 0.1
+    },
+    "placement": {
+      "prefer": [
+        "c225"
+      ],
+      "avoid": [],
+      "never": [
+        "c219",
+        "c220",
+        "c221",
+        "c222",
+        "c223",
+        "c224",
+        "c226",
+        "c227",
+        "c237",
+        "c203"
+      ],
+      "allow_rent": false,
+      "target": "school"
+    },
+    "idempotent": true,
+    "depends_on": [],
+    "priority": 0,
+    "name": "MacroHFT legacy c225 read-only inventory 20261020",
+    "work": "MacroHFT",
+    "code": {
+      "repo": "/date/zyy/macrohft-reproduction/vendor/MacroHFT",
+      "commit": "31e5ef41f93b2aea6e63e6ae2267675c997a8e54"
+    },
+    "command": [
+      "python3",
+      "-c",
+      "import os,json,pathlib,signal,hashlib,socket,shutil\nroot=pathlib.Path('/date/zyy/macrohft-reproduction')\nout=pathlib.Path(os.environ['CQ_OUTPUT_DIR'])\ndef alarm(*args): raise TimeoutError('bounded metadata read timed out')\nsignal.signal(signal.SIGALRM,alarm)\nreport={'host':socket.gethostname(),'root':str(root),'read_only_legacy':True,'files':{},'errors':{}}\n(out/'progress.log').write_text('0/3 starting legacy inventory\\n')\nfor name in ['results/pipeline-status.json','results/selection-frozen.json','results/final-summary.json','results/data-audit.json']:\n try:\n  signal.alarm(5);p=root/name\n  if not p.exists():report['files'][name]={'exists':False};continue\n  n=p.stat().st_size\n  if n>2*1024*1024:report['files'][name]={'exists':True,'bytes':n,'skipped':'size cap'};continue\n  raw=p.read_bytes();report['files'][name]={'exists':True,'bytes':n,'sha256':hashlib.sha256(raw).hexdigest(),'data':json.loads(raw)}\n except Exception as e:report['errors'][name]=type(e).__name__+': '+str(e)\n finally:signal.alarm(0)\n(out/'progress.log').write_text('1/3 result metadata checked\\n')\ntry:\n signal.alarm(5);report['root_exists']=root.exists();report['free_bytes']=shutil.disk_usage(root).free if root.exists() else None;report['venv_python_exists']=(root/'.venv/bin/python').exists()\nexcept Exception as e:report['errors']['root']=str(e)\nfinally:signal.alarm(0)\n(out/'progress.log').write_text('2/3 storage checked\\n')\nreport['matching_process_pids']=[]\nfor p in pathlib.Path('/proc').iterdir():\n if p.name.isdigit() and int(p.name)!=os.getpid():\n  try:\n   if p.stat().st_uid==os.getuid() and b'macrohft' in (p/'cmdline').read_bytes().lower():report['matching_process_pids'].append(int(p.name))\n  except OSError:pass\nreport['inventory_complete']=True\n(out/'inventory.json').write_text(json.dumps(report,indent=2))\n(out/'progress.log').write_text('3/3 inventory complete\\n')\nprint(json.dumps({'inventory_complete':True,'legacy_final_summary_exists':report['files'].get('results/final-summary.json',{}).get('exists'),'errors':report['errors']}))\n"
+    ],
+    "outputs": {
+      "dest": "/date/zyy/macrohft-reproduction/results/cq-inventory-20261020",
+      "expect": [
+        {
+          "path": "inventory.json",
+          "contains": "\"inventory_complete\": true"
+        },
+        {
+          "path": "progress.log",
+          "contains": "3/3"
+        }
+      ],
+      "progress": {
+        "path": "progress.log",
+        "stall_min": 2
+      },
+      "direct": false
+    }
+  },
+  "spec_sha": "669be00bcd48f2ab99609a455d02ba5b17fc35b176d160c6f9eabf721ce5dae4",
+  "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+  "state": "cancelled",
+  "reason": "cancelled before launch",
+  "host": null,
+  "gpu": null,
+  "priority": 0,
+  "attempts": 0,
+  "lease_id": null,
+  "lease_until": null,
+  "created": 1792447033.2303019,
+  "updated": 1792447132.894476,
+  "started": null,
+  "finished": 1792447132.894381,
+  "exit_code": null,
+  "detail": null,
+  "avoid": {
+    "c225": 1792448914.022659
+  },
+  "attempt_dir": null,
+  "last_hb": null,
+  "progress": null,
+  "progress_at": null,
+  "gpu_mem_mib": null,
+  "gpu_pids": null,
+  "limit_rev": null,
+  "mem_peak_mib": null,
+  "shared_max": null,
+  "shared_sum": null,
+  "hb_n": null,
+  "brief": {
+    "id": "j-1020-197b77",
+    "name": "MacroHFT legacy c225 read-only inventory 20261020",
+    "work": "MacroHFT",
+    "state": "cancelled",
+    "host": null,
+    "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+    "attempt_dir": null,
+    "last_heartbeat_s": null,
+    "progress_lines": null,
+    "avoiding": [
+      "c225"
+    ],
+    "gpu": null,
+    "agent": "MacroHFT",
+    "reason": "cancelled before launch",
+    "attempts": 0,
+    "submitted": "2026-10-19T21:57:13Z",
+    "started": null,
+    "phase": null,
+    "provider_status": null,
+    "provider_error": null,
+    "colab_metering": null,
+    "execution": null,
+    "transport_errors": null,
+    "first_transport_error": null,
+    "collection": null,
+    "progress": {
+      "log_age_seconds": null,
+      "stage_age_seconds": null
+    }
+  },
+  "staging": null,
+  "dispatch": null,
+  "ram": null
+}

@@ -43,7 +43,10 @@ def main():
             if rel.startswith('paper/MacroHFT-KDD2024'):
                 manifest['excluded'].append({'path': rel, 'reason': 'third-party paper; linked in provenance document'})
                 continue
-            archive_rel = 'docs/legacy/README-20261002.md' if rel == 'README.md' else rel
+            archive_rel = {'README.md': 'docs/legacy/README-20261002.md',
+                           'scripts/restore_archive.py': 'docs/legacy-tooling/restore_archive-v1.py',
+                           'tests/test_archive.py': 'docs/legacy-tooling/test_archive-v1.py',
+                           'scripts/prepare_github_archive.py': 'docs/legacy-tooling/prepare_github_archive-v1.py'}.get(rel, rel)
             paths.append((p, archive_rel, p.stat().st_size))
     for i, (p, rel, size) in enumerate(paths):
         if args.skip_unavailable and getattr(p.stat(), 'st_flags', 0) & 0x40000000:
@@ -65,6 +68,9 @@ def main():
                 for chunk in iter(lambda: inp.read(1024**2), b''):
                     h.update(chunk)
                     out.write(chunk)
+            if Path(tmp).stat().st_size != size:
+                os.unlink(tmp)
+                raise RuntimeError('Source size changed or partial read: ' + rel)
             os.replace(tmp, target)
             record = {'path': rel, 'size': target.stat().st_size, 'sha256': h.hexdigest(), 'storage': 'git'}
         else:

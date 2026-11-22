@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-23",
+  "steps": [
+    {
+      "action": "Inspect GitHub and CQ history",
+      "result": "Empty target repository; only cancelled prior MacroHFT CQ job"
+    },
+    {
+      "action": "Authenticate using existing local Git SSH",
+      "result": "SansaZheng authenticated; no credential values exported"
+    },
+    {
+      "action": "Push pinned recovery source",
+      "commit": "6c164570461c269d04ed2cee719247beb3317d50"
+    },
+    {
+      "action": "Submit CQ inventory with actual GitHub commit",
+      "result": "Rejected before job creation: repository owner allowlist"
+    },
+    {
+      "action": "Recover iCloud-backed project content",
+      "result": "Download requests and Finder Keep Downloaded enabled; bounded copies retain missing entries explicitly"
+    },
+    {
+      "action": "Build archive outside iCloud",
+      "command": "python3 scripts/prepare_github_archive.py --source ORIGINAL --destination CLONE --skip-unavailable"
+    },
+    {
+      "action": "Verify stored bytes",
+      "command": "python3 scripts/restore_archive.py --root CLONE --allow-partial",
+      "meaning": "Checks present files; never certifies pending bytes"
+    },
+    {
+      "action": "Run integrity tests",
+      "command": "python3 tests/test_archive.py",
+      "cases": 5
+    },
+    {
+      "action": "Publish archive commits",
+      "result": "Only verified bytes and documented partial status are committed"
+    }
+  ],
+  "training_resumed": false,
+  "scientific_test_evaluations": 0,
+  "paid_cloud_used": false
+}

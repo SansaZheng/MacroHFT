@@ -1,0 +1,26 @@
+[
+  {
+    "state": "queued",
+    "total": 200,
+    "inspected": 200,
+    "matches": []
+  },
+  {
+    "state": "assigned",
+    "total": 4,
+    "inspected": 4,
+    "matches": []
+  },
+  {
+    "state": "running",
+    "total": 33,
+    "inspected": 33,
+    "matches": []
+  },
+  {
+    "state": "cancelled",
+    "total": 2889,
+    "inspected": 1000,
+    "matches": []
+  }
+]
