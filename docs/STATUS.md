@@ -8,8 +8,11 @@ files; four additional source files were reconstructed from pinned upstream plus
 the recorded patch. Remote final training artifacts remain unretrieved.
 
 The original b243af0 upload was independently downloaded and all 227 Git objects
-verified. The expanded local archive passed original-file/part SHA-256 checks;
-its remote verification is recorded separately after publication.
+verified. The expanded archive db1f9d6 passed original-file/part SHA-256 checks and
+remote verification: 433 files / 1,289,504,736 represented bytes, 454 Git objects.
+Of those, 234 new/changed remote objects were streamed and hashed; 220 unchanged
+Git blobs were tied to the independently verified baseline. The receipt is
+results/recovery-20261123/github-db1f9d6-verification.json.
 
 CQ jobs j-1123-5f1786 and j-1123-7725b2 completed on free Kaggle CPU and were
 fetched. Five archive tests and six source-identity regression tests pass. The

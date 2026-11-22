@@ -16,7 +16,14 @@
   "final_reproduction_verified": false,
   "submission_ready": false,
   "paid_compute_used": false,
-  "archive": "expanded partial snapshot; follow remote verification receipt",
+  "archive": "433 files / 1,289,504,736 represented bytes verified from GitHub; 66 legacy files pending",
   "remaining_legacy_files": 66,
-  "reconstructed_source_files": 4
+  "reconstructed_source_files": 4,
+  "verified_archive_commit": "db1f9d6ee2416db09874a822be99e60e631712b5",
+  "archived_source_reconstruction": [
+    "vendor/MacroHFT/RL/agent/high_level.py",
+    "vendor/MacroHFT/RL/util/memory.py",
+    "vendor/MacroHFT/RL/util/replay_buffer.py",
+    "vendor/MacroHFT/RL/util/utili.py"
+  ]
 }

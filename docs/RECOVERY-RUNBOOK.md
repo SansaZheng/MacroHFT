@@ -41,8 +41,10 @@ project's Git identity. Missing/altered source or an altered manifest fails clos
    storage allocation. Preserve the user's authorized large-storage constraints.
 3. Run `scripts/cq_inventory.py` on c225 with root
    `/date/zyy/macrohft-reproduction`, then separately on c224 with root
-   `/date/zyy/macrohft-cluster`. Diagnostic envelope: 1 CPU, 0 GPU, 0.25 GiB RAM,
-   0.01 GiB output, 3-minute runtime. These are bounds, not training measurements.
+   `/date/zyy/macrohft-cluster`. The prepared c225 diagnostic declares 1 CPU,
+   0 GPU, 1 GB RAM, 4 GB disk including code staging, and 6 minutes. These are
+   conservative bounds, not measured training requirements. Confirm host/storage
+   placement before submission; `prefer` is not a hard host constraint.
 4. Require `inventory.json` and `progress.log` with 6/6. Fetch through `cq fetch`.
    Inspect individual file errors: inventory_complete does not prove data exists.
 5. Retrieve final summaries, frozen selection, all run receipts and checkpoints.

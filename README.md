@@ -9,6 +9,7 @@ nor CCF A submission readiness has been established.
 
 - [Recovery and provenance](RECOVERY.md)
 - [CQ recovery runbook](docs/RECOVERY-RUNBOOK.md)
+- [Reproduce the archived setup](docs/REPRODUCE-FROM-ARCHIVE.md)
 - [Archive verification](docs/ARCHIVE.md)
 - [Research completion gates](docs/RESEARCH-GATES.md)
 - [Current recovery status](docs/STATUS.md)

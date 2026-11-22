@@ -38,6 +38,35 @@
     {
       "action": "Publish archive commits",
       "result": "Only verified bytes and documented partial status are committed"
+    },
+    {
+      "action": "Apply the historical patch to a new official upstream checkout",
+      "commit": "31e5ef41f93b2aea6e63e6ae2267675c997a8e54",
+      "receipt": "upstream-reconstruction.json"
+    },
+    {
+      "action": "Run CQ archive qualification and fetch outputs",
+      "job": "j-1123-5f1786",
+      "result": "done; 5 tests pass"
+    },
+    {
+      "action": "Repair actual project identity and qualify failure cases through CQ",
+      "job": "j-1123-7725b2",
+      "result": "done; 6 identity tests + 5 archive tests pass"
+    },
+    {
+      "action": "Verify complete vendored execution source at the real project commit",
+      "command": "python3 scripts/verify_source.py --expected-commit db1f9d6ee2416db09874a822be99e60e631712b5",
+      "verified_files": 51
+    },
+    {
+      "action": "Push expanded archive and independently verify all newly published objects",
+      "command": "python3 scripts/verify_remote_archive.py --commit db1f9d6ee2416db09874a822be99e60e631712b5 --baseline-receipt results/recovery-20261123/github-b243af0-verification.json --receipt results/recovery-20261123/github-db1f9d6-verification.json",
+      "receipt": "github-db1f9d6-verification.json"
+    },
+    {
+      "action": "Prepare next lab inventory and document scientific gates",
+      "result": "Not submitted while repository allowlist blocks the designated owner; no training or scientific test evaluation"
     }
   ],
   "training_resumed": false,
