@@ -29,11 +29,17 @@ def main():
     (out/'archive-tests.log').write_text(run.stdout+run.stderr)
     if run.returncode or 'Ran 5 tests' not in run.stderr or '\nOK\n' not in run.stderr:
         raise RuntimeError('Archive integrity qualification failed; inspect archive-tests.log')
+    identity=subprocess.run([sys.executable,str(root/'tests/test_source_identity.py')],cwd=root,
+                            env=env,capture_output=True,text=True,timeout=60)
+    (out/'source-identity-tests.log').write_text(identity.stdout+identity.stderr)
+    if identity.returncode or 'Ran 6 tests' not in identity.stderr or '\nOK\n' not in identity.stderr:
+        raise RuntimeError('Source identity qualification failed')
     (out/'progress.log').write_text('2/3 integrity tests passed; recording receipt\n')
     peak=resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss
     result={'source_manifest_verified':True,'declared_commit':expected_commit,
             'observed_git_commit':observed,'source_manifest':manifest,
             'archive_tests_passed':True,'archive_test_count':5,
+            'source_identity_tests_passed':True,'source_identity_test_count':6,
             'python':sys.version,'elapsed_seconds':time.monotonic()-start,
             'children_peak_rss_bytes':peak if sys.platform=='darwin' else peak*1024,
             'training_performed':False,'market_test_evaluations':0,
