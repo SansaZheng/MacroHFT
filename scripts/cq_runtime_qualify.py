@@ -12,6 +12,7 @@ import shutil
 import subprocess
 import sys
 import time
+import traceback
 
 
 def inner(root, out):
@@ -38,7 +39,7 @@ def inner(root, out):
     (out/'progress.log').write_text('3/5 synthetic fixtures ready; running ten regression tests\n')
     start = time.monotonic()
     run = subprocess.run([sys.executable, str(runtime/'tests/test_reproduction.py')],
-                         cwd=runtime, capture_output=True, text=True, timeout=300)
+                         cwd=runtime, capture_output=True, text=True, timeout=180)
     (out/'runtime-tests.log').write_text(run.stdout+run.stderr)
     if run.returncode or 'Ran 10 tests' not in run.stderr or '\nOK\n' not in run.stderr:
         raise RuntimeError('Runtime regression tests failed; inspect runtime-tests.log')
@@ -79,7 +80,6 @@ def main():
     env = dict(os.environ, TMPDIR=str(tmp), PIP_CACHE_DIR=str(out/'pip-cache'),
                OMP_NUM_THREADS='1', OPENBLAS_NUM_THREADS='1', MKL_NUM_THREADS='1',
                NUMEXPR_NUM_THREADS='1', PYTHONNOUSERSITE='1', PYTHONDONTWRITEBYTECODE='1')
-    subprocess.run([sys.executable, '-m', 'venv', str(out/'env')], env=env, check=True, timeout=60)
     python = str(out/'env/bin/python')
     commands = [
         [python, '-m', 'pip', 'install', '--no-cache-dir', '--index-url', 'https://pypi.org/simple', 'setuptools==80.9.0', 'wheel==0.45.1'],
@@ -87,20 +87,28 @@ def main():
         [python, '-m', 'pip', 'install', '--no-cache-dir', '--index-url', 'https://pypi.org/simple', '-r', str(root/'requirements-runtime-smoke.txt')]]
     try:
         with (out/'environment-build.log').open('w') as log:
+            subprocess.run([sys.executable, '-m', 'venv', '--copies', str(out/'env')], env=env,
+                           stdout=log, stderr=subprocess.STDOUT, check=True, timeout=60)
             for i, command in enumerate(commands):
-                subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT, check=True, timeout=360)
+                subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT, check=True, timeout=150)
                 (out/'progress.log').write_text(f'{i+1}/5 dependency stage complete\n')
         with (out/'runner.log').open('w') as log:
             subprocess.run([python, str(Path(__file__).resolve()), '--inner'], env=env,
-                           stdout=log, stderr=subprocess.STDOUT, check=True, timeout=360)
+                           stdout=log, stderr=subprocess.STDOUT, check=True, timeout=240)
+    except Exception:
+        (out/'failure.txt').write_text(traceback.format_exc())
+        raise
     finally:
-        freeze = subprocess.run([python, '-m', 'pip', 'freeze'], env=env, text=True,
-                                capture_output=True, timeout=30)
-        (out/'environment-freeze.txt').write_text(freeze.stdout+freeze.stderr)
-        # Retain diagnostics even on failure; never collect a multi-GB scratch env.
-        for name in ['env', 'tmp', 'pip-cache', 'runtime']:
-            p = out/name
-            if p.is_dir(): shutil.rmtree(p)
+        try:
+            if Path(python).exists():
+                freeze = subprocess.run([python, '-m', 'pip', 'freeze'], env=env, text=True,
+                                        capture_output=True, timeout=30)
+                (out/'environment-freeze.txt').write_text(freeze.stdout+freeze.stderr)
+        finally:
+            # Also clean partially built venv symlinks if bootstrap or freeze fails.
+            for name in ['env', 'tmp', 'pip-cache', 'runtime']:
+                p = out/name
+                if p.is_dir(): shutil.rmtree(p)
     (out/'progress.log').write_text('5/5 runtime qualification complete\n')
 
 
