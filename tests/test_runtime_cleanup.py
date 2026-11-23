@@ -26,7 +26,8 @@ class CleanupTests(unittest.TestCase):
                     raise subprocess.CalledProcessError(1, command)
                 return subprocess.CompletedProcess(command, 0, stdout='fixture\n', stderr='')
             with patch.dict(os.environ, {'CQ_OUTPUT_DIR':tmp, 'SOURCE_COMMIT':'0'*40}), \
-                 patch.object(sys, 'argv', ['qualify']), patch.object(runtime.subprocess, 'run', side_effect=run):
+                 patch.object(sys, 'argv', ['qualify']), patch.object(runtime, 'bootstrap_pip'), \
+                 patch.object(runtime.subprocess, 'run', side_effect=run):
                 with self.assertRaises(subprocess.CalledProcessError): runtime.main()
             self.assertTrue((out/'failure.txt').is_file())
             self.assertTrue((out/'source-manifest.json').is_file())

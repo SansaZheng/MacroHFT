@@ -13,6 +13,20 @@ import subprocess
 import sys
 import time
 import traceback
+from urllib.request import urlopen
+
+
+def bootstrap_pip(python, root, tmp, env, log):
+    """Install pinned pip in the private venv without relying on distro ensurepip."""
+    meta = json.loads((root/'bootstrap-provenance.json').read_text())
+    with urlopen(meta['url'], timeout=30) as response:
+        data = response.read(meta['size']+1)
+    if len(data) != meta['size'] or hashlib.sha256(data).hexdigest() != meta['sha256']:
+        raise ValueError('Official bootstrap bytes do not match the pinned digest')
+    script = tmp/'get-pip.py';script.write_bytes(data)
+    subprocess.run([python, str(script), 'pip=='+meta['pip_version'], '--no-cache-dir',
+                    '--index-url', 'https://pypi.org/simple'], env=env, stdout=log,
+                   stderr=subprocess.STDOUT, check=True, timeout=120)
 
 
 def inner(root, out):
@@ -87,8 +101,9 @@ def main():
         [python, '-m', 'pip', 'install', '--no-cache-dir', '--index-url', 'https://pypi.org/simple', '-r', str(root/'requirements-runtime-smoke.txt')]]
     try:
         with (out/'environment-build.log').open('w') as log:
-            subprocess.run([sys.executable, '-m', 'venv', '--copies', str(out/'env')], env=env,
+            subprocess.run([sys.executable, '-m', 'venv', '--copies', '--without-pip', str(out/'env')], env=env,
                            stdout=log, stderr=subprocess.STDOUT, check=True, timeout=60)
+            bootstrap_pip(python, root, tmp, env, log)
             for i, command in enumerate(commands):
                 subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT, check=True, timeout=150)
                 (out/'progress.log').write_text(f'{i+1}/5 dependency stage complete\n')
@@ -97,6 +112,9 @@ def main():
                            stdout=log, stderr=subprocess.STDOUT, check=True, timeout=240)
     except Exception:
         (out/'failure.txt').write_text(traceback.format_exc())
+        for name in ['environment-build.log', 'runner.log', 'runtime-tests.log']:
+            p = out/name
+            if p.exists(): print(name+'\n'+p.read_text(errors='replace')[-8000:], file=sys.stderr, flush=True)
         raise
     finally:
         try:
