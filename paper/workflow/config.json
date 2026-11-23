@@ -1,5 +1,5 @@
 {
-  "revision": 6,
+  "revision": 7,
   "project_path": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
   "venue": {
     "name": "KDD research track (provisional)",
@@ -34,7 +34,12 @@
     "cq_enabled": true,
     "cq_disabled_by_user_on": "2026-10-15",
     "cq_policy": "Use CQ for authorized MacroHFT research. Verify queue, resources and inputs before submission; do not restart cancelled jobs from other projects. Preserve artifacts and other users work. No paid cloud usage without a confirmed project budget.",
-    "cq_reauthorized_by_user_on": "2026-10-20"
+    "cq_reauthorized_by_user_on": "2026-10-20",
+    "repository": "https://github.com/SuuTTT/MacroHFT",
+    "cq_home": {
+      "name": "macrohft-recovery",
+      "from": "c224"
+    }
   },
   "experiment_targets": {
     "datasets": 10,
@@ -48,6 +53,7 @@
     "requested_on": "2026-11-23",
     "archive_scope": "All experiment data, critical source, documents and steps; separate local preparation from verified upload.",
     "write_access_verified": true,
-    "active_checkout": "/Users/zyy/.local/share/macrohft/repository"
+    "active_checkout": "/Users/zyy/.local/share/macrohft/repository",
+    "sync_policy": "SansaZheng/MacroHFT remains canonical archive; fast-forward the authorized SuuTTT/MacroHFT compute fork to verified archive commits with expected-head checks."
   }
 }

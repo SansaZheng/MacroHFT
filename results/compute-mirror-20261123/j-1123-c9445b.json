@@ -1,0 +1,151 @@
+{
+  "id": "j-1123-c9445b",
+  "name": "MacroHFT c224 legacy inventory via authorized compute fork",
+  "work": "MacroHFT",
+  "spec": {
+    "workdir": ".",
+    "env": {},
+    "resources": {
+      "gpus": 0,
+      "gpu_mem_gb": 0,
+      "exclusive_gpu": false,
+      "cpus": 1,
+      "ram_gb": 1,
+      "disk_gb": 4,
+      "gpu_models": [],
+      "requires": []
+    },
+    "data": [],
+    "limits": {
+      "max_hours": 0.1,
+      "max_usd": 0,
+      "max_attempts": 1,
+      "max_wait_hours": 0.5
+    },
+    "placement": {
+      "prefer": [
+        "c224"
+      ],
+      "avoid": [],
+      "never": [
+        "c225",
+        "c223",
+        "c219",
+        "c237",
+        "c203",
+        "c220",
+        "c221",
+        "c222",
+        "c227",
+        "c226",
+        "pc4070"
+      ],
+      "allow_rent": false,
+      "target": "school"
+    },
+    "idempotent": true,
+    "depends_on": [],
+    "priority": 0,
+    "name": "MacroHFT c224 legacy inventory via authorized compute fork",
+    "work": "MacroHFT",
+    "code": {
+      "git": "git@github.com:SuuTTT/MacroHFT.git",
+      "commit": "6c164570461c269d04ed2cee719247beb3317d50",
+      "repo": "/home/sudingli/cq-home/macrohft-recovery/repo"
+    },
+    "command": [
+      "python3",
+      "scripts/cq_inventory.py",
+      "--root",
+      "/date/zyy/macrohft-cluster"
+    ],
+    "outputs": {
+      "dest": "/home/sudingli/cq-home/macrohft-recovery/results/inventory-c224-20261123",
+      "expect": [
+        {
+          "path": "inventory.json",
+          "contains": "\"inventory_complete\": true"
+        },
+        {
+          "path": "progress.log",
+          "contains": "6/6"
+        }
+      ],
+      "progress": {
+        "path": "progress.log",
+        "stall_min": 2
+      },
+      "direct": false
+    },
+    "resource_basis": {
+      "scope": "bounded read-only metadata inventory; no training",
+      "envelope": "Conservative 1 GB RAM/4 GB disk includes code staging allowance; output itself is small. Verify actual checkout strategy and host storage before submitting.",
+      "placement": "Legacy path is host-specific; all other current hosts excluded. c224 home resolves to its /date local disk."
+    },
+    "home": {
+      "name": "macrohft-recovery",
+      "from": "c224"
+    }
+  },
+  "spec_sha": "55d0f25930686d14180f33430b9108c7dbc08ca0cf0bdf2b57b757d7307d82fb",
+  "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+  "state": "queued",
+  "reason": "waiting: no feasible host (CPU only) \u2014 pc4070: GPU jobs only \u00b7 excluded by placement.never: c203, c219, c220, c221, c222, c223, c225, c227, c237 \u00b7 c224: last 8 CPUs kept for GPU jobs (8 of 16 booked) \u00b7 c226: monitor only (windows)",
+  "host": null,
+  "gpu": null,
+  "priority": 0,
+  "attempts": 0,
+  "lease_id": null,
+  "lease_until": null,
+  "created": 1795417737.6741388,
+  "updated": 1795417737.6741388,
+  "started": null,
+  "finished": null,
+  "exit_code": null,
+  "detail": null,
+  "avoid": {},
+  "attempt_dir": null,
+  "last_hb": null,
+  "progress": null,
+  "progress_at": null,
+  "gpu_mem_mib": null,
+  "gpu_pids": null,
+  "limit_rev": null,
+  "mem_peak_mib": null,
+  "shared_max": null,
+  "shared_sum": null,
+  "hb_n": null,
+  "brief": {
+    "id": "j-1123-c9445b",
+    "name": "MacroHFT c224 legacy inventory via authorized compute fork",
+    "work": "MacroHFT",
+    "state": "queued",
+    "host": null,
+    "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+    "attempt_dir": null,
+    "last_heartbeat_s": null,
+    "progress_lines": null,
+    "avoiding": [],
+    "gpu": null,
+    "agent": "MacroHFT",
+    "reason": "waiting: no feasible host (CPU only) \u2014 pc4070: GPU jobs only \u00b7 excluded by placement.never: c203, c219, c220, c221, c222, c223, c225, c227, c237 \u00b7 c224: last 8 CPUs kept for GPU jobs (8 of 16 booked) \u00b7 c226: monitor only (windows)",
+    "attempts": 0,
+    "submitted": "2026-11-23T07:08:57Z",
+    "started": null,
+    "phase": null,
+    "provider_status": null,
+    "provider_error": null,
+    "colab_metering": null,
+    "execution": null,
+    "transport_errors": null,
+    "first_transport_error": null,
+    "collection": null,
+    "progress": {
+      "log_age_seconds": null,
+      "stage_age_seconds": null
+    }
+  },
+  "staging": null,
+  "dispatch": null,
+  "ram": null
+}

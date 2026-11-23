@@ -8,6 +8,7 @@ not been recovered. Neither improvement over the published 39.28% ETH return
 nor CCF A submission readiness has been established.
 
 - [Recovery and provenance](RECOVERY.md)
+- [CQ compute fork and archive synchronization](docs/COMPUTE-MIRROR.md)
 - [CQ recovery runbook](docs/RECOVERY-RUNBOOK.md)
 - [Reproduce the archived setup](docs/REPRODUCE-FROM-ARCHIVE.md)
 - [Archive verification](docs/ARCHIVE.md)

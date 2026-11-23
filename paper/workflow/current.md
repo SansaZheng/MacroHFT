@@ -1,45 +1,29 @@
-# Recovery checkpoint — 2026-11-23
+# Authorized compute fork recovery
 
-Prompt 007; executor Codex/CQ; configuration revision 6. Provisional KDD target.
-Research route cost-transport-memory-v1 remains unpromoted; CCF A goal incomplete.
+Prompt 008/008b; executor Codex/CQ; configuration revision 7.
+Canonical code/data/result archive: SansaZheng/MacroHFT.
+Authorized compute fork: SuuTTT/MacroHFT (existing fork, reused without replacing
+history). Main synchronized at 1dfae1699e62b57f4647eac7bf6751caf63c7cd6; new
+runtime qualification branch mirrored at 1664b7af1fa2708a096491827eaaab3f4750ec25.
 
-Completed: actual project source identity repaired and checked (51 runtime
-artifacts); six identity and five archive tests pass in CQ job j-1123-7725b2.
-Earlier CQ archive job j-1123-5f1786 also completed. Both outputs were fetched;
-no paid compute, model training or held-out market evaluation occurred.
+The repository-owner barrier is resolved by the user-authorized fork. Current jobs:
 
-GitHub: https://github.com/SansaZheng/MacroHFT . Verified data/archive revision
-is db1f9d6ee2416db09874a822be99e60e631712b5: 433 files / 1,289,504,736 represented
-bytes. All 454 Git objects are covered by new remote SHA-256 checks or identical
-Git blobs in the independently downloaded baseline. Current documentation and
-verification receipts are published in a subsequent small commit.
+- j-1123-c9445b: queued; waiting: no feasible host (CPU only) — pc4070: GPU jobs only · excluded by placement.never: c203, c219, c220, c221, c222, c223, c225, c227, c237 · c224: last 8 CPUs kept for GPU jobs (8 of 16 booked) · c226: monitor only (windows)
 
-Partial archive remains explicit: 66 legacy files pending iCloud retrieval;
-four source files reconstructed from official upstream plus the recorded patch;
-remote final training artifacts not retrieved. Local working checkout:
-/Users/zyy/.local/share/macrohft/repository (outside iCloud).
+- j-1123-ef9890: queued; waiting: no feasible host (CPU only) — pc4070: GPU jobs only · excluded by placement.never: c203, c219, c220, c221, c222, c223, c224, c227, c237 · c225: last 96 GB RAM kept for GPU jobs (96 GB free for us) · c226: monitor only (windows)
 
-Blocked: lab CQ code.git allowlist rejects SansaZheng/MacroHFT. The CQ operator
-must allow that exact repository. Prepared next step: cq/legacy-inventory-c225.json,
-with queue/host/storage checks before submission. Recover legacy final artifacts
-and qualify the isolated runtime before resuming only missing experiments.
+- j-1123-c20ec0: assigned; Kaggle notebook submitted; waiting for provider RUNNING status
 
-The two CQ qualification jobs are finished; no training job is running from
-this recovery work. New method gains, full fair comparisons, execution stress,
-independent paper review and a submission-ready manuscript remain unestablished.
-See docs/REPRODUCE-FROM-ARCHIVE.md, docs/RESEARCH-GATES.md and
- docs/NOVELTY-UPDATE-20261123.md for reproducible steps and scientific constraints.
+The c224 and c225 inventories are host-specific reads and cannot be moved to
+arbitrary free servers. Their normal CQ CPU/RAM reservations currently block
+placement. No other jobs or scheduling policies were modified. The independent
+Kaggle qualification uses ten existing numerical tests and synthetic data only;
+it is not training, real-data evaluation or a lab-runtime certification.
+
+Large artifacts stay on authorized server storage. Local free disk is below
+2 GiB, so further bulk hydration/retrieval is deferred; only small receipts are
+collected. Legacy final results, scientific gains and submission readiness
+remain unverified. The preserved validation-selected protocol is unchanged.
 
 
-## User-requested retry — 2026-11-23 06:57 UTC
-
-Authenticated accounts verified: the GitHub connector is SuuTTT; the local
-Git SSH account is SansaZheng. Existing repository pushes use the latter and
-work. The earlier connector push=false report is not a blocker to publication.
-
-The exact prepared lab inventory was submitted again after checking the queue
-and fleet. CQ returned HTTP 400: only repositories of SuuTTT can be cloned on
-the lab servers (got SansaZheng). No job ID was issued, and no training started.
-The remaining prerequisite is CQ operator permission for SansaZheng/MacroHFT,
-not GitHub write permission. Receipt:
-results/recovery-20261123/lab-retry-20261123T065712Z.json.
+Update: runtime job j-1123-c20ec0 failed during output collection (unsafe archive member); its test outcome is unknown. Bootstrap cleanup is corrected and two local failure-path tests pass. Replacement j-1123-7ed893 uses source commit 3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f, mirrored to both repositories. Lab host reservations still require scheduler capacity; a specific administrator assistance request names the two 1-CPU/1-GB inventories. No shared policy was altered.

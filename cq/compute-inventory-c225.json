@@ -1,0 +1,72 @@
+{
+  "name": "MacroHFT c225 legacy inventory via authorized compute fork",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "6c164570461c269d04ed2cee719247beb3317d50"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_inventory.py",
+    "--root",
+    "/date/zyy/macrohft-reproduction"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 1,
+    "disk_gb": 4
+  },
+  "limits": {
+    "max_hours": 0.1,
+    "max_attempts": 1,
+    "max_wait_hours": 0.5,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/inventory-c225-20261123",
+    "expect": [
+      {
+        "path": "inventory.json",
+        "contains": "\"inventory_complete\": true"
+      },
+      {
+        "path": "progress.log",
+        "contains": "6/6"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 2
+    }
+  },
+  "resource_basis": {
+    "scope": "bounded read-only metadata inventory; no training",
+    "envelope": "Conservative 1 GB RAM/4 GB disk includes code staging allowance; output itself is small. Verify actual checkout strategy and host storage before submitting.",
+    "placement": "c225-only read of host-specific legacy files; CQ stages the dedicated c224 home independently. No dependency on the separate c224 metadata job, which is CPU-capacity blocked."
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  }
+}

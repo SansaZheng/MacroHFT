@@ -1,3 +1,18 @@
+# Latest update — authorized compute fork
+
+The user authorized SuuTTT/MacroHFT for CQ computation while retaining
+SansaZheng/MacroHFT as the canonical archive. The existing fork was verified
+and synchronized. CQ accepted the new lab inventories; the repository-owner
+barrier is resolved for this authorized compute route.
+
+Current execution state is tracked in ../paper/workflow/current.md. Lab metadata
+jobs await ordinary host CPU/RAM reservations. An independent free Kaggle CPU
+job qualifies ten numerical tests on synthetic inputs only. No market training
+or final test result is claimed. See COMPUTE-MIRROR.md for synchronization and
+storage rules. The older entries below are preserved as historical records.
+
+---
+
 # Recovery status — 2026-11-23
 
 GitHub SSH write access works. The expanded archive contains all raw ETH splits,

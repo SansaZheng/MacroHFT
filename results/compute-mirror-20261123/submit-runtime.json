@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-11-23T07:15:04.125173+00:00",
+  "returncode": 0,
+  "stdout": "{\n \"id\": \"j-1123-c20ec0\",\n \"new\": true,\n \"job\": {\n  \"id\": \"j-1123-c20ec0\",\n  \"name\": \"MacroHFT ten numerical runtime regressions on synthetic inputs\",\n  \"work\": \"MacroHFT\",\n  \"state\": \"queued\",\n  \"host\": null,\n  \"agent_id\": \"codex-01a0f936-6622-7c52-83fd-6fb377bbbc06\",\n  \"attempt_dir\": null,\n  \"last_heartbeat_s\": null,\n  \"progress_lines\": null,\n  \"avoiding\": [],\n  \"gpu\": null,\n  \"agent\": \"MacroHFT\",\n  \"reason\": \"waiting for the first placement pass\",\n  \"attempts\": 0,\n  \"submitted\": \"2026-11-23T07:15:04Z\",\n  \"started\": null,\n  \"phase\": null,\n  \"provider_status\": null,\n  \"provider_error\": null,\n  \"colab_metering\": null,\n  \"execution\": null,\n  \"transport_errors\": null,\n  \"first_transport_error\": null,\n  \"collection\": null,\n  \"progress\": {\n   \"log_age_seconds\": null,\n   \"stage_age_seconds\": null\n  }\n },\n \"warning\": null\n}\n",
+  "stderr": ""
+}
