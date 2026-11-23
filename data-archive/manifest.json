@@ -80,8 +80,8 @@
     {
       "path": "docs/STATUS.md",
       "storage": "git",
-      "size": 2368,
-      "sha256": "0fd12d9740d3796184527756d6f457768708cb8b93e0b7be242f8b204022310e",
+      "size": 3064,
+      "sha256": "d40241e72091a9e8234039605e16912687a99324285e330e2a19e8e4277b77c1",
       "previous_snapshot_sha256": "749e2137effde38a05efff0cae3947991bcf0ff02f79339bfabea942a7f7153d"
     },
     {
@@ -171,15 +171,15 @@
     },
     {
       "path": "paper/workflow/current.md",
-      "size": 1893,
-      "sha256": "9bc3d1857a82dad71524cefc471dc2cd20d1d43aba2f2b372258197ed70b2b35",
+      "size": 2589,
+      "sha256": "b87ee9aac0a513b3fdf7099b064cb866f20548b7992e04eb18a2610ae4c91109",
       "storage": "git",
       "previous_snapshot_sha256": "2adb1d9247514cc3b3a4d1664a15504756c0d3a03d7a593e92dd44ee48273934"
     },
     {
       "path": "paper/workflow/events.jsonl",
-      "size": 5905,
-      "sha256": "90b56d26e49f5be7128bd5a9272b3bc6469337d3320a71bb0b78755a3b40bcfa",
+      "size": 6366,
+      "sha256": "eb44a9e09f9f19cd168af7dd20174bb661f78fcd71bda773d0f8be1687c81404",
       "storage": "git",
       "previous_snapshot_sha256": "faf7848379a058bbe434ba83872a3cf87d915d01bdbe74d54662300d351f04ee"
     },
@@ -257,8 +257,8 @@
     },
     {
       "path": "paper/workflow/state.md",
-      "size": 9660,
-      "sha256": "1501e085129938823e472281e1c8c08a834b905e0daa02163e192927d2127f83",
+      "size": 10356,
+      "sha256": "dee755966781159730996aad44692190f3d0bb7f7ba88c8a795c8599e7ef5d5d",
       "storage": "git",
       "previous_snapshot_sha256": "fcc4cdde6d7c6399e0ab3ace9ef5951819e33c47b3e07ffadf49e1a273bd69b1"
     },
@@ -993,6 +993,12 @@
       "storage": "git",
       "size": 104,
       "sha256": "45a108b84d68347ea123347a61ebdb3500a65017227e083b0c5cc2c85ccebfdd"
+    },
+    {
+      "path": "results/recovery-20261123/lab-retry-20261123T065712Z.json",
+      "storage": "git",
+      "size": 1884,
+      "sha256": "001eccdbeab532f1c79452270952ee854e6061353d562e2406ecb4683ffbee44"
     },
     {
       "path": "results/recovery-20261123/local-expanded-archive-verification.json",

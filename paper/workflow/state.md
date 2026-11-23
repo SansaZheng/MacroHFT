@@ -114,3 +114,17 @@ this recovery work. New method gains, full fair comparisons, execution stress,
 independent paper review and a submission-ready manuscript remain unestablished.
 See docs/REPRODUCE-FROM-ARCHIVE.md, docs/RESEARCH-GATES.md and
  docs/NOVELTY-UPDATE-20261123.md for reproducible steps and scientific constraints.
+
+
+## User-requested retry — 2026-11-23 06:57 UTC
+
+Authenticated accounts verified: the GitHub connector is SuuTTT; the local
+Git SSH account is SansaZheng. Existing repository pushes use the latter and
+work. The earlier connector push=false report is not a blocker to publication.
+
+The exact prepared lab inventory was submitted again after checking the queue
+and fleet. CQ returned HTTP 400: only repositories of SuuTTT can be cloned on
+the lab servers (got SansaZheng). No job ID was issued, and no training started.
+The remaining prerequisite is CQ operator permission for SansaZheng/MacroHFT,
+not GitHub write permission. Receipt:
+results/recovery-20261123/lab-retry-20261123T065712Z.json.

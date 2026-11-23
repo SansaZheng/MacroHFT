@@ -35,3 +35,17 @@ readiness claim. See NOVELTY-UPDATE-20261123.md and RESEARCH-GATES.md.
 
 中文：已完成 GitHub 部分数据归档、真实代码身份修复和两次 CQ CPU 验证。
 实验室白名单仍阻塞旧结果回收与训练恢复；没有把通过工具测试当成方法有效。
+
+
+## User-requested retry — 2026-11-23 06:57 UTC
+
+Authenticated accounts verified: the GitHub connector is SuuTTT; the local
+Git SSH account is SansaZheng. Existing repository pushes use the latter and
+work. The earlier connector push=false report is not a blocker to publication.
+
+The exact prepared lab inventory was submitted again after checking the queue
+and fleet. CQ returned HTTP 400: only repositories of SuuTTT can be cloned on
+the lab servers (got SansaZheng). No job ID was issued, and no training started.
+The remaining prerequisite is CQ operator permission for SansaZheng/MacroHFT,
+not GitHub write permission. Receipt:
+results/recovery-20261123/lab-retry-20261123T065712Z.json.
