@@ -1,0 +1,153 @@
+{
+  "id": "j-1123-124e9b",
+  "name": "MacroHFT ten numerical runtime regressions on synthetic inputs",
+  "work": "MacroHFT",
+  "spec": {
+    "workdir": ".",
+    "env": {
+      "SOURCE_COMMIT": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "resources": {
+      "gpus": 0,
+      "gpu_mem_gb": 0,
+      "exclusive_gpu": false,
+      "cpus": 1,
+      "ram_gb": 4,
+      "disk_gb": 4,
+      "gpu_models": [],
+      "requires": []
+    },
+    "data": [],
+    "limits": {
+      "max_hours": 0.3,
+      "max_usd": 0,
+      "max_attempts": 1,
+      "max_wait_hours": 0.5
+    },
+    "placement": {
+      "prefer": [],
+      "avoid": [],
+      "never": [],
+      "allow_rent": false,
+      "target": "kaggle"
+    },
+    "idempotent": true,
+    "depends_on": [],
+    "priority": 0,
+    "name": "MacroHFT ten numerical runtime regressions on synthetic inputs",
+    "work": "MacroHFT",
+    "code": {
+      "github": "SuuTTT/MacroHFT",
+      "commit": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5"
+    },
+    "command": [
+      "python3",
+      "scripts/cq_runtime_qualify.py"
+    ],
+    "outputs": {
+      "dest": "/Users/sudingli/.local/share/cq/kaggle/results/macrohft-runtime-qualification-20261123/pip-bootstrap-fix",
+      "expect": [
+        {
+          "path": "receipt.json",
+          "contains": "\"runtime_tests_passed\": true"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "\"synthetic_inputs_only\": true"
+        },
+        {
+          "path": "runtime-tests.log",
+          "contains": "Ran 10 tests"
+        },
+        {
+          "path": "environment-freeze.txt",
+          "contains": "torch==2.8.0"
+        },
+        {
+          "path": "progress.log",
+          "contains": "5/5"
+        }
+      ],
+      "progress": {
+        "path": "progress.log",
+        "stall_min": 10
+      },
+      "direct": false
+    },
+    "resource_basis": {
+      "scope": "CPU-only dependency build and ten small numerical regressions; 2048 synthetic rows; no market evaluation or model training",
+      "bounds": "Conservative unmeasured 4 GB RAM/disk; one thread, CPU-only PyTorch; scratch packages removed before collection",
+      "source_size_bytes": 1279193,
+      "measured_remote_peak": "pending actual qualification receipt",
+      "fix": "Use private --without-pip venv and SHA256-verified immutable official get-pip bootstrap; two cleanup tests passed. No system environment modification."
+    }
+  },
+  "spec_sha": "bdeae6d11655a35f2ab08c9b6ebbc1e75bed76cea7d504b84271e7913a7ee149",
+  "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+  "state": "assigned",
+  "reason": "on Kaggle: code uploaded as a private dataset; the notebook starts when it is ready",
+  "host": "kaggle",
+  "gpu": null,
+  "priority": 0,
+  "attempts": 0,
+  "lease_id": "kaggle",
+  "lease_until": 1795505275.5248342,
+  "created": 1795418856.878714,
+  "updated": 1795418883.009969,
+  "started": null,
+  "finished": null,
+  "exit_code": null,
+  "detail": null,
+  "avoid": {},
+  "attempt_dir": null,
+  "last_hb": null,
+  "progress": null,
+  "progress_at": null,
+  "gpu_mem_mib": null,
+  "gpu_pids": null,
+  "limit_rev": null,
+  "mem_peak_mib": null,
+  "shared_max": null,
+  "shared_sum": null,
+  "hb_n": null,
+  "brief": {
+    "id": "j-1123-124e9b",
+    "name": "MacroHFT ten numerical runtime regressions on synthetic inputs",
+    "work": "MacroHFT",
+    "state": "assigned",
+    "host": "kaggle",
+    "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+    "attempt_dir": null,
+    "last_heartbeat_s": null,
+    "progress_lines": null,
+    "avoiding": [],
+    "gpu": null,
+    "agent": "repository",
+    "reason": "on Kaggle: code uploaded as a private dataset; the notebook starts when it is ready",
+    "attempts": 0,
+    "submitted": "2026-11-23T07:27:36Z",
+    "started": null,
+    "phase": "dataset",
+    "provider_status": null,
+    "provider_error": null,
+    "colab_metering": null,
+    "execution": null,
+    "transport_errors": null,
+    "first_transport_error": null,
+    "collection": null,
+    "progress": {
+      "log_age_seconds": null,
+      "stage_age_seconds": null
+    }
+  },
+  "staging": null,
+  "dispatch": null,
+  "ram": null
+}

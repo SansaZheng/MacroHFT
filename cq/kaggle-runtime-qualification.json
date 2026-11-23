@@ -3,14 +3,14 @@
   "work": "MacroHFT",
   "code": {
     "github": "SuuTTT/MacroHFT",
-    "commit": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f"
+    "commit": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5"
   },
   "command": [
     "python3",
     "scripts/cq_runtime_qualify.py"
   ],
   "env": {
-    "SOURCE_COMMIT": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f",
+    "SOURCE_COMMIT": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5",
     "OMP_NUM_THREADS": "1",
     "OPENBLAS_NUM_THREADS": "1",
     "PYTHONDONTWRITEBYTECODE": "1"
@@ -22,7 +22,7 @@
     "disk_gb": 4
   },
   "limits": {
-    "max_hours": 0.25,
+    "max_hours": 0.3,
     "max_attempts": 1,
     "max_wait_hours": 0.5,
     "max_usd": 0
@@ -32,7 +32,7 @@
     "allow_rent": false
   },
   "outputs": {
-    "dest": "/Users/sudingli/.local/share/cq/kaggle/results/macrohft-runtime-qualification-20261123/bootstrap-cleanup-fix",
+    "dest": "/Users/sudingli/.local/share/cq/kaggle/results/macrohft-runtime-qualification-20261123/pip-bootstrap-fix",
     "expect": [
       {
         "path": "receipt.json",
@@ -40,7 +40,7 @@
       },
       {
         "path": "receipt.json",
-        "contains": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f"
+        "contains": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5"
       },
       {
         "path": "receipt.json",
@@ -69,9 +69,9 @@
     "bounds": "Conservative unmeasured 4 GB RAM/disk; one thread, CPU-only PyTorch; scratch packages removed before collection",
     "source_size_bytes": 1279193,
     "measured_remote_peak": "pending actual qualification receipt",
-    "fix": "Cleanup partial venv even if bootstrap fails; capture bootstrap traceback. Two local failure-path tests passed."
+    "fix": "Use private --without-pip venv and SHA256-verified immutable official get-pip bootstrap; two cleanup tests passed. No system environment modification."
   },
   "replaces": [
-    "j-1123-c20ec0"
+    "j-1123-7ed893"
   ]
 }

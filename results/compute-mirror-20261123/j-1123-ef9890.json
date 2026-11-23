@@ -127,7 +127,7 @@
     "progress_lines": null,
     "avoiding": [],
     "gpu": null,
-    "agent": "MacroHFT",
+    "agent": "repository",
     "reason": "waiting: no feasible host (CPU only) \u2014 pc4070: GPU jobs only \u00b7 excluded by placement.never: c203, c219, c220, c221, c222, c223, c224, c227, c237 \u00b7 c225: last 96 GB RAM kept for GPU jobs (96 GB free for us) \u00b7 c226: monitor only (windows)",
     "attempts": 0,
     "submitted": "2026-11-23T07:09:50Z",

@@ -128,3 +128,13 @@ the lab servers (got SansaZheng). No job ID was issued, and no training started.
 The remaining prerequisite is CQ operator permission for SansaZheng/MacroHFT,
 not GitHub write permission. Receipt:
 results/recovery-20261123/lab-retry-20261123T065712Z.json.
+
+
+## 2026-11-23 — authorized compute route established
+
+The user authorized SuuTTT/MacroHFT as the CQ compute fork, synchronized with
+SansaZheng/MacroHFT. This resolves the old repository-owner blocker.
+Read-only lab inventories are accepted but await scheduler reservations;
+numerical qualification retries remain separate from training. Current job
+states, evidence and limitations: [current.md](current.md). No scientific
+readiness claim and no automatic restart of legacy training.

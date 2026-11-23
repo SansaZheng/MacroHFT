@@ -1,0 +1,77 @@
+{
+  "name": "MacroHFT ten numerical runtime regressions on synthetic inputs",
+  "work": "MacroHFT",
+  "code": {
+    "github": "SuuTTT/MacroHFT",
+    "commit": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_runtime_qualify.py"
+  ],
+  "env": {
+    "SOURCE_COMMIT": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 4,
+    "disk_gb": 4
+  },
+  "limits": {
+    "max_hours": 0.25,
+    "max_attempts": 1,
+    "max_wait_hours": 0.5,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "kaggle",
+    "allow_rent": false
+  },
+  "outputs": {
+    "dest": "/Users/sudingli/.local/share/cq/kaggle/results/macrohft-runtime-qualification-20261123/bootstrap-cleanup-fix",
+    "expect": [
+      {
+        "path": "receipt.json",
+        "contains": "\"runtime_tests_passed\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "\"synthetic_inputs_only\": true"
+      },
+      {
+        "path": "runtime-tests.log",
+        "contains": "Ran 10 tests"
+      },
+      {
+        "path": "environment-freeze.txt",
+        "contains": "torch==2.8.0"
+      },
+      {
+        "path": "progress.log",
+        "contains": "5/5"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 10
+    }
+  },
+  "resource_basis": {
+    "scope": "CPU-only dependency build and ten small numerical regressions; 2048 synthetic rows; no market evaluation or model training",
+    "bounds": "Conservative unmeasured 4 GB RAM/disk; one thread, CPU-only PyTorch; scratch packages removed before collection",
+    "source_size_bytes": 1279193,
+    "measured_remote_peak": "pending actual qualification receipt",
+    "fix": "Cleanup partial venv even if bootstrap fails; capture bootstrap traceback. Two local failure-path tests passed."
+  },
+  "replaces": [
+    "j-1123-c20ec0"
+  ]
+}

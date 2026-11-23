@@ -55,8 +55,9 @@
     {
       "path": "cq/kaggle-runtime-qualification.json",
       "storage": "git",
-      "size": 2101,
-      "sha256": "fbaa560a609330a873ae8830ebdd713c2456957fed786f7ff7ca1e4ee8a941d6"
+      "size": 2135,
+      "sha256": "e6b8fa6d22eef5a0aa89c93b862c12e327c29c62941f453b1119ec38dccd3b12",
+      "previous_snapshot_sha256": "fbaa560a609330a873ae8830ebdd713c2456957fed786f7ff7ca1e4ee8a941d6"
     },
     {
       "path": "cq/kaggle-source-identity.json",
@@ -208,15 +209,15 @@
     },
     {
       "path": "paper/workflow/current.md",
-      "size": 2276,
-      "sha256": "453ecf123abe9998f1a1be9407f8c7bb6680900d377e862153ac8e160609ffd4",
+      "size": 3186,
+      "sha256": "e9b9a8dbc994a80f5db3c759ed1b627945fead9e53b1158e150bebee787e746d",
       "storage": "git",
       "previous_snapshot_sha256": "2adb1d9247514cc3b3a4d1664a15504756c0d3a03d7a593e92dd44ee48273934"
     },
     {
       "path": "paper/workflow/events.jsonl",
-      "size": 8389,
-      "sha256": "7f6af2f79e92ab68138a930e462227faead88170c7ffc3509ef9c0263d2540b1",
+      "size": 10038,
+      "sha256": "fb937e8f7c608fb9c0ddc31846b2f982ed072abdf5ffe3690124ab60d7e7e35b",
       "storage": "git",
       "previous_snapshot_sha256": "faf7848379a058bbe434ba83872a3cf87d915d01bdbe74d54662300d351f04ee"
     },
@@ -306,8 +307,8 @@
     },
     {
       "path": "paper/workflow/state.md",
-      "size": 10356,
-      "sha256": "dee755966781159730996aad44692190f3d0bb7f7ba88c8a795c8599e7ef5d5d",
+      "size": 10844,
+      "sha256": "ed3eeeb9564646fb1448c4a2ac4d75834745cf96d1295212da8705b97f21770a",
       "storage": "git",
       "previous_snapshot_sha256": "fcc4cdde6d7c6399e0ab3ace9ef5951819e33c47b3e07ffadf49e1a273bd69b1"
     },
@@ -794,20 +795,23 @@
     {
       "path": "results/compute-mirror-20261123/j-1123-c20ec0.json",
       "storage": "git",
-      "size": 4307,
-      "sha256": "ff7e5cfbb0375e415867e6af88b615663a0be69e3763a48a7b926371fc84c390"
+      "size": 4364,
+      "sha256": "82da89809eb3b0c7c8e2ba6f7a64813521cc8374ec520bdf10cb22eb78ff3a2a",
+      "previous_snapshot_sha256": "ff7e5cfbb0375e415867e6af88b615663a0be69e3763a48a7b926371fc84c390"
     },
     {
       "path": "results/compute-mirror-20261123/j-1123-c9445b.json",
       "storage": "git",
-      "size": 4278,
-      "sha256": "4f60b6782fc7575fe92a7586b6c3209451731b9b7a6add69154b1b72d623d21a"
+      "size": 4280,
+      "sha256": "267cccdaebbc833b93ab5ce3504c4348dfebf90eb710d337f521a7af1ebe3d7b",
+      "previous_snapshot_sha256": "4f60b6782fc7575fe92a7586b6c3209451731b9b7a6add69154b1b72d623d21a"
     },
     {
       "path": "results/compute-mirror-20261123/j-1123-ef9890.json",
       "storage": "git",
-      "size": 4360,
-      "sha256": "3c105eb5d823b566424cd211f89e8a3e1b8597fa687b391aa9631dae69297a41"
+      "size": 4362,
+      "sha256": "b460a6c9a6f7dad921db300d57c1a9c7be7121375ff81a77f5ebe6df5f598e90",
+      "previous_snapshot_sha256": "3c105eb5d823b566424cd211f89e8a3e1b8597fa687b391aa9631dae69297a41"
     },
     {
       "path": "results/compute-mirror-20261123/mirror-baseline.json",
@@ -3302,6 +3306,30 @@
       "size": 3001,
       "sha256": "579164f1c17560e52448ed4671565bf93f5bf277301ee4a4234c0b37efd98cf6",
       "storage": "git"
+    },
+    {
+      "path": "cq/kaggle-runtime-qualification-cleanup-attempt.json",
+      "storage": "git",
+      "size": 2101,
+      "sha256": "fbaa560a609330a873ae8830ebdd713c2456957fed786f7ff7ca1e4ee8a941d6"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-124e9b.json",
+      "storage": "git",
+      "size": 4389,
+      "sha256": "58a1772a7240c6d1abdbb771f9e2a2c91e2d47081366bd78fe9964aa50a3a916"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-7ed893.json",
+      "storage": "git",
+      "size": 4791,
+      "sha256": "a87c62fd1ed377a8d90682c6b576fab66cf0a0b8ea1572f33a49ce87bfbb058d"
+    },
+    {
+      "path": "results/compute-mirror-20261123/runtime-bootstrap-failure.log",
+      "storage": "git",
+      "size": 983,
+      "sha256": "eab36e077e32c6ef3a2cc64f02d51ece417926f8d2383736ed1540efaf01901b"
     }
   ],
   "excluded": [

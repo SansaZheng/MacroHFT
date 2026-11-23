@@ -1,0 +1,153 @@
+{
+  "id": "j-1123-7ed893",
+  "name": "MacroHFT ten numerical runtime regressions on synthetic inputs",
+  "work": "MacroHFT",
+  "spec": {
+    "workdir": ".",
+    "env": {
+      "SOURCE_COMMIT": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "resources": {
+      "gpus": 0,
+      "gpu_mem_gb": 0,
+      "exclusive_gpu": false,
+      "cpus": 1,
+      "ram_gb": 4,
+      "disk_gb": 4,
+      "gpu_models": [],
+      "requires": []
+    },
+    "data": [],
+    "limits": {
+      "max_hours": 0.25,
+      "max_usd": 0,
+      "max_attempts": 1,
+      "max_wait_hours": 0.5
+    },
+    "placement": {
+      "prefer": [],
+      "avoid": [],
+      "never": [],
+      "allow_rent": false,
+      "target": "kaggle"
+    },
+    "idempotent": true,
+    "depends_on": [],
+    "priority": 0,
+    "name": "MacroHFT ten numerical runtime regressions on synthetic inputs",
+    "work": "MacroHFT",
+    "code": {
+      "github": "SuuTTT/MacroHFT",
+      "commit": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f"
+    },
+    "command": [
+      "python3",
+      "scripts/cq_runtime_qualify.py"
+    ],
+    "outputs": {
+      "dest": "/Users/sudingli/.local/share/cq/kaggle/results/macrohft-runtime-qualification-20261123/bootstrap-cleanup-fix",
+      "expect": [
+        {
+          "path": "receipt.json",
+          "contains": "\"runtime_tests_passed\": true"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "3034b9b3c35ffc6a49042b9a5c81f8e60c40e12f"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "\"synthetic_inputs_only\": true"
+        },
+        {
+          "path": "runtime-tests.log",
+          "contains": "Ran 10 tests"
+        },
+        {
+          "path": "environment-freeze.txt",
+          "contains": "torch==2.8.0"
+        },
+        {
+          "path": "progress.log",
+          "contains": "5/5"
+        }
+      ],
+      "progress": {
+        "path": "progress.log",
+        "stall_min": 10
+      },
+      "direct": false
+    },
+    "resource_basis": {
+      "scope": "CPU-only dependency build and ten small numerical regressions; 2048 synthetic rows; no market evaluation or model training",
+      "bounds": "Conservative unmeasured 4 GB RAM/disk; one thread, CPU-only PyTorch; scratch packages removed before collection",
+      "source_size_bytes": 1279193,
+      "measured_remote_peak": "pending actual qualification receipt",
+      "fix": "Cleanup partial venv even if bootstrap fails; capture bootstrap traceback. Two local failure-path tests passed."
+    }
+  },
+  "spec_sha": "ce41dbe25b8e2d304ee330a1970e5c42485b303e383b7ccb3bedd8e3dc3d7a52",
+  "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+  "state": "failed",
+  "reason": "replaced by j-1123-124e9b; Kaggle: exit 1: hon3.13/subprocess.py\", line 578, in run\n    raise CalledProcessError(retcode, process.args,\n                             output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: C",
+  "host": "kaggle",
+  "gpu": null,
+  "priority": 0,
+  "attempts": 1,
+  "lease_id": "kaggle",
+  "lease_until": 1795504777.2796512,
+  "created": 1795418366.062479,
+  "updated": 1795418856.894298,
+  "started": null,
+  "finished": 1795418448.9994502,
+  "exit_code": null,
+  "detail": null,
+  "avoid": {},
+  "attempt_dir": "/Users/sudingli/.local/share/cq/kaggle/results/j-1123-7ed893",
+  "last_hb": 1795418415.33457,
+  "progress": null,
+  "progress_at": null,
+  "gpu_mem_mib": null,
+  "gpu_pids": null,
+  "limit_rev": null,
+  "mem_peak_mib": null,
+  "shared_max": null,
+  "shared_sum": null,
+  "hb_n": null,
+  "brief": {
+    "id": "j-1123-7ed893",
+    "name": "MacroHFT ten numerical runtime regressions on synthetic inputs",
+    "work": "MacroHFT",
+    "state": "failed",
+    "host": "kaggle",
+    "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+    "attempt_dir": "/Users/sudingli/.local/share/cq/kaggle/results/j-1123-7ed893",
+    "last_heartbeat_s": 470,
+    "progress_lines": null,
+    "avoiding": [],
+    "gpu": null,
+    "agent": "repository",
+    "reason": "replaced by j-1123-124e9b; Kaggle: exit 1: hon3.13/subprocess.py\", line 578, in run\n    raise CalledProcessError(retcode, process.args,\n                             output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: C",
+    "attempts": 1,
+    "submitted": "2026-11-23T07:19:26Z",
+    "started": null,
+    "phase": "done",
+    "provider_status": "COMPLETE",
+    "provider_error": null,
+    "colab_metering": null,
+    "execution": null,
+    "transport_errors": null,
+    "first_transport_error": null,
+    "collection": null,
+    "progress": {
+      "log_age_seconds": null,
+      "stage_age_seconds": null
+    }
+  },
+  "staging": null,
+  "dispatch": null,
+  "ram": null
+}
