@@ -1,0 +1,408 @@
+{
+  "client_date": "2026-11-24",
+  "files": [
+    {
+      "path": "docs/legacy-tooling/restore_archive-v1.py",
+      "size": 3873,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "docs/legacy-tooling/test_archive-v1.py",
+      "size": 2813,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-3-before-research-upgrade.json",
+      "size": 787,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-4-before-cq-resume.json",
+      "size": 1521,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/evidence-audit.md",
+      "size": 7296,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/experiment-report.md",
+      "size": 8950,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/prompts/006-cq-resume.md",
+      "size": 1248,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "paper/workflow/results.csv",
+      "size": 20322,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/docs/impact-and-gates.md",
+      "size": 2866,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot-diagnostic.svg",
+      "size": 95372,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather",
+      "size": 2183410,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_1.feather",
+      "size": 2185986,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_103.feather",
+      "size": 2143378,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_105.feather",
+      "size": 2147010,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_112.feather",
+      "size": 2116642,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_115.feather",
+      "size": 2163418,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_16.feather",
+      "size": 2180178,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_18.feather",
+      "size": 2181906,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_19.feather",
+      "size": 2184618,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_2.feather",
+      "size": 2189450,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_20.feather",
+      "size": 2180218,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_25.feather",
+      "size": 2178762,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_29.feather",
+      "size": 2178802,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_30.feather",
+      "size": 2180082,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_36.feather",
+      "size": 2160802,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_38.feather",
+      "size": 2172178,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_39.feather",
+      "size": 2171538,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_42.feather",
+      "size": 2164234,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_45.feather",
+      "size": 2181818,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_47.feather",
+      "size": 2171626,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_52.feather",
+      "size": 2159330,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_55.feather",
+      "size": 2177626,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_6.feather",
+      "size": 2187090,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_62.feather",
+      "size": 2163658,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_63.feather",
+      "size": 2169178,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_64.feather",
+      "size": 2164402,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_65.feather",
+      "size": 2163698,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_68.feather",
+      "size": 2166458,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_72.feather",
+      "size": 2168714,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_73.feather",
+      "size": 2163834,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_80.feather",
+      "size": 2148978,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_81.feather",
+      "size": 2150154,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_87.feather",
+      "size": 2131266,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_90.feather",
+      "size": 2154618,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_91.feather",
+      "size": 2154650,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_97.feather",
+      "size": 2148746,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_99.feather",
+      "size": 2147786,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/vol_labels.pkl",
+      "size": 278,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_1.feather",
+      "size": 2140186,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_11.feather",
+      "size": 2131770,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_16.feather",
+      "size": 2163538,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_17.feather",
+      "size": 2088346,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_18.feather",
+      "size": 2157594,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_19.feather",
+      "size": 2144314,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_21.feather",
+      "size": 2143394,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_28.feather",
+      "size": 2153146,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_29.feather",
+      "size": 2125514,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_31.feather",
+      "size": 2148522,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_37.feather",
+      "size": 2134866,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_38.feather",
+      "size": 2103562,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_39.feather",
+      "size": 2122770,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_4.feather",
+      "size": 2154746,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_6.feather",
+      "size": 2146266,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_7.feather",
+      "size": 2157586,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_8.feather",
+      "size": 2141338,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/slope_labels.pkl",
+      "size": 112,
+      "storage": "pending",
+      "reason": "iCloud data not locally materialized"
+    }
+  ],
+  "native_download_requests_accepted": 66,
+  "bounded_read_failures": [
+    "paper/workflow/evidence-audit.md",
+    "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather"
+  ],
+  "read_timeout_seconds": 20,
+  "action": "preserve all original iCloud placeholders; do not delete cloud copies"
+}

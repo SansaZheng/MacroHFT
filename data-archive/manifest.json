@@ -3410,6 +3410,78 @@
       "storage": "git",
       "size": 849,
       "sha256": "038faebaef672632d529e84793cc3f7d37c69c083fd7b23ddad9662a01555aed"
+    },
+    {
+      "path": "docs/LOCAL-STORAGE.md",
+      "storage": "git",
+      "size": 2318,
+      "sha256": "788ba0d8b3ab8c8565ead1d55bd523c40a68420ac523ae10bc7bc98a13eb263c"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-fill-20261123.log",
+      "storage": "git",
+      "size": 339,
+      "sha256": "a1def7527bcb4842016eafa4a518b2996cc663663c94a14b30ac393464f6bf53"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/hydration-request-20261124.json",
+      "storage": "git",
+      "size": 9155,
+      "sha256": "9a7f2ca8284b7e507d774bbb50b0a77166e6ab26dc3afbcd151cfb1b9e9b5069"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/plan.json",
+      "storage": "git",
+      "size": 620,
+      "sha256": "41feebd9cdd9fa8664e90aa7f35dbb76bcde0226a98319b61a938fd14709082d"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/remote-archive-precleanup-20261124.json",
+      "storage": "git",
+      "size": 930,
+      "sha256": "555de4384b096ad7e5f28423cfc01283ba9ccd1ecf961b1360c498424de98dbf"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-full-verification-20261123.log",
+      "storage": "git",
+      "size": 125,
+      "sha256": "83eed516b26ac59a0874dacea718ec01b18e2ba8ea79f1a7925a7308a46bcc32"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-refresh-20261123.log",
+      "storage": "git",
+      "size": 25298,
+      "sha256": "6cd9f519f394be4a72a5e5a4e55ceedb7953f6996f5767935d2cd1cdd8f6c58d"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/verify_published_snapshot.py",
+      "storage": "git",
+      "size": 3417,
+      "sha256": "1a288fcaacac3684950d7fad4a7eb0bd258cb924a44a012cf5c26d9f0b3f5eaf"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/upstream-copy-audit-20261124.json",
+      "storage": "git",
+      "size": 4581,
+      "sha256": "4e7a5a1bfa91e1ff9f0abde3862c0ad8d01580725c43eb8b2f926ce2d0a7f52b"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-fill-stage008.log",
+      "storage": "git",
+      "size": 44,
+      "sha256": "b8ca74e188f31ad72398f2ba808b5ad7e6efaa4040e1b1c54fb2662231f934a3"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/pending-files.json",
+      "storage": "git",
+      "size": 12455,
+      "sha256": "3deb8d87965873ee564878b099a94b501430fc2af5b498627bd4f7ddca80d35a"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/local-files-20261124.json",
+      "storage": "git",
+      "size": 74050,
+      "sha256": "4af957fe7971a5b4c5a79355a2e2e0c22ec5044014c9336a91314e1899d9c4c0"
     }
   ],
   "excluded": [

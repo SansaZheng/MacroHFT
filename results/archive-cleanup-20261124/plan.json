@@ -1,0 +1,10 @@
+{
+  "client_date": "2026-11-24",
+  "scope": "Local MacroHFT project only; other FinancialAD projects and remote servers untouched",
+  "free_bytes_before": 3687780352,
+  "archive_repository": "SansaZheng/MacroHFT",
+  "source_repository": "/Users/zyy/.local/share/macrohft/repository",
+  "strategy": "Verify every published current-branch blob from GitHub, create shallow blob-filtered sparse code checkout, verify clean worktrees and remote heads, remove redundant local full checkout and its Git object database. Preserve unavailable iCloud source files.",
+  "training_modified": false,
+  "cloud_files_deleted": false
+}

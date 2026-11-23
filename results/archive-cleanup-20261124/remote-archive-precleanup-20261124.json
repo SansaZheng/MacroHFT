@@ -1,0 +1,21 @@
+{
+  "commit": "5647267fc8e0e2aa63beade266fb54c680608b43",
+  "baseline_commit": "db1f9d6ee2416db09874a822be99e60e631712b5",
+  "baseline_receipt_sha256": "ea49e01a1bc652eeef4b8acc530675457a464597ad784be46c4d368310047434",
+  "verified_git_objects": 495,
+  "reused_verified_objects": 444,
+  "new_remote_objects_verified": 51,
+  "new_remote_bytes_verified": 978000,
+  "represented_files": 474,
+  "represented_bytes": 1290455111,
+  "pending_files": 66,
+  "reconstructed_from_upstream": [
+    "vendor/MacroHFT/RL/agent/high_level.py",
+    "vendor/MacroHFT/RL/util/memory.py",
+    "vendor/MacroHFT/RL/util/replay_buffer.py",
+    "vendor/MacroHFT/RL/util/utili.py"
+  ],
+  "complete_local_snapshot": false,
+  "remote_training_artifacts_retrieved": false,
+  "verification": "Immutable remote manifest; new/changed remote objects streamed and hashed; unchanged Git blob IDs and SHA-256 hashes backed by independent bare-clone verification"
+}
