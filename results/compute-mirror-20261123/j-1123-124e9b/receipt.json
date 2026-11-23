@@ -1,0 +1,18 @@
+{
+  "runtime_tests_passed": true,
+  "runtime_test_count": 10,
+  "declared_commit": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5",
+  "source_manifest_verified": true,
+  "canonical_source_commit": "1dfae1699e62b57f4647eac7bf6751caf63c7cd6",
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "torch": "2.8.0+cpu",
+  "numpy": "2.2.6",
+  "pandas": "2.3.2",
+  "test_elapsed_seconds": 11.742565349000017,
+  "test_child_peak_rss_bytes": 656183296,
+  "synthetic_inputs_only": true,
+  "official_expert_checkpoints": 6,
+  "training_performed": false,
+  "market_test_evaluations": 0,
+  "limitation": "Synthetic numerical regression qualification on Kaggle CPU; not a lab environment qualification or performance reproduction"
+}

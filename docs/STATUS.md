@@ -7,7 +7,8 @@ barrier is resolved for this authorized compute route.
 
 Current execution state is tracked in ../paper/workflow/current.md. Lab metadata
 jobs await ordinary host CPU/RAM reservations. An independent free Kaggle CPU
-job qualifies ten numerical tests on synthetic inputs only. No market training
+job j-1123-124e9b passed all ten numerical tests on synthetic inputs only;
+outputs were fetched and their source/fixture hashes verified. No market training
 or final test result is claimed. See COMPUTE-MIRROR.md for synchronization and
 storage rules. The older entries below are preserved as historical records.
 

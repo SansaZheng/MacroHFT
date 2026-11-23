@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-23T07:29:18.874081+00:00",
+  "canonical_repository": "SansaZheng/MacroHFT",
+  "compute_repository": "SuuTTT/MacroHFT",
+  "refs": {
+    "SansaZheng/MacroHFT": {
+      "refs/heads/codex/cq-runtime-qualification": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5",
+      "refs/heads/main": "6c88b87be654014b9b27e32d5cb51df8021093e0"
+    },
+    "SuuTTT/MacroHFT": {
+      "refs/heads/codex/cq-runtime-qualification": "f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5",
+      "refs/heads/main": "6c88b87be654014b9b27e32d5cb51df8021093e0"
+    }
+  },
+  "identical_refs": true,
+  "source_verification": {
+    "project_commit": "6c88b87be654014b9b27e32d5cb51df8021093e0",
+    "verified_files": 51,
+    "upstream_commit": "31e5ef41f93b2aea6e63e6ae2267675c997a8e54",
+    "vendor_git_metadata_required": false,
+    "training_performed": false
+  }
+}

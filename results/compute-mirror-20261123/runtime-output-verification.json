@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-23T07:31:30.371495+00:00",
+  "job": "j-1123-124e9b",
+  "source_manifest_matches_published_branch": true,
+  "synthetic_fixture_hashes_verified": true,
+  "runtime_tests": 10,
+  "training_performed": false,
+  "market_test_evaluations": 0,
+  "artifact_sha256": {
+    "source-manifest.json": "1356571f9b625e7051804a89c71f9e871f92c1f98364b7883157b97f8b0a1402",
+    "cq-threads.json": "ef9eabe601f668e6ea4ba7fc7f00667625800f43e2fea438695fe09ab15e4b27",
+    "runner.log": "50e31b712644548df2ea205f2e49aed62d938a59070d48f36338db20c2753895",
+    "environment-build.log": "7f1729fb3fdd7d396ffb7547c3225fb7ddae4435505a709118d6d82aa934db6f",
+    "runtime-tests.log": "051a67efa4f63ca7b176dfd98a7647ea3e7d55c57955863c6da4f360193294a6",
+    "environment-freeze.txt": "a8fcf0724075d578db62c96b37ac92ce9f1887e4c388330715da35ae3503dbf2",
+    "progress.log": "36cc55b922b66b8ff18b91e4b490b33f90c4aebac3f571c7a04bccf112b35f77",
+    "synthetic-fixture.json": "d91f4957ca58e013e7b7223568d1d05f2c1401e9d26b273bd5019af4b3785aa0",
+    "receipt.json": "c1ac0bc62b1e2dca0931187faed3aff6d96a8706694b6a435bb0beb2022d5bee",
+    "synthetic-fixtures/train.feather": "fdea9184e02db6fb13fda235b515e1d4581da50f3e93ebdb8b43282489df29ba",
+    "synthetic-fixtures/val.feather": "5bbc834d09a53e39b836bb3c47a57c14c1dc8e3b5e9d2b4e6aecd99295741df1"
+  }
+}

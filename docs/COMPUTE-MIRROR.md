@@ -21,6 +21,11 @@ The user authorized this arrangement on 2026-11-23:
    the same Git objects available without copying credentials.
 4. Verify both remote refs match. If a head changed unexpectedly, inspect it
    before retrying; never force-overwrite another session's work.
+   If a new commit is not yet visible in the fork, a cross-fork draft PR can
+   expose the exact change for review; retry the guarded fast-forward only
+   after verifying the heads. PR #1 records this recovery. A successful SSH
+   dry run does not establish fork write permission; the actual push was
+   denied, so fork writes continue through the SuuTTT connector.
 5. CQ lab specs use `code.git=SuuTTT/MacroHFT` and an actual full pushed commit.
    Kaggle specs use `code.github=SuuTTT/MacroHFT`. Jobs stay pinned if main moves.
 6. Fetch completed CQ outputs, verify provenance and hashes, archive failures

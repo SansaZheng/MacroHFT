@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "seed": 23112026,
+  "validation_fixture_rows": 2048,
+  "training_fixture_rows": 64,
+  "market_data_used": false,
+  "sha256": {
+    "train.feather": "fdea9184e02db6fb13fda235b515e1d4581da50f3e93ebdb8b43282489df29ba",
+    "val.feather": "5bbc834d09a53e39b836bb3c47a57c14c1dc8e3b5e9d2b4e6aecd99295741df1"
+  }
+}
