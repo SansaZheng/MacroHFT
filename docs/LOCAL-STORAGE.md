@@ -40,3 +40,18 @@ the manifest. Remote final experiment artifacts remain unretrieved.
 See `results/archive-cleanup-20261124/` for the scope, pending list, verification
 and actual cleanup outcome. This is a partial archival state, not a claim that
 every historical experiment or iCloud file has been recovered.
+
+## Completed local cleanup
+
+The published snapshots were freshly verified: 483 unique Git blobs,
+1,177,866,084 remote bytes, across main and both qualification branches.
+The full local repository, its Git objects, the two clean qualification
+worktrees and the independently matched upstream scratch checkout were removed.
+A shallow sparse checkout remains at the same active repository path.
+Measured free-space increase during cleanup: 2338762752 bytes.
+See cleanup-result.json for exact before/after readings; unrelated system
+activity may change subsequent free-space readings.
+
+The Mac was locked when Finder inspection was attempted. The iCloud keep-local
+setting could not be changed; no cloud item was removed. The 66 pending
+placeholders remain intact, and no claim of complete archival is made.

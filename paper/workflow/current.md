@@ -46,3 +46,14 @@ final results, method gains and CCF A submission readiness remain unverified.
 66 legacy archive files remain pending; 4 source files were reconstructed.
 Local disk is below 2 GiB, so only small evidence is retrieved; bulk output
 must remain on authorized server storage. Paid compute budget remains unset.
+
+
+## 2026-11-24 — user-requested archival and local cleanup
+
+All locally readable archive content was published and actual GitHub bytes
+verified across main and both qualification branches. The full local data
+checkout and Git object database were replaced by a shallow sparse code and
+documentation checkout at the same path. Training cannot run from this partial
+local checkout without restoring the required artifacts. No remote job,
+experiment result or model was modified. The 66 unavailable iCloud files remain
+preserved and pending. Details: ../../docs/LOCAL-STORAGE.md .

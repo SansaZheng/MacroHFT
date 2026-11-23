@@ -12,8 +12,8 @@
     {
       "path": "README.md",
       "storage": "git",
-      "size": 1888,
-      "sha256": "de6c83155a3bb3f727a56befeccf47ae157344ea497e27e075dc32bb30706a89",
+      "size": 2328,
+      "sha256": "2d91b4a34b8998c502d801ad238ed05a54e9fa008f2ea1f33d42a2d7be10ad3f",
       "previous_snapshot_sha256": "a544e98da8f830fb5a8b02ad64b1cc037318032ae4e25b1f7e50cd28d4563ab6"
     },
     {
@@ -210,8 +210,8 @@
     },
     {
       "path": "paper/workflow/current.md",
-      "size": 3393,
-      "sha256": "bff41f662ddcd431ded896985ea15bf8454849c12a230eb6f1c108e4548907f1",
+      "size": 3974,
+      "sha256": "e1e8b8938f59af19d324f7310cda0f0087e62e6ef01bfe39e25aff43ea77e952",
       "storage": "git",
       "previous_snapshot_sha256": "2adb1d9247514cc3b3a4d1664a15504756c0d3a03d7a593e92dd44ee48273934"
     },
@@ -3414,8 +3414,9 @@
     {
       "path": "docs/LOCAL-STORAGE.md",
       "storage": "git",
-      "size": 2318,
-      "sha256": "788ba0d8b3ab8c8565ead1d55bd523c40a68420ac523ae10bc7bc98a13eb263c"
+      "size": 3123,
+      "sha256": "c522f2831459ae055a8f2b69e8d71b7bb3a4566f5499b6c06a3d8302ae19fa67",
+      "previous_snapshot_sha256": "788ba0d8b3ab8c8565ead1d55bd523c40a68420ac523ae10bc7bc98a13eb263c"
     },
     {
       "path": "results/archive-cleanup-20261124/archive-fill-20261123.log",
@@ -3482,6 +3483,24 @@
       "storage": "git",
       "size": 74050,
       "sha256": "4af957fe7971a5b4c5a79355a2e2e0c22ec5044014c9336a91314e1899d9c4c0"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/fresh-remote-snapshot-20261124.json",
+      "storage": "git",
+      "size": 243828,
+      "sha256": "5bdcb0671cdfbd46b176d56e3c2aaa5ed04ae982fcd6c76d30e71066b7b64520"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/cleanup-result.json",
+      "storage": "git",
+      "size": 1499,
+      "sha256": "d277bc34a7b1205a66fa3f7138eb4119d7981bd8577d7a0c093aa2d32e330190"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/lean-checkout-verification-20261124.json",
+      "storage": "git",
+      "size": 18722,
+      "sha256": "3f8d91d1e906ac42cd0505fc7dc2458308a8cff42820bd93603b39a279b9db69"
     }
   ],
   "excluded": [

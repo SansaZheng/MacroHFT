@@ -1,0 +1,32 @@
+{
+  "client_date": "2026-11-24",
+  "finished_at_utc": "2026-11-23T20:50:28.013909+00:00",
+  "canonical_archive_commit": "867094b96c4a3f60d6c44fefbb31cb003be406ec",
+  "verified_remote_blob_count": 483,
+  "verified_remote_bytes": 1177866084,
+  "removed_paths": [
+    "/Users/zyy/.local/share/macrohft/repository-full-verified-20261124",
+    "/Users/zyy/.local/share/macrohft/cq-smoke",
+    "/Users/zyy/.local/share/macrohft/runtime-qualification"
+  ],
+  "original_full_repository_path": "/Users/zyy/.local/share/macrohft/repository",
+  "full_repository_allocated_bytes_before": 2323755008,
+  "free_bytes_before_cleanup": 3728474112,
+  "free_bytes_after_cleanup": 6067236864,
+  "retained_checkout": "/Users/zyy/.local/share/macrohft/repository",
+  "retained_checkout_mode": "shallow blob-filtered sparse code and documentation checkout",
+  "pending_icloud_files_preserved": 66,
+  "icloud_cloud_files_deleted": false,
+  "other_projects_modified": false,
+  "server_jobs_modified": false,
+  "removed_verified_upstream_scratch": {
+    "path": "/Users/zyy/.local/share/macrohft/upstream-verification-20261123",
+    "original_commit": "31e5ef41f93b2aea6e63e6ae2267675c997a8e54",
+    "source_files_matched_to_archive": 23,
+    "excluded_disposable_files": "compiled Python bytecode and upstream Git metadata"
+  },
+  "removed_empty_failed_copy_targets": [
+    "/Users/zyy/.local/share/macrohft/recovered-metadata/evidence-audit.md",
+    "/Users/zyy/.local/share/macrohft/recovered-metadata/df_0.feather"
+  ]
+}

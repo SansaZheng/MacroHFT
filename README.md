@@ -31,3 +31,12 @@ Its mixed and negative evidence is retained.
 中文：本仓库保存真实代码、实验数据、结果和步骤。复现最终成绩仍待核实，
 新方法尚未达到投稿目标。数据归档以实际文件上传和校验成功为准；清单中的
 pending 项表示文件仍未完整归档，不能当成已备份。
+
+
+## Local storage — 2026-11-24
+
+Archived data remain in this GitHub repository. The Mac now keeps a small sparse
+code/documentation checkout; verified local data copies and their full Git
+object database were removed to free space. The 66 unavailable iCloud files
+remain explicitly pending and preserved. See [storage and restore steps](docs/LOCAL-STORAGE.md)
+and [cleanup receipt](results/archive-cleanup-20261124/cleanup-result.json).
