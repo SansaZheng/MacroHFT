@@ -1,7 +1,7 @@
 {
   "canonical_repo": "https://github.com/SansaZheng/MacroHFT",
   "compute_repo": "https://github.com/SuuTTT/MacroHFT",
-  "implementation_commit": "c8edc6b94c471de39b5715e99587c9c9f6ccff19",
+  "implementation_commit": "99529f6edd1b37bd630ce5305e51cb6c7e1553be",
   "historical_asset_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
   "github_write_permissions": {
     "SansaZheng/MacroHFT": true,
@@ -31,25 +31,37 @@
     "inventory_bytes": 1853871386,
     "legacy_disk_free_bytes": 1151890235392,
     "output_disk_free_bytes": 5446634090496,
-    "transport_smoke_job": "j-1127-839cb4",
+    "transport_smoke_job": "j-1128-452f42",
     "selected_hash_job": "j-1127-794ac6",
     "selected_hash_state": "done",
     "selected_files_verified": 193,
     "selected_bytes_hashed": 1278333903,
     "hash_mismatches": 0,
-    "transport_smoke_assigned_host": "c219",
-    "transport_smoke_state": "assigned",
+    "transport_smoke_assigned_host": "c225",
+    "transport_smoke_state": "done",
     "failed_smokes": [
       "j-1127-785091",
-      "j-1127-b2e33e"
+      "j-1127-b2e33e",
+      "j-1127-839cb4",
+      "j-1128-242ac3",
+      "j-1128-9e2ea1"
     ],
-    "diagnostic_job": "j-1127-c2fbc7"
+    "diagnostic_job": "j-1128-2f35cf",
+    "existing_hf_client": "0.36.2",
+    "existing_upload_api_compatible": false,
+    "transport_smoke_source_commit": "99529f6edd1b37bd630ce5305e51cb6c7e1553be",
+    "transport_receipt_sha256": "c2c0790a85c81d807065e4086fd2c8291057f4db11d4c1ae24ee1d1579b6a74f",
+    "transport_output_directory": "/data3/sudingli/cq-home/macrohft-recovery/results/asset-stream-recovery-smoke-20261128",
+    "public_fixture_transfer_verified": true,
+    "private_project_restore_verified": false,
+    "asset_tests_passed": 25,
+    "synthetic_gate_tests_passed": 9
   },
   "local": {
     "code_checkout": "/Users/zyy/.local/share/macrohft/repository",
     "preserved_original_root": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
     "original_allocated_bytes": 1594220544,
-    "historical_git_objects_approx_mib": 272,
+    "historical_git_objects_approx_mib": 273,
     "potential_reclaimable_after_all_gates_gib": "approximately 1.5 GiB originals/old environment, plus historical Git objects after separately approved local checkout cleanup",
     "originals_deleted": false,
     "shared_caches_cleared": false,
@@ -58,7 +70,7 @@
     "newly_hash_readable": 64,
     "still_missing_recorded_paths": 2,
     "temporary_tooling_env_removed_bytes": 33296384,
-    "asset_tests_passed": 22
+    "asset_tests_passed": 25
   },
   "confirmation_needed": [
     "HF namespace and securely configured project write authentication",

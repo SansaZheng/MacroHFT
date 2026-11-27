@@ -50,6 +50,13 @@ yet**. Historical GitHub assets remain at commit
 - [Asset manifest](assets/manifest.json) and [split definitions](assets/splits.json)
 - [Exact remote workflow commands](docs/storage/WORKFLOW.md)
 
+**Verified on c225, 2026-11-28:** clean code checkout, 51 source hashes, 25 transfer-tool
+checks, nine synthetic execution checks, and a pinned 548-byte public HF config download
+plus independent streaming SHA-256 verification. See the
+[remote receipt](docs/storage/verification/j-1128-452f42/receipt.json).
+This is transport qualification; actual private MacroHFT asset restoration remains blocked
+by HF access. No project dataset/model has been uploaded to HF or assigned a fabricated revision.
+
 Do not run the old archive-building scripts for new results. They are retained only for
 historical recovery. Do not use an unrestricted full clone on a personal computer.
 The Mac keeps a sparse code checkout. A fresh audit recovered 64 of the 66 previously

@@ -1,0 +1,152 @@
+{
+  "complete": true,
+  "source_commit": "99529f6edd1b37bd630ce5305e51cb6c7e1553be",
+  "clean_github_checkout": true,
+  "client_environment": {
+    "python": "3.10.18 (main, Jun  4 2025, 08:56:00) [GCC 9.4.0]",
+    "huggingface_hub": "0.36.2",
+    "api_parameters": {
+      "upload_folder": [
+        "self",
+        "repo_id",
+        "folder_path",
+        "path_in_repo",
+        "commit_message",
+        "commit_description",
+        "token",
+        "repo_type",
+        "revision",
+        "create_pr",
+        "parent_commit",
+        "allow_patterns",
+        "ignore_patterns",
+        "delete_patterns",
+        "run_as_future"
+      ],
+      "auth_check": [
+        "self",
+        "repo_id",
+        "repo_type",
+        "token"
+      ],
+      "get_paths_info": [
+        "self",
+        "repo_id",
+        "paths",
+        "expand",
+        "revision",
+        "repo_type",
+        "token"
+      ],
+      "repo_info": [
+        "self",
+        "repo_id",
+        "revision",
+        "repo_type",
+        "timeout",
+        "files_metadata",
+        "expand",
+        "token"
+      ],
+      "create_repo": [
+        "self",
+        "repo_id",
+        "token",
+        "private",
+        "repo_type",
+        "exist_ok",
+        "resource_group_id",
+        "space_sdk",
+        "space_hardware",
+        "space_storage",
+        "space_sleep_time",
+        "space_secrets",
+        "space_variables"
+      ],
+      "list_models": [
+        "self",
+        "filter",
+        "author",
+        "apps",
+        "gated",
+        "inference",
+        "inference_provider",
+        "model_name",
+        "trained_dataset",
+        "search",
+        "pipeline_tag",
+        "emissions_thresholds",
+        "sort",
+        "direction",
+        "limit",
+        "expand",
+        "full",
+        "cardData",
+        "fetch_config",
+        "token",
+        "language",
+        "library",
+        "tags",
+        "task"
+      ],
+      "list_datasets": [
+        "self",
+        "filter",
+        "author",
+        "benchmark",
+        "dataset_name",
+        "gated",
+        "language_creators",
+        "language",
+        "multilinguality",
+        "size_categories",
+        "task_categories",
+        "task_ids",
+        "search",
+        "sort",
+        "direction",
+        "limit",
+        "expand",
+        "full",
+        "token",
+        "tags"
+      ],
+      "whoami": [
+        "self",
+        "token"
+      ]
+    },
+    "packages": {
+      "huggingface_hub": "0.36.2",
+      "fsspec": "2026.7.0",
+      "filelock": "3.32.3",
+      "typing_extensions": "4.16.0",
+      "tqdm": "4.70.0"
+    },
+    "upload_api_compatible": false
+  },
+  "existing_environment_modified": false,
+  "private_project_assets_verified": false,
+  "credentials_used": false,
+  "elapsed_seconds": 22.541227312758565,
+  "fixture_manifest": {
+    "schema_version": 1,
+    "description": "Public tiny JSON transport fixture only; not MacroHFT weights or evidence of project-asset restoration. No weights downloaded.",
+    "assets": [
+      {
+        "id": "hf-transport-fixture",
+        "repo_id": "hf-internal-testing/tiny-random-bert",
+        "repo_type": "model",
+        "revision": "f171d7baecaf37b5da5a3616d8833b9969753535",
+        "status": "verified",
+        "files": [
+          {
+            "path": "config.json",
+            "size": 548,
+            "sha256": "54f9f0001ec62b6a53072a7c9d1b630e346ae51fca14a5799e54f0d918281872"
+          }
+        ]
+      }
+    ]
+  }
+}

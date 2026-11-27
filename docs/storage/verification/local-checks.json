@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "tests": {
     "asset_workflow": {
-      "passed": 22,
+      "passed": 25,
       "command": "python3 -m unittest discover -s tests -p test_assets.py"
     },
     "source_identity": {
@@ -23,5 +23,10 @@
     "known_historical_payload_bytes": 1177494323,
     "shared_history_rewritten": false,
     "originals_deleted": false
-  }
+  },
+  "transfer_regressions": [
+    "HF snapshot symlink resolves to regular file",
+    "empty hub cache retries one official-client unbuffered stream",
+    "truncated/corrupt/oversized retry rejected without partial target"
+  ]
 }

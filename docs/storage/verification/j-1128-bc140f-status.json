@@ -1,0 +1,12 @@
+{
+  "id": "j-1128-bc140f",
+  "name": "MacroHFT pinned clean HF transfer qualification on c224 only",
+  "state": "cancelled",
+  "host": null,
+  "reason": "replaced by j-1128-242ac3; cancelled before launch",
+  "exit_code": null,
+  "created": 1795796127.233411,
+  "started": null,
+  "finished": 1795796278.957887,
+  "project_hf_transfer": false
+}

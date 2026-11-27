@@ -30,7 +30,8 @@ export PIP_CACHE_DIR="$MACROHFT_WORK/cache/pip"
 
 The bootstrap uses a SHA-256-pinned official PyPA get-pip script and installs pip
 inside the new environment only; it works without distro ensurepip. It refuses an
-existing environment path. `requirements/assets.txt` pins the official HF client.
+existing environment path. c225 reached pip bootstrap but could not complete dependency
+installation because of package DNS failures; do not treat that recipe as a passed new-host build. `requirements/assets.txt` pins the official HF client.
 
 `HF_HOME` must point to an already-authorized, private credential directory **outside
 CQ_OUTPUT_DIR and any uploaded/collected folders** if login is persisted. Set the HF
@@ -192,9 +193,17 @@ any history rewrite needs separate explicit approval and a verified backup.
 ## Host network qualification
 
 c225 could clone the pinned code but its fresh environment build failed during package
-DNS resolution on this date. Build/qualify network-dependent tooling on a reachable lab
-host such as the c224 project-home staging host before scheduling private transfers.
+DNS resolution on this date. Build and qualify network-dependent tooling on a lab host with working package access
+before scheduling private transfers; c224 CPU capacity was unavailable during this audit.
 Do not change shared DNS, system packages or another user's environment. The optional
 `scripts/cq_existing_asset_smoke.py` can inspect and exercise this project's existing
 interpreter read-only; it records the actual client version and upload-API capabilities,
 and does not substitute for private-repository write/authentication verification.
+
+For c225 read-only qualification, the CQ spec selects its existing OS CA bundle via
+`REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt` and
+`SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt`. TLS verification is always enabled;
+no certificate is installed. The existing client is 0.36.2 and is **not qualified for
+this uploader**, which requires the pinned 1.8.0 environment. A cache entry failing
+size/SHA verification gets one bounded unbuffered `HfFileSystem` retry. A second bad
+response fails closed; original files and shared caches remain untouched.

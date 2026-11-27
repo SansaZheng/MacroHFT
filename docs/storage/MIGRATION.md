@@ -77,8 +77,9 @@ selected weights because they support the published negative comparison.
 
 ## Client compatibility
 
-Transfer code is tested against official `huggingface_hub==1.8.0`, the version available
-from this environment's package index. It uses `upload_folder(..., parent_commit=...)`
+Official `huggingface_hub==1.8.0` was installed temporarily for API-signature inspection
+and public streaming verification. Upload behavior is covered by mocked tests, not a
+live private upload; live authentication/write qualification is still pending. The uploader uses `upload_folder(..., parent_commit=...)`
 with explicit file allowlists in batches of at most 50. Rerunning compares remote SHA-256
 (or streams small Git files), skips matching files, and retries remaining batches.
 Xet handles transport deduplication. A failed final verification does not produce a
@@ -96,14 +97,25 @@ mostly-dataless state; metadata and read checks were repeated rather than assume
 
 ## Current qualification limits
 
-Local asset tooling has 22 passing tests; source identity has six passing tests. GitHub
+Local asset tooling has 25 passing tests; source identity has six passing tests. GitHub
 Actions checks code-only tracking, source hashes and these tests. The immutable public
 HF transport fixture was streamed and verified locally without downloading a model.
 The first c225 clean-checkout job failed because system ensurepip was unavailable;
 the isolated PyPA bootstrap fixed that step, but package installation then hit DNS
-resolution errors. Failed attempts are recorded, not counted as passes. The network
-qualification was moved away from c225 (c224 preferred; CQ selected c219); see verification receipts for
-its final status. No shared DNS or existing environment was modified.
+resolution errors. An alternate CQ placement on c219 failed its code fetch; c224's
+CPU queue reserved remaining capacity for GPU work, so our own queued probe was cancelled.
+No other job was stopped. Failed attempts are recorded, not counted as passes.
+
+The original c225 project interpreter has `huggingface_hub==0.36.2`; it was inspected
+read-only and lacks the pinned uploader's write-permission API. Its read path needs the
+existing OS CA bundle, selected only by job environment variables with TLS verification
+still enabled. The normal cached download returned an empty file. SHA-256 verification
+rejected it, as documented in `verification/j-1128-2f35cf/diagnostic.json`. The fetcher
+now retries that integrity failure once with an official-client unbuffered stream,
+reads at most the expected size plus one byte, and publishes only fully verified bytes.
+It does not mutate a suspect shared cache. Fresh 1.8.0 installation and private upload
+qualification remain separate gates. No shared DNS, certificate store or existing
+environment was modified.
 
 References: [official HF upload guide](https://huggingface.co/docs/huggingface_hub/guides/upload),
 [HF storage accounting](https://huggingface.co/docs/hub/storage-limits),
@@ -113,8 +125,31 @@ References: [official HF upload guide](https://huggingface.co/docs/huggingface_h
 
 Use `git status --short` and `git ls-tree -r --name-only HEAD` for local inspections.
 In a partial clone, size/diff operations that need missing historical blobs can fetch
-those blobs automatically. This audit encountered that behavior; approximately 272 MiB
+those blobs automatically. This audit encountered that behavior; approximately 273 MiB
 of historical Git objects remain locally and were not deleted. Subsequent size inventory
 used the GitHub tree API, without fetching asset bytes. Avoid full-history clones and
 old-asset diffs on the Mac. This remaining object storage is separate from the roughly
 2.2 MB current tracked code/evidence tree and the 1.49 GiB preserved original project.
+
+## Completed clean remote check — 2026-11-28
+
+CQ job `j-1128-452f42` completed on c225 from a new GitHub checkout at
+`99529f6edd1b37bd630ce5305e51cb6c7e1553be`: 51 source hashes, 25 asset-workflow tests,
+and nine synthetic causal-gate tests passed. It retrieved only `config.json` (548 bytes)
+from [the public transport fixture](https://huggingface.co/hf-internal-testing/tiny-random-bert/tree/f171d7baecaf37b5da5a3616d8833b9969753535),
+pinned at `f171d7baecaf37b5da5a3616d8833b9969753535`. Downloaded-file and independent
+stream verification both matched SHA-256
+`54f9f0001ec62b6a53072a7c9d1b630e346ae51fca14a5799e54f0d918281872`.
+
+The 3,470-byte [receipt](verification/j-1128-452f42/receipt.json) has SHA-256
+`c2c0790a85c81d807065e4086fd2c8291057f4db11d4c1ae24ee1d1579b6a74f`, matching CQ's
+output verifier. The [check summary](verification/j-1128-452f42/checks.json) identifies
+the retained remote log. Job-owned scratch code/assets/cache were removed after success;
+only small diagnostics were collected locally. Existing environments and originals stayed intact.
+
+This verifies public pinned transport and minimal execution, **not** a private MacroHFT
+asset restoration or paper reproduction. No project HF repository URLs/revisions can
+be reported yet. The remaining inputs are the HF namespace, secure project authentication,
+actual included private storage headroom, and private-backup rights for upstream data/experts.
+The temporary personal HF tooling environment was removed (33,296,384 allocated bytes);
+no original data or historical Git objects have been deleted.

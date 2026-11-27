@@ -1,0 +1,12 @@
+{
+  "id": "j-1128-9e2ea1",
+  "name": "MacroHFT clean HF download using existing system CA trust",
+  "state": "failed",
+  "host": "c225",
+  "reason": "replaced by j-1128-452f42; exit 1: -recovery/results/asset-system-ca-smoke-20261128/assets', '--cache-dir', '/data3/sudingli/cq-home/macrohft-recovery/results/asset-system-ca-smoke-20261128/cache/hub']' returned non-zero exit s",
+  "exit_code": 1,
+  "created": 1795796510.952806,
+  "started": 1795796596.951817,
+  "finished": 1795796648.757866,
+  "project_hf_transfer": false
+}

@@ -1,0 +1,20 @@
+{
+  "job_id": "j-1128-452f42",
+  "host": "c225",
+  "state": "done",
+  "source_commit": "99529f6edd1b37bd630ce5305e51cb6c7e1553be",
+  "receipt_sha256": "c2c0790a85c81d807065e4086fd2c8291057f4db11d4c1ae24ee1d1579b6a74f",
+  "remote_smoke_log_sha256": "8a065b85b112e166054051f7d08e91a73970c3fd338700bee198601595c56e0e",
+  "remote_output_directory": "/data3/sudingli/cq-home/macrohft-recovery/results/asset-stream-recovery-smoke-20261128",
+  "source_files_verified": 51,
+  "asset_tests_passed": 25,
+  "synthetic_gate_tests_passed": 9,
+  "selected_public_config_bytes": 548,
+  "pinned_download_verified": true,
+  "independent_stream_verified": true,
+  "fresh_project_asset_restore": false,
+  "existing_environment_modified": false,
+  "credentials_used": false,
+  "raw_log_retained_remotely": true,
+  "source_ci": "https://github.com/SansaZheng/MacroHFT/actions/runs/46035989878"
+}
