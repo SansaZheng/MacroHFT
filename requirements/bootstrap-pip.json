@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/pypa/get-pip",
+  "commit": "8c427468071b5d15717839ffd76c53a96df8b703",
+  "url": "https://raw.githubusercontent.com/pypa/get-pip/8c427468071b5d15717839ffd76c53a96df8b703/public/get-pip.py",
+  "sha256": "356e0d0de21cdc348c3394084d90939b85e4246c4d14c76aee6ca4f46646ea98",
+  "size": 2397294,
+  "pip_version": "25.2",
+  "documentation": "https://pip.pypa.io/en/stable/installation/",
+  "scope": "Install pip only into the per-job isolated venv; do not alter system Python"
+}

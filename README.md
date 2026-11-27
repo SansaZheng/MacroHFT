@@ -62,9 +62,8 @@ Use a clean, shallow code checkout and the job's local output directory. Run int
 credential directory **outside collected outputs**. Never put a token in a job spec.
 
 ```bash
-python3 -m venv "$CQ_OUTPUT_DIR/asset-env"
+python3 scripts/create_asset_env.py --root "$CQ_OUTPUT_DIR/asset-env"
 export PYTHON="$CQ_OUTPUT_DIR/asset-env/bin/python"
-"$PYTHON" -m pip install --no-cache-dir -r requirements/assets.txt
 # Interactive owner terminal only, if not using an approved secret manager:
 "$CQ_OUTPUT_DIR/asset-env/bin/hf" auth login
 "$PYTHON" scripts/assets.py audit --namespace YOUR_CONFIRMED_NAMESPACE
@@ -86,7 +85,7 @@ export HF_XET_CACHE="$CQ_OUTPUT_DIR/cache/xet"
 For an isolated minimal runtime check and a validation-only experiment:
 
 ```bash
-python3.11 -m venv "$CQ_OUTPUT_DIR/research-env"
+python3.11 scripts/create_asset_env.py --root "$CQ_OUTPUT_DIR/research-env" --python python3.11
 "$CQ_OUTPUT_DIR/research-env/bin/python" -m pip install --no-cache-dir -r requirements/research-cpu.txt
 "$CQ_OUTPUT_DIR/research-env/bin/python" scripts/remote_run.py \
   --work-dir "$CQ_OUTPUT_DIR/check" --check-only

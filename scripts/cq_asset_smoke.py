@@ -29,20 +29,19 @@ def main():
     if actual!=commit:raise ValueError('Code commit mismatch')
     mark(1,'create isolated transfer client environment')
     # This venv is local to this CQ output and never reused on another host.
-    candidates=[sys.executable,'/date/zyy/macrohft-reproduction/.venv/bin/python']
+    candidates=['/date/zyy/macrohft-reproduction/.venv/bin/python',sys.executable]
     python=None
     for candidate in candidates:
         if not Path(candidate).exists():continue
         check=subprocess.run([candidate,'-c','import sys;sys.exit(sys.version_info < (3,9))'],capture_output=True)
         if check.returncode==0:python=candidate;break
     if python is None:raise RuntimeError('Python >=3.9 is required')
-    run([python,'-m','venv',out/'tool-env'])
     py=out/'tool-env/bin/python'
     env=dict(os.environ,HF_HOME=str(out/'hf-home'),HF_HUB_CACHE=str(out/'cache/hub'),
              HF_XET_CACHE=str(out/'cache/xet'),PIP_CACHE_DIR=str(out/'cache/pip'),
              HF_HUB_DISABLE_IMPLICIT_TOKEN='1',PYTHONDONTWRITEBYTECODE='1')
     env.pop('HF_TOKEN',None);env.pop('HUGGING_FACE_HUB_TOKEN',None)
-    run([py,'-m','pip','install','--no-cache-dir','-r',clean/'requirements/assets.txt'],clean,env)
+    run([python,clean/'scripts/create_asset_env.py','--root',out/'tool-env','--python',python],clean,env)
     mark(2,'verify code policy and asset transfer tests')
     run([py,'scripts/verify_source.py','--expected-commit',commit],clean,env)
     run([py,'scripts/check_git_policy.py'],clean,env)

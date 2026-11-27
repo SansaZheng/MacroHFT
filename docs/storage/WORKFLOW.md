@@ -19,15 +19,18 @@ git -C "$MACROHFT_WORK/code" remote add origin https://github.com/SuuTTT/MacroHF
 git -C "$MACROHFT_WORK/code" fetch --depth=1 --filter=blob:none origin FULL_CODE_COMMIT
 git -C "$MACROHFT_WORK/code" checkout --detach FETCH_HEAD
 cd "$MACROHFT_WORK/code"
-python3 -m venv "$MACROHFT_WORK/asset-env"
+python3 scripts/create_asset_env.py --root "$MACROHFT_WORK/asset-env"
 export PYTHON="$MACROHFT_WORK/asset-env/bin/python"
-"$PYTHON" -m pip install --no-cache-dir -r requirements/assets.txt
 export MACROHFT_ASSET_ROOT="$MACROHFT_WORK/assets"
 export MACROHFT_HF_CACHE="$MACROHFT_WORK/cache/hub"
 export HF_HUB_CACHE="$MACROHFT_HF_CACHE"
 export HF_XET_CACHE="$MACROHFT_WORK/cache/xet"
 export PIP_CACHE_DIR="$MACROHFT_WORK/cache/pip"
 ```
+
+The bootstrap uses a SHA-256-pinned official PyPA get-pip script and installs pip
+inside the new environment only; it works without distro ensurepip. It refuses an
+existing environment path. `requirements/assets.txt` pins the official HF client.
 
 `HF_HOME` must point to an already-authorized, private credential directory **outside
 CQ_OUTPUT_DIR and any uploaded/collected folders** if login is persisted. Set the HF
@@ -152,7 +155,7 @@ new-host qualification is mandatory. A venv is job-local and must not be copied 
 host; persistent multi-host environments must use the CQ conda workflow.
 
 ```bash
-python3.11 -m venv "$MACROHFT_WORK/research-env"
+python3.11 scripts/create_asset_env.py --root "$MACROHFT_WORK/research-env" --python python3.11
 "$MACROHFT_WORK/research-env/bin/python" -m pip install --no-cache-dir \
   -r requirements/research-cpu.txt
 # Transfer-client dependencies are not needed by the runner's local verify step.
