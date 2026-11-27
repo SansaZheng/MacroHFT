@@ -7,11 +7,6 @@
     "SansaZheng/MacroHFT": true,
     "SuuTTT/MacroHFT": true
   },
-  "github_current_tree": {
-    "files": 307,
-    "bytes": 2209535,
-    "files_over_2MiB": 0
-  },
   "github_reported_repository_size_kib": 1114884,
   "hf": {
     "namespace": null,
@@ -77,5 +72,12 @@
     "Actual included private storage headroom",
     "Private backup rights for author-provided datasets/experts where no explicit license was recorded"
   ],
-  "cleanup_status": "not proposed for execution: private HF uploads and pinned recovery gates are not yet complete"
+  "cleanup_status": "not proposed for execution: private HF uploads and pinned recovery gates are not yet complete",
+  "github_tree_observation": {
+    "commit": "7e0f340dbaa8d4de9f1bdfddc1202779170a0fc7",
+    "files": 331,
+    "bytes": 2356708,
+    "files_over_2MiB": 0,
+    "source": "GitHub recursive tree API; no historical blob downloads"
+  }
 }
