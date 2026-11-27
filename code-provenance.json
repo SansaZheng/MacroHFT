@@ -61,7 +61,8 @@
     "scripts/assets.py": "63ce0a05a4377596bf67e24e5a5f3036c6c92f15956b6f0e963676ca83b4f2a8",
     "scripts/remote_run.py": "6e785d3674f6c35e3eeb6fcbc1a51afd28f22d8477f4d56be84a450da936b9c3",
     "tests/test_assets.py": "f91b03b8c9a4479af0f6bc84565992d68b2c9a5c74257da7004311f9a820e84d",
-    "scripts/cq_asset_smoke.py": "d875b97af818d46c87ef1aaed28345beccdbc41a2a043215c132b5c74f33d311"
+    "scripts/cq_asset_smoke.py": "d875b97af818d46c87ef1aaed28345beccdbc41a2a043215c132b5c74f33d311",
+    "scripts/audit_asset_hashes.py": "1320213dfb67cc3e0fdb10011fad1bd61c6c9cfbff9318355000b571de1738be"
   },
   "reconstruction_receipt": "results/recovery-20261123/upstream-reconstruction.json",
   "does_not_verify_training_data": true,

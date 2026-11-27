@@ -1662,6 +1662,14 @@
           "size": 64373,
           "sha256": "fb1a3114962d1d698bdda83c07228f20eb44231fa85b5a0a47eb4175d41a5ce8",
           "legacy_storage": "git"
+        },
+        {
+          "path": "hyperagent/ETHUSDT/reference/seed-12345/final_model.pkl",
+          "source_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/trained_model.pkl",
+          "runtime_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/trained_model.pkl",
+          "size": 64424,
+          "sha256": null,
+          "legacy_storage": "server_original"
         }
       ],
       "requires": [
@@ -1714,7 +1722,7 @@
         "annual_calmar": 8.410590104990504,
         "annual_sortino": 3.134699223303735
       },
-      "retention": "validation-selected best; final epoch and restart state pending remote inventory",
+      "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit."
     },
     {
@@ -1734,6 +1742,14 @@
           "size": 64373,
           "sha256": "07229c4caa2c2bfa4016e1c284225d0c7239749851de84a12d51a2f022552166",
           "legacy_storage": "git"
+        },
+        {
+          "path": "hyperagent/ETHUSDT/reference/seed-2024/final_model.pkl",
+          "source_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/trained_model.pkl",
+          "runtime_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/trained_model.pkl",
+          "size": 64424,
+          "sha256": null,
+          "legacy_storage": "server_original"
         }
       ],
       "requires": [
@@ -1786,7 +1802,7 @@
         "annual_calmar": 8.793606047169407,
         "annual_sortino": 3.2015134085476498
       },
-      "retention": "validation-selected best; final epoch and restart state pending remote inventory",
+      "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit."
     },
     {
@@ -1806,6 +1822,14 @@
           "size": 64373,
           "sha256": "1f447059a23b47a8be42002a2d8056e83fa8e78a93e13612be9c7f33df079f60",
           "legacy_storage": "git"
+        },
+        {
+          "path": "hyperagent/ETHUSDT/reference/seed-42/final_model.pkl",
+          "source_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/trained_model.pkl",
+          "runtime_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/trained_model.pkl",
+          "size": 64424,
+          "sha256": null,
+          "legacy_storage": "server_original"
         }
       ],
       "requires": [
@@ -1858,7 +1882,7 @@
         "annual_calmar": 7.7502734063162135,
         "annual_sortino": 2.7529043558151054
       },
-      "retention": "validation-selected best; final epoch and restart state pending remote inventory",
+      "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit."
     },
     {
@@ -1878,6 +1902,14 @@
           "size": 64373,
           "sha256": "78952e7b6e73c55295248ca6f04d3215b49655a54b11e03e5469c2f1c1a03b4c",
           "legacy_storage": "git"
+        },
+        {
+          "path": "hyperagent/ETHUSDT/combined/seed-12345/final_model.pkl",
+          "source_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/trained_model.pkl",
+          "runtime_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/trained_model.pkl",
+          "size": 64424,
+          "sha256": null,
+          "legacy_storage": "server_original"
         }
       ],
       "requires": [
@@ -1930,7 +1962,7 @@
         "annual_calmar": 0.31113132862527204,
         "annual_sortino": 0.0947956176445107
       },
-      "retention": "validation-selected best; final epoch and restart state pending remote inventory",
+      "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit."
     },
     {
@@ -1950,6 +1982,14 @@
           "size": 64373,
           "sha256": "402ac150590c4068bf22e1082e7eb6161dfd2656dfe05b47f9faf1021ed55e97",
           "legacy_storage": "git"
+        },
+        {
+          "path": "hyperagent/ETHUSDT/combined/seed-2024/final_model.pkl",
+          "source_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/trained_model.pkl",
+          "runtime_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/trained_model.pkl",
+          "size": 64424,
+          "sha256": null,
+          "legacy_storage": "server_original"
         }
       ],
       "requires": [
@@ -2002,7 +2042,7 @@
         "annual_calmar": 0.19389162352714026,
         "annual_sortino": 0.10185509354366148
       },
-      "retention": "validation-selected best; final epoch and restart state pending remote inventory",
+      "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit."
     },
     {
@@ -2022,6 +2062,14 @@
           "size": 64373,
           "sha256": "51447b6f8079f00a76549e349972a43db95a8e851c3ed8b547792beeaa243ba5",
           "legacy_storage": "git"
+        },
+        {
+          "path": "hyperagent/ETHUSDT/combined/seed-42/final_model.pkl",
+          "source_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/trained_model.pkl",
+          "runtime_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/trained_model.pkl",
+          "size": 64424,
+          "sha256": null,
+          "legacy_storage": "server_original"
         }
       ],
       "requires": [
@@ -2074,7 +2122,7 @@
         "annual_calmar": -0.8974360805688536,
         "annual_sortino": -0.20679041112031357
       },
-      "retention": "validation-selected best; final epoch and restart state pending remote inventory",
+      "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit."
     },
     {

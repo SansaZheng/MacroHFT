@@ -1,0 +1,5858 @@
+{
+  "host": "c225",
+  "root": "/date/zyy/macrohft-reproduction",
+  "read_only": true,
+  "files": [
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_test.feather",
+      "size": 106921826
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_val.feather",
+      "size": 85196722
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_train.feather",
+      "size": 261693410
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/vol_labels.pkl",
+      "size": 111
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_9.feather",
+      "size": 2138610
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_25.feather",
+      "size": 2161202
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_21.feather",
+      "size": 2143394
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_26.feather",
+      "size": 2152066
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/slope_labels.pkl",
+      "size": 112
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_12.feather",
+      "size": 2164842
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_13.feather",
+      "size": 2174082
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_18.feather",
+      "size": 2157594
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_14.feather",
+      "size": 2168922
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_0.feather",
+      "size": 2145970
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_31.feather",
+      "size": 2148522
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_38.feather",
+      "size": 2103562
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_6.feather",
+      "size": 2146266
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_17.feather",
+      "size": 2088346
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_11.feather",
+      "size": 2131770
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_5.feather",
+      "size": 2149362
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_19.feather",
+      "size": 2144314
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_35.feather",
+      "size": 2127418
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_24.feather",
+      "size": 2154322
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_29.feather",
+      "size": 2125514
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_20.feather",
+      "size": 2150858
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_7.feather",
+      "size": 2157586
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_10.feather",
+      "size": 2125418
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_36.feather",
+      "size": 2085154
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_23.feather",
+      "size": 2147170
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_1.feather",
+      "size": 2140186
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_32.feather",
+      "size": 2146962
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_22.feather",
+      "size": 2124818
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_30.feather",
+      "size": 2139690
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_33.feather",
+      "size": 2145490
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_15.feather",
+      "size": 2160210
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_16.feather",
+      "size": 2163538
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_4.feather",
+      "size": 2154746
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_3.feather",
+      "size": 2145466
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_27.feather",
+      "size": 2145682
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_34.feather",
+      "size": 2130746
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_8.feather",
+      "size": 2141338
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_39.feather",
+      "size": 2122770
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_28.feather",
+      "size": 2153146
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_2.feather",
+      "size": 2153530
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_37.feather",
+      "size": 2134866
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_50.feather",
+      "size": 2152146
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_105.feather",
+      "size": 2147010
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/vol_labels.pkl",
+      "size": 278
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_73.feather",
+      "size": 2163834
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_47.feather",
+      "size": 2171626
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_98.feather",
+      "size": 2157906
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_9.feather",
+      "size": 2190778
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_52.feather",
+      "size": 2159330
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_41.feather",
+      "size": 2157346
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_104.feather",
+      "size": 2114602
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_72.feather",
+      "size": 2168714
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_79.feather",
+      "size": 2163378
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_97.feather",
+      "size": 2148746
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_25.feather",
+      "size": 2178762
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_92.feather",
+      "size": 2147426
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_21.feather",
+      "size": 2190354
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_120.feather",
+      "size": 2145306
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_26.feather",
+      "size": 2180354
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/slope_labels.pkl",
+      "size": 278
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_12.feather",
+      "size": 2186250
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_106.feather",
+      "size": 2135970
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_95.feather",
+      "size": 2160674
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_13.feather",
+      "size": 2177530
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_83.feather",
+      "size": 2134634
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_43.feather",
+      "size": 2179818
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_18.feather",
+      "size": 2181906
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_14.feather",
+      "size": 2186250
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather",
+      "size": 2183410
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_31.feather",
+      "size": 2182010
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_84.feather",
+      "size": 2151978
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_59.feather",
+      "size": 2172106
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_38.feather",
+      "size": 2172178
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_110.feather",
+      "size": 2123354
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_45.feather",
+      "size": 2181818
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_6.feather",
+      "size": 2187090
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_75.feather",
+      "size": 2173514
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_94.feather",
+      "size": 2172842
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_17.feather",
+      "size": 2175570
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_114.feather",
+      "size": 2134554
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_11.feather",
+      "size": 2184250
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_53.feather",
+      "size": 2161746
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_5.feather",
+      "size": 2191562
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_70.feather",
+      "size": 2166090
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_82.feather",
+      "size": 2152802
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_66.feather",
+      "size": 2175466
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_116.feather",
+      "size": 2151138
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_58.feather",
+      "size": 2178298
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_93.feather",
+      "size": 2182546
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_115.feather",
+      "size": 2163418
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_109.feather",
+      "size": 2104986
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_55.feather",
+      "size": 2177626
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_57.feather",
+      "size": 2172650
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_19.feather",
+      "size": 2184618
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_117.feather",
+      "size": 2154162
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_35.feather",
+      "size": 2177906
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_60.feather",
+      "size": 2170050
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_24.feather",
+      "size": 2167842
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_29.feather",
+      "size": 2178802
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_64.feather",
+      "size": 2164402
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_78.feather",
+      "size": 2153066
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_20.feather",
+      "size": 2180218
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_7.feather",
+      "size": 2195906
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_56.feather",
+      "size": 2170658
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_101.feather",
+      "size": 2145354
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_118.feather",
+      "size": 2143722
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_90.feather",
+      "size": 2154618
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_10.feather",
+      "size": 2188674
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_48.feather",
+      "size": 2162338
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_68.feather",
+      "size": 2166458
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_36.feather",
+      "size": 2160802
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_44.feather",
+      "size": 2187170
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_23.feather",
+      "size": 2185066
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_1.feather",
+      "size": 2185986
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_67.feather",
+      "size": 2164474
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_32.feather",
+      "size": 2192962
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_71.feather",
+      "size": 2151842
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_102.feather",
+      "size": 2143554
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_107.feather",
+      "size": 2138010
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_42.feather",
+      "size": 2164234
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_111.feather",
+      "size": 2081802
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_51.feather",
+      "size": 2163378
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_22.feather",
+      "size": 2173066
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_30.feather",
+      "size": 2180082
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_81.feather",
+      "size": 2150154
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_77.feather",
+      "size": 2168290
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_54.feather",
+      "size": 2170362
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_112.feather",
+      "size": 2116642
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_96.feather",
+      "size": 2154906
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_91.feather",
+      "size": 2154650
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_99.feather",
+      "size": 2147786
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_87.feather",
+      "size": 2131266
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_33.feather",
+      "size": 2204882
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_40.feather",
+      "size": 2166258
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_113.feather",
+      "size": 2063722
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_103.feather",
+      "size": 2143378
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_49.feather",
+      "size": 2173674
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_86.feather",
+      "size": 2137706
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_15.feather",
+      "size": 2181978
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_16.feather",
+      "size": 2180178
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_88.feather",
+      "size": 2144962
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_89.feather",
+      "size": 2156810
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_61.feather",
+      "size": 2168762
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_62.feather",
+      "size": 2163658
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_4.feather",
+      "size": 2188586
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_3.feather",
+      "size": 2195450
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_76.feather",
+      "size": 2160258
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_46.feather",
+      "size": 2175546
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_85.feather",
+      "size": 2136482
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_63.feather",
+      "size": 2169178
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_27.feather",
+      "size": 2178258
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_34.feather",
+      "size": 2176794
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_74.feather",
+      "size": 2165858
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_119.feather",
+      "size": 2151914
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_80.feather",
+      "size": 2148978
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_8.feather",
+      "size": 2189242
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_65.feather",
+      "size": 2163698
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_39.feather",
+      "size": 2171538
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_108.feather",
+      "size": 2111370
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_28.feather",
+      "size": 2180234
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_100.feather",
+      "size": 2152602
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_69.feather",
+      "size": 2165722
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_2.feather",
+      "size": 2189450
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_37.feather",
+      "size": 2169658
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/test.feather",
+      "size": 111887530
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/val.feather",
+      "size": 89130786
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/train.feather",
+      "size": 274100090
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_50.feather",
+      "size": 2130690
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/vol_labels.pkl",
+      "size": 132
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_47.feather",
+      "size": 2128274
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_9.feather",
+      "size": 2151450
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_41.feather",
+      "size": 2132770
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_25.feather",
+      "size": 2066570
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_21.feather",
+      "size": 2077226
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_26.feather",
+      "size": 2131130
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/slope_labels.pkl",
+      "size": 134
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_12.feather",
+      "size": 2111146
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_13.feather",
+      "size": 2122234
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_43.feather",
+      "size": 2112642
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_18.feather",
+      "size": 2111618
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_14.feather",
+      "size": 2138834
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_0.feather",
+      "size": 2101218
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_31.feather",
+      "size": 2082314
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_38.feather",
+      "size": 2040714
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_45.feather",
+      "size": 2088490
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_6.feather",
+      "size": 2137578
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_17.feather",
+      "size": 2095714
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_11.feather",
+      "size": 2135690
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_5.feather",
+      "size": 2116162
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_19.feather",
+      "size": 2046866
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_35.feather",
+      "size": 2112522
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_24.feather",
+      "size": 1942290
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_29.feather",
+      "size": 2104074
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_20.feather",
+      "size": 2112842
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_7.feather",
+      "size": 2134274
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_10.feather",
+      "size": 2136690
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_48.feather",
+      "size": 2158138
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_36.feather",
+      "size": 2115242
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_44.feather",
+      "size": 2126930
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_23.feather",
+      "size": 2055122
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_1.feather",
+      "size": 2111370
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_32.feather",
+      "size": 2102490
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_42.feather",
+      "size": 2101802
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_22.feather",
+      "size": 2069186
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_30.feather",
+      "size": 2125586
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_33.feather",
+      "size": 2064714
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_40.feather",
+      "size": 2101290
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_49.feather",
+      "size": 2140826
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_15.feather",
+      "size": 2125490
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_16.feather",
+      "size": 2122362
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_4.feather",
+      "size": 2138074
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_3.feather",
+      "size": 2136146
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_46.feather",
+      "size": 2120890
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_27.feather",
+      "size": 2133546
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_34.feather",
+      "size": 2140018
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_8.feather",
+      "size": 2138442
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_39.feather",
+      "size": 2118890
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_28.feather",
+      "size": 2093354
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_2.feather",
+      "size": 2122634
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_37.feather",
+      "size": 2126810
+    },
+    {
+      "path": "vendor/MacroHFT/data/feature_list/single_features.npy",
+      "size": 3152
+    },
+    {
+      "path": "vendor/MacroHFT/data/feature_list/trend_features.npy",
+      "size": 848
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl",
+      "size": 187425
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl",
+      "size": 187425
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl",
+      "size": 187425
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl",
+      "size": 187425
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl",
+      "size": 187425
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl",
+      "size": 187425
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_6/val/metrics.json",
+      "size": 543
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_5/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_9/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/log/events.out.tfevents.1790910040.c225.102861.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_15/val/metrics.json",
+      "size": 543
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_4/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_8/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_2/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_11/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_14/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_12/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_7/val/metrics.json",
+      "size": 543
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_13/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_3/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_10/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/cost_aligned/seed_12345/epoch_1/val/metrics.json",
+      "size": 541
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790917177.c225.643663.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790888349.c225.2789395.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_6/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_5/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_9/val/metrics.json",
+      "size": 530
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/log/events.out.tfevents.1790971254.c225.165467.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/log/events.out.tfevents.1790888380.c225.2792773.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_4/val/metrics.json",
+      "size": 527
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_8/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_2/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_11/val/metrics.json",
+      "size": 530
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_14/val/metrics.json",
+      "size": 538
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_12/val/metrics.json",
+      "size": 527
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_7/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_13/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_3/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_10/val/metrics.json",
+      "size": 527
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_1/val/metrics.json",
+      "size": 538
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_6/val/metrics.json",
+      "size": 530
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_5/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_9/val/metrics.json",
+      "size": 530
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/log/events.out.tfevents.1790971325.c225.173598.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/log/events.out.tfevents.1790956285.c224.2084587.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/val/metrics.json",
+      "size": 541
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_4/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_8/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_2/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_11/val/metrics.json",
+      "size": 528
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_14/val/metrics.json",
+      "size": 537
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_12/val/metrics.json",
+      "size": 537
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_7/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_13/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_3/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_10/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_1/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_6/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_5/val/metrics.json",
+      "size": 523
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_9/val/metrics.json",
+      "size": 543
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/log/events.out.tfevents.1790917612.c224.1434268.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/log/events.out.tfevents.1790971301.c225.171933.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_4/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_8/val/metrics.json",
+      "size": 530
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_2/val/metrics.json",
+      "size": 537
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_11/val/metrics.json",
+      "size": 538
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_14/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_12/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_7/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_13/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_3/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_10/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_1/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_6/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_5/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_9/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/log/events.out.tfevents.1790888380.c225.2792772.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/log/events.out.tfevents.1790971289.c225.170759.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/val/metrics.json",
+      "size": 541
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_4/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_8/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_2/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_11/val/metrics.json",
+      "size": 535
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_14/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_12/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_7/val/metrics.json",
+      "size": 526
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_13/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_3/val/metrics.json",
+      "size": 536
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_10/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_1/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_6/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_5/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_9/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/log/events.out.tfevents.1790971337.c225.174223.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/log/events.out.tfevents.1790956285.c224.2084586.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_4/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_8/val/metrics.json",
+      "size": 535
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_2/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_11/val/metrics.json",
+      "size": 541
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_14/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_12/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_7/val/metrics.json",
+      "size": 538
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_13/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_3/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_10/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_1/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_6/val/metrics.json",
+      "size": 535
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_5/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_9/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/log/events.out.tfevents.1790971313.c225.172414.0",
+      "size": 88
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/log/events.out.tfevents.1790917613.c224.1434267.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/val/metrics.json",
+      "size": 528
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_4/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_8/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_2/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_11/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_14/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_12/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_7/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_13/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_3/val/metrics.json",
+      "size": 536
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_10/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_1/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/best_model.pkl",
+      "size": 64373
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_6/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_5/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_9/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/log/events.out.tfevents.1790909778.c225.75811.0",
+      "size": 3706934
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_15/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_15/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_15/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_15/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_15/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_15/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_15/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_4/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_8/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_2/val/metrics.json",
+      "size": 541
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_11/val/metrics.json",
+      "size": 522
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_14/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_14/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_14/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_14/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_14/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_14/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_14/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_12/val/metrics.json",
+      "size": 528
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_7/val/metrics.json",
+      "size": 524
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_13/val/metrics.json",
+      "size": 525
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_3/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_10/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/action_memory/seed_12345/epoch_1/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "results/tests.log",
+      "size": 1718
+    },
+    {
+      "path": "results/pipeline-status.json",
+      "size": 55003
+    },
+    {
+      "path": "results/prepare.log",
+      "size": 95187
+    },
+    {
+      "path": "results/cluster-runtime-isolated.log",
+      "size": 1778
+    },
+    {
+      "path": "results/cluster-runtime-isolated-mirror.log",
+      "size": 5224
+    },
+    {
+      "path": "results/download.log",
+      "size": 10089
+    },
+    {
+      "path": "results/provenance.json",
+      "size": 1255
+    },
+    {
+      "path": "results/smoke-reference.json",
+      "size": 377
+    },
+    {
+      "path": "results/training-health.json",
+      "size": 1061
+    },
+    {
+      "path": "results/data-audit.json",
+      "size": 1062
+    },
+    {
+      "path": "results/pipeline.lock",
+      "size": 0
+    },
+    {
+      "path": "results/cluster-prepare-isolated.log",
+      "size": 3070
+    },
+    {
+      "path": "results/cluster-runtime-build.log",
+      "size": 16637
+    },
+    {
+      "path": "results/official-runtime-and-variants.patch",
+      "size": 11284
+    },
+    {
+      "path": "results/smoke-reference-fast.log",
+      "size": 1007
+    },
+    {
+      "path": "results/pipeline.pid",
+      "size": 8
+    },
+    {
+      "path": "results/cluster-prepare-relocation.log",
+      "size": 9638
+    },
+    {
+      "path": "results/data-listing.json",
+      "size": 518
+    },
+    {
+      "path": "results/prepared-data-manifest.json",
+      "size": 546
+    },
+    {
+      "path": "results/pipeline.log",
+      "size": 0
+    },
+    {
+      "path": "results/smoke-action-memory-cost.log",
+      "size": 1076
+    },
+    {
+      "path": "results/remote-environment.txt",
+      "size": 4986
+    },
+    {
+      "path": "results/final-summary.json",
+      "size": 6027
+    },
+    {
+      "path": "results/cluster-runtime-packages.log",
+      "size": 36419
+    },
+    {
+      "path": "results/cluster-prepare.log",
+      "size": 2885
+    },
+    {
+      "path": "results/uv-bootstrap.log",
+      "size": 1897
+    },
+    {
+      "path": "results/execution-code-manifest.json",
+      "size": 1900
+    },
+    {
+      "path": "results/local-environment.txt",
+      "size": 1932
+    },
+    {
+      "path": "results/cluster-runtime-freeze.txt",
+      "size": 699
+    },
+    {
+      "path": "results/smoke-reference-fast.json",
+      "size": 400
+    },
+    {
+      "path": "results/smoke-reference.log",
+      "size": 1071
+    },
+    {
+      "path": "results/smoke-action-memory-cost.json",
+      "size": 381
+    },
+    {
+      "path": "results/remote-tests.log",
+      "size": 1646
+    },
+    {
+      "path": "results/selection-frozen.json",
+      "size": 740
+    },
+    {
+      "path": "results/recovery-20261002/failed-controller-status.json",
+      "size": 54630
+    },
+    {
+      "path": "results/recovery-20261002/coordinator-launch.json",
+      "size": 160
+    },
+    {
+      "path": "results/recovery-20261002/launch.json",
+      "size": 320
+    },
+    {
+      "path": "results/recovery-20261002/preflight.json",
+      "size": 60
+    },
+    {
+      "path": "results/recovery-20261002/controller.log",
+      "size": 0
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/worker-status.tmp",
+      "size": 0
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/worker.lock",
+      "size": 0
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/worker-status.json",
+      "size": 455
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/validation.jsonl",
+      "size": 6221
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/train.log",
+      "size": 77824
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/launch.json",
+      "size": 123
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/wrapper.log",
+      "size": 0
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/reference-seed42/config.json",
+      "size": 538
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/combined-seed42/worker.lock",
+      "size": 0
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/combined-seed42/worker-status.json",
+      "size": 523
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/combined-seed42/validation.jsonl",
+      "size": 6789
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/combined-seed42/train.log",
+      "size": 81920
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/combined-seed42/launch.json",
+      "size": 122
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/combined-seed42/wrapper.log",
+      "size": 0
+    },
+    {
+      "path": "results/recovery-20261002/c203/results/combined-seed42/config.json",
+      "size": 548
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_6/val/metrics.json",
+      "size": 530
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_5/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_9/val/metrics.json",
+      "size": 530
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/log/events.out.tfevents.1790917613.phtower0.605713.0",
+      "size": 3182592
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_4/val/metrics.json",
+      "size": 533
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_8/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_2/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_11/val/metrics.json",
+      "size": 528
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_12/val/metrics.json",
+      "size": 537
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_7/val/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_3/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_10/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/reference/seed_42/epoch_1/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_6/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_6/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_6/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_6/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_6/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_6/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_6/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_5/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_5/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_5/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_5/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_5/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_5/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_5/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_9/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_9/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_9/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_9/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_9/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_9/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_9/val/metrics.json",
+      "size": 542
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/log/events.out.tfevents.1790917613.phtower0.605712.0",
+      "size": 3297280
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_4/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_4/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_4/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_4/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_4/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_4/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_4/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_8/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_8/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_8/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_8/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_8/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_8/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_8/val/metrics.json",
+      "size": 535
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_2/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_2/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_2/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_2/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_2/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_2/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_2/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_11/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_11/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_11/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_11/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_11/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_11/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_11/val/metrics.json",
+      "size": 541
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_12/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_12/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_12/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_12/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_12/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_12/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_12/val/metrics.json",
+      "size": 540
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_7/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_7/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_7/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_7/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_7/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_7/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_7/val/metrics.json",
+      "size": 538
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_13/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_13/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_13/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_13/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_13/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_13/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_13/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_3/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_3/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_3/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_3/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_3/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_3/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_3/val/metrics.json",
+      "size": 539
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_10/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_10/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_10/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_10/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_10/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_10/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_10/val/metrics.json",
+      "size": 534
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_1/trained_model.pkl",
+      "size": 64424
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_1/val/reward_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_1/val/commission_fee_history_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_1/val/action_val.npy",
+      "size": 1379640
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_1/val/final_balance_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_1/val/require_money_val.npy",
+      "size": 136
+    },
+    {
+      "path": "results/recovery-20261002/c203/models/combined/seed_42/epoch_1/val/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "results/action_memory-seed12345/validation.jsonl",
+      "size": 7779
+    },
+    {
+      "path": "results/action_memory-seed12345/train.log",
+      "size": 88947
+    },
+    {
+      "path": "results/action_memory-seed12345/completed.json",
+      "size": 95
+    },
+    {
+      "path": "results/action_memory-seed12345/config.json",
+      "size": 555
+    },
+    {
+      "path": "results/combined-seed12345/validation.jsonl",
+      "size": 7815
+    },
+    {
+      "path": "results/combined-seed12345/train.log",
+      "size": 88966
+    },
+    {
+      "path": "results/combined-seed12345/completed.json",
+      "size": 95
+    },
+    {
+      "path": "results/combined-seed12345/test.log",
+      "size": 1010
+    },
+    {
+      "path": "results/combined-seed12345/config.json",
+      "size": 551
+    },
+    {
+      "path": "results/combined-seed12345/test/reward.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/combined-seed12345/test/action.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/combined-seed12345/test/final_balance.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed12345/test/require_money.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed12345/test/metrics.json",
+      "size": 537
+    },
+    {
+      "path": "results/combined-seed12345/test/commission_fee_history.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed2024/worker.lock",
+      "size": 0
+    },
+    {
+      "path": "results/reference-seed2024/worker-status.json",
+      "size": 530
+    },
+    {
+      "path": "results/reference-seed2024/validation.jsonl",
+      "size": 7829
+    },
+    {
+      "path": "results/reference-seed2024/train.log",
+      "size": 88868
+    },
+    {
+      "path": "results/reference-seed2024/launch.json",
+      "size": 126
+    },
+    {
+      "path": "results/reference-seed2024/wrapper.log",
+      "size": 0
+    },
+    {
+      "path": "results/reference-seed2024/completed.json",
+      "size": 96
+    },
+    {
+      "path": "results/reference-seed2024/test.log",
+      "size": 1005
+    },
+    {
+      "path": "results/reference-seed2024/config.json",
+      "size": 540
+    },
+    {
+      "path": "results/reference-seed2024/test/reward.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/reference-seed2024/test/action.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/reference-seed2024/test/final_balance.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed2024/test/require_money.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed2024/test/metrics.json",
+      "size": 532
+    },
+    {
+      "path": "results/reference-seed2024/test/commission_fee_history.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed42/worker.lock",
+      "size": 0
+    },
+    {
+      "path": "results/reference-seed42/worker-status.json",
+      "size": 526
+    },
+    {
+      "path": "results/reference-seed42/validation.jsonl",
+      "size": 7796
+    },
+    {
+      "path": "results/reference-seed42/train.log",
+      "size": 88818
+    },
+    {
+      "path": "results/reference-seed42/launch.json",
+      "size": 124
+    },
+    {
+      "path": "results/reference-seed42/wrapper.log",
+      "size": 0
+    },
+    {
+      "path": "results/reference-seed42/completed.json",
+      "size": 96
+    },
+    {
+      "path": "results/reference-seed42/test.log",
+      "size": 1004
+    },
+    {
+      "path": "results/reference-seed42/config.json",
+      "size": 538
+    },
+    {
+      "path": "results/reference-seed42/test/reward.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/reference-seed42/test/action.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/reference-seed42/test/final_balance.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed42/test/require_money.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed42/test/metrics.json",
+      "size": 531
+    },
+    {
+      "path": "results/reference-seed42/test/commission_fee_history.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed2024/worker.lock",
+      "size": 0
+    },
+    {
+      "path": "results/combined-seed2024/worker-status.json",
+      "size": 528
+    },
+    {
+      "path": "results/combined-seed2024/validation.jsonl",
+      "size": 7804
+    },
+    {
+      "path": "results/combined-seed2024/train.log",
+      "size": 88840
+    },
+    {
+      "path": "results/combined-seed2024/launch.json",
+      "size": 125
+    },
+    {
+      "path": "results/combined-seed2024/wrapper.log",
+      "size": 0
+    },
+    {
+      "path": "results/combined-seed2024/completed.json",
+      "size": 95
+    },
+    {
+      "path": "results/combined-seed2024/test.log",
+      "size": 1017
+    },
+    {
+      "path": "results/combined-seed2024/config.json",
+      "size": 550
+    },
+    {
+      "path": "results/combined-seed2024/test/reward.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/combined-seed2024/test/action.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/combined-seed2024/test/final_balance.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed2024/test/require_money.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed2024/test/metrics.json",
+      "size": 544
+    },
+    {
+      "path": "results/combined-seed2024/test/commission_fee_history.npy",
+      "size": 136
+    },
+    {
+      "path": "results/cost_aligned-seed12345/validation.jsonl",
+      "size": 7900
+    },
+    {
+      "path": "results/cost_aligned-seed12345/train.log",
+      "size": 89066
+    },
+    {
+      "path": "results/cost_aligned-seed12345/completed.json",
+      "size": 95
+    },
+    {
+      "path": "results/cost_aligned-seed12345/config.json",
+      "size": 545
+    },
+    {
+      "path": "results/cluster/launch-c220.json",
+      "size": 168
+    },
+    {
+      "path": "results/cluster/launch-c237.json",
+      "size": 344
+    },
+    {
+      "path": "results/cluster/setup-c203.json",
+      "size": 1500
+    },
+    {
+      "path": "results/cluster/setup-c220.json",
+      "size": 1498
+    },
+    {
+      "path": "results/cluster/setup-c224.log",
+      "size": 541
+    },
+    {
+      "path": "results/cluster/start-failure.json",
+      "size": 255
+    },
+    {
+      "path": "results/cluster/first-completed-trials.json",
+      "size": 1844
+    },
+    {
+      "path": "results/cluster/setup-c203.log",
+      "size": 535
+    },
+    {
+      "path": "results/cluster/setup-c220.log",
+      "size": 541
+    },
+    {
+      "path": "results/cluster/execution-manifest.json",
+      "size": 3241
+    },
+    {
+      "path": "results/cluster/launch-c224.json",
+      "size": 328
+    },
+    {
+      "path": "results/cluster/runtime-pack.log",
+      "size": 41975
+    },
+    {
+      "path": "results/cluster/runtime-tests.log",
+      "size": 1646
+    },
+    {
+      "path": "results/cluster/setup-c237.log",
+      "size": 541
+    },
+    {
+      "path": "results/cluster/controller-recovery.log",
+      "size": 406
+    },
+    {
+      "path": "results/cluster/setup-c224.json",
+      "size": 1498
+    },
+    {
+      "path": "results/cluster/setup-c237.json",
+      "size": 1499
+    },
+    {
+      "path": "results/cluster/setup-c219.json",
+      "size": 1498
+    },
+    {
+      "path": "results/cluster/launch-c203.json",
+      "size": 318
+    },
+    {
+      "path": "results/cluster/prelaunch-capacity.json",
+      "size": 978
+    },
+    {
+      "path": "results/cluster/handoff.json",
+      "size": 2491
+    },
+    {
+      "path": "results/cluster/controller-launch.json",
+      "size": 101
+    },
+    {
+      "path": "results/cluster/setup-c219.log",
+      "size": 541
+    },
+    {
+      "path": "results/cluster/controller-recovery-launch.json",
+      "size": 269
+    },
+    {
+      "path": "results/cluster/controller.log",
+      "size": 385
+    },
+    {
+      "path": "results/cluster/launch-c219.json",
+      "size": 170
+    },
+    {
+      "path": "results/cluster/handoff-recovery.json",
+      "size": 2768
+    },
+    {
+      "path": "results/cluster/runtime-provenance.json",
+      "size": 1411
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c203.json",
+      "size": 586
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c220.json",
+      "size": 586
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c220.json",
+      "size": 623
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c237.json",
+      "size": 623
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c224.json",
+      "size": 586
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c224.json",
+      "size": 623
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c237.json",
+      "size": 586
+    },
+    {
+      "path": "results/cluster/setup-history/setup-c219.json",
+      "size": 586
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c219.json",
+      "size": 623
+    },
+    {
+      "path": "results/cluster/setup-history/relocation-setup-c203.json",
+      "size": 623
+    },
+    {
+      "path": "results/reference-seed12345/validation.jsonl",
+      "size": 7779
+    },
+    {
+      "path": "results/reference-seed12345/train.log",
+      "size": 88917
+    },
+    {
+      "path": "results/reference-seed12345/completed.json",
+      "size": 96
+    },
+    {
+      "path": "results/reference-seed12345/test.log",
+      "size": 997
+    },
+    {
+      "path": "results/reference-seed12345/config.json",
+      "size": 541
+    },
+    {
+      "path": "results/reference-seed12345/test/reward.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/reference-seed12345/test/action.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/reference-seed12345/test/final_balance.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed12345/test/require_money.npy",
+      "size": 136
+    },
+    {
+      "path": "results/reference-seed12345/test/metrics.json",
+      "size": 524
+    },
+    {
+      "path": "results/reference-seed12345/test/commission_fee_history.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed42/worker.lock",
+      "size": 0
+    },
+    {
+      "path": "results/combined-seed42/worker-status.json",
+      "size": 524
+    },
+    {
+      "path": "results/combined-seed42/validation.jsonl",
+      "size": 7845
+    },
+    {
+      "path": "results/combined-seed42/train.log",
+      "size": 88832
+    },
+    {
+      "path": "results/combined-seed42/launch.json",
+      "size": 123
+    },
+    {
+      "path": "results/combined-seed42/wrapper.log",
+      "size": 0
+    },
+    {
+      "path": "results/combined-seed42/completed.json",
+      "size": 96
+    },
+    {
+      "path": "results/combined-seed42/test.log",
+      "size": 1019
+    },
+    {
+      "path": "results/combined-seed42/config.json",
+      "size": 548
+    },
+    {
+      "path": "results/combined-seed42/test/reward.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/combined-seed42/test/action.npy",
+      "size": 1759800
+    },
+    {
+      "path": "results/combined-seed42/test/final_balance.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed42/test/require_money.npy",
+      "size": 136
+    },
+    {
+      "path": "results/combined-seed42/test/metrics.json",
+      "size": 546
+    },
+    {
+      "path": "results/combined-seed42/test/commission_fee_history.npy",
+      "size": 136
+    }
+  ],
+  "python": "3.10.18 (main, Jun  4 2025, 08:56:00) [GCC 9.4.0]",
+  "hf_token_env_present": false,
+  "shared_credentials_used": false,
+  "complete": true,
+  "legacy_free_bytes": 1151890235392,
+  "output_free_bytes": 5446634090496,
+  "output_realpath": "/data3/sudingli/cq-home/macrohft-recovery/results/storage-audit-20261127",
+  "candidate_credential_locations": [
+    {
+      "path": "/date/zyy/macrohft-reproduction/.hf/token",
+      "exists": false,
+      "content_read": false
+    },
+    {
+      "path": "/date/zyy/macrohft-reproduction/.cache/huggingface/token",
+      "exists": false,
+      "content_read": false
+    },
+    {
+      "path": "/home/sudingli/.cache/huggingface/token",
+      "exists": false,
+      "content_read": false
+    }
+  ],
+  "interpreters": [
+    {
+      "path": "/date/zyy/macrohft-reproduction/.venv/bin/python",
+      "probe": "3.10.18\nTrue",
+      "returncode": 0
+    }
+  ]
+}
