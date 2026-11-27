@@ -13,3 +13,4 @@ jobs:
       - run: python scripts/verify_source.py --expected-commit "$GITHUB_SHA"
       - run: python -m unittest discover -s tests -p test_assets.py
       - run: python -m unittest discover -s tests -p test_source_identity.py
+      - run: python -m unittest discover -s tests -p test_migration.py

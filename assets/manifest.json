@@ -15,7 +15,7 @@
       "revision": null,
       "status": "pending_authentication",
       "private_required": true,
-      "upload_authorization": "pending_rights_review",
+      "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
       "files": [
         {
@@ -61,7 +61,7 @@
       "revision": null,
       "status": "pending_authentication",
       "private_required": true,
-      "upload_authorization": "pending_rights_review",
+      "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
       "files": [
         {
@@ -107,7 +107,7 @@
       "revision": null,
       "status": "pending_authentication",
       "private_required": true,
-      "upload_authorization": "pending_rights_review",
+      "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
       "files": [
         {
@@ -143,7 +143,7 @@
       "revision": null,
       "status": "pending_authentication",
       "private_required": true,
-      "upload_authorization": "pending_rights_review",
+      "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
       "files": [
         {
@@ -1885,7 +1885,7 @@
       "revision": null,
       "status": "pending_authentication",
       "private_required": true,
-      "upload_authorization": "pending_rights_review",
+      "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
       "files": [
         {
@@ -2473,7 +2473,7 @@
       "revision": null,
       "status": "pending_authentication",
       "private_required": true,
-      "upload_authorization": "pending_rights_review",
+      "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
       "files": [
         {
@@ -2554,5 +2554,11 @@
       "source_archive_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
       "remote_identity_verified_files": 0
     }
-  ]
+  ],
+  "private_backup_authorization": {
+    "date": "2026-11-28",
+    "basis": "User explicitly confirmed private research backups of the original datasets and six released experts; existing project request covers selected project models and research assets",
+    "public_redistribution_authorized": false,
+    "license_changes_authorized": false
+  }
 }
