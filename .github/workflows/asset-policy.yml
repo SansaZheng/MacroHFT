@@ -1,0 +1,15 @@
+name: Asset and code policy
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/check_git_policy.py
+      - run: python scripts/assets.py validate
+      - run: python scripts/verify_source.py --expected-commit "$GITHUB_SHA"
+      - run: python -m unittest discover -s tests -p test_assets.py
+      - run: python -m unittest discover -s tests -p test_source_identity.py

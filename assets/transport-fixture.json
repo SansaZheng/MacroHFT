@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "description": "Public tiny JSON transport fixture only; not MacroHFT weights or evidence of project-asset restoration. No weights downloaded.",
+  "assets": [
+    {
+      "id": "hf-transport-fixture",
+      "repo_id": "hf-internal-testing/tiny-random-bert",
+      "repo_type": "model",
+      "revision": "f171d7baecaf37b5da5a3616d8833b9969753535",
+      "status": "verified",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 548,
+          "sha256": "54f9f0001ec62b6a53072a7c9d1b630e346ae51fca14a5799e54f0d918281872"
+        }
+      ]
+    }
+  ]
+}

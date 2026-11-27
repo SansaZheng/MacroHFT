@@ -1,0 +1,77 @@
+{
+  "name": "MacroHFT remote asset and HF credential metadata audit",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "96fe18a53a20ab226bfeb6a90e510ce62d90136a"
+  },
+  "command": [
+    "python3",
+    "scripts/audit_remote_assets.py"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 1,
+    "disk_gb": 1
+  },
+  "limits": {
+    "max_hours": 0.25,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/storage-audit-20261127",
+    "expect": [
+      {
+        "path": "inventory.json",
+        "contains": "\"complete\": true"
+      },
+      {
+        "path": "progress.log",
+        "contains": "1/1"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 5
+    }
+  },
+  "resource_basis": {
+    "scope": "Read-only bounded metadata audit on existing c225 inputs; no authentication, hashing of large data, training or environment edits",
+    "bounds": "1 CPU, 1 GB RAM, 1 GB disk; 30 second filesystem bound and two 10 second interpreter probes; no paid capacity",
+    "fleet_observed": "c225 593.5 GB free local disk; c224 home 44.1 GB free; inputs require c225"
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "96fe18a53a20ab226bfeb6a90e510ce62d90136a",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "depends_on": [
+    "j-1127-458f37"
+  ]
+}

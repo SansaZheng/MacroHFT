@@ -1,0 +1,12 @@
+# Core numerical recipe from the prior CPU qualification. Use Python 3.11.
+# Separate from the lightweight asset-transfer environment. Requalify before training.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.8.0+cpu
+numpy==2.2.6
+pandas==2.3.2
+pyarrow==21.0.0
+scipy==1.15.3
+scikit-learn==1.7.1
+numba==0.61.2
+gym==0.26.2
+tensorboard==2.20.0
