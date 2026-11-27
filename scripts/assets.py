@@ -57,6 +57,25 @@ def verify_file(path, spec):
         raise ValueError('Integrity failure: ' + spec['path'])
 
 
+def install_verified(source, target, spec, link=True):
+    """Publish complete verified bytes atomically; never overwrite existing originals."""
+    source=Path(source);target=Path(target)
+    if target.exists():verify_file(target,spec);return
+    target.parent.mkdir(parents=True,exist_ok=True)
+    if link:
+        try:os.link(source,target);verify_file(target,spec);return
+        except FileExistsError:verify_file(target,spec);return
+        except OSError:pass  # e.g. cache and run directory are different filesystems
+    fd,tmp=tempfile.mkstemp(prefix='.asset-part-',dir=target.parent)
+    try:
+        with os.fdopen(fd,'wb') as out,source.open('rb') as inp:shutil.copyfileobj(inp,out,1024**2)
+        verify_file(tmp,spec)
+        try:os.link(tmp,target)  # same-filesystem atomic publish; fails if target appeared
+        except FileExistsError:verify_file(target,spec)
+    finally:
+        if os.path.exists(tmp):os.unlink(tmp)
+
+
 def validate(m, require_pins=False):
     if m['schema_version'] != 1: raise ValueError('Unsupported manifest schema')
     ids = set()
@@ -148,13 +167,7 @@ def fetch(m, ids, root, cache, paths=None):
                 downloaded = hf_hub_download(repo_id=a['repo_id'], repo_type=a['repo_type'],
                     revision=a['revision'], filename=f['path'], cache_dir=str(cache))
                 verify_file(downloaded, f)
-                target.parent.mkdir(parents=True, exist_ok=True)
-                # Hard-link immutable verified bytes where possible; copy across filesystems.
-                try: os.link(downloaded, target)
-                except FileExistsError: verify_file(target, f)
-                except OSError:
-                    with target.open('xb') as out, open(downloaded, 'rb') as inp: shutil.copyfileobj(inp, out, 1024**2)
-                verify_file(target, f)
+                install_verified(downloaded,target,f)
             records.append({'asset': a['id'], 'path': f['path'], 'sha256': f['sha256'], 'revision': a['revision']})
     return {'verified_files': records}
 

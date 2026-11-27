@@ -64,6 +64,14 @@ class AssetTests(unittest.TestCase):
             with self.assertRaises(ValueError):assets.fetch(self.manifest,['fixture'],self.root,self.root,['bad.txt'])
 
 
+    def test_interrupted_copy_does_not_leave_a_partial_target(self):
+        source=self.root/'source';source.write_bytes(self.data);target=self.root/'destination/data.txt'
+        with patch.object(assets.shutil,'copyfileobj',side_effect=OSError('interrupted')):
+            with self.assertRaises(OSError):assets.install_verified(source,target,self.file,link=False)
+        self.assertFalse(target.exists());self.assertEqual(list(target.parent.glob('.asset-part-*')),[])
+        assets.install_verified(source,target,self.file,link=False)
+        self.assertEqual(target.read_bytes(),self.data)
+
 class UploadTests(unittest.TestCase):
     def setUp(self):
         import datetime as dt

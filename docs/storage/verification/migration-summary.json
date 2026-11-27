@@ -1,0 +1,61 @@
+{
+  "canonical_repo": "https://github.com/SansaZheng/MacroHFT",
+  "compute_repo": "https://github.com/SuuTTT/MacroHFT",
+  "implementation_commit": "c8edc6b94c471de39b5715e99587c9c9f6ccff19",
+  "historical_asset_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+  "github_write_permissions": {
+    "SansaZheng/MacroHFT": true,
+    "SuuTTT/MacroHFT": true
+  },
+  "github_current_tree": {
+    "files": 307,
+    "bytes": 2209535,
+    "files_over_2MiB": 0
+  },
+  "github_reported_repository_size_kib": 1114884,
+  "hf": {
+    "namespace": null,
+    "project_repositories": [],
+    "uploaded_files": 0,
+    "pinned_project_revisions": [],
+    "account_permission": "unknown: no project credential",
+    "quota": "unknown: authentication required"
+  },
+  "remote": {
+    "host": "c225",
+    "original_root": "/date/zyy/macrohft-reproduction",
+    "cq_output_parent": "/data3/sudingli/cq-home/macrohft-recovery/results",
+    "inventory_job": "j-1127-16fe1e",
+    "inventory_state": "done",
+    "inventory_files": 1455,
+    "inventory_bytes": 1853871386,
+    "legacy_disk_free_bytes": 1151890235392,
+    "output_disk_free_bytes": 5446634090496,
+    "transport_smoke_job": "j-1127-785091",
+    "selected_hash_job": "j-1127-794ac6",
+    "selected_hash_state": "done",
+    "selected_files_verified": 193,
+    "selected_bytes_hashed": 1278333903,
+    "hash_mismatches": 0
+  },
+  "local": {
+    "code_checkout": "/Users/zyy/.local/share/macrohft/repository",
+    "preserved_original_root": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
+    "original_allocated_bytes": 1594220544,
+    "historical_git_objects_approx_mib": 272,
+    "potential_reclaimable_after_all_gates_gib": "approximately 1.5 GiB originals/old environment, plus historical Git objects after separately approved local checkout cleanup",
+    "originals_deleted": false,
+    "shared_caches_cleared": false,
+    "history_rewritten": false,
+    "previously_pending": 66,
+    "newly_hash_readable": 64,
+    "still_missing_recorded_paths": 2,
+    "temporary_tooling_env_removed_bytes": 33296384
+  },
+  "confirmation_needed": [
+    "HF namespace and securely configured project write authentication",
+    "Actual included private storage headroom",
+    "Private backup rights for author-provided datasets/experts where no explicit license was recorded"
+  ],
+  "cleanup_status": "not proposed for execution: private HF uploads and pinned recovery gates are not yet complete"
+}

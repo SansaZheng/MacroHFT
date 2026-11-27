@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 import shutil
 import sys
-from assets import read, safe, save, digest, validate, verify_file, storage_root, select
+from assets import read, safe, save, digest, validate, verify_file, storage_root, select, install_verified
 
 
 def stage(manifest, ids, legacy_root, destination):
@@ -19,10 +19,8 @@ def stage(manifest, ids, legacy_root, destination):
             verify_file(source,f)
             if target.exists():verify_file(target,f)
             else:
-                target.parent.mkdir(parents=True,exist_ok=True)
-                # Copy rather than link mutable legacy checkpoints into the upload staging tree.
-                with source.open('rb') as inp,target.open('xb') as out:shutil.copyfileobj(inp,out,1024**2)
-                verify_file(target,f)
+                # Copy mutable legacy files; partial copies are never published.
+                install_verified(source,target,f,link=False)
             count+=1
     return count
 

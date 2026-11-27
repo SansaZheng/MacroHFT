@@ -2,7 +2,7 @@
   "date": "2026-11-27",
   "tests": {
     "asset_workflow": {
-      "passed": 21,
+      "passed": 22,
       "command": "python3 -m unittest discover -s tests -p test_assets.py"
     },
     "source_identity": {

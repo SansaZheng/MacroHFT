@@ -1,0 +1,77 @@
+{
+  "name": "MacroHFT inspect own remote environment bootstrap log",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "0ee2ef4bcbbf4722abf51e1412fb5073bf60f24d"
+  },
+  "command": [
+    "python3",
+    "-c",
+    "import json,os;from pathlib import Path;root=Path('/data3/sudingli/cq-home/macrohft-recovery/results/asset-transport-smoke-bootstrap-20261127');out=Path(os.environ['CQ_OUTPUT_DIR']);out.mkdir(parents=True,exist_ok=True);r={'logs_read':True,'source':str(root),'logs':{}}\nfor name in ['progress.log','smoke.log']:\n p=root/name\n if p.is_file():\n  with p.open('rb') as f:f.seek(max(0,p.stat().st_size-16000));r['logs'][name]=f.read(16000).decode(errors='replace')\n(out/'diagnostic.json').write_text(json.dumps(r,indent=2)+'\\n');(out/'progress.log').write_text('1/1 complete\\n');print(json.dumps(r))"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 1,
+    "disk_gb": 1
+  },
+  "limits": {
+    "max_hours": 0.1,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/asset-bootstrap-diagnostic-20261127",
+    "expect": [
+      {
+        "path": "diagnostic.json",
+        "contains": "\"logs_read\": true"
+      },
+      {
+        "path": "progress.log",
+        "contains": "1/1"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 5
+    }
+  },
+  "resource_basis": {
+    "scope": "Read at most 32KB of two logs from this project own smoke job; no credentials were used in that job; do not change its processes or environment",
+    "bounds": "1 CPU, 1GB RAM/disk conservative allowance, .1h max; no GPU, data reads or paid capacity"
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "0ee2ef4bcbbf4722abf51e1412fb5073bf60f24d",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "depends_on": [
+    "j-1127-16fe1e"
+  ]
+}
