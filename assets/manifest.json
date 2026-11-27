@@ -5,12 +5,12 @@
     "commit": "23a4d58191b223227c142fa715bec104bb9e97c0"
   },
   "storage_policy": "Code/manifests on GitHub; authorized private assets on HF; execution and caches remote.",
-  "hf_namespace": null,
-  "quota_status": "unknown; no charge authorization",
+  "hf_namespace": "Sansa005",
+  "quota_status": "Authenticated browser shows 904 MB of 100 GB private storage used; refresh observation before upload; no charge authorization",
   "assets": [
     {
       "id": "eth-original",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
       "revision": null,
       "status": "pending_authentication",
@@ -56,7 +56,7 @@
     },
     {
       "id": "eth-prepared",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
       "revision": null,
       "status": "pending_authentication",
@@ -102,7 +102,7 @@
     },
     {
       "id": "feature-definitions",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
       "revision": null,
       "status": "pending_authentication",
@@ -138,7 +138,7 @@
     },
     {
       "id": "eth-decomposition",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
       "revision": null,
       "status": "pending_authentication",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "released-experts",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
       "revision": null,
       "status": "pending_authentication",
@@ -1958,7 +1958,7 @@
     },
     {
       "id": "eth-reference-12345",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
       "revision": null,
       "status": "pending_authentication",
@@ -2043,7 +2043,7 @@
     },
     {
       "id": "eth-reference-2024",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
       "revision": null,
       "status": "pending_authentication",
@@ -2128,7 +2128,7 @@
     },
     {
       "id": "eth-reference-42",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
       "revision": null,
       "status": "pending_authentication",
@@ -2213,7 +2213,7 @@
     },
     {
       "id": "eth-combined-12345",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
       "revision": null,
       "status": "pending_authentication",
@@ -2298,7 +2298,7 @@
     },
     {
       "id": "eth-combined-2024",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
       "revision": null,
       "status": "pending_authentication",
@@ -2383,7 +2383,7 @@
     },
     {
       "id": "eth-combined-42",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
       "revision": null,
       "status": "pending_authentication",
@@ -2468,7 +2468,7 @@
     },
     {
       "id": "cost-memory-data",
-      "repo_id": null,
+      "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
       "revision": null,
       "status": "pending_authentication",

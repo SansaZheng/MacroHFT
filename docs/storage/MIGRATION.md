@@ -1,9 +1,14 @@
 # GitHub / Hugging Face / remote execution migration
 
-Status: code-side migration implemented; HF authentication, namespace, repository discovery,
-write permission and account storage headroom are not established. No HF asset upload
-or private-repository creation has been performed. A null revision is a blocker, not
-an implied `main` revision. Existing private repositories cannot be discovered anonymously.
+Status: code-side migration and clean remote HF 1.8.0 transport qualification passed.
+The user's browser is authenticated as `Sansa005`; no MacroHFT repo existed in the
+account inventory, so two private destinations were created:
+[Dataset](https://huggingface.co/datasets/Sansa005/MacroHFT) and
+[Model](https://huggingface.co/Sansa005/MacroHFT). Private storage showed 904 MB used
+of 100 GB. Remote SDK authentication and upstream private-backup rights remain pending.
+No dataset/model payload has been uploaded. Manifest repo IDs now identify the actual
+destinations; null asset revisions remain blocking and must not be replaced by an empty
+repository's initial commit or a moving `main` reference.
 
 ## Preservation and authority
 
@@ -24,8 +29,8 @@ an implied `main` revision. Existing private repositories cannot be discovered a
 - c225 original inputs: `/date/zyy/macrohft-reproduction`; prior c224 setup:
   `/date/zyy/macrohft-cluster`. Read-only audit is through CQ. Shared caches and other
   users' jobs are untouched. Only job-specific CQ output directories receive writes.
-- HF targets will be private Dataset and Model repositories in the authenticated,
-  user-confirmed namespace. Inspect existing repositories before choosing names.
+- HF destinations are the private Dataset and Model repositories `Sansa005/MacroHFT`.
+  The authenticated inventory was checked before creation; no duplicate was found.
   Preserve upstream notices; no new license is assigned. Upstream data/expert rights
   remain a review item; private backup permission is not a public redistribution license.
 
@@ -148,9 +153,9 @@ the retained remote log. Job-owned scratch code/assets/cache were removed after 
 only small diagnostics were collected locally. Existing environments and originals stayed intact.
 
 This verifies public pinned transport and minimal execution, **not** a private MacroHFT
-asset restoration or paper reproduction. No project HF repository URLs/revisions can
-be reported yet. The remaining inputs are the HF namespace, secure project authentication,
-actual included private storage headroom, and private-backup rights for upstream data/experts.
+asset restoration or paper reproduction. At that point project HF URLs/revisions were unavailable. The later browser discovery
+identified the account/quota and created the private destinations (see current status).
+Secure remote project authentication and private-backup rights remain pending.
 The temporary personal HF tooling environment was removed (33,296,384 allocated bytes);
 no original data or historical Git objects have been deleted.
 
@@ -170,3 +175,18 @@ private asset was uploaded. Account/repository discovery, permission/quota verif
 private-backup rights review and actual asset migration remain pending. The successful
 client setup is not an authenticated upload test. Only this job's disposable scratch
 was removed; project originals and shared environments remain unchanged.
+
+## Browser login discovery and private destinations
+
+After the user confirmed they had logged in, their existing in-app browser session
+identified `Sansa005`. The authenticated repository list had no MacroHFT project.
+Both private repositories were created without selecting or changing any license.
+No datasets, weights, credential values or other projects' files were uploaded.
+The [browser observation](verification/hf-browser-discovery-20261128.json) records
+visibility, quota and the pending credential handoff without storing any token.
+
+A fine-grained token form is prepared for read/write access to these two repositories
+only. It has not been submitted by the agent. The computer-use rules require the user
+to complete new credential creation. Secure SDK login must use a hidden prompt and
+`HF_HOME=/date/zyy/macrohft-reproduction/.hf` (outside CQ output collection), with
+`umask 077`. Never reuse another project's scoped token or paste the token into chat.

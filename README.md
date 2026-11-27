@@ -42,8 +42,10 @@ pending 项表示文件仍未完整归档，不能当成已备份。
 
 GitHub now tracks code, configuration, dependency recipes, documentation, lightweight
 summaries and asset manifests. Datasets and model weights are being migrated to private
-Hugging Face repositories; **HF access is pending, so no project HF revision is available
-yet**. Historical GitHub assets remain at commit
+Hugging Face repositories: [Dataset](https://huggingface.co/datasets/Sansa005/MacroHFT)
+and [Model](https://huggingface.co/Sansa005/MacroHFT). Both were created private after
+checking the authenticated `Sansa005` account for duplicates. **Remote SDK authentication
+and upstream private-backup rights are pending; no project asset upload/revision exists yet**. Historical GitHub assets remain at commit
 `23a4d58191b223227c142fa715bec104bb9e97c0`; shared history and originals are preserved.
 
 - [Migration status, inventory, rights and cleanup gates](docs/storage/MIGRATION.md)
@@ -57,7 +59,7 @@ plus independent streaming SHA-256 verification. See the
 also passed with a **fresh official HF 1.8.0 environment**, clearing the earlier package
 installation failure; see its [receipt](docs/storage/verification/j-1128-7b3618/receipt.json).
 This is transport qualification; actual private MacroHFT asset restoration remains blocked
-by HF access. No project dataset/model has been uploaded to HF or assigned a fabricated revision.
+by remote SDK authentication and the outstanding rights review. No project dataset/model has been uploaded to HF or assigned a fabricated revision.
 
 Do not run the old archive-building scripts for new results. They are retained only for
 historical recovery. Do not use an unrestricted full clone on a personal computer.
@@ -75,7 +77,7 @@ python3 scripts/create_asset_env.py --root "$CQ_OUTPUT_DIR/asset-env"
 export PYTHON="$CQ_OUTPUT_DIR/asset-env/bin/python"
 # Interactive owner terminal only, if not using an approved secret manager:
 "$CQ_OUTPUT_DIR/asset-env/bin/hf" auth login
-"$PYTHON" scripts/assets.py audit --namespace YOUR_CONFIRMED_NAMESPACE
+"$PYTHON" scripts/assets.py audit --namespace Sansa005
 export MACROHFT_ASSET_ROOT="$CQ_OUTPUT_DIR/assets"
 export MACROHFT_HF_CACHE="$CQ_OUTPUT_DIR/cache/hub"
 export HF_HUB_CACHE="$MACROHFT_HF_CACHE"
@@ -110,7 +112,7 @@ For an authorized new dataset, use explicit source files and a current quota obs
   --output-manifest "$CQ_OUTPUT_DIR/upload-plan.json"
 "$PYTHON" scripts/assets.py --manifest "$CQ_OUTPUT_DIR/upload-plan.json" upload \
   --asset eth-prepared --source "$CQ_OUTPUT_DIR/stage" \
-  --repo-id YOUR_NAMESPACE/YOUR_PRIVATE_DATASET_REPO \
+  --repo-id Sansa005/MacroHFT \
   --quota-record "$CQ_OUTPUT_DIR/quota.json" \
   --output-manifest "$CQ_OUTPUT_DIR/verified-manifest.json"
 # For selected models: use --asset eth-reference-12345 and your private model repo,

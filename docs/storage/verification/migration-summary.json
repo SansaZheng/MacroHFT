@@ -9,12 +9,29 @@
   },
   "github_reported_repository_size_kib": 1114884,
   "hf": {
-    "namespace": null,
-    "project_repositories": [],
+    "namespace": "Sansa005",
+    "project_repositories": [
+      {
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "dataset",
+        "url": "https://huggingface.co/datasets/Sansa005/MacroHFT",
+        "private": true,
+        "asset_upload_complete": false,
+        "asset_revision": null
+      },
+      {
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "url": "https://huggingface.co/Sansa005/MacroHFT",
+        "private": true,
+        "asset_upload_complete": false,
+        "asset_revision": null
+      }
+    ],
     "uploaded_files": 0,
     "pinned_project_revisions": [],
-    "account_permission": "unknown: no project credential",
-    "quota": "unknown: authentication required"
+    "account_permission": "Owner browser session created both private repositories; scoped SDK authentication/write check pending",
+    "quota": "Authenticated Private storage display: 904 MB used of 100 GB; refresh before upload"
   },
   "remote": {
     "host": "c225",
@@ -73,8 +90,7 @@
     "asset_tests_passed": 25
   },
   "confirmation_needed": [
-    "HF namespace and securely configured project write authentication",
-    "Actual included private storage headroom",
+    "User completes the prepared repo-scoped token and hidden-prompt HF login on c225",
     "Private backup rights for author-provided datasets/experts where no explicit license was recorded"
   ],
   "cleanup_status": "not proposed for execution: private HF uploads and pinned recovery gates are not yet complete",

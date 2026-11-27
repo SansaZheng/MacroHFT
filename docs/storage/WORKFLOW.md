@@ -42,7 +42,7 @@ specifications or commands. For an interactive owner terminal only:
 ```bash
 # HF_HOME must already be a private credential directory approved for this project.
 "$MACROHFT_WORK/asset-env/bin/hf" auth login
-"$PYTHON" scripts/assets.py audit --namespace YOUR_CONFIRMED_NAMESPACE
+"$PYTHON" scripts/assets.py audit --namespace Sansa005
 ```
 
 The audit reports identity, token role and matching accessible repositories, never
@@ -51,7 +51,7 @@ Record this JSON under your private remote work directory (not a token):
 
 ```json
 {
-  "namespace": "YOUR_CONFIRMED_NAMESPACE",
+  "namespace": "Sansa005",
   "checked_at": "ACTUAL_UTC_TIME_WITH_OFFSET",
   "source": "Authenticated HF Storage settings, observed by account owner",
   "included_free_bytes_remaining": 0,
@@ -72,7 +72,8 @@ to multiply the same capacity. No upgrade or paid overflow is automated.
 First inspect the current ledger and remote inventory. Reuse existing HF repos discovered
 by the audit. Create at most a private dataset repo and a private model repo if no suitable
 project repos exist. Record private-upload authorization per asset based on actual rights;
-no new license is assigned. No project HF repo exists in this workflow yet.
+no new license is assigned. Both private destinations now exist as `Sansa005/MacroHFT` (one Dataset and one Model).
+Use them without `--create-repo`; remote authentication and private-backup rights still gate uploads.
 
 Prepare one logical asset at a time. The staging command checks source bytes and adds a
 card and asset provenance; it does not alter originals or upload a directory indiscriminately.
@@ -84,7 +85,7 @@ card and asset provenance; it does not alter originals or upload a directory ind
   --output-manifest "$MACROHFT_WORK/upload-plan.json"
 "$PYTHON" scripts/assets.py --manifest "$MACROHFT_WORK/upload-plan.json" upload \
   --asset eth-prepared --source "$MACROHFT_WORK/stage/dataset" \
-  --repo-id YOUR_NAMESPACE/EXISTING_OR_APPROVED_DATASET_REPO \
+  --repo-id Sansa005/MacroHFT \
   --quota-record "$MACROHFT_WORK/quota.json" \
   --output-manifest "$MACROHFT_WORK/verified-manifest.json"
 ```
@@ -210,3 +211,19 @@ no certificate is installed. The existing client is 0.36.2 and is **not qualifie
 this uploader**, which requires the pinned 1.8.0 environment. A cache entry failing
 size/SHA verification gets one bounded unbuffered `HfFileSystem` retry. A second bad
 response fails closed; original files and shared caches remain untouched.
+
+## Secure owner login handoff
+
+Browser sign-in does not authenticate a remote Python process. In the owner's c225
+terminal, after personally creating the prepared repository-scoped token:
+
+```bash
+umask 077
+export HF_HOME=/date/zyy/macrohft-reproduction/.hf
+/date/zyy/macrohft-reproduction/.venv/bin/python -c 'from huggingface_hub import login; login(add_to_git_credential=False)'
+```
+
+Paste the token only into the hidden prompt. This uses the existing official client for
+login without changing its packages; transfer jobs use the separately qualified 1.8.0
+client. No token belongs in a CQ spec, Git history, stdout, chat, or collected output.
+Refresh private storage headroom and confirm upstream upload rights before migration.

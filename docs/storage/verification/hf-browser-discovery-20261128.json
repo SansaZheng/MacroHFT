@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-27T20:29:38+00:00",
+  "account": "Sansa005",
+  "authentication": "Existing user browser session; remote SDK authentication still pending",
+  "existing_repository_discovery": "Authenticated settings overview had no MacroHFT repository before creation; unrelated repositories were not changed",
+  "project_repositories": [
+    {
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "dataset",
+      "url": "https://huggingface.co/datasets/Sansa005/MacroHFT",
+      "private": true,
+      "asset_upload_complete": false,
+      "asset_revision": null
+    },
+    {
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "url": "https://huggingface.co/Sansa005/MacroHFT",
+      "private": true,
+      "asset_upload_complete": false,
+      "asset_revision": null
+    }
+  ],
+  "storage_observation": {
+    "source": "Authenticated HF settings/repositories/storage, Private filter",
+    "displayed_usage": "904 MB",
+    "displayed_capacity": "100 GB",
+    "conservative_included_free_bytes_remaining": 98000000000,
+    "charges_authorized": false,
+    "fresh_observation_required_before_upload": true
+  },
+  "licenses_changed": false,
+  "credentials_created_by_agent": false,
+  "private_assets_uploaded": false,
+  "token_form_prepared_only": {
+    "name": "macrohft-c225-migration-20261128",
+    "repo_ids": [
+      {
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "dataset",
+        "url": "https://huggingface.co/datasets/Sansa005/MacroHFT",
+        "private": true,
+        "asset_upload_complete": false,
+        "asset_revision": null
+      },
+      {
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "url": "https://huggingface.co/Sansa005/MacroHFT",
+        "private": true,
+        "asset_upload_complete": false,
+        "asset_revision": null
+      }
+    ],
+    "scope": "Read/write selected repositories only; no account-wide repository, billing, inference, jobs or organization permissions selected",
+    "user_must_complete_creation_and_login": true
+  }
+}
