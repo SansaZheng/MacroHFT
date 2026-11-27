@@ -98,12 +98,14 @@ selected private model repo. Each model binds dataset revisions, config, seed, s
 identity and metrics. Inspect final/recovery checkpoints before adding them; do not
 upload every epoch. Full optimizer/RNG/replay resume state must be identified explicitly.
 
-Review the generated verified manifest (no credentials) and update GitHub:
+Review the generated verified manifest (no credentials). From the existing canonical
+write-authorized code checkout, retrieve only that metadata and update GitHub:
 
 ```bash
-cp "$MACROHFT_WORK/verified-manifest.json" assets/manifest.json
-"$PYTHON" scripts/assets.py validate
-"$PYTHON" scripts/assets.py stream-verify --asset eth-prepared
+cq fetch UPLOAD_JOB_ID --path verified-manifest.json
+cp UPLOAD_JOB_ID/verified-manifest.json assets/manifest.json
+python3 scripts/assets.py validate
+# The uploader already streamed the pinned remote bytes before producing this manifest.
 python3 scripts/check_git_policy.py
 git add assets/manifest.json
 git commit -m 'Pin verified HF asset revision and checksums'
@@ -119,15 +121,20 @@ itself does not automatically mutate GitHub or rewrite history.
 These commands **fail until the relevant real HF revisions have been verified**:
 
 ```bash
-"$PYTHON" scripts/assets.py fetch --asset eth-prepared --asset feature-definitions \
-  --asset released-experts --root "$MACROHFT_ASSET_ROOT" --cache-dir "$MACROHFT_HF_CACHE"
+"$PYTHON" scripts/assets.py fetch --asset feature-definitions --asset released-experts \
+  --root "$MACROHFT_ASSET_ROOT" --cache-dir "$MACROHFT_HF_CACHE"
+"$PYTHON" scripts/assets.py fetch --asset eth-prepared \
+  --file prepared/ETHUSDT/train/data.feather --file prepared/ETHUSDT/val/data.feather \
+  --root "$MACROHFT_ASSET_ROOT" --cache-dir "$MACROHFT_HF_CACHE"
 # A single file rather than an entire logical asset:
 "$PYTHON" scripts/assets.py fetch --asset eth-prepared \
   --file prepared/ETHUSDT/train/data.feather \
   --root "$MACROHFT_ASSET_ROOT" --cache-dir "$MACROHFT_HF_CACHE"
-"$PYTHON" scripts/assets.py verify --asset eth-prepared --root "$MACROHFT_ASSET_ROOT"
+"$PYTHON" scripts/assets.py verify --asset eth-prepared \
+  --file prepared/ETHUSDT/train/data.feather --file prepared/ETHUSDT/val/data.feather \
+  --root "$MACROHFT_ASSET_ROOT"
 # Streaming integrity check, without a persistent dataset copy:
-"$PYTHON" scripts/assets.py stream-verify --asset eth-prepared
+"$PYTHON" scripts/assets.py stream-verify --asset eth-prepared --file prepared/ETHUSDT/train/data.feather
 ```
 
 The file fetch does not fetch validation/test unless explicitly selected. A full asset
@@ -157,7 +164,8 @@ python3.11 -m venv "$MACROHFT_WORK/research-env"
 ```
 
 The runner exports only committed code into an empty run directory, links verified inputs,
-records code and asset revisions, and writes results there. It preserves the original
+records code and asset revisions plus the exact selected paths, and writes results there.
+It links only train/validation splits; final test inputs are not required or linked. It preserves the original
 `--skip_test` behavior. Do not re-evaluate observed final test periods for method selection.
 Increase epochs or request GPUs only after the CQ resource/environment smoke gates pass.
 

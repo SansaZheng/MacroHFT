@@ -58,9 +58,9 @@
     "scripts/stage_assets.py": "87e88adb074f2e2296e2a5f4e610e86aeae637a5f7b493f989e079ed459ffd96",
     "scripts/check_git_policy.py": "4865a7f18c6ec8864cb9774a71d8c7ad17adb07948c94e7e560a36886548af0f",
     "scripts/audit_remote_assets.py": "4687ceb5839052d2e81b8e04af0f461ec60697cfb35dc74de68b77aeb29693aa",
-    "scripts/assets.py": "63ce0a05a4377596bf67e24e5a5f3036c6c92f15956b6f0e963676ca83b4f2a8",
-    "scripts/remote_run.py": "6e785d3674f6c35e3eeb6fcbc1a51afd28f22d8477f4d56be84a450da936b9c3",
-    "tests/test_assets.py": "f91b03b8c9a4479af0f6bc84565992d68b2c9a5c74257da7004311f9a820e84d",
+    "scripts/assets.py": "8191663aa9aa46fc46bc1f9226e13060a70dda576b6a5aaf6355c9867f960524",
+    "scripts/remote_run.py": "f6b4956847872d7fffb3f6ba796043838e6de2a8b80a2399d2b5c6556b61012e",
+    "tests/test_assets.py": "34895c83a5ca712500c1de812e4df7516bdfd4e0760a48aa9e64c1e43603ba4e",
     "scripts/cq_asset_smoke.py": "d875b97af818d46c87ef1aaed28345beccdbc41a2a043215c132b5c74f33d311",
     "scripts/audit_asset_hashes.py": "1320213dfb67cc3e0fdb10011fad1bd61c6c9cfbff9318355000b571de1738be"
   },

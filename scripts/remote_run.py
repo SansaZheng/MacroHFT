@@ -13,6 +13,8 @@ from assets import ROOT, read, safe, save, select, verify_file, storage_root
 def prepare(manifest, asset_root, work):
     required=['eth-prepared','feature-definitions','released-experts']
     selected=select(manifest,required)
+    selected=[dict(a,files=[f for f in a['files'] if f.get('role')!='documentation' and
+              not (a['id']=='eth-prepared' and f['path']=='prepared/ETHUSDT/test/data.feather')]) for a in selected]
     for a in selected:
         for f in a['files']:verify_file(safe(asset_root,a['id']+'/'+f['path']),f)
     if any(work.iterdir()):raise ValueError('Run directory must be empty; preserve previous runs')
@@ -31,7 +33,7 @@ def prepare(manifest, asset_root, work):
             target=safe(work,f['runtime_path']);target.parent.mkdir(parents=True,exist_ok=True)
             if target.exists():raise ValueError('Code tree unexpectedly contains an asset')
             target.symlink_to(safe(asset_root,a['id']+'/'+f['path']))
-    save(work/'run-inputs.json',{'code_commit':sha,'assets':[{k:a[k] for k in ['id','repo_id','repo_type','revision']} for a in selected]})
+    save(work/'run-inputs.json',{'code_commit':sha,'assets':[dict({k:a[k] for k in ['id','repo_id','repo_type','revision']},files=[{k:f[k] for k in ['path','sha256']} for f in a['files']]) for a in selected]})
     return sha
 
 

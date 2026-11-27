@@ -74,10 +74,13 @@ export HF_HUB_CACHE="$MACROHFT_HF_CACHE"
 export HF_XET_CACHE="$CQ_OUTPUT_DIR/cache/xet"
 "$PYTHON" scripts/assets.py validate
 # These project-asset commands block until actual HF pins are in the manifest:
-"$PYTHON" scripts/assets.py fetch --asset eth-prepared --asset feature-definitions --asset released-experts
+"$PYTHON" scripts/assets.py fetch --asset feature-definitions --asset released-experts
+"$PYTHON" scripts/assets.py fetch --asset eth-prepared \
+  --file prepared/ETHUSDT/train/data.feather --file prepared/ETHUSDT/val/data.feather
 "$PYTHON" scripts/assets.py fetch --asset eth-prepared --file prepared/ETHUSDT/train/data.feather
-"$PYTHON" scripts/assets.py verify --asset eth-prepared
-"$PYTHON" scripts/assets.py stream-verify --asset eth-prepared
+"$PYTHON" scripts/assets.py verify --asset eth-prepared \
+  --file prepared/ETHUSDT/train/data.feather --file prepared/ETHUSDT/val/data.feather
+"$PYTHON" scripts/assets.py stream-verify --asset eth-prepared --file prepared/ETHUSDT/train/data.feather
 ```
 
 For an isolated minimal runtime check and a validation-only experiment:
@@ -104,8 +107,15 @@ For an authorized new dataset, use explicit source files and a current quota obs
   --output-manifest "$CQ_OUTPUT_DIR/verified-manifest.json"
 # For selected models: use --asset eth-reference-12345 and your private model repo,
 # after the required dataset/expert revisions have been verified and merged.
-cp "$CQ_OUTPUT_DIR/verified-manifest.json" assets/manifest.json
-"$PYTHON" scripts/assets.py validate
+```
+
+Once that CQ upload job finishes, retrieve **only** its small verified manifest into the
+existing write-authorized code checkout (for example, this Mac's sparse checkout):
+
+```bash
+cq fetch UPLOAD_JOB_ID --path verified-manifest.json
+cp UPLOAD_JOB_ID/verified-manifest.json assets/manifest.json
+python3 scripts/assets.py validate
 git add assets/manifest.json
 git commit -m 'Pin verified HF assets'
 git push origin main

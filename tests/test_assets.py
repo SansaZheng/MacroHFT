@@ -133,6 +133,17 @@ class UploadTests(unittest.TestCase):
             assets.upload(self.manifest,'model',self.root,'owner/macrohft-models',self.quota,self.root/'new.json',create=True)
         self.assertTrue(calls[0]['private']);self.assertFalse(calls[0]['exist_ok'])
 
+    def test_existing_card_and_license_are_preserved(self):
+        (self.root/'README.md').write_text('new generic card')
+        f={'path':'README.md','size':16,'sha256':assets.digest(self.root/'README.md'),'role':'documentation'}
+        self.asset['files'].append(f)
+        old={'size':20,'sha256':'d'*64}
+        self.api.get_paths_info=lambda repo,paths,**kw:([types.SimpleNamespace(lfs=None)] if paths==['README.md'] else [])
+        with patch.object(assets,'remote_identity',return_value=old):r=self.invoke()
+        self.assertEqual(self.calls[0]['allow_patterns'],['weights.txt'])
+        self.assertEqual(self.asset['files'][1]['sha256'],'d'*64)
+        self.assertEqual((self.root/'README.md').read_text(),'new generic card')
+
 class RunIsolationTests(unittest.TestCase):
     def test_prepare_uses_verified_assets_and_skips_documentation_links(self):
         import io,tarfile

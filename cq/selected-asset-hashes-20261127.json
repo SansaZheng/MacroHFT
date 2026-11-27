@@ -1,0 +1,80 @@
+{
+  "name": "MacroHFT selected input and best-final checkpoint identity audit",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "dfaebca86452a800999b0cf55fe763847dd80819"
+  },
+  "command": [
+    "python3",
+    "scripts/audit_asset_hashes.py"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 1,
+    "disk_gb": 1
+  },
+  "limits": {
+    "max_hours": 0.25,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/selected-asset-hashes-20261127",
+    "expect": [
+      {
+        "path": "hashes.json",
+        "contains": "\"complete\": true"
+      },
+      {
+        "path": "hashes.json",
+        "contains": "dfaebca86452a800999b0cf55fe763847dd80819"
+      },
+      {
+        "path": "progress.log",
+        "contains": "193/193"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 5
+    }
+  },
+  "resource_basis": {
+    "scope": "Hash selected data and 6 released experts, 6 best and 6 final checkpoints; no copying, training or test evaluation",
+    "bounds": "1 CPU, 1 GB RAM/disk, 1 MiB read buffer, 60 sec per-file bound, .25 hours; c225 local inputs only; no paid capacity"
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "dfaebca86452a800999b0cf55fe763847dd80819",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "depends_on": [
+    "j-1127-16fe1e"
+  ]
+}

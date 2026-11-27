@@ -88,6 +88,14 @@ def select(m, ids):
     return selected
 
 
+def file_subset(selected, paths):
+    if not paths:return selected
+    if len(selected)!=1:raise ValueError('--file requires exactly one asset')
+    a=selected[0]
+    if set(paths)-{f['path'] for f in a['files']}:raise ValueError('File not declared by asset')
+    return [dict(a,files=[f for f in a['files'] if f['path'] in paths])]
+
+
 def storage_root(value, variable):
     value = value or os.environ.get(variable)
     if not value: raise ValueError('Set --root / --cache-dir or ' + variable + '; no personal-computer default')
@@ -130,13 +138,9 @@ def audit(namespace=None):
 
 def fetch(m, ids, root, cache, paths=None):
     from huggingface_hub import hf_hub_download
-    assets = select(m, ids); records = []
-    if paths and len(assets) != 1: raise ValueError('--file requires exactly one asset')
+    assets = file_subset(select(m, ids), paths); records = []
     for a in assets:
         files = a['files']
-        if paths:
-            if set(paths) - {f['path'] for f in files}: raise ValueError('File not declared by asset')
-            files = [f for f in files if f['path'] in paths]
         for f in files:
             target = safe(root, a['id'] + '/' + f['path'])
             if target.exists(): verify_file(target, f)
@@ -155,16 +159,22 @@ def fetch(m, ids, root, cache, paths=None):
     return {'verified_files': records}
 
 
+def remote_identity(a, path):
+    from huggingface_hub import HfFileSystem
+    fs=HfFileSystem();prefix='datasets/' if a['repo_type']=='dataset' else ''
+    h=hashlib.sha256();size=0
+    with fs.open(prefix+a['repo_id']+'@'+a['revision']+'/'+path,'rb',block_size=1024**2,cache_type='none') as stream:
+        for block in iter(lambda:stream.read(1024**2),b''):h.update(block);size+=len(block)
+    return {'sha256':h.hexdigest(),'size':size}
+
+
 def stream_verify(a):
     """Stream whole pinned files to a hash; no persistent dataset/model cache."""
-    from huggingface_hub import HfFileSystem
-    fs = HfFileSystem(); checked = []
-    prefix = 'datasets/' if a['repo_type'] == 'dataset' else ''
+    checked=[]
     for f in a['files']:
-        h = hashlib.sha256(); size = 0
-        with fs.open(prefix+a['repo_id']+'@'+a['revision']+'/'+f['path'], 'rb', block_size=1024**2, cache_type='none') as stream:
-            for block in iter(lambda: stream.read(1024**2), b''): h.update(block); size += len(block)
-        if h.hexdigest() != f['sha256'] or size != f['size']: raise ValueError('Remote integrity failure: '+f['path'])
+        identity=remote_identity(a,f['path'])
+        if identity['sha256']!=f['sha256'] or identity['size']!=f['size']:
+            raise ValueError('Remote integrity failure: '+f['path'])
         checked.append(f['path'])
     return checked
 
@@ -234,8 +244,12 @@ def upload(m, asset_id, source, repo_id, quota_path, output, create=False):
         if found and hasattr(found[0], 'lfs') and found[0].lfs:
             same = found[0].lfs.sha256 == f['sha256'] and found[0].size == f['size']
         elif found:
-            try: stream_verify(dict(a, repo_id=repo_id, revision=info.sha, files=[f])); same = True
-            except ValueError: pass
+            identity=remote_identity(dict(a,repo_id=repo_id,revision=info.sha),f['path'])
+            same=identity['sha256']==f['sha256'] and identity['size']==f['size']
+        if found and f['path']=='README.md' and not same:
+            # Preserve an existing repository card, including its license metadata.
+            identity=remote_identity(dict(a,repo_id=repo_id,revision=info.sha),f['path'])
+            f.update(identity);f['preserved_existing_card']=True;same=True
         if not same: pending.append(f)
     # upload_folder in the pinned client supports parent_commit and Xet transport;
     # restart reruns remote comparisons; at most 50 explicit files per commit.
@@ -260,9 +274,9 @@ def main():
     sub.add_parser('validate')
     q=sub.add_parser('audit');q.add_argument('--namespace')
     for name in ['fetch','verify','stream-verify']:
-        q=sub.add_parser(name);q.add_argument('--asset',action='append',required=True)
+        q=sub.add_parser(name);q.add_argument('--asset',action='append',required=True);q.add_argument('--file',action='append')
         if name != 'stream-verify':q.add_argument('--root')
-        if name == 'fetch':q.add_argument('--cache-dir');q.add_argument('--file',action='append')
+        if name == 'fetch':q.add_argument('--cache-dir')
     q=sub.add_parser('upload');q.add_argument('--asset',required=True);q.add_argument('--source',required=True)
     q.add_argument('--repo-id',required=True);q.add_argument('--quota-record',required=True)
     q.add_argument('--output-manifest',required=True);q.add_argument('--create-repo',action='store_true')
@@ -272,13 +286,13 @@ def main():
         m=validate(read(a.manifest))
         if a.command=='validate': result={'valid':True,'assets':len(m['assets']),'verified':sum(x['status']=='verified' for x in m['assets'])}
         elif a.command=='upload':result=upload(m,a.asset,a.source,a.repo_id,a.quota_record,a.output_manifest,a.create_repo)
-        elif a.command=='stream-verify': result={x['id']:stream_verify(x) for x in select(m,a.asset)}
+        elif a.command=='stream-verify': result={x['id']:stream_verify(x) for x in file_subset(select(m,a.asset),a.file)}
         else:
             root=storage_root(a.root,'MACROHFT_ASSET_ROOT')
             if a.command=='fetch':result=fetch(m,a.asset,root,storage_root(a.cache_dir,'MACROHFT_HF_CACHE'),a.file)
             else:
                 checked=0
-                for x in select(m,a.asset):
+                for x in file_subset(select(m,a.asset),a.file):
                     for f in x['files']:verify_file(safe(root,x['id']+'/'+f['path']),f);checked+=1
                 result={'verified_files':checked}
     print(json.dumps(result,indent=2))

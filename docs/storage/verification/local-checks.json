@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-27",
+  "tests": {
+    "asset_workflow": {
+      "passed": 21,
+      "command": "python3 -m unittest discover -s tests -p test_assets.py"
+    },
+    "source_identity": {
+      "passed": 6,
+      "command": "python3 -m unittest discover -s tests -p test_source_identity.py"
+    }
+  },
+  "official_client_version": "1.8.0",
+  "public_fixture_stream_verified": true,
+  "public_fixture_revision": "f171d7baecaf37b5da5a3616d8833b9969753535",
+  "project_hf_assets_uploaded": false,
+  "credentials_found_on_mac": false,
+  "current_tracked_credential_pattern_scan": "no HF/GitHub token or private-key patterns found",
+  "initial_canonical_git_status": "clean",
+  "other_project_tracked_changes": "none; parent FinancialAD left untouched",
+  "asset_untracking": {
+    "paths": 316,
+    "known_historical_payload_bytes": 1177494323,
+    "shared_history_rewritten": false,
+    "originals_deleted": false
+  }
+}
