@@ -1,0 +1,1775 @@
+{
+  "read_method": "stat metadata only; no file contents read or downloaded",
+  "files": [
+    {
+      "asset": "eth-original",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/df_train.feather",
+      "exists": true,
+      "size": 261693410,
+      "allocated": 261693440,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-original",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/df_val.feather",
+      "exists": true,
+      "size": 85196722,
+      "allocated": 85196800,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-original",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/df_test.feather",
+      "exists": true,
+      "size": 106921826,
+      "allocated": 106921984,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-prepared",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/whole/train.feather",
+      "exists": true,
+      "size": 274100090,
+      "allocated": 274100224,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-prepared",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/whole/val.feather",
+      "exists": true,
+      "size": 89130786,
+      "allocated": 89133056,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-prepared",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/whole/test.feather",
+      "exists": true,
+      "size": 111887530,
+      "allocated": 111890432,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "feature-definitions",
+      "relative_path": "vendor/MacroHFT/data/feature_list/single_features.npy",
+      "exists": true,
+      "size": 3152,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "feature-definitions",
+      "relative_path": "vendor/MacroHFT/data/feature_list/trend_features.npy",
+      "exists": true,
+      "size": 848,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/test/slope_labels.pkl",
+      "exists": true,
+      "size": 134,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/test/vol_labels.pkl",
+      "exists": true,
+      "size": 132,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather",
+      "exists": true,
+      "size": 2183410,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_1.feather",
+      "exists": true,
+      "size": 2185986,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_10.feather",
+      "exists": true,
+      "size": 2188674,
+      "allocated": 2191360,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_100.feather",
+      "exists": true,
+      "size": 2152602,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_101.feather",
+      "exists": true,
+      "size": 2145354,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_102.feather",
+      "exists": true,
+      "size": 2143554,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_103.feather",
+      "exists": true,
+      "size": 2143378,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_104.feather",
+      "exists": true,
+      "size": 2114602,
+      "allocated": 2117632,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_105.feather",
+      "exists": true,
+      "size": 2147010,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_106.feather",
+      "exists": true,
+      "size": 2135970,
+      "allocated": 2138112,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_107.feather",
+      "exists": true,
+      "size": 2138010,
+      "allocated": 2138112,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_108.feather",
+      "exists": true,
+      "size": 2111370,
+      "allocated": 2113536,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_109.feather",
+      "exists": true,
+      "size": 2104986,
+      "allocated": 2105344,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_11.feather",
+      "exists": true,
+      "size": 2184250,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_110.feather",
+      "exists": true,
+      "size": 2123354,
+      "allocated": 2125824,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_111.feather",
+      "exists": true,
+      "size": 2081802,
+      "allocated": 2084864,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_112.feather",
+      "exists": true,
+      "size": 2116642,
+      "allocated": 2117632,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_113.feather",
+      "exists": true,
+      "size": 2063722,
+      "allocated": 2064384,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_114.feather",
+      "exists": true,
+      "size": 2134554,
+      "allocated": 2138112,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_115.feather",
+      "exists": true,
+      "size": 2163418,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_116.feather",
+      "exists": true,
+      "size": 2151138,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_117.feather",
+      "exists": true,
+      "size": 2154162,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_118.feather",
+      "exists": true,
+      "size": 2143722,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_119.feather",
+      "exists": true,
+      "size": 2151914,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_12.feather",
+      "exists": true,
+      "size": 2186250,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_120.feather",
+      "exists": true,
+      "size": 2145306,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_13.feather",
+      "exists": true,
+      "size": 2177530,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_14.feather",
+      "exists": true,
+      "size": 2186250,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_15.feather",
+      "exists": true,
+      "size": 2181978,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_16.feather",
+      "exists": true,
+      "size": 2180178,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_17.feather",
+      "exists": true,
+      "size": 2175570,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_18.feather",
+      "exists": true,
+      "size": 2181906,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_19.feather",
+      "exists": true,
+      "size": 2184618,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_2.feather",
+      "exists": true,
+      "size": 2189450,
+      "allocated": 2191360,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_20.feather",
+      "exists": true,
+      "size": 2180218,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_21.feather",
+      "exists": true,
+      "size": 2190354,
+      "allocated": 2191360,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_22.feather",
+      "exists": true,
+      "size": 2173066,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_23.feather",
+      "exists": true,
+      "size": 2185066,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_24.feather",
+      "exists": true,
+      "size": 2167842,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_25.feather",
+      "exists": true,
+      "size": 2178762,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_26.feather",
+      "exists": true,
+      "size": 2180354,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_27.feather",
+      "exists": true,
+      "size": 2178258,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_28.feather",
+      "exists": true,
+      "size": 2180234,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_29.feather",
+      "exists": true,
+      "size": 2178802,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_3.feather",
+      "exists": true,
+      "size": 2195450,
+      "allocated": 2195456,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_30.feather",
+      "exists": true,
+      "size": 2180082,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_31.feather",
+      "exists": true,
+      "size": 2182010,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_32.feather",
+      "exists": true,
+      "size": 2192962,
+      "allocated": 2195456,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_33.feather",
+      "exists": true,
+      "size": 2204882,
+      "allocated": 2207744,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_34.feather",
+      "exists": true,
+      "size": 2176794,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_35.feather",
+      "exists": true,
+      "size": 2177906,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_36.feather",
+      "exists": true,
+      "size": 2160802,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_37.feather",
+      "exists": true,
+      "size": 2169658,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_38.feather",
+      "exists": true,
+      "size": 2172178,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_39.feather",
+      "exists": true,
+      "size": 2171538,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_4.feather",
+      "exists": true,
+      "size": 2188586,
+      "allocated": 2191360,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_40.feather",
+      "exists": true,
+      "size": 2166258,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_41.feather",
+      "exists": true,
+      "size": 2157346,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_42.feather",
+      "exists": true,
+      "size": 2164234,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_43.feather",
+      "exists": true,
+      "size": 2179818,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_44.feather",
+      "exists": true,
+      "size": 2187170,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_45.feather",
+      "exists": true,
+      "size": 2181818,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_46.feather",
+      "exists": true,
+      "size": 2175546,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_47.feather",
+      "exists": true,
+      "size": 2171626,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_48.feather",
+      "exists": true,
+      "size": 2162338,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_49.feather",
+      "exists": true,
+      "size": 2173674,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_5.feather",
+      "exists": true,
+      "size": 2191562,
+      "allocated": 2195456,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_50.feather",
+      "exists": true,
+      "size": 2152146,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_51.feather",
+      "exists": true,
+      "size": 2163378,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_52.feather",
+      "exists": true,
+      "size": 2159330,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_53.feather",
+      "exists": true,
+      "size": 2161746,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_54.feather",
+      "exists": true,
+      "size": 2170362,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_55.feather",
+      "exists": true,
+      "size": 2177626,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_56.feather",
+      "exists": true,
+      "size": 2170658,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_57.feather",
+      "exists": true,
+      "size": 2172650,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_58.feather",
+      "exists": true,
+      "size": 2178298,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_59.feather",
+      "exists": true,
+      "size": 2172106,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_6.feather",
+      "exists": true,
+      "size": 2187090,
+      "allocated": 2187264,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_60.feather",
+      "exists": true,
+      "size": 2170050,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_61.feather",
+      "exists": true,
+      "size": 2168762,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_62.feather",
+      "exists": true,
+      "size": 2163658,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_63.feather",
+      "exists": true,
+      "size": 2169178,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_64.feather",
+      "exists": true,
+      "size": 2164402,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_65.feather",
+      "exists": true,
+      "size": 2163698,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_66.feather",
+      "exists": true,
+      "size": 2175466,
+      "allocated": 2179072,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_67.feather",
+      "exists": true,
+      "size": 2164474,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_68.feather",
+      "exists": true,
+      "size": 2166458,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_69.feather",
+      "exists": true,
+      "size": 2165722,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_7.feather",
+      "exists": true,
+      "size": 2195906,
+      "allocated": 2199552,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_70.feather",
+      "exists": true,
+      "size": 2166090,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_71.feather",
+      "exists": true,
+      "size": 2151842,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_72.feather",
+      "exists": true,
+      "size": 2168714,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_73.feather",
+      "exists": true,
+      "size": 2163834,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_74.feather",
+      "exists": true,
+      "size": 2165858,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_75.feather",
+      "exists": true,
+      "size": 2173514,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_76.feather",
+      "exists": true,
+      "size": 2160258,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_77.feather",
+      "exists": true,
+      "size": 2168290,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_78.feather",
+      "exists": true,
+      "size": 2153066,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_79.feather",
+      "exists": true,
+      "size": 2163378,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_8.feather",
+      "exists": true,
+      "size": 2189242,
+      "allocated": 2191360,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_80.feather",
+      "exists": true,
+      "size": 2148978,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_81.feather",
+      "exists": true,
+      "size": 2150154,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_82.feather",
+      "exists": true,
+      "size": 2152802,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_83.feather",
+      "exists": true,
+      "size": 2134634,
+      "allocated": 2138112,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_84.feather",
+      "exists": true,
+      "size": 2151978,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_85.feather",
+      "exists": true,
+      "size": 2136482,
+      "allocated": 2138112,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_86.feather",
+      "exists": true,
+      "size": 2137706,
+      "allocated": 2138112,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_87.feather",
+      "exists": true,
+      "size": 2131266,
+      "allocated": 2134016,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_88.feather",
+      "exists": true,
+      "size": 2144962,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_89.feather",
+      "exists": true,
+      "size": 2156810,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_9.feather",
+      "exists": true,
+      "size": 2190778,
+      "allocated": 2191360,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_90.feather",
+      "exists": true,
+      "size": 2154618,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_91.feather",
+      "exists": true,
+      "size": 2154650,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_92.feather",
+      "exists": true,
+      "size": 2147426,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_93.feather",
+      "exists": true,
+      "size": 2182546,
+      "allocated": 2183168,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_94.feather",
+      "exists": true,
+      "size": 2172842,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_95.feather",
+      "exists": true,
+      "size": 2160674,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_96.feather",
+      "exists": true,
+      "size": 2154906,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_97.feather",
+      "exists": true,
+      "size": 2148746,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_98.feather",
+      "exists": true,
+      "size": 2157906,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/df_99.feather",
+      "exists": true,
+      "size": 2147786,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/slope_labels.pkl",
+      "exists": true,
+      "size": 278,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/train/vol_labels.pkl",
+      "exists": true,
+      "size": 278,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_0.feather",
+      "exists": true,
+      "size": 2145970,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_1.feather",
+      "exists": true,
+      "size": 2140186,
+      "allocated": 2142208,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_10.feather",
+      "exists": true,
+      "size": 2125418,
+      "allocated": 2125824,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_11.feather",
+      "exists": true,
+      "size": 2131770,
+      "allocated": 2134016,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_12.feather",
+      "exists": true,
+      "size": 2164842,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_13.feather",
+      "exists": true,
+      "size": 2174082,
+      "allocated": 2174976,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_14.feather",
+      "exists": true,
+      "size": 2168922,
+      "allocated": 2170880,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_15.feather",
+      "exists": true,
+      "size": 2160210,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_16.feather",
+      "exists": true,
+      "size": 2163538,
+      "allocated": 2166784,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_17.feather",
+      "exists": true,
+      "size": 2088346,
+      "allocated": 2088960,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_18.feather",
+      "exists": true,
+      "size": 2157594,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_19.feather",
+      "exists": true,
+      "size": 2144314,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_2.feather",
+      "exists": true,
+      "size": 2153530,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_20.feather",
+      "exists": true,
+      "size": 2150858,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_21.feather",
+      "exists": true,
+      "size": 2143394,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_22.feather",
+      "exists": true,
+      "size": 2124818,
+      "allocated": 2125824,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_23.feather",
+      "exists": true,
+      "size": 2147170,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_24.feather",
+      "exists": true,
+      "size": 2154322,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_25.feather",
+      "exists": true,
+      "size": 2161202,
+      "allocated": 2162688,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_26.feather",
+      "exists": true,
+      "size": 2152066,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_27.feather",
+      "exists": true,
+      "size": 2145682,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_28.feather",
+      "exists": true,
+      "size": 2153146,
+      "allocated": 2154496,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_29.feather",
+      "exists": true,
+      "size": 2125514,
+      "allocated": 2125824,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_3.feather",
+      "exists": true,
+      "size": 2145466,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_30.feather",
+      "exists": true,
+      "size": 2139690,
+      "allocated": 2142208,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_31.feather",
+      "exists": true,
+      "size": 2148522,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_32.feather",
+      "exists": true,
+      "size": 2146962,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_33.feather",
+      "exists": true,
+      "size": 2145490,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_34.feather",
+      "exists": true,
+      "size": 2130746,
+      "allocated": 2134016,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_35.feather",
+      "exists": true,
+      "size": 2127418,
+      "allocated": 2129920,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_36.feather",
+      "exists": true,
+      "size": 2085154,
+      "allocated": 2088960,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_37.feather",
+      "exists": true,
+      "size": 2134866,
+      "allocated": 2138112,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_38.feather",
+      "exists": true,
+      "size": 2103562,
+      "allocated": 2105344,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_39.feather",
+      "exists": true,
+      "size": 2122770,
+      "allocated": 2125824,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_4.feather",
+      "exists": true,
+      "size": 2154746,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_5.feather",
+      "exists": true,
+      "size": 2149362,
+      "allocated": 2150400,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_6.feather",
+      "exists": true,
+      "size": 2146266,
+      "allocated": 2146304,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_7.feather",
+      "exists": true,
+      "size": 2157586,
+      "allocated": 2158592,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_8.feather",
+      "exists": true,
+      "size": 2141338,
+      "allocated": 2142208,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/df_9.feather",
+      "exists": true,
+      "size": 2138610,
+      "allocated": 2142208,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/slope_labels.pkl",
+      "exists": true,
+      "size": 112,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-decomposition",
+      "relative_path": "vendor/MacroHFT/data/ETHUSDT/val/vol_labels.pkl",
+      "exists": true,
+      "size": 111,
+      "allocated": 4096,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "released-experts",
+      "relative_path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl",
+      "exists": true,
+      "size": 187425,
+      "allocated": 188416,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "released-experts",
+      "relative_path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl",
+      "exists": true,
+      "size": 187425,
+      "allocated": 188416,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "released-experts",
+      "relative_path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl",
+      "exists": true,
+      "size": 187425,
+      "allocated": 188416,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "released-experts",
+      "relative_path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl",
+      "exists": true,
+      "size": 187425,
+      "allocated": 188416,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "released-experts",
+      "relative_path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl",
+      "exists": true,
+      "size": 187425,
+      "allocated": 188416,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "released-experts",
+      "relative_path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl",
+      "exists": true,
+      "size": 187425,
+      "allocated": 188416,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "eth-reference-12345",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/best_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-reference-12345",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/trained_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-reference-2024",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/best_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-reference-2024",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/trained_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-reference-42",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/best_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-reference-42",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/trained_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-combined-12345",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/best_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-combined-12345",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/trained_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-combined-2024",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/best_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-combined-2024",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/trained_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-combined-42",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/best_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "eth-combined-42",
+      "relative_path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/trained_model.pkl",
+      "exists": false
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-01.zip",
+      "exists": true,
+      "size": 2127988,
+      "allocated": 2129920,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-02.zip",
+      "exists": true,
+      "size": 2021779,
+      "allocated": 2023424,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-03.zip",
+      "exists": true,
+      "size": 2213444,
+      "allocated": 2215936,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-01.zip",
+      "exists": true,
+      "size": 2068379,
+      "allocated": 2068480,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-02.zip",
+      "exists": true,
+      "size": 1918913,
+      "allocated": 1921024,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-03.zip",
+      "exists": true,
+      "size": 2086704,
+      "allocated": 2088960,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-01.zip",
+      "exists": true,
+      "size": 1856325,
+      "allocated": 1859584,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-02.zip",
+      "exists": true,
+      "size": 1705395,
+      "allocated": 1708032,
+      "flags": 64,
+      "expected_size_matches": true
+    },
+    {
+      "asset": "cost-memory-data",
+      "relative_path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-03.zip",
+      "exists": true,
+      "size": 1853276,
+      "allocated": 1855488,
+      "flags": 64,
+      "expected_size_matches": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "account": "Sansa005",
+  "client_version": "1.8.0",
+  "repositories": [
+    {
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "dataset",
+      "private": true,
+      "write_allowed": true,
+      "observed_revision": "a58812cee8c50e691211fab5044abe3a78d7563b"
+    },
+    {
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "private": true,
+      "write_allowed": true,
+      "observed_revision": "ea4bf754e852b2f6230725aa36c99a63dc9e76e1"
+    }
+  ],
+  "token_contents_recorded": false
+}

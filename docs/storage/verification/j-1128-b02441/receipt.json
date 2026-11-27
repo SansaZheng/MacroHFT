@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "source_commit": "5907201ae26a22af9a8f29bc09c6bebb1f4612ed",
+  "client_version": "1.8.0",
+  "assets_verified": 12,
+  "selected_file_bytes": 1296326234,
+  "private_repositories": [
+    {
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "dataset",
+      "private": true,
+      "write_allowed": true,
+      "observed_revision": "a58812cee8c50e691211fab5044abe3a78d7563b"
+    },
+    {
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "private": true,
+      "write_allowed": true,
+      "observed_revision": "ea4bf754e852b2f6230725aa36c99a63dc9e76e1"
+    }
+  ],
+  "elapsed_seconds": 845.7948253219947,
+  "originals_preserved": true,
+  "clean_remote_restore_pending": true
+}

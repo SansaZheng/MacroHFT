@@ -1,0 +1,86 @@
+[
+  {
+    "asset": "eth-original",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "315f83c3b7492f5cba1ea5c925d432b79caf8d1c",
+    "verified_files": 5,
+    "uploaded_files": 5
+  },
+  {
+    "asset": "eth-prepared",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "9a7286ae6552fac584d696e921aee52334cfc42b",
+    "verified_files": 5,
+    "uploaded_files": 4
+  },
+  {
+    "asset": "feature-definitions",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece",
+    "verified_files": 4,
+    "uploaded_files": 3
+  },
+  {
+    "asset": "eth-decomposition",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "8f76401251666080e373fc93fc147c2ad5a1b0c7",
+    "verified_files": 169,
+    "uploaded_files": 168
+  },
+  {
+    "asset": "released-experts",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb",
+    "verified_files": 8,
+    "uploaded_files": 8
+  },
+  {
+    "asset": "eth-reference-12345",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "2fb7da0ff0ea22d0cb9e42dc22444c93b420f7e3",
+    "verified_files": 4,
+    "uploaded_files": 3
+  },
+  {
+    "asset": "eth-reference-2024",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "d81f76502cebca4b066d63a0f872fed8e0593871",
+    "verified_files": 4,
+    "uploaded_files": 3
+  },
+  {
+    "asset": "eth-reference-42",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "115c7250629d7cb46c0b0ce5509a284bc5348315",
+    "verified_files": 4,
+    "uploaded_files": 3
+  },
+  {
+    "asset": "eth-combined-12345",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "0945e008bc57dbc743606e73280da184b63541ca",
+    "verified_files": 4,
+    "uploaded_files": 3
+  },
+  {
+    "asset": "eth-combined-2024",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "7f6d0aaea833dc7e1ba7666e759816c6ce74d025",
+    "verified_files": 4,
+    "uploaded_files": 3
+  },
+  {
+    "asset": "eth-combined-42",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "001c621ea3464540f40938d9eadbfd1419791d09",
+    "verified_files": 4,
+    "uploaded_files": 3
+  },
+  {
+    "asset": "cost-memory-data",
+    "repo_id": "Sansa005/MacroHFT",
+    "revision": "e8666f608354638f8ebf626cc1b9d933cff1ba46",
+    "verified_files": 11,
+    "uploaded_files": 10
+  }
+]

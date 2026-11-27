@@ -12,8 +12,8 @@
       "id": "eth-original",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "315f83c3b7492f5cba1ea5c925d432b79caf8d1c",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -47,19 +47,34 @@
           "legacy_storage": "gzip-parts",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-original/provenance.json",
+          "size": 3011,
+          "sha256": "9e10ea2d8f9ada8ab1bcaa4edaf2cf7a601cb8b21d57bbee78a3b300d729efcd",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [],
       "license": "unchanged; not inferred",
       "source_archive_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
-      "remote_identity_verified_files": 3
+      "remote_identity_verified_files": 3,
+      "dependency_revisions": [],
+      "dataset_revisions": [],
+      "verified_at": "2026-11-27T21:02:27.902852+00:00"
     },
     {
       "id": "eth-prepared",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "9a7286ae6552fac584d696e921aee52334cfc42b",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -93,19 +108,34 @@
           "legacy_storage": "gzip-parts",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-prepared/provenance.json",
+          "size": 3029,
+          "sha256": "284a4ac86b72b437555c1cac2be9e82fefdee2ed83c6d65066e3b2ea6af6ddb3",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [],
       "license": "unchanged; not inferred",
       "source_archive_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
-      "remote_identity_verified_files": 3
+      "remote_identity_verified_files": 3,
+      "dependency_revisions": [],
+      "dataset_revisions": [],
+      "verified_at": "2026-11-27T21:03:32.015027+00:00"
     },
     {
       "id": "feature-definitions",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -129,19 +159,34 @@
           "legacy_storage": "git",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/feature-definitions/provenance.json",
+          "size": 2568,
+          "sha256": "204e530f8b3ae61f552fe0d3bbe804f1429563e9db9f429c0aaaf8f2b7795b3f",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [],
       "license": "unchanged; not inferred",
       "source_archive_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
-      "remote_identity_verified_files": 2
+      "remote_identity_verified_files": 2,
+      "dependency_revisions": [],
+      "dataset_revisions": [],
+      "verified_at": "2026-11-27T21:03:48.744482+00:00"
     },
     {
       "id": "eth-decomposition",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "8f76401251666080e373fc93fc147c2ad5a1b0c7",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -1871,19 +1916,34 @@
           "legacy_storage": "git",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-decomposition/provenance.json",
+          "size": 82910,
+          "sha256": "323e45462a3f66d40d1ab8da0b70514eb84ef9baf31ce307798340a5753e49d2",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [],
       "license": "unchanged; not inferred",
       "source_archive_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
-      "remote_identity_verified_files": 167
+      "remote_identity_verified_files": 167,
+      "dependency_revisions": [],
+      "dataset_revisions": [],
+      "verified_at": "2026-11-27T21:11:43.568341+00:00"
     },
     {
       "id": "released-experts",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -1947,6 +2007,18 @@
           "legacy_storage": "git",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/released-experts/provenance.json",
+          "size": 5054,
+          "sha256": "a84e7829ee177f68276f1519237dfdd4073d087b05f81012f06b33a2a60f7312",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [
@@ -1954,14 +2026,31 @@
       ],
       "license": "unchanged; not inferred",
       "source_archive_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
-      "remote_identity_verified_files": 6
+      "remote_identity_verified_files": 6,
+      "dependency_revisions": [
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "dataset_revisions": [
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "verified_at": "2026-11-27T21:12:15.266741+00:00"
     },
     {
       "id": "eth-reference-12345",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "2fb7da0ff0ea22d0cb9e42dc22444c93b420f7e3",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -1985,6 +2074,18 @@
           "legacy_storage": "server_original",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-reference-12345/provenance.json",
+          "size": 5213,
+          "sha256": "e3bbee6bea2665171bc512c225d7c670ae7694b8ca1b194e99a595280519182c",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [
@@ -2039,14 +2140,49 @@
       },
       "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit.",
-      "remote_identity_verified_files": 2
+      "remote_identity_verified_files": 2,
+      "dependency_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        },
+        {
+          "id": "released-experts",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "model",
+          "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+        }
+      ],
+      "dataset_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "verified_at": "2026-11-27T21:12:33.577678+00:00"
     },
     {
       "id": "eth-reference-2024",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "d81f76502cebca4b066d63a0f872fed8e0593871",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -2070,6 +2206,18 @@
           "legacy_storage": "server_original",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-reference-2024/provenance.json",
+          "size": 5212,
+          "sha256": "2878f3447e651be6c016b836e3ed312feee1cb7d951b807be06de891ae9b9149",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [
@@ -2124,14 +2272,49 @@
       },
       "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit.",
-      "remote_identity_verified_files": 2
+      "remote_identity_verified_files": 2,
+      "dependency_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        },
+        {
+          "id": "released-experts",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "model",
+          "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+        }
+      ],
+      "dataset_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "verified_at": "2026-11-27T21:12:52.080223+00:00"
     },
     {
       "id": "eth-reference-42",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "115c7250629d7cb46c0b0ce5509a284bc5348315",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -2155,6 +2338,18 @@
           "legacy_storage": "server_original",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-reference-42/provenance.json",
+          "size": 5193,
+          "sha256": "da2779e68a713b0143c277a2288f423e29dad5c94e43c7ef44dbd44513125e6e",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [
@@ -2209,14 +2404,49 @@
       },
       "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit.",
-      "remote_identity_verified_files": 2
+      "remote_identity_verified_files": 2,
+      "dependency_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        },
+        {
+          "id": "released-experts",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "model",
+          "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+        }
+      ],
+      "dataset_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "verified_at": "2026-11-27T21:13:10.707466+00:00"
     },
     {
       "id": "eth-combined-12345",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "0945e008bc57dbc743606e73280da184b63541ca",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -2240,6 +2470,18 @@
           "legacy_storage": "server_original",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-combined-12345/provenance.json",
+          "size": 5229,
+          "sha256": "6d60af55ea1027aab59def9bf5c43a31eaefb25cd44098a22143466047ab6ab7",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [
@@ -2294,14 +2536,49 @@
       },
       "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit.",
-      "remote_identity_verified_files": 2
+      "remote_identity_verified_files": 2,
+      "dependency_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        },
+        {
+          "id": "released-experts",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "model",
+          "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+        }
+      ],
+      "dataset_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "verified_at": "2026-11-27T21:13:30.010004+00:00"
     },
     {
       "id": "eth-combined-2024",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "7f6d0aaea833dc7e1ba7666e759816c6ce74d025",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -2325,6 +2602,18 @@
           "legacy_storage": "server_original",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-combined-2024/provenance.json",
+          "size": 5227,
+          "sha256": "5c7c0f9948dcae6cda7850d2954802d64f270441a64a34c2b3d970c1edd8d864",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [
@@ -2379,14 +2668,49 @@
       },
       "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit.",
-      "remote_identity_verified_files": 2
+      "remote_identity_verified_files": 2,
+      "dependency_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        },
+        {
+          "id": "released-experts",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "model",
+          "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+        }
+      ],
+      "dataset_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "verified_at": "2026-11-27T21:13:48.707113+00:00"
     },
     {
       "id": "eth-combined-42",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "model",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "001c621ea3464540f40938d9eadbfd1419791d09",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -2410,6 +2734,18 @@
           "legacy_storage": "server_original",
           "remote_identity_status": "verified_c225_20261127",
           "identity_job": "j-1127-794ac6"
+        },
+        {
+          "path": "metadata/eth-combined-42/provenance.json",
+          "size": 5211,
+          "sha256": "cc48ae0e0bf9ef913423b8c55c830d6375603c36df0c90d5d016c97148e632c5",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [
@@ -2464,14 +2800,49 @@
       },
       "retention": "validation-selected best plus epoch-15 final; weights only, no exact optimizer/RNG/replay resume state found",
       "code_identity_note": "Archive commit crosschecked against seven historical runtime sources; original execution Git commit not recorded. Do not infer exact training commit.",
-      "remote_identity_verified_files": 2
+      "remote_identity_verified_files": 2,
+      "dependency_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        },
+        {
+          "id": "released-experts",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "model",
+          "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+        }
+      ],
+      "dataset_revisions": [
+        {
+          "id": "eth-prepared",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+        },
+        {
+          "id": "feature-definitions",
+          "repo_id": "Sansa005/MacroHFT",
+          "repo_type": "dataset",
+          "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+        }
+      ],
+      "verified_at": "2026-11-27T21:14:07.240950+00:00"
     },
     {
       "id": "cost-memory-data",
       "repo_id": "Sansa005/MacroHFT",
       "repo_type": "dataset",
-      "revision": null,
-      "status": "pending_authentication",
+      "revision": "e8666f608354638f8ebf626cc1b9d933cff1ba46",
+      "status": "verified",
       "private_required": true,
       "upload_authorization": "approved_private",
       "code_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
@@ -2547,12 +2918,27 @@
           "size": 1853276,
           "sha256": "b98d056aafa1b4e188a1863855749548ac4e062f5f1002e9da353795863216bc",
           "legacy_storage": "git"
+        },
+        {
+          "path": "metadata/cost-memory-data/provenance.json",
+          "size": 5131,
+          "sha256": "446b36d7190599493180f320fd907786bcdbb0aac534e1706f0a2e7d478e9318",
+          "role": "documentation"
+        },
+        {
+          "path": "README.md",
+          "size": 595,
+          "sha256": "6b35e8f61845e7be93dabdd2bb749fbe2f78c8482a54d7efb69e7083112cdfab",
+          "role": "documentation"
         }
       ],
       "requires": [],
       "license": "unchanged; not inferred",
       "source_archive_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
-      "remote_identity_verified_files": 0
+      "remote_identity_verified_files": 0,
+      "dependency_revisions": [],
+      "dataset_revisions": [],
+      "verified_at": "2026-11-27T21:15:14.596852+00:00"
     }
   ],
   "private_backup_authorization": {
