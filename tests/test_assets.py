@@ -72,6 +72,41 @@ class AssetTests(unittest.TestCase):
         assets.install_verified(source,target,self.file,link=False)
         self.assertEqual(target.read_bytes(),self.data)
 
+    def test_hf_snapshot_symlink_is_materialized_as_regular_verified_file(self):
+        blob=self.root/'cache/blobs/content';blob.parent.mkdir(parents=True);blob.write_bytes(self.data)
+        snapshot=self.root/'cache/snapshots/revision/config.json';snapshot.parent.mkdir(parents=True)
+        snapshot.symlink_to('../../blobs/content')
+        target=self.root/'work/model/config.json'
+        assets.install_verified(snapshot,target,self.file)
+        self.assertFalse(target.is_symlink())
+        self.assertEqual(target.read_bytes(),self.data)
+
+    def test_empty_hub_cache_retries_stream_without_mutating_cache(self):
+        import io
+        cached=self.root/'empty-cache';cached.write_bytes(b'')
+        outer=self
+        class FS:
+            def open(self,path,*args,**kw):
+                outer.assertIn('@'+'a'*40+'/',path)
+                outer.assertEqual(kw['block_size'],0)
+                return io.BytesIO(outer.data)
+        fake=types.SimpleNamespace(hf_hub_download=lambda **kw:str(cached),HfFileSystem=FS)
+        with patch.dict(sys.modules,{'huggingface_hub':fake}):
+            assets.fetch(self.manifest,['fixture'],self.root/'out',self.root/'cache')
+        self.assertEqual(cached.read_bytes(),b'')
+        self.assertEqual((self.root/'out/fixture/data/train.txt').read_bytes(),self.data)
+
+    def test_stream_retry_rejects_bad_bytes_and_leaves_no_partial_target(self):
+        import io
+        for content in [b'',b'wrong',self.data+b'extra']:
+            class FS:
+                def open(self,*args,**kw):return io.BytesIO(content)
+            target=self.root/'target/data.txt'
+            with patch.dict(sys.modules,{'huggingface_hub':types.SimpleNamespace(HfFileSystem=FS)}):
+                with self.assertRaises(ValueError):assets.stream_install(self.asset,self.file,target)
+            self.assertFalse(target.exists())
+            self.assertEqual(list(target.parent.glob('.asset-part-*')),[])
+
 class UploadTests(unittest.TestCase):
     def setUp(self):
         import datetime as dt

@@ -1,0 +1,85 @@
+{
+  "name": "MacroHFT clean HF selective download with unchanged c225 project interpreter",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "980622545e41ded5a77c7e732a6b67acfca85d08"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_existing_asset_smoke.py"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 2,
+    "disk_gb": 2
+  },
+  "limits": {
+    "max_hours": 0.5,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/asset-existing-env-smoke-20261128",
+    "expect": [
+      {
+        "path": "receipt.json",
+        "contains": "\"complete\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "980622545e41ded5a77c7e732a6b67acfca85d08"
+      },
+      {
+        "path": "progress.log",
+        "contains": "4/4"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 10
+    }
+  },
+  "resource_basis": {
+    "scope": "Clean depth-one GitHub checkout, isolated official HF client, one 548-byte public pinned JSON fixture; code tests and deterministic gate tests only",
+    "bounds": "1 CPU, 2 GB RAM/disk conservative allowance, .5 hours; no training, GPUs, private credentials or paid capacity; own temporary files cleaned after receipt",
+    "fix": "Read-only use of this project existing c225 interpreter; no pip installation or environment edits. Record exact official client version and supported APIs. Clean GitHub checkout and empty job-specific HF cache."
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "980622545e41ded5a77c7e732a6b67acfca85d08",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "depends_on": [
+    "j-1127-16fe1e"
+  ],
+  "replaces": [
+    "j-1127-b2e33e",
+    "j-1128-bc140f"
+  ]
+}

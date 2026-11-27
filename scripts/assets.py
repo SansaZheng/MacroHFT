@@ -59,7 +59,7 @@ def verify_file(path, spec):
 
 def install_verified(source, target, spec, link=True):
     """Publish complete verified bytes atomically; never overwrite existing originals."""
-    source=Path(source);target=Path(target)
+    source=Path(source).resolve(strict=True);target=Path(target)
     if target.exists():verify_file(target,spec);return
     target.parent.mkdir(parents=True,exist_ok=True)
     if link:
@@ -166,17 +166,43 @@ def fetch(m, ids, root, cache, paths=None):
             else:
                 downloaded = hf_hub_download(repo_id=a['repo_id'], repo_type=a['repo_type'],
                     revision=a['revision'], filename=f['path'], cache_dir=str(cache))
-                verify_file(downloaded, f)
-                install_verified(downloaded,target,f)
+                try:
+                    verify_file(downloaded, f)
+                except ValueError:
+                    # Some gateways report zero Content-Length to HEAD. Keep the
+                    # suspect shared cache untouched and retry one bounded GET.
+                    stream_install(a, f, target)
+                else:
+                    install_verified(downloaded,target,f)
             records.append({'asset': a['id'], 'path': f['path'], 'sha256': f['sha256'], 'revision': a['revision']})
     return {'verified_files': records}
+
+
+def stream_install(a, spec, target):
+    """One uncached official-client stream; publish only exact manifest bytes."""
+    from huggingface_hub import HfFileSystem
+    fs=HfFileSystem();prefix='datasets/' if a['repo_type']=='dataset' else ''
+    target=Path(target);target.parent.mkdir(parents=True,exist_ok=True)
+    fd,tmp=tempfile.mkstemp(prefix='.asset-part-',dir=target.parent)
+    try:
+        remaining=spec['size']+1
+        with os.fdopen(fd,'wb') as out, fs.open(prefix+a['repo_id']+'@'+a['revision']+'/'+spec['path'],
+                'rb',block_size=0,cache_type='none') as stream:
+            while remaining:
+                block=stream.read(min(1024**2,remaining))
+                if not block:break
+                out.write(block);remaining-=len(block)
+        verify_file(tmp,spec)
+        install_verified(tmp,target,spec)
+    finally:
+        if os.path.exists(tmp):os.unlink(tmp)
 
 
 def remote_identity(a, path):
     from huggingface_hub import HfFileSystem
     fs=HfFileSystem();prefix='datasets/' if a['repo_type']=='dataset' else ''
     h=hashlib.sha256();size=0
-    with fs.open(prefix+a['repo_id']+'@'+a['revision']+'/'+path,'rb',block_size=1024**2,cache_type='none') as stream:
+    with fs.open(prefix+a['repo_id']+'@'+a['revision']+'/'+path,'rb',block_size=0,cache_type='none') as stream:
         for block in iter(lambda:stream.read(1024**2),b''):h.update(block);size+=len(block)
     return {'sha256':h.hexdigest(),'size':size}
 

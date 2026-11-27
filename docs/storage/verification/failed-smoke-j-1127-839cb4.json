@@ -1,0 +1,9 @@
+{
+  "id": "j-1127-839cb4",
+  "state": "failed",
+  "host": "c219",
+  "reason": "exit 1: ode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'fetch', '--depth=1', '--filter=blob:none', 'origin', '980622545e41ded5a77c7e732a6b67acfca85d08']' returned non-zero exit status 128.",
+  "started": 1795795163.183487,
+  "finished": 1795795212.116883,
+  "exit_code": 1
+}

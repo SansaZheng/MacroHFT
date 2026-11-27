@@ -108,3 +108,13 @@ its final status. No shared DNS or existing environment was modified.
 References: [official HF upload guide](https://huggingface.co/docs/huggingface_hub/guides/upload),
 [HF storage accounting](https://huggingface.co/docs/hub/storage-limits),
 [official pip bootstrap guidance](https://pip.pypa.io/en/stable/installation/).
+
+## Personal checkout inspection
+
+Use `git status --short` and `git ls-tree -r --name-only HEAD` for local inspections.
+In a partial clone, size/diff operations that need missing historical blobs can fetch
+those blobs automatically. This audit encountered that behavior; approximately 272 MiB
+of historical Git objects remain locally and were not deleted. Subsequent size inventory
+used the GitHub tree API, without fetching asset bytes. Avoid full-history clones and
+old-asset diffs on the Mac. This remaining object storage is separate from the roughly
+2.2 MB current tracked code/evidence tree and the 1.49 GiB preserved original project.

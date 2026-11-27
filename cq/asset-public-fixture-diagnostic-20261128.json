@@ -1,0 +1,80 @@
+{
+  "name": "MacroHFT diagnose public fixture validation without credentials",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "980622545e41ded5a77c7e732a6b67acfca85d08"
+  },
+  "command": [
+    "/date/zyy/macrohft-reproduction/.venv/bin/python",
+    "-c",
+    "import json,os,sys,traceback,hashlib;from pathlib import Path;out=Path(os.environ['CQ_OUTPUT_DIR']);out.mkdir(parents=True,exist_ok=True);old=Path('/data3/sudingli/cq-home/macrohft-recovery/results/asset-system-ca-smoke-20261128');r={'complete':True,'environment':json.loads((old/'environment.json').read_text()),'cached':[]};\nfor p in (old/'cache/hub').rglob('*'):\n if p.is_file() and p.stat().st_size<1000000:r['cached'].append({'path':str(p.relative_to(old)),'symlink':p.is_symlink(),'size':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})\nsys.path.insert(0,str(Path('scripts').resolve()));import assets;os.environ['HF_HOME']=str(out/'hf-home');os.environ['HF_HUB_DISABLE_IMPLICIT_TOKEN']='1';os.environ.pop('HF_TOKEN',None);os.environ.pop('HUGGING_FACE_HUB_TOKEN',None)\ntry:assets.fetch(assets.read('assets/transport-fixture.json'),['hf-transport-fixture'],out/'assets',out/'cache/hub');r['fetch_ok']=True\nexcept Exception:r['public_fixture_traceback']=traceback.format_exc()\n(out/'diagnostic.json').write_text(json.dumps(r,indent=2)+'\\n');(out/'progress.log').write_text('1/1 complete\\n');print(json.dumps(r))"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 2,
+    "disk_gb": 2
+  },
+  "limits": {
+    "max_hours": 0.1,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/asset-public-fixture-diagnostic-20261128",
+    "expect": [
+      {
+        "path": "diagnostic.json",
+        "contains": "\"complete\": true"
+      },
+      {
+        "path": "progress.log",
+        "contains": "1/1"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 5
+    }
+  },
+  "resource_basis": {
+    "scope": "Inspect only own public-fixture cache and repeat 548-byte public config fetch without credentials to obtain exact validation error. No private repository or market data access.",
+    "bounds": "1 CPU, 2 GB RAM/disk conservative allowance; .1h; TLS verifies against existing OS trust store; no paid capacity"
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "980622545e41ded5a77c7e732a6b67acfca85d08",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "REQUESTS_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt",
+    "SSL_CERT_FILE": "/etc/ssl/certs/ca-certificates.crt"
+  },
+  "depends_on": [
+    "j-1127-16fe1e"
+  ],
+  "replaces": []
+}

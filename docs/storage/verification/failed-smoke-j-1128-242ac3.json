@@ -1,0 +1,9 @@
+{
+  "id": "j-1128-242ac3",
+  "state": "failed",
+  "host": "c225",
+  "reason": "exit 1: ery/results/asset-existing-env-smoke-20261128/assets', '--cache-dir', '/data3/sudingli/cq-home/macrohft-recovery/results/asset-existing-env-smoke-20261128/cache/hub']' returned non-zero exit status 1.",
+  "started": 1795796353.616032,
+  "finished": 1795796409.00754,
+  "exit_code": 1
+}

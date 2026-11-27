@@ -1,0 +1,147 @@
+{
+  "complete": true,
+  "environment": {
+    "python": "3.10.18 (main, Jun  4 2025, 08:56:00) [GCC 9.4.0]",
+    "huggingface_hub": "0.36.2",
+    "api_parameters": {
+      "upload_folder": [
+        "self",
+        "repo_id",
+        "folder_path",
+        "path_in_repo",
+        "commit_message",
+        "commit_description",
+        "token",
+        "repo_type",
+        "revision",
+        "create_pr",
+        "parent_commit",
+        "allow_patterns",
+        "ignore_patterns",
+        "delete_patterns",
+        "run_as_future"
+      ],
+      "auth_check": [
+        "self",
+        "repo_id",
+        "repo_type",
+        "token"
+      ],
+      "get_paths_info": [
+        "self",
+        "repo_id",
+        "paths",
+        "expand",
+        "revision",
+        "repo_type",
+        "token"
+      ],
+      "repo_info": [
+        "self",
+        "repo_id",
+        "revision",
+        "repo_type",
+        "timeout",
+        "files_metadata",
+        "expand",
+        "token"
+      ],
+      "create_repo": [
+        "self",
+        "repo_id",
+        "token",
+        "private",
+        "repo_type",
+        "exist_ok",
+        "resource_group_id",
+        "space_sdk",
+        "space_hardware",
+        "space_storage",
+        "space_sleep_time",
+        "space_secrets",
+        "space_variables"
+      ],
+      "list_models": [
+        "self",
+        "filter",
+        "author",
+        "apps",
+        "gated",
+        "inference",
+        "inference_provider",
+        "model_name",
+        "trained_dataset",
+        "search",
+        "pipeline_tag",
+        "emissions_thresholds",
+        "sort",
+        "direction",
+        "limit",
+        "expand",
+        "full",
+        "cardData",
+        "fetch_config",
+        "token",
+        "language",
+        "library",
+        "tags",
+        "task"
+      ],
+      "list_datasets": [
+        "self",
+        "filter",
+        "author",
+        "benchmark",
+        "dataset_name",
+        "gated",
+        "language_creators",
+        "language",
+        "multilinguality",
+        "size_categories",
+        "task_categories",
+        "task_ids",
+        "search",
+        "sort",
+        "direction",
+        "limit",
+        "expand",
+        "full",
+        "token",
+        "tags"
+      ],
+      "whoami": [
+        "self",
+        "token"
+      ]
+    },
+    "packages": {
+      "huggingface_hub": "0.36.2",
+      "fsspec": "2026.7.0",
+      "filelock": "3.32.3",
+      "typing_extensions": "4.16.0",
+      "tqdm": "4.70.0"
+    },
+    "upload_api_compatible": false
+  },
+  "cached": [
+    {
+      "path": "cache/hub/models--hf-internal-testing--tiny-random-bert/snapshots/f171d7baecaf37b5da5a3616d8833b9969753535/config.json",
+      "symlink": true,
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cache/hub/models--hf-internal-testing--tiny-random-bert/blobs/22ffb3454131a71d4144340befb799c66ad0c670",
+      "symlink": false,
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cache/hub/.locks/models--hf-internal-testing--tiny-random-bert/22ffb3454131a71d4144340befb799c66ad0c670.lock",
+      "symlink": false,
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "public_fixture_traceback": "Traceback (most recent call last):\n  File \"<string>\", line 5, in <module>\n  File \"/data2/sudingli/cq-jobs/.worktrees/980622545e41ded5a77c7e732a6b67acfca85d08/scripts/assets.py\", line 169, in fetch\n    verify_file(downloaded, f)\n  File \"/data2/sudingli/cq-jobs/.worktrees/980622545e41ded5a77c7e732a6b67acfca85d08/scripts/assets.py\", line 57, in verify_file\n    raise ValueError('Integrity failure: ' + spec['path'])\nValueError: Integrity failure: config.json\n"
+}
