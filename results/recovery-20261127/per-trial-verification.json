@@ -1,0 +1,12 @@
+{
+  "summary_bytes_match_inventory": true,
+  "six_unique_trials": true,
+  "return_arithmetic_and_aggregates_match": true,
+  "individual_trial_files_verified": true,
+  "new_market_evaluations": 0,
+  "copied_files_verified": 47,
+  "frozen_seed12345_checkpoint_hashes_match": true,
+  "common_configuration_matches": true,
+  "test_file_mtimes_after_selection_freeze": true,
+  "collector_errors": {}
+}

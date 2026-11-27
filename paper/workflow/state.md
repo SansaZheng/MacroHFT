@@ -147,3 +147,7 @@ reference mean 37.685867%, combined -0.491520%. Raw six-trial reconciliation is
 active in j-1127-458f37. New v2 baseline diagnostic passed nine tests and records
 all 1200 synthetic score rows; it is not a new RL method. See current.md for
 active state, source audit, limitations and next evidence gates.
+
+Recovery completion: CQ j-1127-458f37 done; six trial metrics and checkpoints
+verified, frozen seed12345 model hashes match, seven legacy source files match.
+No new training/test evaluation. All research claims remain bounded to scope.

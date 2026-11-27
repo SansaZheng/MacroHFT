@@ -68,7 +68,7 @@ def main():
                'pending_files': sum(e['storage']=='pending' for e in manifest['files']),
                'reconstructed_from_upstream': manifest.get('reconstructed_from_upstream', []),
                'complete_local_snapshot': manifest['complete_local_snapshot'],
-               'remote_training_artifacts_retrieved': False,
+               'remote_training_artifacts_retrieved': manifest.get('remote_training_artifacts_retrieved', False),
                'verification': 'Immutable remote manifest; new/changed remote objects streamed and hashed; unchanged Git blob IDs and SHA-256 hashes backed by independent bare-clone verification'}
     a.receipt.write_text(json.dumps(receipt, indent=2)+'\n')
     print(json.dumps(receipt), flush=True)

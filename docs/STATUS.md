@@ -2,8 +2,8 @@
 
 Historical ETH final summary has been recovered with exact byte hashes. The
 reference seed 12345 reproduces 39.28% after rounding; the combined modification
-fails (three-seed means 37.685867% vs -0.491520%). Underlying per-trial/model
-reconciliation is pending in CQ j-1127-458f37. No repeated test evaluation.
+fails (three-seed means 37.685867% vs -0.491520%). Underlying metrics, six checkpoints and seven source files were reconciled
+in completed CQ j-1127-458f37. No repeated test evaluation.
 See [evidence reconciliation](EVIDENCE-RECONCILIATION-20261127.md).
 
 New delayed-feedback work is a tested diagnostic baseline with mixed synthetic

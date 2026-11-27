@@ -6,8 +6,12 @@ completion at 2026-10-03 04:02:27 +08:00. Its full original bytes were recovered
 from the inventory JSON: reserialization matches the source SHA-256 and size
 exactly. The six unique trial rows, profit/capital return arithmetic, means and
 sample standard deviations have been independently recomputed from that summary.
-Underlying per-trial files and model identity are being checked separately by
-CQ j-1127-458f37; this summary audit is not a new policy evaluation.
+CQ j-1127-458f37 is complete: all six per-trial metrics match the summary,
+47 recovered files pass SHA-256/size checks, all six model files are present,
+and both seed12345 models match the pre-test frozen hashes. Common settings
+match apart from the registered changes. Test metric mtimes follow the recorded
+selection freeze (a consistency check, not proof of no earlier access). Seven
+recovered runtime source files match the published archive. No policy was rerun.
 
 | Seed | Reference return (%) | Combined return (%) | Difference (percentage points) |
 |---|---:|---:|---:|
@@ -35,7 +39,7 @@ selection prevent attribution to either component from this comparison alone.
 
 Remaining limits: upstream ex-post capital denominator and no terminal
 liquidation fee; original expert provenance/feature causality not fully rebuilt;
-individual checkpoint/source reconciliation pending. No full-paper reproduction,
+historical execution is not independently replayed. No full-paper reproduction,
 robust trading improvement, or CCF A readiness is established.
 
 中文：历史实验实际已完成，原方法 seed 12345 的收益与论文四舍五入后一致。
@@ -50,3 +54,11 @@ of 0.920%, 0.782%, -3.326%, so the denominator change alone cannot explain the c
 descriptive arithmetic on an already observed test, not causal attribution or
 a new selection metric. Gross path profit, policy exposure and attribution to
 either modification require validation-only follow-up.
+
+## Storage scope
+
+Six final hyper-agent checkpoints, configs, validation traces, final metrics
+and seven runtime source files are archived in the recovered CQ output. The
+30 trajectory/scalar array files were hashed on c225 and remain there; their
+bytes were not downloaded to the Mac. All four market reproductions, original
+expert training and the 66 pending iCloud files remain outside this completion.

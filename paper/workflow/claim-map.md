@@ -29,7 +29,7 @@
 
 | Claim | Evidence | Status / limitation |
 |---|---|---|
-| ETH reference seed 12345 rounds to 39.28% | recovered final-summary.json; summary-verification.json | Summary and arithmetic verified; per-trial artifacts pending |
+| ETH reference seed 12345 rounds to 39.28% | recovered final-summary.json; summary-verification.json | Summary/arithmetic and six trial artifacts reconciled; ETH hyper-agent scope only |
 | Combined outperforms reference | same six paired rows | Rejected on this period: -38.177387 pp mean difference |
 | Nine causal diagnostic tests pass | v2 results/screen-001/tests.log | Engineering property only |
 | Conditional delayed weighting improves trading | v2 synthetic diagnostic | Unsupported; only constructed MSE effects, not RL or trading |

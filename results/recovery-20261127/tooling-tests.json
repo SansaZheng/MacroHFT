@@ -1,0 +1,14 @@
+{
+  "client_date": "2026-11-27",
+  "source_identity_tests": {
+    "passed": 6,
+    "elapsed_seconds": 0.853
+  },
+  "archive_tests": {
+    "passed": 5,
+    "elapsed_seconds": 2.562
+  },
+  "reason": "Changed archive verifier to report recovered remote-artifact scope from manifest; code provenance updated",
+  "full_sparse_runtime_verification_run": false,
+  "market_evaluations": 0
+}

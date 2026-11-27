@@ -1,0 +1,20 @@
+{
+  "selected_variant": "combined",
+  "validation_return_pct": {
+    "reference": 28.038337327553467,
+    "combined": 44.60615000026378,
+    "action_memory": 29.27955983352853,
+    "cost_aligned": 41.95107790003124
+  },
+  "criterion": "maximum full-validation return over 15 epochs on seed 12345 only; tie order combined, action_memory, cost_aligned",
+  "test_used_for_selection": false,
+  "additional_seed_scores_used_for_selection": false,
+  "seeds": [
+    12345,
+    2024,
+    42
+  ],
+  "frozen_at": "2026-10-02T15:49:27.983426+08:00",
+  "reference_checkpoint_sha256": "fb1a3114962d1d698bdda83c07228f20eb44231fa85b5a0a47eb4175d41a5ce8",
+  "combined_checkpoint_sha256": "78952e7b6e73c55295248ca6f04d3215b49655a54b11e03e5469c2f1c1a03b4c"
+}

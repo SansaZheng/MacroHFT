@@ -10,7 +10,7 @@ Route: delayed-memory-validity-v2, diagnostic only; novelty unproven.
 - Recomputed six trial returns/aggregates. Reference mean 37.685867%, combined
   mean -0.491520%; paired mean difference -38.177387 percentage points. Reference
   seed 12345 is 39.280827%, rounding to the published 39.28%. ETH hyper-agent
-  scope only; individual trial/checkpoint reconciliation is still pending.
+  scope only; six trial/checkpoint reconciliation completed.
 - Implemented a causal delayed-feedback baseline ledger; nine tests passed.
   Frozen synthetic diagnostic: 240 streams x five predictors, 1200 score rows,
   8.773 seconds. Local conditioning helps the constructed local/recurrent cases
@@ -19,12 +19,13 @@ Route: delayed-memory-validity-v2, diagnostic only; novelty unproven.
   stale bootstrapped Q labels, and cached replay targets. A test-time gate would
   alter the original protocol because memory is queried during training.
 
-## Active
+## Completed recovery
 
-CQ j-1127-458f37: assigned; assigned to c225; copying project macrohft-recovery from c224 to c225.
-Last checked: 2026-11-27T10:46:00.198593+00:00.
-This is a read-only collection, not a training/evaluation job. It will retrieve
-six checkpoints and per-trial metrics, and hash existing trajectory arrays.
+CQ j-1127-458f37 is done; 77 remote file checks succeeded, 47 files copied
+and locally hash-verified (565,617 payload bytes). All six metrics match the
+summary; six checkpoints recovered; frozen seed12345 hashes match; seven
+runtime source files match the archive. The 30 trajectory/scalar arrays remain
+on c225 with recorded hashes. No repeat evaluation or training took place.
 [Prompt 009](prompts/009-evidence-recovery.md).
 
 Stage 010 diagnostic completed; [prompt](prompts/010-delayed-validity-screen.md),
@@ -32,8 +33,7 @@ Stage 010 diagnostic completed; [prompt](prompts/010-delayed-validity-screen.md)
 
 ## Next evidence gates
 
-Verify collected model hashes and per-trial metrics; preserve the negative
-combined result. Before integrated training, implement and compare simple
+Preserve the verified negative combined result. Before integrated training, implement and compare simple
 value-target refresh, no-memory and equivalent contextual weighting baselines
 under a frozen validation-only protocol. Do not reuse the observed 2023 ETH
 final period for selecting a new method. Reserved 2026 test data remain unseen.

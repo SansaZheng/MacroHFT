@@ -1,0 +1,37 @@
+[
+  {
+    "path": "scripts/run_experiment.py",
+    "matches_published_current_source": true,
+    "sha256": "9f21249be43c99c109532d1cb1d0fb00b487f46be9828115afdfefe60820b4d3"
+  },
+  {
+    "path": "scripts/fast_evaluation.py",
+    "matches_published_current_source": true,
+    "sha256": "bd47f984937b623b6ed68da8b202f5123aca012f4d17cdfaffb9a45836a783cd"
+  },
+  {
+    "path": "scripts/cached_experts.py",
+    "matches_published_current_source": true,
+    "sha256": "aa7dbe29237c04d8efba27d9cd1e1b52899a7ce3f26d71ce2e8338feafce712a"
+  },
+  {
+    "path": "scripts/array_environment.py",
+    "matches_published_current_source": true,
+    "sha256": "fc0032ce52bd437b6f004c6645aae103abf258cea124714b4392174508935287"
+  },
+  {
+    "path": "vendor/MacroHFT/RL/agent/high_level.py",
+    "matches_published_current_source": true,
+    "sha256": "2e825f99ba0a47668eba6b523a5cfa2e55c70d61a9e6e0a01d1c36bd01012a38"
+  },
+  {
+    "path": "vendor/MacroHFT/RL/util/memory.py",
+    "matches_published_current_source": true,
+    "sha256": "428c45459eed362f8ab8d2202b8b09076165785ac3a0bce3eedc505c7a6519f3"
+  },
+  {
+    "path": "vendor/MacroHFT/env/high_level_env.py",
+    "matches_published_current_source": true,
+    "sha256": "fb17337f4e48f2d7827c39dcf733da173340a07918475714d865e891d25da100"
+  }
+]

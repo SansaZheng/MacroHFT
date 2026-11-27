@@ -1,5 +1,6 @@
 """Verify recovered historical summaries and (optionally) per-trial CQ files."""
 import argparse
+import datetime
 import hashlib
 import json
 import math
@@ -39,16 +40,28 @@ def verify(inventory_path, collection=None):
         assert (collection/'files/results/final-summary.json').read_bytes()==raw
         frozen=json.loads((collection/'files/results/selection-frozen.json').read_text())
         assert frozen==summary['selection']
+        frozen_ns=int(datetime.datetime.fromisoformat(frozen['frozen_at']).timestamp()*1e9)
+        common_config=None
         for row in rows:
             v,s=row['variant'],row['seed']
             name=f'results/{v}-seed{s}/test/metrics.json'
             metrics=json.loads((collection/'files'/name).read_text())
             assert metrics=={k:val for k,val in row.items() if k not in {'variant','seed'}},name
+            assert receipt['files'][name]['mtime_ns'] > frozen_ns
+            config=json.loads((collection/'files'/f'results/{v}-seed{s}/config.json').read_text())
+            assert config['seed']==s and config['exp']==v
+            assert config['memory_mode']==('original' if v=='reference' else 'action_conditioned')
+            assert config['teacher_cost']==(.001 if v=='reference' else .0002)
+            shared={k:val for k,val in config.items() if k not in {'seed','exp','memory_mode','teacher_cost'}}
+            if common_config is None: common_config=shared
+            else: assert common_config==shared
             name=f'vendor/MacroHFT/result/high_level/ETHUSDT/{v}/seed_{s}/best_model.pkl'
             assert name in verified,name
             if s==12345:assert receipt['files'][name]['sha256']==frozen[v+'_checkpoint_sha256']
         result.update(individual_trial_files_verified=True,copied_files_verified=len(verified),
                       frozen_seed12345_checkpoint_hashes_match=True,
+                      common_configuration_matches=True,
+                      test_file_mtimes_after_selection_freeze=True,
                       collector_errors={k:v for k,v in receipt['files'].items() if 'error' in v})
     return result
 

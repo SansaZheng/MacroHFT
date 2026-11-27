@@ -38,7 +38,7 @@
     "scripts/run_experiment.py": "9f21249be43c99c109532d1cb1d0fb00b487f46be9828115afdfefe60820b4d3",
     "scripts/smoke_train.py": "778682ca9c25f045c682cdbedcdbfbc837dc8cfe999b51d4ce41b34f0a25d48e",
     "scripts/verify_git_archive.py": "cf8374bde8867e178da96e30568818f45feeff4ff2eb93f83e7cef3a740b62df",
-    "scripts/verify_remote_archive.py": "c912ae2a7cddf476cb64d49e4da9f1f179184811506f9bf78ece744109459f52",
+    "scripts/verify_remote_archive.py": "ac5d82a1cb272966e6d4771c1811e8511f1b614fc5f6bc756698553ad76a6107",
     "scripts/verify_source.py": "8c79c117d41b4ee4a953ef6642fa846b5ccb908eeb8ea1647c464a8f516c46cb",
     "tests/test_archive.py": "7e05c050a4b895ac09d8e2c30985f3e0095d6e8d4f73ce579f5379fa7a59b3ca",
     "tests/test_cluster_controller.py": "eb8b452fef1c350e4f0e41a813760d7dd88ff6e2c627f93d41ad79685485f647",

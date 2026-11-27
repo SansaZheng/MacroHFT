@@ -1,0 +1,15 @@
+{
+  "return_pct": 34.08910590898962,
+  "profit": 123.41974279999994,
+  "required_capital": 362.05039560000006,
+  "fees": 2.5442572,
+  "buys": 19,
+  "position_changes": 37,
+  "rows": 219960,
+  "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+  "max_drawdown_pct": 9.32293643763973,
+  "annual_volatility_pct": 20.805870833968736,
+  "annual_sharpe": 3.472832592205074,
+  "annual_calmar": 7.7502734063162135,
+  "annual_sortino": 2.7529043558151054
+}
