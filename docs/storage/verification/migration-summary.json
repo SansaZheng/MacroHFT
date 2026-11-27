@@ -16,22 +16,96 @@
         "repo_type": "dataset",
         "url": "https://huggingface.co/datasets/Sansa005/MacroHFT",
         "private": true,
-        "asset_upload_complete": false,
-        "asset_revision": null
+        "asset_upload_complete": true,
+        "asset_revision": "e8666f608354638f8ebf626cc1b9d933cff1ba46"
       },
       {
         "repo_id": "Sansa005/MacroHFT",
         "repo_type": "model",
         "url": "https://huggingface.co/Sansa005/MacroHFT",
         "private": true,
-        "asset_upload_complete": false,
-        "asset_revision": null
+        "asset_upload_complete": true,
+        "asset_revision": "001c621ea3464540f40938d9eadbfd1419791d09"
       }
     ],
-    "uploaded_files": 0,
-    "pinned_project_revisions": [],
-    "account_permission": "Owner browser session created both private repositories; scoped SDK authentication/write check pending",
-    "quota": "Authenticated Private storage display: 904 MB used of 100 GB; refresh before upload"
+    "uploaded_files": 202,
+    "pinned_project_revisions": [
+      {
+        "id": "eth-original",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "dataset",
+        "revision": "315f83c3b7492f5cba1ea5c925d432b79caf8d1c"
+      },
+      {
+        "id": "eth-prepared",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "dataset",
+        "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+      },
+      {
+        "id": "feature-definitions",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "dataset",
+        "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+      },
+      {
+        "id": "eth-decomposition",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "dataset",
+        "revision": "8f76401251666080e373fc93fc147c2ad5a1b0c7"
+      },
+      {
+        "id": "released-experts",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+      },
+      {
+        "id": "eth-reference-12345",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "revision": "2fb7da0ff0ea22d0cb9e42dc22444c93b420f7e3"
+      },
+      {
+        "id": "eth-reference-2024",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "revision": "d81f76502cebca4b066d63a0f872fed8e0593871"
+      },
+      {
+        "id": "eth-reference-42",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "revision": "115c7250629d7cb46c0b0ce5509a284bc5348315"
+      },
+      {
+        "id": "eth-combined-12345",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "revision": "0945e008bc57dbc743606e73280da184b63541ca"
+      },
+      {
+        "id": "eth-combined-2024",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "revision": "7f6d0aaea833dc7e1ba7666e759816c6ce74d025"
+      },
+      {
+        "id": "eth-combined-42",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "model",
+        "revision": "001c621ea3464540f40938d9eadbfd1419791d09"
+      },
+      {
+        "id": "cost-memory-data",
+        "repo_id": "Sansa005/MacroHFT",
+        "repo_type": "dataset",
+        "revision": "e8666f608354638f8ebf626cc1b9d933cff1ba46"
+      }
+    ],
+    "account_permission": "Sansa005 authenticated on c225; official HF 1.8.0 write checks passed for both existing private repositories",
+    "quota": "Authenticated Private storage display: 904 MB used of 100 GB; refresh before upload",
+    "payload_bytes": 1296186106
   },
   "remote": {
     "host": "c225",
@@ -65,21 +139,34 @@
     "transport_receipt_sha256": "c2c0790a85c81d807065e4086fd2c8291057f4db11d4c1ae24ee1d1579b6a74f",
     "transport_output_directory": "/data3/sudingli/cq-home/macrohft-recovery/results/asset-stream-recovery-smoke-20261128",
     "public_fixture_transfer_verified": true,
-    "private_project_restore_verified": false,
+    "private_project_restore_verified": true,
     "asset_tests_passed": 25,
     "synthetic_gate_tests_passed": 9,
     "pinned_client_installation_retry_job": "j-1128-7b3618",
     "pinned_client_installation_passed": true,
     "pinned_client_version": "1.8.0",
     "pinned_client_clean_transport_passed": true,
-    "project_hf_authentication_found": false
+    "project_hf_authentication_found": true,
+    "private_migration_job": "j-1128-b02441",
+    "private_migration_state": "done",
+    "private_restore_job": "j-1128-4431b6",
+    "private_restore_state": "done",
+    "private_migration_work_directory": "/date/zyy/macrohft-assets/migration-20261128",
+    "private_restore_source_commit": "60b3f3caedd7e29f5770a4e1a60cc74b2ae81762",
+    "private_restore_receipt_sha256": "1b859f99f43d33fa1b70be9aff3f16eecded4f3ac6f0cd9228be3c406cbdfbff",
+    "private_numerical_tests_passed": 10,
+    "retained_models_loaded": 18,
+    "independent_backup_files_verified": 202,
+    "private_restore_downloaded_files": 22,
+    "private_restore_downloaded_bytes": 365132208,
+    "private_restore_work_directory": "/date/zyy/macrohft-assets/restore-20261128"
   },
   "local": {
     "code_checkout": "/Users/zyy/.local/share/macrohft/repository",
     "preserved_original_root": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
     "original_allocated_bytes": 1594220544,
     "historical_git_objects_approx_mib": 273,
-    "potential_reclaimable_after_all_gates_gib": "approximately 1.5 GiB originals/old environment, plus historical Git objects after separately approved local checkout cleanup",
+    "potential_reclaimable_after_all_gates_gib": "1.21 GiB in the exact verified 190-file proposal. Old environment and historical Git objects excluded.",
     "originals_deleted": false,
     "shared_caches_cleared": false,
     "history_rewritten": false,
@@ -87,18 +174,20 @@
     "newly_hash_readable": 64,
     "still_missing_recorded_paths": 2,
     "temporary_tooling_env_removed_bytes": 33296384,
-    "asset_tests_passed": 25
+    "asset_tests_passed": 25,
+    "selected_payload_files_matched": 190,
+    "selected_payload_allocated_bytes": 1295790080
   },
   "confirmation_needed": [
-    "User completes the prepared repo-scoped token and hidden-prompt HF login on c225",
-    "Private backup rights for author-provided datasets/experts where no explicit license was recorded"
+    "Approval for exact local cleanup proposal; iCloud synchronization implications must be considered. Shared Git history rewrite remains separately unauthorized."
   ],
-  "cleanup_status": "not proposed for execution: private HF uploads and pinned recovery gates are not yet complete",
+  "cleanup_status": "All required backup/recovery checks passed. Exact 190-file cleanup proposal prepared; no originals deleted; approval pending.",
   "github_tree_observation": {
     "commit": "7e0f340dbaa8d4de9f1bdfddc1202779170a0fc7",
     "files": 331,
     "bytes": 2356708,
     "files_over_2MiB": 0,
     "source": "GitHub recursive tree API; no historical blob downloads"
-  }
+  },
+  "cleanup_proposal": "docs/storage/cleanup-proposal-20261128.json"
 }

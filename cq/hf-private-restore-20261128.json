@@ -1,0 +1,109 @@
+{
+  "name": "MacroHFT clean private HF restore and numerical reproduction qualification",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "60b3f3caedd7e29f5770a4e1a60cc74b2ae81762"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_restore_private_assets.py"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 2,
+    "ram_gb": 8,
+    "disk_gb": 4
+  },
+  "limits": {
+    "max_hours": 1,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/hf-private-restore-20261128",
+    "expect": [
+      {
+        "path": "receipt.json",
+        "contains": "\"complete\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "60b3f3caedd7e29f5770a4e1a60cc74b2ae81762"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "\"models_loaded\": 18"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "\"numerical_tests_passed\": 10"
+      },
+      {
+        "path": "independent-backup.json",
+        "contains": "\"verified\": true"
+      },
+      {
+        "path": "progress.log",
+        "contains": "5/5"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 20
+    }
+  },
+  "resource_basis": {
+    "scope": "Clean pinned GitHub checkout; fetch only prepared train/validation, feature definitions and 18 retained model files at manifest pins; ten numerical checks; verify all 202 server backup payloads",
+    "bounds": "2 CPUs, 8 GB RAM conservative allowance for real Feather data and numerical model buffers, 4 GB disk, 1h, no GPUs or paid resources",
+    "preservation": "Existing numerical and transfer environments used read-only. No held-out test split download, no training, no original or shared-cache deletion. Remote artifacts remain under /date; only small JSON receipts collected."
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "60b3f3caedd7e29f5770a4e1a60cc74b2ae81762",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "REQUESTS_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt",
+    "SSL_CERT_FILE": "/etc/ssl/certs/ca-certificates.crt",
+    "PIP_CERT": "/etc/ssl/certs/ca-certificates.crt",
+    "PIP_RETRIES": "1",
+    "PIP_DEFAULT_TIMEOUT": "15",
+    "HF_HOME": "/date/zyy/macrohft-reproduction/.hf",
+    "MACROHFT_MIGRATION_ROOT": "/date/zyy/macrohft-assets/migration-20261128",
+    "HF_HUB_CACHE": "/date/zyy/macrohft-assets/migration-20261128/cache/hub",
+    "HF_XET_CACHE": "/date/zyy/macrohft-assets/migration-20261128/cache/xet",
+    "HF_HUB_DISABLE_PROGRESS_BARS": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MACROHFT_RESTORE_ROOT": "/date/zyy/macrohft-assets/restore-20261128",
+    "MACROHFT_TRANSFER_PYTHON": "/date/zyy/macrohft-assets/migration-20261128/asset-env/bin/python",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "depends_on": [
+    "j-1128-b02441"
+  ],
+  "replaces": []
+}

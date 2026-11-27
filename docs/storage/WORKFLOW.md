@@ -73,7 +73,7 @@ First inspect the current ledger and remote inventory. Reuse existing HF repos d
 by the audit. Create at most a private dataset repo and a private model repo if no suitable
 project repos exist. Record private-upload authorization per asset based on actual rights;
 no new license is assigned. Both private destinations now exist as `Sansa005/MacroHFT` (one Dataset and one Model).
-Use them without `--create-repo`; remote authentication and private-backup rights still gate uploads.
+Use them without `--create-repo`; remote authentication and private-backup rights are confirmed. The initial 12 asset groups are uploaded and pinned; reuse them instead of uploading duplicates.
 
 Prepare one logical asset at a time. The staging command checks source bytes and adds a
 card and asset provenance; it does not alter originals or upload a directory indiscriminately.
@@ -123,7 +123,7 @@ itself does not automatically mutate GitHub or rewrite history.
 
 ## Retrieve only the assets needed
 
-These commands **fail until the relevant real HF revisions have been verified**:
+The committed manifest now contains verified private HF revisions. These commands retrieve only the requested files; future unverified entries still fail closed:
 
 ```bash
 "$PYTHON" scripts/assets.py fetch --asset feature-definitions --asset released-experts \
@@ -197,7 +197,7 @@ The initial c225 isolated dependency build failed during package DNS resolution.
 The user-requested retry `j-1128-7b3618` later passed a fresh HF 1.8.0 installation,
 clean checkout, public pinned download, checksum/stream checks and minimal execution.
 The retry spec records bounded pip timeouts/retries and the existing system CA bundle.
-Authentication and live private writes remain unverified. c224 CPU capacity was
+Live private write checks and all 12 asset uploads subsequently passed in `j-1128-b02441`. c224 CPU capacity was
 unavailable during the earlier audit; do not assume another host is already qualified.
 Do not change shared DNS, system packages or another user's environment. The optional
 `scripts/cq_existing_asset_smoke.py` can inspect and exercise this project's existing
@@ -226,4 +226,31 @@ export HF_HOME=/date/zyy/macrohft-reproduction/.hf
 Paste the token only into the hidden prompt. This uses the existing official client for
 login without changing its packages; transfer jobs use the separately qualified 1.8.0
 client. No token belongs in a CQ spec, Git history, stdout, chat, or collected output.
-Refresh private storage headroom and confirm upstream upload rights before migration.
+This login was configured with restricted permissions, and the user confirmed private-backup rights. Refresh storage headroom before future uploads. Never copy the credential into a new checkout or collected artifact.
+
+## Completed migration and recovery paths
+
+The initial migration used CQ job `j-1128-b02441` and preserves resumable state under
+`/date/zyy/macrohft-assets/migration-20261128`. The isolated transfer interpreter is
+`/date/zyy/macrohft-assets/migration-20261128/asset-env/bin/python` (c225 only).
+It can be reused read-only there after checking its version; never copy a venv between hosts.
+Originals remain at `/date/zyy/macrohft-reproduction`; nine research ZIP originals were
+recovered selectively from historical Git into the migration workspace's
+`historical-originals/`, with no download to the Mac.
+
+The repository card/metadata hashes and exact per-asset HF revisions are committed in
+`assets/manifest.json`. The initial migration is complete: do not recreate repositories
+or rerun it merely to retrieve inputs. Use `fetch`, `verify`, or `remote_run.py` instead.
+For a genuinely interrupted migration, preserve `migration-manifest.json` and its single
+quota reservation file. `cq_migrate_assets.py` refuses changed payload or model provenance
+when resuming; do not edit state to bypass that check.
+
+The actual private-asset recovery spec `cq/hf-private-restore-20261128.json` completed
+as `j-1128-4431b6`: ten numerical checks, 18 model loads, and 202 original-file hashes
+passed. It reused the existing c225 numerical environment read-only (Torch 2.8.0,
+NumPy 2.2.6, pandas 2.3.3, PyArrow 25.0.1, Gym 0.26.2, SciPy 1.15.3), while the
+transfer interpreter used HF 1.8.0. For another clean qualification, inspect CQ first
+to avoid duplicates, choose a new authorized restore/output directory, and pin the exact
+code commit in both the spec and SOURCE_COMMIT. The script refuses an existing restore
+directory. Current restored assets are under `/date/zyy/macrohft-assets/restore-20261128/assets`;
+the personal computer received only lightweight verification receipts.

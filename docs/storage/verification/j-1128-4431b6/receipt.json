@@ -1,0 +1,73 @@
+{
+  "complete": true,
+  "source_commit": "60b3f3caedd7e29f5770a4e1a60cc74b2ae81762",
+  "clean_github_checkout": true,
+  "private_project_assets_verified": true,
+  "numerical_tests_passed": 10,
+  "models_loaded": 18,
+  "independent_backup_files": 202,
+  "downloaded_files": 22,
+  "downloaded_bytes": 365132208,
+  "selected_assets": [
+    {
+      "id": "eth-prepared",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "dataset",
+      "revision": "9a7286ae6552fac584d696e921aee52334cfc42b"
+    },
+    {
+      "id": "feature-definitions",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "dataset",
+      "revision": "c872dcc7d7732272b0422b254aa2e324bb3c5ece"
+    },
+    {
+      "id": "released-experts",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "revision": "04d0b5f8e7c84fa2174c54df90e287acb18501cb"
+    },
+    {
+      "id": "eth-reference-12345",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "revision": "2fb7da0ff0ea22d0cb9e42dc22444c93b420f7e3"
+    },
+    {
+      "id": "eth-reference-2024",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "revision": "d81f76502cebca4b066d63a0f872fed8e0593871"
+    },
+    {
+      "id": "eth-reference-42",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "revision": "115c7250629d7cb46c0b0ce5509a284bc5348315"
+    },
+    {
+      "id": "eth-combined-12345",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "revision": "0945e008bc57dbc743606e73280da184b63541ca"
+    },
+    {
+      "id": "eth-combined-2024",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "revision": "7f6d0aaea833dc7e1ba7666e759816c6ce74d025"
+    },
+    {
+      "id": "eth-combined-42",
+      "repo_id": "Sansa005/MacroHFT",
+      "repo_type": "model",
+      "revision": "001c621ea3464540f40938d9eadbfd1419791d09"
+    }
+  ],
+  "test_split_downloaded": false,
+  "training_or_held_out_evaluation_performed": false,
+  "existing_environment_modified": false,
+  "originals_deleted": false,
+  "remote_work_directory": "/date/zyy/macrohft-assets/restore-20261128",
+  "elapsed_seconds": 113.65008301986381
+}

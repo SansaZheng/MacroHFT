@@ -1,0 +1,1218 @@
+{
+  "verified": true,
+  "files": [
+    {
+      "asset": "eth-original",
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_train.feather",
+      "size": 261693410,
+      "sha256": "e0fc269339de6775c06639bd18691e1c41c0329c0a2b27239ac8f504ac9f4a33"
+    },
+    {
+      "asset": "eth-original",
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_val.feather",
+      "size": 85196722,
+      "sha256": "86e6bf159c1e13aac390c0fc9a026733435be990aa3d1e73cf98e5e7d5039dc8"
+    },
+    {
+      "asset": "eth-original",
+      "path": "vendor/MacroHFT/data/ETHUSDT/df_test.feather",
+      "size": 106921826,
+      "sha256": "e3e72fcdf21659ba74ef60c23a770e61cb488cffbcf67859e92483a3b64a9515"
+    },
+    {
+      "asset": "eth-prepared",
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/train.feather",
+      "size": 274100090,
+      "sha256": "46b08b620402ca8209a928c078fd60ec43a0267cbd9f0f89dec2910656bd3c33"
+    },
+    {
+      "asset": "eth-prepared",
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/val.feather",
+      "size": 89130786,
+      "sha256": "4c3e2627013c97f1286b7e1e7b590296d938957f8e227ac4d0d2b066d59495b5"
+    },
+    {
+      "asset": "eth-prepared",
+      "path": "vendor/MacroHFT/data/ETHUSDT/whole/test.feather",
+      "size": 111887530,
+      "sha256": "5cf78277fc89fbb48275df052dfaeb6f0f3d6def8787b19543a348a2aebe05c9"
+    },
+    {
+      "asset": "feature-definitions",
+      "path": "vendor/MacroHFT/data/feature_list/single_features.npy",
+      "size": 3152,
+      "sha256": "e6f13e77af4669aa6affb71e3eb717d882e0f702ac2b416a3245b6b0c03a08c9"
+    },
+    {
+      "asset": "feature-definitions",
+      "path": "vendor/MacroHFT/data/feature_list/trend_features.npy",
+      "size": 848,
+      "sha256": "ca19f94a37d0a728300aea874534896b5b6bd9f88aa7ba5796b7eb5ce006cef5"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/slope_labels.pkl",
+      "size": 134,
+      "sha256": "c34e8cb4812044e8343799881486e47dbe082dad9adf89ae0dde151c6c836f90"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/vol_labels.pkl",
+      "size": 132,
+      "sha256": "0d3dd7f65e16ec4a98f3ebd04f8fd555e5d8e82dc2728223029aa4b2e7a7121d"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather",
+      "size": 2183410,
+      "sha256": "17470707e2d6369a526b87ff47ad776b6221b1f7792f2fcb9e6bbb4a53fb7b56"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_1.feather",
+      "size": 2185986,
+      "sha256": "6b2d6cf49edab63394df210a6eccfc08762aa0be7a99f920ca3632a4456b0035"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_10.feather",
+      "size": 2188674,
+      "sha256": "5afc050e0dbce2790f04d5953a6f7ca26c17f7afdc10827d9665924cbd87f80b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_100.feather",
+      "size": 2152602,
+      "sha256": "ed1ef0a06cd369d23f9430fb2b8e017c9226fd2962651c58c461a9ce7fe15d63"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_101.feather",
+      "size": 2145354,
+      "sha256": "ba995435c78a3cd8e153d53c8c62fc936b3998c5b79b93e41be3d92d49082e58"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_102.feather",
+      "size": 2143554,
+      "sha256": "73897398a1caddfd509fe6d3f7559128c6036f5d09435c9f15111c9c9108c23d"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_103.feather",
+      "size": 2143378,
+      "sha256": "bac367a09deca5fb06f90a51bcdbb402582d74f0864915fff27100fb73909762"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_104.feather",
+      "size": 2114602,
+      "sha256": "9f3b0d219e4cec2e7799889124663700d2549a20c8ae3cfc25dc5955c618341f"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_105.feather",
+      "size": 2147010,
+      "sha256": "04645fb096804d54b0241c268b31f50697b27089b542a99d810ccb5e9fd719d5"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_106.feather",
+      "size": 2135970,
+      "sha256": "d8ab264685a24b764b59de44454d56fbc54d56a211deb6719d1675dd338a98ec"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_107.feather",
+      "size": 2138010,
+      "sha256": "99d35d02ebf3570244daf74b0b09abc0f9ed3e7f687b759700398790a2d5f6d6"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_108.feather",
+      "size": 2111370,
+      "sha256": "25cfb0e130f244638acf308a16de0238a19d4ed2cec94d76ca61bca2dd2e40c5"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_109.feather",
+      "size": 2104986,
+      "sha256": "cca71b7c8fbe342bb511b7faa6060858d1163bc7c8f34c4079d21dcd8e6e9e90"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_11.feather",
+      "size": 2184250,
+      "sha256": "cf73515aadcd567e3964f207492ff2007e97f812a2494643de5f4b0a327dfa6c"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_110.feather",
+      "size": 2123354,
+      "sha256": "b2ae4d42dce40df1dda5f94db9f968dbe2f1ea4d7cef237d335e1496fae2f086"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_111.feather",
+      "size": 2081802,
+      "sha256": "b4dd3c1096e76459fb3f7e746b2cf8c021524602461a9d3f435129a883312f6d"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_112.feather",
+      "size": 2116642,
+      "sha256": "02a56490cf1086fed06bd31337ac3d6703acf6044dcfb18c90a472d180146d0d"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_113.feather",
+      "size": 2063722,
+      "sha256": "674bc8972d462a681a361984600b3405af8dd0403f2c3d9d0d5efedbe0fe8302"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_114.feather",
+      "size": 2134554,
+      "sha256": "f9b55724ecffffa1f707bb1a42f840703dcb71ef4a401280982866975752a8b6"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_115.feather",
+      "size": 2163418,
+      "sha256": "7a3d67cbe4754aada1e217db9f6e2c9a0d7553263603f3e449cdac422492ac87"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_116.feather",
+      "size": 2151138,
+      "sha256": "8985abf5eba9a6248ed10e017d8292c097492fa5fc25c11c42e5efecf3932c86"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_117.feather",
+      "size": 2154162,
+      "sha256": "37888320b297386a02b34652da1396c0907918d9e1202058c0573b5c253b01cd"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_118.feather",
+      "size": 2143722,
+      "sha256": "0aa7a486c406c11bb98ce7506b8d1e48628f74bb1fe42db2b2320d68cdd34175"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_119.feather",
+      "size": 2151914,
+      "sha256": "14abcb4b7de7369ec729cdb59ad6a5a0df6c6264a9c909fb8aabf867ba75eab3"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_12.feather",
+      "size": 2186250,
+      "sha256": "c151698bad0d3d85bdc5aa3379f0223d00b41c8b514438e9e130f1a95a048154"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_120.feather",
+      "size": 2145306,
+      "sha256": "c5b61275bba12cfcd2cdced5ad7faa7989adaa7eb1e49dad40d9bc00fd69b103"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_13.feather",
+      "size": 2177530,
+      "sha256": "899052d1f8e693e4fc4e7b3c16bcf8959ec2f8d6c7d5912300b25b8eb7d8fbd9"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_14.feather",
+      "size": 2186250,
+      "sha256": "cee09e78c8c3a8e72727874648cb8dda1041f4ba35f752b9dd877c902c718c6b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_15.feather",
+      "size": 2181978,
+      "sha256": "58a6dc6bca0de300e20f4f4620172596edde77724363d64ee6127bb07d52a7e9"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_16.feather",
+      "size": 2180178,
+      "sha256": "d715471cbe4c4d4cf36ca19e75234cf0b155161977c2fea6db0d86b758c7d09e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_17.feather",
+      "size": 2175570,
+      "sha256": "5f9bc7dbc76bdf9cd0bd088864ef72e61af1c5d6c1520e74754de120a9da8504"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_18.feather",
+      "size": 2181906,
+      "sha256": "0affc6234c6e475a0af79eec6c19bf01bb80a5b536446df38074a7976d6e9e44"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_19.feather",
+      "size": 2184618,
+      "sha256": "5ee58b57f5063d4c40b976c09e42cba7a3b79e52aa1469908bd81338f30e76aa"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_2.feather",
+      "size": 2189450,
+      "sha256": "5dc6d782240f64c1a3647609d24987c90b8ebd2ea4d17da52ae2d781463ae20f"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_20.feather",
+      "size": 2180218,
+      "sha256": "e91a5662a39ac686b6df1207d1c66fb90f65bbfa683dd8844022b0485ade622e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_21.feather",
+      "size": 2190354,
+      "sha256": "0fd658e407f68827ebc925900b633ae5972342df36c24b78cb93d3fcdb38ea38"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_22.feather",
+      "size": 2173066,
+      "sha256": "59cfe6fc9dcf0b88a0a584d7a73821c7efe879f8f31fb6da32a8272fbd192354"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_23.feather",
+      "size": 2185066,
+      "sha256": "ed532a8e4c5467ca80f7c4993bfc7ef26e5695cfdd7b3b08f0d8805673b204fd"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_24.feather",
+      "size": 2167842,
+      "sha256": "63ab0bd56009624138349bb55adffca74ebcbbf772de1dda0effd67b8eb96dda"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_25.feather",
+      "size": 2178762,
+      "sha256": "a54f5f50e3c1f4be55be84f46be90a21c787a860f196f35051ecd23e62a32bc7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_26.feather",
+      "size": 2180354,
+      "sha256": "8a282d8f2eb20bfbea6833ca64f16c52828b988c48bfa885cd87847f88926848"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_27.feather",
+      "size": 2178258,
+      "sha256": "1adf91956a0d5aaa2049574a66c1a9d8bf55e16e0e01aaee2af2225327fc6a0e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_28.feather",
+      "size": 2180234,
+      "sha256": "f20e6fe3ca6743f5ba4e6ccd2ad9e3db3ece7936d57b91bc270e52093301e8b1"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_29.feather",
+      "size": 2178802,
+      "sha256": "bd1cf13614edc79ad19f0ac5f306c2d09d25bfe56cc3dfa25b27374ce3af0778"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_3.feather",
+      "size": 2195450,
+      "sha256": "4c8e6543ddcb138d3863903f67bea02c748a9994feeb1f779b1b99cfce8b126a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_30.feather",
+      "size": 2180082,
+      "sha256": "e52e9282bd0d04fa51ce4383a6f579065233b25690ba49304b8cd76df4dee4fd"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_31.feather",
+      "size": 2182010,
+      "sha256": "19ed3dfd13565d75362556605c8e17abd50c35a5680dd95d5918ccca98fcf558"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_32.feather",
+      "size": 2192962,
+      "sha256": "96dc7054c6b25ed22df16a8993e48ec5feec4b64290ec2b60cf888a29d1143a7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_33.feather",
+      "size": 2204882,
+      "sha256": "1c1d4b86323dc38b7ca232c93b579300de4553c83b62116105cfe42503ce67f6"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_34.feather",
+      "size": 2176794,
+      "sha256": "7e34696b7aa398bbf8dda8822a3b1c928239f992ac6b42b614e38c6e651259f7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_35.feather",
+      "size": 2177906,
+      "sha256": "4382e7129e90ba14d62e405c54cf03b8811714990d6d484b5b9d66d1e725f2c6"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_36.feather",
+      "size": 2160802,
+      "sha256": "fb7bd1e3147b12453f8e11d0018660f67f23b09252518662c74e253b3d09763a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_37.feather",
+      "size": 2169658,
+      "sha256": "cee092ac633fc7dd60d37672f5fc0d0a097a8a7acdeac3fc1475dc2d4ccb0eb8"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_38.feather",
+      "size": 2172178,
+      "sha256": "298afc6c3ff06cc2abfe2b33ea2d53e4a0cc44ee9fbd84a36560cb48745f5b62"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_39.feather",
+      "size": 2171538,
+      "sha256": "b6ed16ad5dec6de7339ce6965f7529d1085f3d1295ee99bce4f2529b9e5ee64f"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_4.feather",
+      "size": 2188586,
+      "sha256": "2e1f6e4fc545940e470c640160f8c39c16414c8ddb77d9a24d491c246f1e91bc"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_40.feather",
+      "size": 2166258,
+      "sha256": "197bc2b09625495ecf194a5be4f350cfa64ab0a42947128e020911d4a3d035ac"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_41.feather",
+      "size": 2157346,
+      "sha256": "37d0eb9900d58ffd5c811234233905ef77c53b047bddddbfe6b87455b21509a2"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_42.feather",
+      "size": 2164234,
+      "sha256": "f23e80c70a9a89f749a547e2686a4aad6f48daa53a05f9b3363653cba19a900c"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_43.feather",
+      "size": 2179818,
+      "sha256": "b525ab109cce0b97c3c73c1b59f25ad9f33c49244692a5e8c70d1ae5c290d68a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_44.feather",
+      "size": 2187170,
+      "sha256": "e270e0f86c97e0df49eb081298aa57514b769e5814b9d69381ac3ab169b8af26"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_45.feather",
+      "size": 2181818,
+      "sha256": "d2ac2c3d7d21bf323a8b6c17aa264c12fdc9daee42d67f65c6ae4406e7e7a1a4"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_46.feather",
+      "size": 2175546,
+      "sha256": "83ab1493df6a0f636e2ab11b4200254481b22219799f8dcf132f6ac7d245068e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_47.feather",
+      "size": 2171626,
+      "sha256": "e5d27ad3daaba1378f30c8af7e64132ae8ddc553804b45a4fd34a42fde94b12d"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_48.feather",
+      "size": 2162338,
+      "sha256": "807183ea5f9429559277ee58a144cac62ee238c7bc0f5bd7a4d5dd9d5c8f3c9f"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_49.feather",
+      "size": 2173674,
+      "sha256": "de1366708983f7734bf0e5793064073d2d0decf6cdeb32e5684fbbe8cf71d47d"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_5.feather",
+      "size": 2191562,
+      "sha256": "5c69d5c2dcc8c4a0f6ab34c6ef67adc45406d25bd2c744417848e46768ac2cb2"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_50.feather",
+      "size": 2152146,
+      "sha256": "d6c467b2883c327c85c8d3376d8b07659bb8a9a1285387a21c4b265830d1b3f1"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_51.feather",
+      "size": 2163378,
+      "sha256": "db6502e9c7c067b82b013007c7a6ea5377a284637928a2ae613841b73fa141d0"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_52.feather",
+      "size": 2159330,
+      "sha256": "b03ad1c2e45387959d90bc2dd8bdcbf3bb56336056762080875f816e31322817"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_53.feather",
+      "size": 2161746,
+      "sha256": "574d3d3f4e131c6670a9a5917b970659f23e82a92d6bc7b33562f6420788c402"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_54.feather",
+      "size": 2170362,
+      "sha256": "b12330083a99be2040faa0979b39e07868c4e634bd9368d9cd99bd0fee6c8bc5"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_55.feather",
+      "size": 2177626,
+      "sha256": "0fbd1f5824d10473f1e2c3b01c62c4f8e15a73b3589b425ecba864aaf849bc6b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_56.feather",
+      "size": 2170658,
+      "sha256": "474e585cf2bc169d827b0b1a9b3459234b47f26c9d5b8cbfa43a85bf42eef4a4"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_57.feather",
+      "size": 2172650,
+      "sha256": "866197b7a8113b124e98b7305eec799e653fd2d4a69fd1bbfa7cfe99e4f69770"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_58.feather",
+      "size": 2178298,
+      "sha256": "3f96c2076373a869618530ca67e4d84a39c236465f017fda47f7bf2ac24fdeb7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_59.feather",
+      "size": 2172106,
+      "sha256": "1ad80155bd11fbe755da25905e8883619656e25281f59b7dd0d64470fed398bd"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_6.feather",
+      "size": 2187090,
+      "sha256": "b22fe626adfb4e4433151e3a313d574addf1a57ba43d2788352728794668f1d8"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_60.feather",
+      "size": 2170050,
+      "sha256": "765f22bf220beffc624b0dbd48ae9e7f653979200b99621903ee1cba91162ea7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_61.feather",
+      "size": 2168762,
+      "sha256": "fa2c1566532d328046443c02c11a7decdb29fcbce73253df0130969c5e309404"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_62.feather",
+      "size": 2163658,
+      "sha256": "d9b49297679ea9b77b6535257cabf2f8e691d5da79ab0eaa5d04c42337df59f9"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_63.feather",
+      "size": 2169178,
+      "sha256": "79496312dfdaedb118dc4dc87dc2322640e3ff6f38c8f6ba22fbc0739cb93e4b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_64.feather",
+      "size": 2164402,
+      "sha256": "130162e83d8bb8584c2a8156fa02af90deb5a37c6620b38c9261ff0e84805843"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_65.feather",
+      "size": 2163698,
+      "sha256": "f5b23bb8537dbb15b7332858de80ca46924a6286360bf8e370f9b37a4d782705"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_66.feather",
+      "size": 2175466,
+      "sha256": "ecc763682a8ea9c7b9d29a2b38a1ab4a9b147c63afafb08427019192f2caf4d7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_67.feather",
+      "size": 2164474,
+      "sha256": "1b3c6dc3026db20892d44f15905ddac5fa641a7a65f4e304eec86d1440831bcd"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_68.feather",
+      "size": 2166458,
+      "sha256": "05d526621cb168d8c75ac581d9d78fefc24e3cb10725a81531248de80e936b3a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_69.feather",
+      "size": 2165722,
+      "sha256": "b5376de0950faea36d928458c0d40722dd45c6990cafd72b824014d5fe372a59"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_7.feather",
+      "size": 2195906,
+      "sha256": "b43c72e67119e706f3be1aff886f9939848e5b72b22007186e0e3361e4e99920"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_70.feather",
+      "size": 2166090,
+      "sha256": "bb630a3ddc59303fdf0519891045f72c9fa5c7039d66d5b21bc30f28bb027ed0"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_71.feather",
+      "size": 2151842,
+      "sha256": "cdf282cfa0527ee43747235a68bbb9e33a421e458b285bcf5758ce7e018df994"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_72.feather",
+      "size": 2168714,
+      "sha256": "f999b3cc03aa26560f80920e041fc71cb97daf0bde32d0b2c5cca5d3413ce3d3"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_73.feather",
+      "size": 2163834,
+      "sha256": "d4dfe5c9a23ebc52a7dfb8a076d67bfd1c1e7aefbccad8eb89cb743e97a6d4b8"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_74.feather",
+      "size": 2165858,
+      "sha256": "891e50e7aada47a2ea11f8cabf8c4521e3b59251143cc6abc937190a1c05e0c8"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_75.feather",
+      "size": 2173514,
+      "sha256": "2dc1539a41ebb9c00bcf9224860a9d8884c3037d6be7c5d7778e9dd9c5e8dd63"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_76.feather",
+      "size": 2160258,
+      "sha256": "29bd2c8c27bba97da228cfa0812feeb324f52a41b0683fe34dc0738b07ea50f2"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_77.feather",
+      "size": 2168290,
+      "sha256": "71e564df23c1ed7fdf6ccbd8d527254f87546cd86bb3ceb034d14ef2c28c03eb"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_78.feather",
+      "size": 2153066,
+      "sha256": "239d5aaec40e34a267d8637aacb82da1be118b81c52cbcd3bd87d936fd565d3b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_79.feather",
+      "size": 2163378,
+      "sha256": "96277ae98a4f54c603ce26ee53c9251415bf19bc3b9d76f3b4a1627799ba199a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_8.feather",
+      "size": 2189242,
+      "sha256": "7ddd8c12ec71aa667c2ec983d2dd642fda00c9696a3134becf654fe8a8442820"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_80.feather",
+      "size": 2148978,
+      "sha256": "e638ee83a1f732385b9ce2a3e0b45f961d2cb205c1d71be7a53c335ffb247e72"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_81.feather",
+      "size": 2150154,
+      "sha256": "0dc1527b8cb107621b45a716dccde84cee4b3eb5f4bc4d73502e0a09477ae674"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_82.feather",
+      "size": 2152802,
+      "sha256": "9eba6c7c94e1f762f86f612ae98278a02273d368471161a2a827898d579c80d7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_83.feather",
+      "size": 2134634,
+      "sha256": "532ad4bf5da670e4cb4ebe60b60043cd60009740375a0440d3a54f723e1a597a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_84.feather",
+      "size": 2151978,
+      "sha256": "3fd2e68c26532085ea4d839c9340df3c04170d1e52d1e8c452651bc6388ef4f5"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_85.feather",
+      "size": 2136482,
+      "sha256": "66a55fd18caaf07d27616130ec04751fce28686125cef61ab6ca889e038b3eae"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_86.feather",
+      "size": 2137706,
+      "sha256": "816f3f8239f9510070d69f977b6f7eed7c2eb8858b05d867c424caa78e55c10e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_87.feather",
+      "size": 2131266,
+      "sha256": "f101a678ada939a47e74c93f71beb7b22a41ab29d5b64816f6722229456380b8"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_88.feather",
+      "size": 2144962,
+      "sha256": "98c3fce99f59fd269b00d38694c625775bcdd771f21e3fc8073491a7c7ee8ca8"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_89.feather",
+      "size": 2156810,
+      "sha256": "099dd8b010df3b366ea898cdb35840aa4718b25b9f968842a9054664bcc51f56"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_9.feather",
+      "size": 2190778,
+      "sha256": "0014297e01ce4d718025b887703a71cf44a63c0d67fe8c7f775f595b5ddae629"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_90.feather",
+      "size": 2154618,
+      "sha256": "a4801ca1a6927879e7addc39ef9424c0f7bc82a25cd81c7c77ea84accbdffcdd"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_91.feather",
+      "size": 2154650,
+      "sha256": "5fa59a88760e233da6277ff507497455e9b69926e1ee6daf4c1ef1f06fd73c33"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_92.feather",
+      "size": 2147426,
+      "sha256": "a8fb190b8c52e0c7a4a0c52752e4e1e596ccf6ab7aeab395160dedc5fa29efab"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_93.feather",
+      "size": 2182546,
+      "sha256": "8ae50e878b735af7e21bcd9d334105f66ad0d58dbd8e67211f13a8db1dcb5714"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_94.feather",
+      "size": 2172842,
+      "sha256": "b13af450263b94b28bacc2cf8a5f2ab45c03163b1a87431a61130c7125d79960"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_95.feather",
+      "size": 2160674,
+      "sha256": "c623ac20ed429545a362200c7129b6a5395a3b03f123a0b1766b6d3e81bd8730"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_96.feather",
+      "size": 2154906,
+      "sha256": "803b980ab65a93bd87d479cd58f4d28885048ca8e40d1d4dc03d0b8befcf6c30"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_97.feather",
+      "size": 2148746,
+      "sha256": "7f2cb5adedd8b9d9b0ebc85ed2141323d9c5ade3d202018a7e47a646690160da"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_98.feather",
+      "size": 2157906,
+      "sha256": "17b5a6201180653fb11d50cda98fd72f6b5a84d367bfeeff2afbf2b7147878ca"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_99.feather",
+      "size": 2147786,
+      "sha256": "baf0b99030967644b926894d753f58bf445e32fe4a426ec07a9292e028ede6ab"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/slope_labels.pkl",
+      "size": 278,
+      "sha256": "3e33bf0dd8e39f3750b6b5b4d5491905813563336fc7c8062232508a6d7129cb"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/vol_labels.pkl",
+      "size": 278,
+      "sha256": "cd15883bc1769424d6de2c98efe1284d108ec1b686ed1bee5b64ab88855467bf"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_0.feather",
+      "size": 2145970,
+      "sha256": "694f80c7cd74ef8329cc45a0421846c6ea33341dfcf7357fa44db4af01d8071e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_1.feather",
+      "size": 2140186,
+      "sha256": "c8e0b2e013aa09e7a78510546d844934d35e1141fc97b009de231c3285fec4e5"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_10.feather",
+      "size": 2125418,
+      "sha256": "08dec7b00b3d89de5c4f5f1ab8d4e43f285817ef6de82664686ed61e24402479"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_11.feather",
+      "size": 2131770,
+      "sha256": "0728483faf81ddddc597634b5b05f3c23a2713e1f05e2eebdfbeabab25824476"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_12.feather",
+      "size": 2164842,
+      "sha256": "420d6552cdd623d9811dd68234ed104dee0857961f55cf3bb239092ac0b722bc"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_13.feather",
+      "size": 2174082,
+      "sha256": "472112c73d2c15aaf6c187847e6c85db125e98c03572500c9d62fa2f6d3f6a6e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_14.feather",
+      "size": 2168922,
+      "sha256": "81071eb9d83efa19943618b1ef3fa9dff408267d7e8bbaa16d6b2cc2e4ee4e88"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_15.feather",
+      "size": 2160210,
+      "sha256": "c4202c7a92fd9e4ca05cee1971f1eae54340dc51a4605369c6091e926a6bb9a7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_16.feather",
+      "size": 2163538,
+      "sha256": "6d8f3a4df33a76762168f07782797f6c85e59cc5826d154f9ec925840bff94b7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_17.feather",
+      "size": 2088346,
+      "sha256": "125709572f29df356ea28336db045f740b1f4a2906a1f1219c4095350ae53844"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_18.feather",
+      "size": 2157594,
+      "sha256": "a4ccd13e94a0a1e7b968eea8e7209e8e7d72be67cd3b899387c9cac16efaab7e"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_19.feather",
+      "size": 2144314,
+      "sha256": "a00441afe13c7fd2c8d2c0fa7cbc5836c97a65926f1264c377450db4b7239a8b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_2.feather",
+      "size": 2153530,
+      "sha256": "45bb63ea18a17cbb662ebc7a4d2b549f7525fb5685de077b6c966dffd2e85e02"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_20.feather",
+      "size": 2150858,
+      "sha256": "c8b049aab972c2bab1cdc35bc542b127ff1e2a52a14c3cb3d7efecf5bdaadb0d"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_21.feather",
+      "size": 2143394,
+      "sha256": "1be45567fe0355b3dffebcb65f3fb71d43d7c7e353f224cc3294911218c5ecb3"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_22.feather",
+      "size": 2124818,
+      "sha256": "d8f4a489b08129935cedab1a2b372a8b69ad960c8ce501b7fc5e6a5bd763758a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_23.feather",
+      "size": 2147170,
+      "sha256": "7f29d24cd4d7caead1c97d73c86fb7283c29bd393609a155c50c6f7630d3faa3"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_24.feather",
+      "size": 2154322,
+      "sha256": "d7719c7cb1bcd04f8d5c4237f99285c73636293d39f3c6596f78d90a07de8efe"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_25.feather",
+      "size": 2161202,
+      "sha256": "554b09ecc3c0acb3face8a5c39a2bf9948f3d6f9d00987bad4e469bfe44f4bc2"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_26.feather",
+      "size": 2152066,
+      "sha256": "255384b3651678777c623d960766d4e90bf3fc4e3c58cc710a08e6fcc96ed035"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_27.feather",
+      "size": 2145682,
+      "sha256": "7151f833006c17daff93a3ae8c97cfc7145df6c45abb01ecbc7096b6f5521700"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_28.feather",
+      "size": 2153146,
+      "sha256": "4c077e7b64515ada41756cbb76968ddcba16065f147e9eda52c75a8997976752"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_29.feather",
+      "size": 2125514,
+      "sha256": "e06d155695c9643bc214392f9b7cd517c4b6c6e7314e1d8c0e520df12893dcb6"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_3.feather",
+      "size": 2145466,
+      "sha256": "03e5e3f18b056876364f47e784257bec3c2e836f15946f9c550a2af2c307ea9a"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_30.feather",
+      "size": 2139690,
+      "sha256": "27bb6b004063129a9a5d2848924b2d1391e9a7d1059cfe596c3b9563e26ed4f8"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_31.feather",
+      "size": 2148522,
+      "sha256": "bd37da35e4810bacd2fa800176e76d38d3dcc6501cca3dacc038d34aa37a46e5"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_32.feather",
+      "size": 2146962,
+      "sha256": "f323cf8f17604c1e0654d87e5afac31576eb3ed01723c7d1be1d982118600007"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_33.feather",
+      "size": 2145490,
+      "sha256": "d50823794e5f319436b3593e6837bd772c9606cf8eeb109bcd652666ae19a6ed"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_34.feather",
+      "size": 2130746,
+      "sha256": "05fcc85966baf288a7fde7063a16bc5ee20f1fbf492f2588be1017de19514ba4"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_35.feather",
+      "size": 2127418,
+      "sha256": "8d99d055895a7cb671bc18444b42252cc6e445f05b7e4d705df5f432615a280b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_36.feather",
+      "size": 2085154,
+      "sha256": "11a29448cb54899f7ea505e8b8436dd38fc6c91a5e8d4ae3a62caa40877552a7"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_37.feather",
+      "size": 2134866,
+      "sha256": "51b2a73e7edfa28118149efb8cfa17d3f386564923ffbc298b5119b78039d5e1"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_38.feather",
+      "size": 2103562,
+      "sha256": "72b9468eb0b267b79090b62bf4b717fc4f28c63d997fac29e4e1912080dbec7f"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_39.feather",
+      "size": 2122770,
+      "sha256": "42a3e0c5ed8bc3e1eb52837f23650d416e42c00bdd6d3781a4776a951e154f9b"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_4.feather",
+      "size": 2154746,
+      "sha256": "11c040600a85c8419117d62ce810d6aca8420efd22ec098f5503fe514e01c3a6"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_5.feather",
+      "size": 2149362,
+      "sha256": "e8a708d96b4e5d707a424072d1542476e42658b930c960ca8b9f51b8def02113"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_6.feather",
+      "size": 2146266,
+      "sha256": "a19ff96f362143308da5350555d3a82d30a91db38b324774d201fb073d02cab2"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_7.feather",
+      "size": 2157586,
+      "sha256": "96aaec9df1496942d1c256c0650c987d51f5c32c0e094210b30568ab0a371a02"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_8.feather",
+      "size": 2141338,
+      "sha256": "f4827eae0453d25975e1a9a82cf686337689dfccc88d78bbf22796dc7f0c2a7f"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_9.feather",
+      "size": 2138610,
+      "sha256": "ea0f46673f2e2a4b32acf50b5aa1df74fd3e41925913a04f2873bd00e5b7dac4"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/slope_labels.pkl",
+      "size": 112,
+      "sha256": "9d409446a5e94cf842f86cd5eb60af1f77cfd4247d31e5b7aabef272667ff113"
+    },
+    {
+      "asset": "eth-decomposition",
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/vol_labels.pkl",
+      "size": 111,
+      "sha256": "bac5c36cec2a897eed8e39d77aa5c03d068d96ecff7dee408bf484dafdc4ffb3"
+    },
+    {
+      "asset": "released-experts",
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl",
+      "size": 187425,
+      "sha256": "5b6edb6095d1c8a595e0152365ab6ba1f7ce9eae166ae6c805f3611cbe3b9810"
+    },
+    {
+      "asset": "released-experts",
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl",
+      "size": 187425,
+      "sha256": "111bcdb7512699016745b79f58b6f4c66f8fa384f8a1cfff6c73e2281438708a"
+    },
+    {
+      "asset": "released-experts",
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl",
+      "size": 187425,
+      "sha256": "3a35ff84913c1c5b4598a5a41c066b505ec16fc5d5b8f49ecfe18098165a242b"
+    },
+    {
+      "asset": "released-experts",
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl",
+      "size": 187425,
+      "sha256": "8123553407dca732500d90b55e1eb1e336e517038c5fb3e7360be1acf88bfae5"
+    },
+    {
+      "asset": "released-experts",
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl",
+      "size": 187425,
+      "sha256": "eace24ae14dd997cb4120ad6f074d887b2c9b8f9e7cefb512a5fd16a6ad40a58"
+    },
+    {
+      "asset": "released-experts",
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl",
+      "size": 187425,
+      "sha256": "61897d57e41ac496231da6d3874a19097f3d13d829e4d2196c35e026c114dcb6"
+    },
+    {
+      "asset": "eth-reference-12345",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/best_model.pkl",
+      "size": 64373,
+      "sha256": "fb1a3114962d1d698bdda83c07228f20eb44231fa85b5a0a47eb4175d41a5ce8"
+    },
+    {
+      "asset": "eth-reference-12345",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/epoch_15/trained_model.pkl",
+      "size": 64424,
+      "sha256": "f07b4d9eb26b4b28170a169a00262b6672cdbb60e7aeb779c710522451cf3710"
+    },
+    {
+      "asset": "eth-reference-2024",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/best_model.pkl",
+      "size": 64373,
+      "sha256": "07229c4caa2c2bfa4016e1c284225d0c7239749851de84a12d51a2f022552166"
+    },
+    {
+      "asset": "eth-reference-2024",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/epoch_15/trained_model.pkl",
+      "size": 64424,
+      "sha256": "47b78c98be862c43d52768b53ffaffd2cf4a79939283370dbb7e4cf66fedf5b3"
+    },
+    {
+      "asset": "eth-reference-42",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/best_model.pkl",
+      "size": 64373,
+      "sha256": "1f447059a23b47a8be42002a2d8056e83fa8e78a93e13612be9c7f33df079f60"
+    },
+    {
+      "asset": "eth-reference-42",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/epoch_15/trained_model.pkl",
+      "size": 64424,
+      "sha256": "d230cfef474b8c59ae062fb55f8316c02d7271c11ff7276d7bd96a7b1bdfa164"
+    },
+    {
+      "asset": "eth-combined-12345",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/best_model.pkl",
+      "size": 64373,
+      "sha256": "78952e7b6e73c55295248ca6f04d3215b49655a54b11e03e5469c2f1c1a03b4c"
+    },
+    {
+      "asset": "eth-combined-12345",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/epoch_15/trained_model.pkl",
+      "size": 64424,
+      "sha256": "8a288062228648df0688882caf8f8075c9b6fe76755df9af59e591f315b69636"
+    },
+    {
+      "asset": "eth-combined-2024",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/best_model.pkl",
+      "size": 64373,
+      "sha256": "402ac150590c4068bf22e1082e7eb6161dfd2656dfe05b47f9faf1021ed55e97"
+    },
+    {
+      "asset": "eth-combined-2024",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/epoch_15/trained_model.pkl",
+      "size": 64424,
+      "sha256": "a6cdfce0cebe3a6ca18f2fcd90d718df76300140b0b9f6986404ad0829157c1d"
+    },
+    {
+      "asset": "eth-combined-42",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/best_model.pkl",
+      "size": 64373,
+      "sha256": "51447b6f8079f00a76549e349972a43db95a8e851c3ed8b547792beeaa243ba5"
+    },
+    {
+      "asset": "eth-combined-42",
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/epoch_15/trained_model.pkl",
+      "size": 64424,
+      "sha256": "e673188cbca6744a1c5c670d74c07a78ac28b94dcf931e3ae06fa686f529a3d8"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-01.zip",
+      "size": 2127988,
+      "sha256": "d28b369da32a6ea84ba0af517b1847ab67b2fcc1e0e111c1b24d56ae07240cb9"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-02.zip",
+      "size": 2021779,
+      "sha256": "cee2e913ed07e02834e2387c65ca430fe3576f620588bad8a02229238f385407"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-03.zip",
+      "size": 2213444,
+      "sha256": "a2c1e689d39aa7877e218f436f15162e9a4436778a377d32e9d9b81b081381cd"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-01.zip",
+      "size": 2068379,
+      "sha256": "cadd060ab73bd03fee94708b78738144da76d007fc2170d8ad2cec678de7a654"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-02.zip",
+      "size": 1918913,
+      "sha256": "1ddb64d08739a40b7f66a37bccf5ca5fec58339c7f01e83311086116f41b445f"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-03.zip",
+      "size": 2086704,
+      "sha256": "5747c9f1f76be7afbf9513d50ea65ff6e979fa9684c75a775b6974e64c751844"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-01.zip",
+      "size": 1856325,
+      "sha256": "9d0fbac86d898a8a2b821d2856a5c282dc6b9638d8a83ef47e632edf4541e695"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-02.zip",
+      "size": 1705395,
+      "sha256": "acfd300f0eabe9f1485e121222d67a03da180c539bd9e43b2afacc602f631120"
+    },
+    {
+      "asset": "cost-memory-data",
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-03.zip",
+      "size": 1853276,
+      "sha256": "b98d056aafa1b4e188a1863855749548ac4e062f5f1002e9da353795863216bc"
+    }
+  ],
+  "originals_deleted": false
+}

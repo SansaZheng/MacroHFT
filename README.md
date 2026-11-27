@@ -41,15 +41,16 @@ pending 项表示文件仍未完整归档，不能当成已备份。
 ## Storage and remote execution
 
 GitHub now tracks code, configuration, dependency recipes, documentation, lightweight
-summaries and asset manifests. Datasets and model weights are being migrated to private
+summaries and asset manifests. Datasets and selected model weights are stored in private
 Hugging Face repositories: [Dataset](https://huggingface.co/datasets/Sansa005/MacroHFT)
 and [Model](https://huggingface.co/Sansa005/MacroHFT). Both were created private after
-checking the authenticated `Sansa005` account for duplicates. **Remote SDK authentication
-and upstream private-backup rights are pending; no project asset upload/revision exists yet**. Historical GitHub assets remain at commit
+checking the authenticated `Sansa005` account for duplicates. **All 12 selected asset groups (202 payload files, about 1.30 GB) are uploaded and
+SHA-256 verified at immutable revisions.** Private-backup rights were explicitly confirmed;
+no license or public visibility was changed. Historical GitHub assets remain at commit
 `23a4d58191b223227c142fa715bec104bb9e97c0`; shared history and originals are preserved.
 
 - [Migration status, inventory, rights and cleanup gates](docs/storage/MIGRATION.md)
-- [Asset manifest](assets/manifest.json) and [split definitions](assets/splits.json)
+- [Asset manifest](assets/manifest.json), [all pinned revisions](assets/REVISIONS.md), and [split definitions](assets/splits.json)
 - [Exact remote workflow commands](docs/storage/WORKFLOW.md)
 
 **Verified on c225, 2026-11-28:** clean code checkout, 51 source hashes, 25 transfer-tool
@@ -58,8 +59,9 @@ plus independent streaming SHA-256 verification. See the
 [remote receipt](docs/storage/verification/j-1128-452f42/receipt.json). A later user-requested retry
 also passed with a **fresh official HF 1.8.0 environment**, clearing the earlier package
 installation failure; see its [receipt](docs/storage/verification/j-1128-7b3618/receipt.json).
-This is transport qualification; actual private MacroHFT asset restoration remains blocked
-by remote SDK authentication and the outstanding rights review. No project dataset/model has been uploaded to HF or assigned a fabricated revision.
+Those earlier checks qualified transport. The subsequent [private upload receipt](docs/storage/verification/j-1128-b02441/receipt.json) records 12 verified groups. The [clean private restore](docs/storage/verification/j-1128-4431b6/receipt.json) also passed: 22 selectively downloaded files (365,132,208 bytes), ten numerical checks, all 18 retained models loaded, and 202 independent server backup hashes verified. It used a clean GitHub checkout at `60b3f3caedd7e29f5770a4e1a60cc74b2ae81762` and an empty remote cache. No training or held-out evaluation was performed.
+
+The [exact local cleanup proposal](docs/storage/cleanup-proposal-20261128.json) covers 190 verified files, approximately 1.21 GiB. It is **not executed**; local originals remain pending explicit cleanup approval.
 
 Do not run the old archive-building scripts for new results. They are retained only for
 historical recovery. Do not use an unrestricted full clone on a personal computer.
@@ -83,7 +85,7 @@ export MACROHFT_HF_CACHE="$CQ_OUTPUT_DIR/cache/hub"
 export HF_HUB_CACHE="$MACROHFT_HF_CACHE"
 export HF_XET_CACHE="$CQ_OUTPUT_DIR/cache/xet"
 "$PYTHON" scripts/assets.py validate
-# These project-asset commands block until actual HF pins are in the manifest:
+# These commands use the verified immutable HF pins now committed in the manifest:
 "$PYTHON" scripts/assets.py fetch --asset feature-definitions --asset released-experts
 "$PYTHON" scripts/assets.py fetch --asset eth-prepared \
   --file prepared/ETHUSDT/train/data.feather --file prepared/ETHUSDT/val/data.feather

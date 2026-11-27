@@ -1,14 +1,16 @@
 # GitHub / Hugging Face / remote execution migration
 
-Status: code-side migration and clean remote HF 1.8.0 transport qualification passed.
-The user's browser is authenticated as `Sansa005`; no MacroHFT repo existed in the
-account inventory, so two private destinations were created:
-[Dataset](https://huggingface.co/datasets/Sansa005/MacroHFT) and
-[Model](https://huggingface.co/Sansa005/MacroHFT). Private storage showed 904 MB used
-of 100 GB. Remote SDK authentication and upstream private-backup rights remain pending.
-No dataset/model payload has been uploaded. Manifest repo IDs now identify the actual
-destinations; null asset revisions remain blocking and must not be replaced by an empty
-repository's initial commit or a moving `main` reference.
+Status: private HF migration **completed** in CQ job `j-1128-b02441` using official
+`huggingface_hub==1.8.0`. All 12 selected groups, containing 202 payload files
+(1,296,186,106 bytes), passed immutable-revision streaming verification. The destinations
+are [Dataset](https://huggingface.co/datasets/Sansa005/MacroHFT) and
+[Model](https://huggingface.co/Sansa005/MacroHFT), both private. Full revisions, dependency
+pins, paths and SHA-256 checksums are in [the manifest](../../assets/manifest.json) and
+[revision table](../../assets/REVISIONS.md). The user explicitly authorized private backups.
+No license was changed and no private payload was committed to GitHub.
+
+Clean private-asset restoration, ten numerical tests and independent backup rechecking
+**passed** in CQ job `j-1128-4431b6`. Local originals and shared Git history remain intact.
 
 ## Preservation and authority
 
@@ -24,15 +26,14 @@ repository's initial commit or a moving `main` reference.
 - The historical original-file inventory describes 1,408,351,584 bytes, including
   116,639,138 bytes in 66 historically pending iCloud items. A fresh local read-only
   audit now recovered hashes for 64 of these (116,632,452 bytes); two legacy-tooling
-  copies are still absent at their recorded paths. These recovered bytes are not yet HF-backed. These totals overlap the stored-payload
-  total and must not be added together. Newly readable local files are not yet independent backups; see `local-pending-audit.json`.
+  copies are still absent at their recorded paths. These recovered items are not all selected HF assets; match them against the verified asset ledger before cleanup. These totals overlap the stored-payload
+  total and must not be added together. Do not infer backup coverage for unselected files from readability alone; see `local-pending-audit.json` and the current selected-asset ledger.
 - c225 original inputs: `/date/zyy/macrohft-reproduction`; prior c224 setup:
   `/date/zyy/macrohft-cluster`. Read-only audit is through CQ. Shared caches and other
   users' jobs are untouched. Only job-specific CQ output directories receive writes.
 - HF destinations are the private Dataset and Model repositories `Sansa005/MacroHFT`.
   The authenticated inventory was checked before creation; no duplicate was found.
-  Preserve upstream notices; no new license is assigned. Upstream data/expert rights
-  remain a review item; private backup permission is not a public redistribution license.
+  Preserve upstream notices; no new license is assigned. The user explicitly confirmed private-backup rights on 2026-11-28; this is not a public redistribution license.
 
 ## Asset organization
 
@@ -83,8 +84,8 @@ selected weights because they support the published negative comparison.
 ## Client compatibility
 
 Official `huggingface_hub==1.8.0` was installed temporarily for API-signature inspection
-and public streaming verification. Upload behavior is covered by mocked tests, not a
-live private upload; live authentication/write qualification is still pending. The uploader uses `upload_folder(..., parent_commit=...)`
+and public streaming verification. Upload behavior is covered by mocked tests and the subsequent live private migration
+`j-1128-b02441`, including write-permission checks and immutable-revision readback. The uploader uses `upload_folder(..., parent_commit=...)`
 with explicit file allowlists in batches of at most 50. Rerunning compares remote SHA-256
 (or streams small Git files), skips matching files, and retries remaining batches.
 Xet handles transport deduplication. A failed final verification does not produce a
@@ -100,7 +101,7 @@ The original iCloud project currently occupies about 1.49 GiB on disk, including
 until independent backups and asset migration are verified. This differs from the earlier
 mostly-dataless state; metadata and read checks were repeated rather than assumed.
 
-## Current qualification limits
+## Earlier qualification attempts and resolved blockers
 
 Local asset tooling has 25 passing tests; source identity has six passing tests. GitHub
 Actions checks code-only tracking, source hashes and these tests. The immutable public
@@ -119,7 +120,7 @@ rejected it, as documented in `verification/j-1128-2f35cf/diagnostic.json`. The 
 now retries that integrity failure once with an official-client unbuffered stream,
 reads at most the expected size plus one byte, and publishes only fully verified bytes.
 It does not mutate a suspect shared cache. Fresh 1.8.0 installation subsequently passed in `j-1128-7b3618` (see retry below);
-live private upload qualification remains blocked by account access. No shared DNS, certificate store or existing
+live private upload qualification subsequently passed in `j-1128-b02441`. No shared DNS, certificate store or existing
 environment was modified.
 
 References: [official HF upload guide](https://huggingface.co/docs/huggingface_hub/guides/upload),
@@ -155,7 +156,7 @@ only small diagnostics were collected locally. Existing environments and origina
 This verifies public pinned transport and minimal execution, **not** a private MacroHFT
 asset restoration or paper reproduction. At that point project HF URLs/revisions were unavailable. The later browser discovery
 identified the account/quota and created the private destinations (see current status).
-Secure remote project authentication and private-backup rights remain pending.
+Those remaining authentication and private-backup-rights gates were subsequently satisfied before `j-1128-b02441`.
 The temporary personal HF tooling environment was removed (33,296,384 allocated bytes);
 no original data or historical Git objects have been deleted.
 
@@ -171,9 +172,9 @@ is cleared for this observed run. Existing OS CA verification stayed enabled.
 
 A fresh credential check still found no project HF login on the Mac, in CQ secrets,
 or at the checked c225 project/default locations. No token contents were read and no
-private asset was uploaded. Account/repository discovery, permission/quota verification,
-private-backup rights review and actual asset migration remain pending. The successful
-client setup is not an authenticated upload test. Only this job's disposable scratch
+private asset was uploaded. At that stage account/repository discovery, permission/quota verification,
+private-backup rights review and actual migration were still pending. Later sections
+record their resolution; this earlier client setup alone was not an authenticated upload test. Only this job's disposable scratch
 was removed; project originals and shared environments remain unchanged.
 
 ## Browser login discovery and private destinations
@@ -183,10 +184,48 @@ identified `Sansa005`. The authenticated repository list had no MacroHFT project
 Both private repositories were created without selecting or changing any license.
 No datasets, weights, credential values or other projects' files were uploaded.
 The [browser observation](verification/hf-browser-discovery-20261128.json) records
-visibility, quota and the pending credential handoff without storing any token.
+visibility, quota and the then-pending credential handoff without storing any token.
 
-A fine-grained token form is prepared for read/write access to these two repositories
-only. It has not been submitted by the agent. The computer-use rules require the user
-to complete new credential creation. Secure SDK login must use a hidden prompt and
+A fine-grained token form was prepared for read/write access to these two repositories
+only. The user completed credential creation; the agent did not submit the form. The computer-use rules require the user
+to complete new credential creation. The subsequent secure SDK login used a hidden prompt and
 `HF_HOME=/date/zyy/macrohft-reproduction/.hf` (outside CQ output collection), with
-`umask 077`. Never reuse another project's scoped token or paste the token into chat.
+`umask 077` and 0600 credential files. Never reuse another project's scoped token or paste the token into chat.
+
+## Authorized private upload completion
+
+The official client verified write permission and private visibility for both destinations.
+The upload receipt and the exact returned manifest were retrieved as small JSON files;
+their SHA-256 values matched CQ's output verifier. All payloads remained on remote storage.
+The [upload evidence](verification/j-1128-b02441/receipt.json) records code commit
+`5907201ae26a22af9a8f29bc09c6bebb1f4612ed` and client 1.8.0. Reruns compare remote hashes,
+retain completed pins, and do not create duplicate repositories or upload every epoch.
+
+A read-only Mac audit found 190 already-allocated payload files matching all expected
+hashes, occupying 1,295,790,080 allocated bytes (about 1.21 GiB). Twelve hyper-agent
+weights were absent locally and were backed up directly from c225. Cloud-only files
+were not read or hydrated. Clean recovery and the independent backup check subsequently passed. The
+[exact cleanup proposal](cleanup-proposal-20261128.json) binds 190 local paths to their
+HF pins and server copies. It is not executed; explicit cleanup approval remains required.
+
+## Completed private recovery — 2026-11-28
+
+CQ job `j-1128-4431b6` fetched canonical GitHub code at
+`60b3f3caedd7e29f5770a4e1a60cc74b2ae81762` into an empty directory on c225.
+It downloaded 22 required files (365,132,208 bytes) at immutable private HF revisions,
+using an empty project cache. Ten real-data numerical checks passed; all 18 retained
+model state dictionaries loaded on CPU with finite tensors. All 202 independent server
+originals matched the uploaded payload hashes. No test split was downloaded, no training
+or held-out evaluation was run, and no existing environment was changed.
+
+[Receipt](verification/j-1128-4431b6/receipt.json),
+[backup verification](verification/j-1128-4431b6/independent-backup.json), and
+[runtime versions/model inspection](verification/j-1128-4431b6/model-runtime.json)
+are retained. Receipt SHA-256 is
+`1b859f99f43d33fa1b70be9aff3f16eecded4f3ac6f0cd9228be3c406cbdfbff`;
+backup receipt SHA-256 is
+`b8b43e768880b6ebdc33fd9c971456c83abf8856de626e5189b5c8d514ee5668`,
+both matching CQ's verifier. Restored assets and the private diagnostic log remain at
+`/date/zyy/macrohft-assets/restore-20261128`; only small receipts reached the Mac.
+This qualifies reproducible retrieval and runtime compatibility, not improved trading
+performance or conference readiness.

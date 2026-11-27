@@ -1,0 +1,102 @@
+{
+  "models": [
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/released-experts/released/ETHUSDT/slope/1/best_model.pkl",
+      "tensors": 16,
+      "parameters": 45508
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/released-experts/released/ETHUSDT/slope/2/best_model.pkl",
+      "tensors": 16,
+      "parameters": 45508
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/released-experts/released/ETHUSDT/slope/3/best_model.pkl",
+      "tensors": 16,
+      "parameters": 45508
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/released-experts/released/ETHUSDT/vol/1/best_model.pkl",
+      "tensors": 16,
+      "parameters": 45508
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/released-experts/released/ETHUSDT/vol/2/best_model.pkl",
+      "tensors": 16,
+      "parameters": 45508
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/released-experts/released/ETHUSDT/vol/3/best_model.pkl",
+      "tensors": 16,
+      "parameters": 45508
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-reference-12345/hyperagent/ETHUSDT/reference/seed-12345/best_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-reference-12345/hyperagent/ETHUSDT/reference/seed-12345/final_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-reference-2024/hyperagent/ETHUSDT/reference/seed-2024/best_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-reference-2024/hyperagent/ETHUSDT/reference/seed-2024/final_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-reference-42/hyperagent/ETHUSDT/reference/seed-42/best_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-reference-42/hyperagent/ETHUSDT/reference/seed-42/final_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-combined-12345/hyperagent/ETHUSDT/combined/seed-12345/best_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-combined-12345/hyperagent/ETHUSDT/combined/seed-12345/final_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-combined-2024/hyperagent/ETHUSDT/combined/seed-2024/best_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-combined-2024/hyperagent/ETHUSDT/combined/seed-2024/final_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-combined-42/hyperagent/ETHUSDT/combined/seed-42/best_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    },
+    {
+      "path": "/date/zyy/macrohft-assets/restore-20261128/assets/eth-combined-42/hyperagent/ETHUSDT/combined/seed-42/final_model.pkl",
+      "tensors": 11,
+      "parameters": 14950
+    }
+  ],
+  "packages": {
+    "torch": "2.8.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "gym": "0.26.2",
+    "scipy": "1.15.3"
+  }
+}
