@@ -113,8 +113,8 @@ still enabled. The normal cached download returned an empty file. SHA-256 verifi
 rejected it, as documented in `verification/j-1128-2f35cf/diagnostic.json`. The fetcher
 now retries that integrity failure once with an official-client unbuffered stream,
 reads at most the expected size plus one byte, and publishes only fully verified bytes.
-It does not mutate a suspect shared cache. Fresh 1.8.0 installation and private upload
-qualification remain separate gates. No shared DNS, certificate store or existing
+It does not mutate a suspect shared cache. Fresh 1.8.0 installation subsequently passed in `j-1128-7b3618` (see retry below);
+live private upload qualification remains blocked by account access. No shared DNS, certificate store or existing
 environment was modified.
 
 References: [official HF upload guide](https://huggingface.co/docs/huggingface_hub/guides/upload),
@@ -153,3 +153,20 @@ be reported yet. The remaining inputs are the HF namespace, secure project authe
 actual included private storage headroom, and private-backup rights for upstream data/experts.
 The temporary personal HF tooling environment was removed (33,296,384 allocated bytes);
 no original data or historical Git objects have been deleted.
+
+## Requested retry — 2026-11-28
+
+CQ job `j-1128-7b3618` successfully built a fresh isolated official HF 1.8.0 environment
+on c225 and repeated the clean pinned code checkout, 51 source hashes, 25 asset tests,
+nine synthetic tests, and public pinned file download plus independent streaming
+verification. Runtime was about 307 seconds. The earlier package-installation blocker
+is cleared for this observed run. Existing OS CA verification stayed enabled.
+[Receipt](verification/j-1128-7b3618/receipt.json) and
+[checks/dependency versions](verification/j-1128-7b3618/checks.json) are archived.
+
+A fresh credential check still found no project HF login on the Mac, in CQ secrets,
+or at the checked c225 project/default locations. No token contents were read and no
+private asset was uploaded. Account/repository discovery, permission/quota verification,
+private-backup rights review and actual asset migration remain pending. The successful
+client setup is not an authenticated upload test. Only this job's disposable scratch
+was removed; project originals and shared environments remain unchanged.

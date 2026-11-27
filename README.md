@@ -53,7 +53,9 @@ yet**. Historical GitHub assets remain at commit
 **Verified on c225, 2026-11-28:** clean code checkout, 51 source hashes, 25 transfer-tool
 checks, nine synthetic execution checks, and a pinned 548-byte public HF config download
 plus independent streaming SHA-256 verification. See the
-[remote receipt](docs/storage/verification/j-1128-452f42/receipt.json).
+[remote receipt](docs/storage/verification/j-1128-452f42/receipt.json). A later user-requested retry
+also passed with a **fresh official HF 1.8.0 environment**, clearing the earlier package
+installation failure; see its [receipt](docs/storage/verification/j-1128-7b3618/receipt.json).
 This is transport qualification; actual private MacroHFT asset restoration remains blocked
 by HF access. No project dataset/model has been uploaded to HF or assigned a fabricated revision.
 

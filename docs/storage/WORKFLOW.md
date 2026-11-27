@@ -30,8 +30,8 @@ export PIP_CACHE_DIR="$MACROHFT_WORK/cache/pip"
 
 The bootstrap uses a SHA-256-pinned official PyPA get-pip script and installs pip
 inside the new environment only; it works without distro ensurepip. It refuses an
-existing environment path. c225 reached pip bootstrap but could not complete dependency
-installation because of package DNS failures; do not treat that recipe as a passed new-host build. `requirements/assets.txt` pins the official HF client.
+existing environment path. An initial c225 build hit package DNS failures; the user-requested retry
+`j-1128-7b3618` subsequently completed a fresh 1.8.0 installation and transport checks. `requirements/assets.txt` pins the official HF client.
 
 `HF_HOME` must point to an already-authorized, private credential directory **outside
 CQ_OUTPUT_DIR and any uploaded/collected folders** if login is persisted. Set the HF
@@ -192,9 +192,12 @@ any history rewrite needs separate explicit approval and a verified backup.
 
 ## Host network qualification
 
-c225 could clone the pinned code but its fresh environment build failed during package
-DNS resolution on this date. Build and qualify network-dependent tooling on a lab host with working package access
-before scheduling private transfers; c224 CPU capacity was unavailable during this audit.
+The initial c225 isolated dependency build failed during package DNS resolution.
+The user-requested retry `j-1128-7b3618` later passed a fresh HF 1.8.0 installation,
+clean checkout, public pinned download, checksum/stream checks and minimal execution.
+The retry spec records bounded pip timeouts/retries and the existing system CA bundle.
+Authentication and live private writes remain unverified. c224 CPU capacity was
+unavailable during the earlier audit; do not assume another host is already qualified.
 Do not change shared DNS, system packages or another user's environment. The optional
 `scripts/cq_existing_asset_smoke.py` can inspect and exercise this project's existing
 interpreter read-only; it records the actual client version and upload-API capabilities,

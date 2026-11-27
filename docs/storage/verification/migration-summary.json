@@ -50,7 +50,12 @@
     "public_fixture_transfer_verified": true,
     "private_project_restore_verified": false,
     "asset_tests_passed": 25,
-    "synthetic_gate_tests_passed": 9
+    "synthetic_gate_tests_passed": 9,
+    "pinned_client_installation_retry_job": "j-1128-7b3618",
+    "pinned_client_installation_passed": true,
+    "pinned_client_version": "1.8.0",
+    "pinned_client_clean_transport_passed": true,
+    "project_hf_authentication_found": false
   },
   "local": {
     "code_checkout": "/Users/zyy/.local/share/macrohft/repository",

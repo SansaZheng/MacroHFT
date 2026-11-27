@@ -1,0 +1,24 @@
+{
+  "project_credential_files": [
+    {
+      "path": "/date/zyy/macrohft-reproduction/.hf/token",
+      "exists": false,
+      "contents_read": false,
+      "project_owned_location": true
+    },
+    {
+      "path": "/date/zyy/macrohft-reproduction/.cache/huggingface/token",
+      "exists": false,
+      "contents_read": false,
+      "project_owned_location": true
+    },
+    {
+      "path": "/home/sudingli/.cache/huggingface/token",
+      "exists": false,
+      "contents_read": false,
+      "project_owned_location": false
+    }
+  ],
+  "hf_token_environment_present": false,
+  "shared_credentials_used": false
+}

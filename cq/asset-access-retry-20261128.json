@@ -1,0 +1,88 @@
+{
+  "name": "MacroHFT retry HF access discovery and isolated pinned client setup",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "99529f6edd1b37bd630ce5305e51cb6c7e1553be"
+  },
+  "command": [
+    "python3",
+    "-c",
+    "import json,os,subprocess,sys,time\nfrom pathlib import Path\nout=Path(os.environ['CQ_OUTPUT_DIR']);out.mkdir(parents=True,exist_ok=True)\nroot=Path('/date/zyy/macrohft-reproduction')\ncandidates=[root/'.hf/token',root/'.cache/huggingface/token',Path.home()/'.cache/huggingface/token']\na={'project_credential_files':[{'path':str(p),'exists':p.is_file(),'contents_read':False,'project_owned_location':str(p).startswith(str(root))} for p in candidates],'hf_token_environment_present':bool(os.environ.get('HF_TOKEN')),'shared_credentials_used':False}\n(out/'auth-check.json').write_text(json.dumps(a,indent=2)+'\\n');print(json.dumps(a),flush=True)\nt=time.monotonic();r={'probe_complete':True,'private_assets_uploaded':False}\ntry:r['client_smoke_exit_code']=subprocess.run([sys.executable,'scripts/cq_asset_smoke.py'],timeout=720).returncode\nexcept subprocess.TimeoutExpired:r['client_smoke_exit_code']='timeout'\nr['client_smoke_passed']=r['client_smoke_exit_code']==0;r['elapsed_seconds']=time.monotonic()-t\n(out/'retry.json').write_text(json.dumps(r,indent=2)+'\\n');(out/'progress.log').write_text('5/5 retry probe finished; inspect retry.json for success\\n');print(json.dumps(r),flush=True)\n"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 2,
+    "disk_gb": 2
+  },
+  "limits": {
+    "max_hours": 0.5,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/asset-access-retry-20261128",
+    "expect": [
+      {
+        "path": "retry.json",
+        "contains": "\"probe_complete\": true"
+      },
+      {
+        "path": "auth-check.json",
+        "contains": "\"shared_credentials_used\": false"
+      },
+      {
+        "path": "progress.log",
+        "contains": "5/5"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 10
+    }
+  },
+  "resource_basis": {
+    "scope": "User-requested retry of missing credential metadata and previously failed isolated official client installation; public 548-byte pinned fixture only if install succeeds",
+    "bounds": "1 CPU, 2 GB RAM/disk, no GPUs or charges; .5h limit; no shared environment changes or credential contents in output",
+    "prior_success": "Do not resubmit the already-passed old-client smoke; this qualifies the previously blocked fresh pinned client environment."
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "99529f6edd1b37bd630ce5305e51cb6c7e1553be",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "REQUESTS_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt",
+    "SSL_CERT_FILE": "/etc/ssl/certs/ca-certificates.crt",
+    "PIP_CERT": "/etc/ssl/certs/ca-certificates.crt",
+    "PIP_RETRIES": "1",
+    "PIP_DEFAULT_TIMEOUT": "15"
+  },
+  "depends_on": [
+    "j-1127-16fe1e"
+  ],
+  "replaces": []
+}
