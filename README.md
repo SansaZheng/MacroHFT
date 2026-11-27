@@ -1,6 +1,6 @@
 # MacroHFT reproduction and research extension
 
-This repository preserves code, data and evidence for reproducing
+This repository preserves code, configuration and lightweight evidence for reproducing
 [MacroHFT (KDD 2024)](https://arxiv.org/abs/2406.14537) and testing extensions.
 
 **2026-11-27: ETH final artifacts recovered and reconciled.** Reference seed
@@ -38,10 +38,18 @@ Its mixed and negative evidence is retained.
 pending 项表示文件仍未完整归档，不能当成已备份。
 
 
-## Local storage — 2026-11-24
+## Storage and remote execution
 
-Archived data remain in this GitHub repository. The Mac now keeps a small sparse
-code/documentation checkout; verified local data copies and their full Git
-object database were removed to free space. The 66 unavailable iCloud files
-remain explicitly pending and preserved. See [storage and restore steps](docs/LOCAL-STORAGE.md)
-and [cleanup receipt](results/archive-cleanup-20261124/cleanup-result.json).
+GitHub now tracks code, configuration, dependency recipes, documentation, lightweight
+summaries and asset manifests. Datasets and model weights are being migrated to private
+Hugging Face repositories; **HF access is pending, so no project HF revision is available
+yet**. Historical GitHub assets remain at commit
+`23a4d58191b223227c142fa715bec104bb9e97c0`; shared history and originals are preserved.
+
+- [Migration status, inventory, rights and cleanup gates](docs/storage/MIGRATION.md)
+- [Asset manifest](assets/manifest.json) and [split definitions](assets/splits.json)
+- [Exact remote workflow commands](docs/storage/WORKFLOW.md)
+
+Do not run the old archive-building scripts for new results. They are retained only for
+historical recovery. Do not use an unrestricted full clone on a personal computer.
+The Mac keeps a sparse code checkout; 66 unresolved iCloud files remain preserved.

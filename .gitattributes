@@ -1,9 +1,2 @@
-# Preserve manifest bytes on every platform; do not normalize archived text.
+# Preserve evidence and manifest bytes on every platform.
 * -text
-# Already-compressed immutable scientific artifacts do not benefit from deltas.
-*.gzpart -delta
-*.feather -delta
-*.zip -delta
-*.npz -delta
-*.pt -delta
-*.pkl -delta

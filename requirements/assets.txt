@@ -1,0 +1,2 @@
+# Tested official client; upload_folder and upload_large_folder APIs verified.
+huggingface_hub==1.8.0

@@ -1,5 +1,0 @@
-Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
-Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
-Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
-See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
-{"return_pct": 39.687666950860255, "profit": 143.68935520000002, "required_capital": 362.05039560000006, "fees": 2.6806448, "buys": 20, "position_changes": 39, "rows": 219960, "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee", "max_drawdown_pct": 9.32293643763973, "annual_volatility_pct": 20.575915995929748, "annual_sharpe": 3.9843781560744196, "annual_calmar": 8.793606047169407, "annual_sortino": 3.2015134085476498}

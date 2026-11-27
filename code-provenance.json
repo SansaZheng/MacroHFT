@@ -14,8 +14,6 @@
     "vendor/MacroHFT/scripts"
   ],
   "sha256": {
-    "results/official-runtime-and-variants.patch": "fffe9931f078dd1673bc68895232fd52dd9f593d445c2a41fa19db26d37336c4",
-    "results/provenance.json": "7668be931846c644633c929802cd9a06e4332c202a2aa2b8ac1330231e78bf1e",
     "scripts/array_environment.py": "fc0032ce52bd437b6f004c6645aae103abf258cea124714b4392174508935287",
     "scripts/cached_experts.py": "aa7dbe29237c04d8efba27d9cd1e1b52899a7ce3f26d71ce2e8338feafce712a",
     "scripts/cluster_controller.py": "d90360adb20390eeb90dfedf80a50b66b211861bd678d56aa807b903ce0f6f5c",
@@ -49,23 +47,22 @@
     "vendor/MacroHFT/RL/util/memory.py": "428c45459eed362f8ab8d2202b8b09076165785ac3a0bce3eedc505c7a6519f3",
     "vendor/MacroHFT/RL/util/replay_buffer.py": "7f430d6f2173cd557d930dc64914ec819444cc3b8d4d94a0e5195ce4aa238d72",
     "vendor/MacroHFT/RL/util/utili.py": "1cc6e956f4361bea6ce7f7e893244f0ea1515eff4a4b49c47f68c5c01b674239",
-    "vendor/MacroHFT/data/feature_list/single_features.npy": "e6f13e77af4669aa6affb71e3eb717d882e0f702ac2b416a3245b6b0c03a08c9",
-    "vendor/MacroHFT/data/feature_list/trend_features.npy": "ca19f94a37d0a728300aea874534896b5b6bd9f88aa7ba5796b7eb5ce006cef5",
     "vendor/MacroHFT/env/high_level_env.py": "fb17337f4e48f2d7827c39dcf733da173340a07918475714d865e891d25da100",
     "vendor/MacroHFT/env/low_level_env.py": "c0433e1e1924095890d3639376abcc2290d7b70424b0feddbf013fbe5e514a23",
     "vendor/MacroHFT/model/net.py": "1f73f916597b6637208c3bf63a08c2b122b69a9897e9ef8719e778b18050a79a",
     "vendor/MacroHFT/preprocess/decomposition.py": "e205f4c02fc5e34737b21c05b09d46f2c545f7a6b149dd01215841d85951e92e",
-    "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl": "5b6edb6095d1c8a595e0152365ab6ba1f7ce9eae166ae6c805f3611cbe3b9810",
-    "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl": "111bcdb7512699016745b79f58b6f4c66f8fa384f8a1cfff6c73e2281438708a",
-    "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl": "3a35ff84913c1c5b4598a5a41c066b505ec16fc5d5b8f49ecfe18098165a242b",
-    "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl": "8123553407dca732500d90b55e1eb1e336e517038c5fb3e7360be1acf88bfae5",
-    "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl": "eace24ae14dd997cb4120ad6f074d887b2c9b8f9e7cefb512a5fd16a6ad40a58",
-    "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl": "61897d57e41ac496231da6d3874a19097f3d13d829e4d2196c35e026c114dcb6",
     "vendor/MacroHFT/scripts/decomposition.sh": "54935452be3323ed2f56edfdd2dd2773862647bd2a94fc47989abc78b27bd2b0",
     "vendor/MacroHFT/scripts/high_level.sh": "6760266d3efe8390ba9c3e602d04af824de82f570b9a9fc084935152c3c59932",
     "vendor/MacroHFT/scripts/low_level.sh": "aed1f27dc756ebbf62fccc5699b2f0ac6055abe449369becfc5eb45f78bd502e",
-    "vendor/MacroHFT/tools/demonstration.py": "579164f1c17560e52448ed4671565bf93f5bf277301ee4a4234c0b37efd98cf6"
+    "vendor/MacroHFT/tools/demonstration.py": "579164f1c17560e52448ed4671565bf93f5bf277301ee4a4234c0b37efd98cf6",
+    "scripts/stage_assets.py": "0b8bd869bae47cff1cf21488c876a22e2531928fec724a2f79648aad0f5e8d6b",
+    "scripts/check_git_policy.py": "4865a7f18c6ec8864cb9774a71d8c7ad17adb07948c94e7e560a36886548af0f",
+    "scripts/audit_remote_assets.py": "4687ceb5839052d2e81b8e04af0f461ec60697cfb35dc74de68b77aeb29693aa",
+    "scripts/assets.py": "00b3aba63ce006ea6a509643cbfaccc32555cfdd05b61fa3a16a0457555ded50",
+    "scripts/remote_run.py": "e3ab583b05f5b61d25271a68453dba2a2c8d805736731b9a420dbadff10fecaf",
+    "tests/test_assets.py": "7c0358f4ae419bd11f681c5b7c2ca802bbf7d41f8a0d178ced45a95bf71bc238"
   },
   "reconstruction_receipt": "results/recovery-20261123/upstream-reconstruction.json",
-  "does_not_verify_training_data": true
+  "does_not_verify_training_data": true,
+  "asset_manifest": "assets/manifest.json"
 }

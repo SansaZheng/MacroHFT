@@ -1,0 +1,2220 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+  "files": [
+    {
+      "path": "data-archive/14b428fe51d72d927e2b/part-0000.gzpart",
+      "bytes": 33554432,
+      "sha256": "3662ec0fe577184f1d8a4aea3ee7f332a096d07c4db16334828a21cc4ee52137",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/14b428fe51d72d927e2b/part-0001.gzpart",
+      "bytes": 33554432,
+      "sha256": "813f69a935c2a16b71d5f5d8e6f74f94ca167dec540bfb8656d8ffe0065d0eff",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/14b428fe51d72d927e2b/part-0002.gzpart",
+      "bytes": 11194348,
+      "sha256": "830628a15e8f9780f43fa0217374025b4f99c9f667c8933456e92f6856d27440",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/3dba242600877cdc6c3e/part-0000.gzpart",
+      "bytes": 33554432,
+      "sha256": "0283c01b2daa34d5325d67cfa94881fba5532c3ed7a4d66c047fef4777435296",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/3dba242600877cdc6c3e/part-0001.gzpart",
+      "bytes": 33554432,
+      "sha256": "17a1659f08a7418bcb1831ba6e74445ec2cc7de9e1fcd6a34c71f4e76eab0d7e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/3dba242600877cdc6c3e/part-0002.gzpart",
+      "bytes": 7660740,
+      "sha256": "0222de3d69c219e0c0cb2dab77c1450741cc20e6b92cc4cc7c0af08e47f47ceb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/9836341d0f4bf1e340a7/part-0000.gzpart",
+      "bytes": 33554432,
+      "sha256": "154de6f7a532339ef6d3567d1613d11fe08e728bf3bd6abf77f232c9c2d325d2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/9836341d0f4bf1e340a7/part-0001.gzpart",
+      "bytes": 33554432,
+      "sha256": "43bbe512cca8e8cd2dd3b7c3ff10f9f256e4e139139a2cfcb8c9327e8c40109e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/9836341d0f4bf1e340a7/part-0002.gzpart",
+      "bytes": 31059087,
+      "sha256": "5a00ed61c6d11d35da9f93cd26e0fd3955e6199008f99dbc19f7825f07e3a9fb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0000.gzpart",
+      "bytes": 33554432,
+      "sha256": "5afd8b74b63a8b08c7cf8f087131798a10d85dac121ffd3184e08f5870deb092",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0001.gzpart",
+      "bytes": 33554432,
+      "sha256": "1f748e3072bf9b1f8e56e816ab5975db2cd4a7d93d46e93cd8c57c10780996cd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0002.gzpart",
+      "bytes": 33554432,
+      "sha256": "1efb99fbde766b164a039aff6c8032b61bd7bb8b4f6838ff03b40c2f01ba2a36",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0003.gzpart",
+      "bytes": 33554432,
+      "sha256": "d6631200cf4594f5e06ccc23e4944b51f046ea2ce550f3851c67b86b056dfca2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0004.gzpart",
+      "bytes": 33554432,
+      "sha256": "c1bec022c7921bb54c0079e297ef7c783dd8f98588c52de2663b6d80f7ad6f4c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0005.gzpart",
+      "bytes": 33554432,
+      "sha256": "83591d1ec88c508185575b675d404de7f23183bb8ffe4f7d6db943266a3abc20",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0006.gzpart",
+      "bytes": 33554432,
+      "sha256": "33455a9f4824c4af521f889b7437e30cc28ef3bf525186b4b2eaaa043cbabf9d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/a3faa27cf0596559ddcd/part-0007.gzpart",
+      "bytes": 6329030,
+      "sha256": "98b98ab440221bbcb54730bbca47f188f4b754f522d758d37bbde50c55bc10cc",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/bf0d29628f9e93d718ae/part-0000.gzpart",
+      "bytes": 33554432,
+      "sha256": "197c1b4c1b22f171a454af57afc7c5657e48f48f401860407fa765b873d8b52b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/bf0d29628f9e93d718ae/part-0001.gzpart",
+      "bytes": 33554432,
+      "sha256": "7642abdce255733a7691f4c0800024c614d4ee0692cb0d6041e023321b394f15",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/bf0d29628f9e93d718ae/part-0002.gzpart",
+      "bytes": 26634426,
+      "sha256": "6c9432fad762afaa9fdaab86478152c59c9e21507b37424c8b90eb038f6e4d74",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/ec5193c5539f83ad41dc/part-0000.gzpart",
+      "bytes": 33554432,
+      "sha256": "364e168ab5e19123886a6d38b6c41b5bfb9f2d1421979303c042bc22c90f90d2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/ec5193c5539f83ad41dc/part-0001.gzpart",
+      "bytes": 33554432,
+      "sha256": "a3ef42dbb68a728fc68c38bcd89457e1e9a949639b815b6860b6c13544eb3a24",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/ec5193c5539f83ad41dc/part-0002.gzpart",
+      "bytes": 33554432,
+      "sha256": "ebccababe885baf80f6aca78538338029238513b3a04abc8072f42b202172915",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/ec5193c5539f83ad41dc/part-0003.gzpart",
+      "bytes": 33554432,
+      "sha256": "e577a647c8485341547d6dd9065e827dd8efce96f03b368dd7ace4d699278822",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/ec5193c5539f83ad41dc/part-0004.gzpart",
+      "bytes": 33554432,
+      "sha256": "c0fa6890d71a816f5bc15c788363adcf8ae35464fc9622237bde53bba0f2f9ec",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/ec5193c5539f83ad41dc/part-0005.gzpart",
+      "bytes": 33554432,
+      "sha256": "2ac9dfb97f753092db64886d93faae67efb13e9c44b731910d5e0e5090afc56c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "data-archive/ec5193c5539f83ad41dc/part-0006.gzpart",
+      "bytes": 28716486,
+      "sha256": "a0c9f9156134a900c2a102c12ba379b8906a17995352b38c2fb6fd74c0c6fe18",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "paper/preview-published.png",
+      "bytes": 439170,
+      "sha256": "d95d427e77cdd0a43c7001b9f655bb4a222c7b593d6094e9725dabac94e982a0",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "paper/preview.png",
+      "bytes": 460895,
+      "sha256": "bbb6eed687359d28b2b28007a578e49236181594197bd67ec5123bf9a86b6c78",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-01.zip",
+      "bytes": 2127988,
+      "sha256": "d28b369da32a6ea84ba0af517b1847ab67b2fcc1e0e111c1b24d56ae07240cb9",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-02.zip",
+      "bytes": 2021779,
+      "sha256": "cee2e913ed07e02834e2387c65ca430fe3576f620588bad8a02229238f385407",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/BTCUSDT-1m-2026-03.zip",
+      "bytes": 2213444,
+      "sha256": "a2c1e689d39aa7877e218f436f15162e9a4436778a377d32e9d9b81b081381cd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-01.zip",
+      "bytes": 2068379,
+      "sha256": "cadd060ab73bd03fee94708b78738144da76d007fc2170d8ad2cec678de7a654",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-02.zip",
+      "bytes": 1918913,
+      "sha256": "1ddb64d08739a40b7f66a37bccf5ca5fec58339c7f01e83311086116f41b445f",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/ETHUSDT-1m-2026-03.zip",
+      "bytes": 2086704,
+      "sha256": "5747c9f1f76be7afbf9513d50ea65ff6e979fa9684c75a775b6974e64c751844",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-01.zip",
+      "bytes": 1856325,
+      "sha256": "9d0fbac86d898a8a2b821d2856a5c282dc6b9638d8a83ef47e632edf4541e695",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-02.zip",
+      "bytes": 1705395,
+      "sha256": "acfd300f0eabe9f1485e121222d67a03da180c539bd9e43b2afacc602f631120",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/data/SOLUSDT-1m-2026-03.zip",
+      "bytes": 1853276,
+      "sha256": "b98d056aafa1b4e188a1863855749548ac4e062f5f1002e9da353795863216bc",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/BTCUSDT-guarded-decision-trace.npz",
+      "bytes": 11292,
+      "sha256": "4612d663dbf5bde73b15f15d8b61c19e12f9884537b61cd3c4c8c3fa9cebac22",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/ETHUSDT-guarded-decision-trace.npz",
+      "bytes": 10263,
+      "sha256": "fb067e4eb83337259e1f37a98462e280ab7ebb815dff557a0e3182892bdddeb7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/SOLUSDT-guarded-decision-trace.npz",
+      "bytes": 9672,
+      "sha256": "b471ee5ef8d391a46ffccc88f06b4520b56ef27515bc6548471357027a07d972",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/activity-control.log",
+      "bytes": 1378,
+      "sha256": "2857faf290a366d3783f95d736be407942f3fbf8531a442938a79f0cd3e91d27",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot-diagnostic.png",
+      "bytes": 175553,
+      "sha256": "ecc34717ef975ce5a26494a44680fa79e92f645fe26c60df37baedcda84264b4",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot.log",
+      "bytes": 304,
+      "sha256": "c7aece867b0fab661f081fca5b6609783b889c7ef042bab00292712942a05398",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/tests.log",
+      "bytes": 104,
+      "sha256": "4c3262c4ece33de04113549078e304f2ff2d679a3288431f46777325fe16a0e1",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/results/screen-001/tests.log",
+      "bytes": 107,
+      "sha256": "d9d734ee1c2de67b748aeef1c4126433aa438ad8375ca953916f12b1df11414d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-fill-20261123.log",
+      "bytes": 339,
+      "sha256": "a1def7527bcb4842016eafa4a518b2996cc663663c94a14b30ac393464f6bf53",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-fill-stage008.log",
+      "bytes": 44,
+      "sha256": "b8ca74e188f31ad72398f2ba808b5ad7e6efaa4040e1b1c54fb2662231f934a3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-full-verification-20261123.log",
+      "bytes": 125,
+      "sha256": "83eed516b26ac59a0874dacea718ec01b18e2ba8ea79f1a7925a7308a46bcc32",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/archive-cleanup-20261124/archive-refresh-20261123.log",
+      "bytes": 25298,
+      "sha256": "6cd9f519f394be4a72a5e5a4e55ceedb7953f6996f5767935d2cd1cdd8f6c58d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/controller-recovery.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/controller-tests.log",
+      "bytes": 102,
+      "sha256": "e6ec182765cd965f2837d8eeaef5a64af48a104f245cd1a0b7281559194c57c1",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/controller.log",
+      "bytes": 385,
+      "sha256": "e5515d927982ae1248be72a9d4a95583708d8eb289ac4001dc3231ab43deb53f",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/runtime-pack.log",
+      "bytes": 41975,
+      "sha256": "48c7f1bd27ef9ba63ba85474f351ac35477f66ae36faf897ff63e312df2fe29d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/runtime-tests.log",
+      "bytes": 1646,
+      "sha256": "afc3dc59ebdbf53d2711841b4370b8ea745fdf5311eb7e63f25b4bb95a507b4b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/setup-c203.log",
+      "bytes": 535,
+      "sha256": "ff9f41152dff5e0aa3775aeeec50776d92ba7d74ada6181f7fb24af35218dff3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/setup-c219.log",
+      "bytes": 541,
+      "sha256": "59586b4575254040db736c1c05a9382e0b084c3c93fb8f524ff2367491a19ad7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/setup-c220.log",
+      "bytes": 541,
+      "sha256": "a19758394470716678cf78b3db1b2529cf3dd7b49ab52ffd063144006cb12f50",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/setup-c224.log",
+      "bytes": 541,
+      "sha256": "26d1fcd20ba09b066925e9f42e3bc2e42ef7a7f036695eb09112e44ac5346692",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/cluster/setup-c237.log",
+      "bytes": 541,
+      "sha256": "95c7505a14abf7991bd955eca9ac92d687f39a941ebf55b1a3cef857def50f14",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/archive-fill.log",
+      "bytes": 44,
+      "sha256": "b8ca74e188f31ad72398f2ba808b5ad7e6efaa4040e1b1c54fb2662231f934a3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-124e9b/environment-build.log",
+      "bytes": 14744,
+      "sha256": "7f1729fb3fdd7d396ffb7547c3225fb7ddae4435505a709118d6d82aa934db6f",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-124e9b/progress.log",
+      "bytes": 35,
+      "sha256": "36cc55b922b66b8ff18b91e4b490b33f90c4aebac3f571c7a04bccf112b35f77",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-124e9b/runner.log",
+      "bytes": 102,
+      "sha256": "50e31b712644548df2ea205f2e49aed62d938a59070d48f36338db20c2753895",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-124e9b/runtime-tests.log",
+      "bytes": 1733,
+      "sha256": "051a67efa4f63ca7b176dfd98a7647ea3e7d55c57955863c6da4f360193294a6",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-124e9b/synthetic-fixtures/train.feather",
+      "bytes": 46106,
+      "sha256": "fdea9184e02db6fb13fda235b515e1d4581da50f3e93ebdb8b43282489df29ba",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/j-1123-124e9b/synthetic-fixtures/val.feather",
+      "bytes": 807962,
+      "sha256": "5bbc834d09a53e39b836bb3c47a57c14c1dc8e3b5e9d2b4e6aecd99295741df1",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/runtime-bootstrap-failure.log",
+      "bytes": 983,
+      "sha256": "eab36e077e32c6ef3a2cc64f02d51ece417926f8d2383736ed1540efaf01901b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/compute-mirror-20261123/runtime-cleanup-tests.log",
+      "bytes": 100,
+      "sha256": "6f75a31c67524e73d50ce119fb4aff1f3416319c0134de5f53c07e69c7b53af7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/download.log",
+      "bytes": 10089,
+      "sha256": "7ea612c4b0b61a672d64ccd3787a68c5862c3d43d1303815349d059c859799a5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/drive-folder.html",
+      "bytes": 323902,
+      "sha256": "a4990b66f38bb7f56ddb710b5d5f99a681df99659301125abeccc7c02718af02",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/prepare.log",
+      "bytes": 95187,
+      "sha256": "85a01ddb22ef79696609daceaee3cca626df41f3a67aeb7c7f5cf6a989bb3276",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261002/controller.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/archive-fill.log",
+      "bytes": 339,
+      "sha256": "a1def7527bcb4842016eafa4a518b2996cc663663c94a14b30ac393464f6bf53",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/archive-tests.log",
+      "bytes": 103,
+      "sha256": "fa950bcf358d8f3453279c84ddce78a4fc485544705befcc0fc7d5d175bdacb7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/final-validation.log",
+      "bytes": 229,
+      "sha256": "6cd9f1e05802582c980ecdf7bb8e893c0ac51f22aa7975b5a35bb719a766f591",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/j-1123-5f1786/archive-tests.log",
+      "bytes": 103,
+      "sha256": "897fd9ac46cc311276d31218d58a50cec190cad6582ebc518be803ccf2365db4",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/j-1123-5f1786/progress.log",
+      "bytes": 27,
+      "sha256": "87a5e173aedaa971ce9ed828108e4e75a6a9bf546a7dd1d49faf13291debce1c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/j-1123-7725b2/archive-tests.log",
+      "bytes": 103,
+      "sha256": "a073929fcc1e832bade41755002f0c92984a616b0541d70ba3e05971d13d1121",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/j-1123-7725b2/progress.log",
+      "bytes": 27,
+      "sha256": "87a5e173aedaa971ce9ed828108e4e75a6a9bf546a7dd1d49faf13291debce1c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/j-1123-7725b2/source-identity-tests.log",
+      "bytes": 104,
+      "sha256": "45a108b84d68347ea123347a61ebdb3500a65017227e083b0c5cc2c85ccebfdd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261123/source-identity-tests.log",
+      "bytes": 104,
+      "sha256": "ae32bc08031a2c72601dd7291c1cbab46972fc21937023b135e2321b721a8794",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1123-c9445b/progress.log",
+      "bytes": 13,
+      "sha256": "d635fa5f69be50c0577c688a93afe24fc89e80da9019aec3895a232edcb00539",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1123-ef9890/progress.log",
+      "bytes": 13,
+      "sha256": "d635fa5f69be50c0577c688a93afe24fc89e80da9019aec3895a232edcb00539",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/results/combined-seed12345/test.log",
+      "bytes": 1010,
+      "sha256": "92c60afbb2da865070cb1bc171f4cac66e97a53557d1946e80a61cf45368fbb7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/results/combined-seed2024/test.log",
+      "bytes": 1017,
+      "sha256": "542ec0bb633aa0fbaac86bb8549e3150fb936466cab2bf84fc261ec7d2694489",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/results/combined-seed42/test.log",
+      "bytes": 1019,
+      "sha256": "70d8a8f1056bd0d9114819d5172a73e21e33002ef581de5499658a5830f4a4f2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/results/reference-seed12345/test.log",
+      "bytes": 997,
+      "sha256": "8061641dea79cdf0aba9f0f75863df53f4452527a1a02df4e2b5a2127b30029e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/results/reference-seed2024/test.log",
+      "bytes": 1005,
+      "sha256": "20d4c469f570c4f10497bb448a647d941391eb3081d2d044bf1f4a1410f22199",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/results/reference-seed42/test.log",
+      "bytes": 1004,
+      "sha256": "9815682a2b949c9f5560f6b1ae638c5593408c63e3f57030d719bd8bd4e7f4fd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_12345/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "78952e7b6e73c55295248ca6f04d3215b49655a54b11e03e5469c2f1c1a03b4c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_2024/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "402ac150590c4068bf22e1082e7eb6161dfd2656dfe05b47f9faf1021ed55e97",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/vendor/MacroHFT/result/high_level/ETHUSDT/combined/seed_42/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "51447b6f8079f00a76549e349972a43db95a8e851c3ed8b547792beeaa243ba5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_12345/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "fb1a3114962d1d698bdda83c07228f20eb44231fa85b5a0a47eb4175d41a5ce8",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_2024/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "07229c4caa2c2bfa4016e1c284225d0c7239749851de84a12d51a2f022552166",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/files/vendor/MacroHFT/result/high_level/ETHUSDT/reference/seed_42/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "1f447059a23b47a8be42002a2d8056e83fa8e78a93e13612be9c7f33df079f60",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/recovery-20261127/j-1127-458f37/progress.log",
+      "bytes": 15,
+      "sha256": "b2ac12b817005c8bd9d5cf1bd288ff3b245e1c71eb68d195cf0770034e6ffa72",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/remote-tests.log",
+      "bytes": 1646,
+      "sha256": "96d5244606717b8bad50bbb45394168596a7dcf3902ef830231ece6b7946d28a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/smoke-action-memory-cost.log",
+      "bytes": 1076,
+      "sha256": "be8926ebc65d221a30abaa6b398f347e11b904b27c3e213aac62b4c99f279e8c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/smoke-reference-fast.log",
+      "bytes": 1007,
+      "sha256": "4f58c18ece6c08c1d122a3d382fd1da5e5c780bcc8b659405e61a5f32cbaf9b2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/smoke-reference.log",
+      "bytes": 1071,
+      "sha256": "4d11a21e94083a3f4db3bae601391bc960931ac37df0529bf60e4174ee14eb5b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "results/tests.log",
+      "bytes": 1718,
+      "sha256": "7dbb4a8429088a3caf1dbee593253031726c3a257730a793c5d5e9e8b2867f1f",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_0.feather",
+      "bytes": 2101218,
+      "sha256": "40c7e9ba94b09ce8a676d79482c54803b1a0565f8bfc648f591e352c8868e857",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_1.feather",
+      "bytes": 2111370,
+      "sha256": "01a3f7b6f191b2920ade3430f7a6833c322d5ad1e2c6d59598506c28c126fafa",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_10.feather",
+      "bytes": 2136690,
+      "sha256": "7ff6f6539171beceec2edc16ced5ecbb72df08003a5d76c4dd939f6623112f17",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_11.feather",
+      "bytes": 2135690,
+      "sha256": "3b3c0f73af980357d115dd2869346b3fb99dd3aeea3e844ecd7271b812825deb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_12.feather",
+      "bytes": 2111146,
+      "sha256": "4a9799d64733ec61b40dfabbcce1f65cb6916689f7e99272b03a056b5582e1aa",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_13.feather",
+      "bytes": 2122234,
+      "sha256": "803bc963f48117f773d09af540583be011ebbf3eaaf5b3f161bddf6855c65559",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_14.feather",
+      "bytes": 2138834,
+      "sha256": "573aa0ff9f543db2213415229c89e7ad140d15caaf6d740b53350ef7c94cef59",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_15.feather",
+      "bytes": 2125490,
+      "sha256": "9b726b3d9743cdabbace8cf19b32f72ad64bca90112916d23b0cc0da115e19bd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_16.feather",
+      "bytes": 2122362,
+      "sha256": "b80fcaaafdb33d0ca6aab6164f59691948880635c15eaeb1556c62ec1d7cacc5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_17.feather",
+      "bytes": 2095714,
+      "sha256": "995660e041996e5ea2cd45effab11bc26d37eb7e4ad614be63c74640e2a644cb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_18.feather",
+      "bytes": 2111618,
+      "sha256": "a01508f69c7d6638dd5defc63449aa6a579d8360e5348993968279e4cd52c4d4",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_19.feather",
+      "bytes": 2046866,
+      "sha256": "415b81253a57de204a92f311b9d5e212094420f514eb0598de6f673d15a41f3e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_2.feather",
+      "bytes": 2122634,
+      "sha256": "a3f2e70c4a53f3b6f50a56969d8b01f727afb8e5b89acf017a0f5f1ed606aafd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_20.feather",
+      "bytes": 2112842,
+      "sha256": "3b5623983c85f113c9966f9352b6b23bf5b1925fb269c990e2a52e8bb7800584",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_21.feather",
+      "bytes": 2077226,
+      "sha256": "1551921a8ea4e66ac1b518e2f550b21777c67e9a061dfd5ca92744a6a208a77d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_22.feather",
+      "bytes": 2069186,
+      "sha256": "0ea13c0f3483ff8291a701cb97d04b41ae47c59955ccdc4148b8f3a430cdcd13",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_23.feather",
+      "bytes": 2055122,
+      "sha256": "7b2138868099100a5282fc47490ea4b3a4e5e1a63552fd719d09cbe7457d3053",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_24.feather",
+      "bytes": 1942290,
+      "sha256": "a1e095d35c37516d2d056b9c7d7ab23acb9fdeed50c02a3b2395d5dd122cd0e3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_25.feather",
+      "bytes": 2066570,
+      "sha256": "e1d5c21530822742cbb00c395101c1830c1f342d2b9878eb7e3e969022d9529a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_26.feather",
+      "bytes": 2131130,
+      "sha256": "30a30f3da07fa30abd657262c7a529bde1a511c5c99c7229183a14e548f4b40a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_27.feather",
+      "bytes": 2133546,
+      "sha256": "0a5d05598cd8f38109533cfc523bb35f80d316c911b513b7974bcf9dd5fc8eac",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_28.feather",
+      "bytes": 2093354,
+      "sha256": "8fef831abe8a52404c6079547318cfee75ef7fb5f331fb8e7b5f471f90390aa8",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_29.feather",
+      "bytes": 2104074,
+      "sha256": "390a514cb0eb16fa18a12dcaeeb641d4e8e58de2b904151730ca82cf3a5298c8",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_3.feather",
+      "bytes": 2136146,
+      "sha256": "b77e3a9949ea0323774219c2c351fb1dd9554c0dd08ecc2a3e3583a0cd5c3cef",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_30.feather",
+      "bytes": 2125586,
+      "sha256": "16fbbbee78c7b73db6d36ab164de8e71bfa02ab7b99e68adfd4c4c197a13e9fe",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_31.feather",
+      "bytes": 2082314,
+      "sha256": "0f50b2e7b34b4368abc3c1867618d51514c6847bcba22a02663685de16abda48",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_32.feather",
+      "bytes": 2102490,
+      "sha256": "1414b2eb1e5b484b39d8b0dd613c936eee9b1a65eca864e79dfb49a364309b8c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_33.feather",
+      "bytes": 2064714,
+      "sha256": "53e6101d06311410dadd84a4c7f8d0c12469345716ac7d33dbcbc149a05b1050",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_34.feather",
+      "bytes": 2140018,
+      "sha256": "b285ec6dc69db6df8b3125563b825440042bbd8db429ee1b1424a8b65f22e0eb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_35.feather",
+      "bytes": 2112522,
+      "sha256": "c8a630d9de740645fae5556b2bb2c80a69834fddbb67c98a38fa1dd31816154c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_36.feather",
+      "bytes": 2115242,
+      "sha256": "5b15d26cf4008314f69fe991ccc6c37d8503347864e78304290a98a7f8771857",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_37.feather",
+      "bytes": 2126810,
+      "sha256": "c6d01ef59b33100e9467ab46da940c823272a09a3b46b0ddb73c148fc93cc683",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_38.feather",
+      "bytes": 2040714,
+      "sha256": "ed0b6b0e43cb0468d9858beee7f6b8ea178070877c15a1c812df2ae3bf372925",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_39.feather",
+      "bytes": 2118890,
+      "sha256": "8c27372e22250e081c8858cb06c71493176c41df58d1d9700bc6b5a1ee040f0a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_4.feather",
+      "bytes": 2138074,
+      "sha256": "8926067d1cf414a42ad2c3e398f09c1c4a03e22ea352c7168ea441877e7e0595",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_40.feather",
+      "bytes": 2101290,
+      "sha256": "16f085227edf563c48c395c0113075566790899799d1b0a5c502b1be9f5d61fb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_41.feather",
+      "bytes": 2132770,
+      "sha256": "7d4fdceb2a1fb302288af4fad7bf19126008b7f65df5d9be05fdfb869ca4672a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_42.feather",
+      "bytes": 2101802,
+      "sha256": "d9ffe93c7518d5e5a024c8cbcf7cd8218df329de26694fa4646f905d650a7a4d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_43.feather",
+      "bytes": 2112642,
+      "sha256": "67a960c2db11ad59c16f5593a935ff41e9562e2138bc0d0534c3bab32b3337f5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_44.feather",
+      "bytes": 2126930,
+      "sha256": "ba39fd1f969aa881c61affce727cbc3d9488599e79ab2d3b17e06df94251db9e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_45.feather",
+      "bytes": 2088490,
+      "sha256": "ce5a4e2d6bd27e70e1db6f3070b4415dd228c20b6507fda666c03f4fd090cc5a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_46.feather",
+      "bytes": 2120890,
+      "sha256": "d3959ec44e8b41d9becbf2e8521847d564d03a150d75a1257fe1cbcbf0bf9224",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_47.feather",
+      "bytes": 2128274,
+      "sha256": "c81e96ccf987fd1c51bb29f0c528f55c7d49f0571f902fb35443e6a642a53b59",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_48.feather",
+      "bytes": 2158138,
+      "sha256": "c1841f9a65b89875cde879fea12d2b28e8c36a6d92580baa4e7c9d7fb68e1e38",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_49.feather",
+      "bytes": 2140826,
+      "sha256": "d7ab3fb7de60160e732c2735796be9bc54bf6f20f6a4eff3e6360f8e6fd89e97",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_5.feather",
+      "bytes": 2116162,
+      "sha256": "2d7806eea79382a530315550f013bb7bc7e931f54526ab80deee0b111287e728",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_50.feather",
+      "bytes": 2130690,
+      "sha256": "feab905cfd5761959e24d54e81e675d87b0aefd780b42c211721c757f6b62a97",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_6.feather",
+      "bytes": 2137578,
+      "sha256": "d329e8b81d61b7a1983ed32ca4e4cd2c53b617de0a5b8e7f0689106dd1047e0b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_7.feather",
+      "bytes": 2134274,
+      "sha256": "a08e8c00e90d26aa42bab528162c19fe79ebe273fb6705e0949a9f79a27bf841",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_8.feather",
+      "bytes": 2138442,
+      "sha256": "3fd8994e91681fa4bfa81c1ce16938c6c4c7a28ffa13f9c63325145a2ecfd02d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/df_9.feather",
+      "bytes": 2151450,
+      "sha256": "4e97ea95cd41e80b420a0f8620cac7ea7849d2289f0d7fc9d1e866307c5553e3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/slope_labels.pkl",
+      "bytes": 134,
+      "sha256": "c34e8cb4812044e8343799881486e47dbe082dad9adf89ae0dde151c6c836f90",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/test/vol_labels.pkl",
+      "bytes": 132,
+      "sha256": "0d3dd7f65e16ec4a98f3ebd04f8fd555e5d8e82dc2728223029aa4b2e7a7121d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_10.feather",
+      "bytes": 2188674,
+      "sha256": "5afc050e0dbce2790f04d5953a6f7ca26c17f7afdc10827d9665924cbd87f80b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_100.feather",
+      "bytes": 2152602,
+      "sha256": "ed1ef0a06cd369d23f9430fb2b8e017c9226fd2962651c58c461a9ce7fe15d63",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_101.feather",
+      "bytes": 2145354,
+      "sha256": "ba995435c78a3cd8e153d53c8c62fc936b3998c5b79b93e41be3d92d49082e58",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_102.feather",
+      "bytes": 2143554,
+      "sha256": "73897398a1caddfd509fe6d3f7559128c6036f5d09435c9f15111c9c9108c23d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_104.feather",
+      "bytes": 2114602,
+      "sha256": "9f3b0d219e4cec2e7799889124663700d2549a20c8ae3cfc25dc5955c618341f",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_106.feather",
+      "bytes": 2135970,
+      "sha256": "d8ab264685a24b764b59de44454d56fbc54d56a211deb6719d1675dd338a98ec",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_107.feather",
+      "bytes": 2138010,
+      "sha256": "99d35d02ebf3570244daf74b0b09abc0f9ed3e7f687b759700398790a2d5f6d6",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_108.feather",
+      "bytes": 2111370,
+      "sha256": "25cfb0e130f244638acf308a16de0238a19d4ed2cec94d76ca61bca2dd2e40c5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_109.feather",
+      "bytes": 2104986,
+      "sha256": "cca71b7c8fbe342bb511b7faa6060858d1163bc7c8f34c4079d21dcd8e6e9e90",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_11.feather",
+      "bytes": 2184250,
+      "sha256": "cf73515aadcd567e3964f207492ff2007e97f812a2494643de5f4b0a327dfa6c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_110.feather",
+      "bytes": 2123354,
+      "sha256": "b2ae4d42dce40df1dda5f94db9f968dbe2f1ea4d7cef237d335e1496fae2f086",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_111.feather",
+      "bytes": 2081802,
+      "sha256": "b4dd3c1096e76459fb3f7e746b2cf8c021524602461a9d3f435129a883312f6d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_113.feather",
+      "bytes": 2063722,
+      "sha256": "674bc8972d462a681a361984600b3405af8dd0403f2c3d9d0d5efedbe0fe8302",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_114.feather",
+      "bytes": 2134554,
+      "sha256": "f9b55724ecffffa1f707bb1a42f840703dcb71ef4a401280982866975752a8b6",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_116.feather",
+      "bytes": 2151138,
+      "sha256": "8985abf5eba9a6248ed10e017d8292c097492fa5fc25c11c42e5efecf3932c86",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_117.feather",
+      "bytes": 2154162,
+      "sha256": "37888320b297386a02b34652da1396c0907918d9e1202058c0573b5c253b01cd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_118.feather",
+      "bytes": 2143722,
+      "sha256": "0aa7a486c406c11bb98ce7506b8d1e48628f74bb1fe42db2b2320d68cdd34175",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_119.feather",
+      "bytes": 2151914,
+      "sha256": "14abcb4b7de7369ec729cdb59ad6a5a0df6c6264a9c909fb8aabf867ba75eab3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_12.feather",
+      "bytes": 2186250,
+      "sha256": "c151698bad0d3d85bdc5aa3379f0223d00b41c8b514438e9e130f1a95a048154",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_120.feather",
+      "bytes": 2145306,
+      "sha256": "c5b61275bba12cfcd2cdced5ad7faa7989adaa7eb1e49dad40d9bc00fd69b103",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_13.feather",
+      "bytes": 2177530,
+      "sha256": "899052d1f8e693e4fc4e7b3c16bcf8959ec2f8d6c7d5912300b25b8eb7d8fbd9",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_14.feather",
+      "bytes": 2186250,
+      "sha256": "cee09e78c8c3a8e72727874648cb8dda1041f4ba35f752b9dd877c902c718c6b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_15.feather",
+      "bytes": 2181978,
+      "sha256": "58a6dc6bca0de300e20f4f4620172596edde77724363d64ee6127bb07d52a7e9",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_17.feather",
+      "bytes": 2175570,
+      "sha256": "5f9bc7dbc76bdf9cd0bd088864ef72e61af1c5d6c1520e74754de120a9da8504",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_21.feather",
+      "bytes": 2190354,
+      "sha256": "0fd658e407f68827ebc925900b633ae5972342df36c24b78cb93d3fcdb38ea38",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_22.feather",
+      "bytes": 2173066,
+      "sha256": "59cfe6fc9dcf0b88a0a584d7a73821c7efe879f8f31fb6da32a8272fbd192354",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_23.feather",
+      "bytes": 2185066,
+      "sha256": "ed532a8e4c5467ca80f7c4993bfc7ef26e5695cfdd7b3b08f0d8805673b204fd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_24.feather",
+      "bytes": 2167842,
+      "sha256": "63ab0bd56009624138349bb55adffca74ebcbbf772de1dda0effd67b8eb96dda",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_26.feather",
+      "bytes": 2180354,
+      "sha256": "8a282d8f2eb20bfbea6833ca64f16c52828b988c48bfa885cd87847f88926848",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_27.feather",
+      "bytes": 2178258,
+      "sha256": "1adf91956a0d5aaa2049574a66c1a9d8bf55e16e0e01aaee2af2225327fc6a0e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_28.feather",
+      "bytes": 2180234,
+      "sha256": "f20e6fe3ca6743f5ba4e6ccd2ad9e3db3ece7936d57b91bc270e52093301e8b1",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_3.feather",
+      "bytes": 2195450,
+      "sha256": "4c8e6543ddcb138d3863903f67bea02c748a9994feeb1f779b1b99cfce8b126a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_31.feather",
+      "bytes": 2182010,
+      "sha256": "19ed3dfd13565d75362556605c8e17abd50c35a5680dd95d5918ccca98fcf558",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_32.feather",
+      "bytes": 2192962,
+      "sha256": "96dc7054c6b25ed22df16a8993e48ec5feec4b64290ec2b60cf888a29d1143a7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_33.feather",
+      "bytes": 2204882,
+      "sha256": "1c1d4b86323dc38b7ca232c93b579300de4553c83b62116105cfe42503ce67f6",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_34.feather",
+      "bytes": 2176794,
+      "sha256": "7e34696b7aa398bbf8dda8822a3b1c928239f992ac6b42b614e38c6e651259f7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_35.feather",
+      "bytes": 2177906,
+      "sha256": "4382e7129e90ba14d62e405c54cf03b8811714990d6d484b5b9d66d1e725f2c6",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_37.feather",
+      "bytes": 2169658,
+      "sha256": "cee092ac633fc7dd60d37672f5fc0d0a097a8a7acdeac3fc1475dc2d4ccb0eb8",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_4.feather",
+      "bytes": 2188586,
+      "sha256": "2e1f6e4fc545940e470c640160f8c39c16414c8ddb77d9a24d491c246f1e91bc",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_40.feather",
+      "bytes": 2166258,
+      "sha256": "197bc2b09625495ecf194a5be4f350cfa64ab0a42947128e020911d4a3d035ac",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_41.feather",
+      "bytes": 2157346,
+      "sha256": "37d0eb9900d58ffd5c811234233905ef77c53b047bddddbfe6b87455b21509a2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_43.feather",
+      "bytes": 2179818,
+      "sha256": "b525ab109cce0b97c3c73c1b59f25ad9f33c49244692a5e8c70d1ae5c290d68a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_44.feather",
+      "bytes": 2187170,
+      "sha256": "e270e0f86c97e0df49eb081298aa57514b769e5814b9d69381ac3ab169b8af26",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_46.feather",
+      "bytes": 2175546,
+      "sha256": "83ab1493df6a0f636e2ab11b4200254481b22219799f8dcf132f6ac7d245068e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_48.feather",
+      "bytes": 2162338,
+      "sha256": "807183ea5f9429559277ee58a144cac62ee238c7bc0f5bd7a4d5dd9d5c8f3c9f",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_49.feather",
+      "bytes": 2173674,
+      "sha256": "de1366708983f7734bf0e5793064073d2d0decf6cdeb32e5684fbbe8cf71d47d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_5.feather",
+      "bytes": 2191562,
+      "sha256": "5c69d5c2dcc8c4a0f6ab34c6ef67adc45406d25bd2c744417848e46768ac2cb2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_50.feather",
+      "bytes": 2152146,
+      "sha256": "d6c467b2883c327c85c8d3376d8b07659bb8a9a1285387a21c4b265830d1b3f1",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_51.feather",
+      "bytes": 2163378,
+      "sha256": "db6502e9c7c067b82b013007c7a6ea5377a284637928a2ae613841b73fa141d0",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_53.feather",
+      "bytes": 2161746,
+      "sha256": "574d3d3f4e131c6670a9a5917b970659f23e82a92d6bc7b33562f6420788c402",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_54.feather",
+      "bytes": 2170362,
+      "sha256": "b12330083a99be2040faa0979b39e07868c4e634bd9368d9cd99bd0fee6c8bc5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_56.feather",
+      "bytes": 2170658,
+      "sha256": "474e585cf2bc169d827b0b1a9b3459234b47f26c9d5b8cbfa43a85bf42eef4a4",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_57.feather",
+      "bytes": 2172650,
+      "sha256": "866197b7a8113b124e98b7305eec799e653fd2d4a69fd1bbfa7cfe99e4f69770",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_58.feather",
+      "bytes": 2178298,
+      "sha256": "3f96c2076373a869618530ca67e4d84a39c236465f017fda47f7bf2ac24fdeb7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_59.feather",
+      "bytes": 2172106,
+      "sha256": "1ad80155bd11fbe755da25905e8883619656e25281f59b7dd0d64470fed398bd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_60.feather",
+      "bytes": 2170050,
+      "sha256": "765f22bf220beffc624b0dbd48ae9e7f653979200b99621903ee1cba91162ea7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_61.feather",
+      "bytes": 2168762,
+      "sha256": "fa2c1566532d328046443c02c11a7decdb29fcbce73253df0130969c5e309404",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_66.feather",
+      "bytes": 2175466,
+      "sha256": "ecc763682a8ea9c7b9d29a2b38a1ab4a9b147c63afafb08427019192f2caf4d7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_67.feather",
+      "bytes": 2164474,
+      "sha256": "1b3c6dc3026db20892d44f15905ddac5fa641a7a65f4e304eec86d1440831bcd",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_69.feather",
+      "bytes": 2165722,
+      "sha256": "b5376de0950faea36d928458c0d40722dd45c6990cafd72b824014d5fe372a59",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_7.feather",
+      "bytes": 2195906,
+      "sha256": "b43c72e67119e706f3be1aff886f9939848e5b72b22007186e0e3361e4e99920",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_70.feather",
+      "bytes": 2166090,
+      "sha256": "bb630a3ddc59303fdf0519891045f72c9fa5c7039d66d5b21bc30f28bb027ed0",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_71.feather",
+      "bytes": 2151842,
+      "sha256": "cdf282cfa0527ee43747235a68bbb9e33a421e458b285bcf5758ce7e018df994",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_74.feather",
+      "bytes": 2165858,
+      "sha256": "891e50e7aada47a2ea11f8cabf8c4521e3b59251143cc6abc937190a1c05e0c8",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_75.feather",
+      "bytes": 2173514,
+      "sha256": "2dc1539a41ebb9c00bcf9224860a9d8884c3037d6be7c5d7778e9dd9c5e8dd63",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_76.feather",
+      "bytes": 2160258,
+      "sha256": "29bd2c8c27bba97da228cfa0812feeb324f52a41b0683fe34dc0738b07ea50f2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_77.feather",
+      "bytes": 2168290,
+      "sha256": "71e564df23c1ed7fdf6ccbd8d527254f87546cd86bb3ceb034d14ef2c28c03eb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_78.feather",
+      "bytes": 2153066,
+      "sha256": "239d5aaec40e34a267d8637aacb82da1be118b81c52cbcd3bd87d936fd565d3b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_79.feather",
+      "bytes": 2163378,
+      "sha256": "96277ae98a4f54c603ce26ee53c9251415bf19bc3b9d76f3b4a1627799ba199a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_8.feather",
+      "bytes": 2189242,
+      "sha256": "7ddd8c12ec71aa667c2ec983d2dd642fda00c9696a3134becf654fe8a8442820",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_82.feather",
+      "bytes": 2152802,
+      "sha256": "9eba6c7c94e1f762f86f612ae98278a02273d368471161a2a827898d579c80d7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_83.feather",
+      "bytes": 2134634,
+      "sha256": "532ad4bf5da670e4cb4ebe60b60043cd60009740375a0440d3a54f723e1a597a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_84.feather",
+      "bytes": 2151978,
+      "sha256": "3fd2e68c26532085ea4d839c9340df3c04170d1e52d1e8c452651bc6388ef4f5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_85.feather",
+      "bytes": 2136482,
+      "sha256": "66a55fd18caaf07d27616130ec04751fce28686125cef61ab6ca889e038b3eae",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_86.feather",
+      "bytes": 2137706,
+      "sha256": "816f3f8239f9510070d69f977b6f7eed7c2eb8858b05d867c424caa78e55c10e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_88.feather",
+      "bytes": 2144962,
+      "sha256": "98c3fce99f59fd269b00d38694c625775bcdd771f21e3fc8073491a7c7ee8ca8",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_89.feather",
+      "bytes": 2156810,
+      "sha256": "099dd8b010df3b366ea898cdb35840aa4718b25b9f968842a9054664bcc51f56",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_9.feather",
+      "bytes": 2190778,
+      "sha256": "0014297e01ce4d718025b887703a71cf44a63c0d67fe8c7f775f595b5ddae629",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_92.feather",
+      "bytes": 2147426,
+      "sha256": "a8fb190b8c52e0c7a4a0c52752e4e1e596ccf6ab7aeab395160dedc5fa29efab",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_93.feather",
+      "bytes": 2182546,
+      "sha256": "8ae50e878b735af7e21bcd9d334105f66ad0d58dbd8e67211f13a8db1dcb5714",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_94.feather",
+      "bytes": 2172842,
+      "sha256": "b13af450263b94b28bacc2cf8a5f2ab45c03163b1a87431a61130c7125d79960",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_95.feather",
+      "bytes": 2160674,
+      "sha256": "c623ac20ed429545a362200c7129b6a5395a3b03f123a0b1766b6d3e81bd8730",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_96.feather",
+      "bytes": 2154906,
+      "sha256": "803b980ab65a93bd87d479cd58f4d28885048ca8e40d1d4dc03d0b8befcf6c30",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_98.feather",
+      "bytes": 2157906,
+      "sha256": "17b5a6201180653fb11d50cda98fd72f6b5a84d367bfeeff2afbf2b7147878ca",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/slope_labels.pkl",
+      "bytes": 278,
+      "sha256": "3e33bf0dd8e39f3750b6b5b4d5491905813563336fc7c8062232508a6d7129cb",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_0.feather",
+      "bytes": 2145970,
+      "sha256": "694f80c7cd74ef8329cc45a0421846c6ea33341dfcf7357fa44db4af01d8071e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_10.feather",
+      "bytes": 2125418,
+      "sha256": "08dec7b00b3d89de5c4f5f1ab8d4e43f285817ef6de82664686ed61e24402479",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_12.feather",
+      "bytes": 2164842,
+      "sha256": "420d6552cdd623d9811dd68234ed104dee0857961f55cf3bb239092ac0b722bc",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_13.feather",
+      "bytes": 2174082,
+      "sha256": "472112c73d2c15aaf6c187847e6c85db125e98c03572500c9d62fa2f6d3f6a6e",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_14.feather",
+      "bytes": 2168922,
+      "sha256": "81071eb9d83efa19943618b1ef3fa9dff408267d7e8bbaa16d6b2cc2e4ee4e88",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_15.feather",
+      "bytes": 2160210,
+      "sha256": "c4202c7a92fd9e4ca05cee1971f1eae54340dc51a4605369c6091e926a6bb9a7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_2.feather",
+      "bytes": 2153530,
+      "sha256": "45bb63ea18a17cbb662ebc7a4d2b549f7525fb5685de077b6c966dffd2e85e02",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_20.feather",
+      "bytes": 2150858,
+      "sha256": "c8b049aab972c2bab1cdc35bc542b127ff1e2a52a14c3cb3d7efecf5bdaadb0d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_22.feather",
+      "bytes": 2124818,
+      "sha256": "d8f4a489b08129935cedab1a2b372a8b69ad960c8ce501b7fc5e6a5bd763758a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_23.feather",
+      "bytes": 2147170,
+      "sha256": "7f29d24cd4d7caead1c97d73c86fb7283c29bd393609a155c50c6f7630d3faa3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_24.feather",
+      "bytes": 2154322,
+      "sha256": "d7719c7cb1bcd04f8d5c4237f99285c73636293d39f3c6596f78d90a07de8efe",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_25.feather",
+      "bytes": 2161202,
+      "sha256": "554b09ecc3c0acb3face8a5c39a2bf9948f3d6f9d00987bad4e469bfe44f4bc2",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_26.feather",
+      "bytes": 2152066,
+      "sha256": "255384b3651678777c623d960766d4e90bf3fc4e3c58cc710a08e6fcc96ed035",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_27.feather",
+      "bytes": 2145682,
+      "sha256": "7151f833006c17daff93a3ae8c97cfc7145df6c45abb01ecbc7096b6f5521700",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_3.feather",
+      "bytes": 2145466,
+      "sha256": "03e5e3f18b056876364f47e784257bec3c2e836f15946f9c550a2af2c307ea9a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_30.feather",
+      "bytes": 2139690,
+      "sha256": "27bb6b004063129a9a5d2848924b2d1391e9a7d1059cfe596c3b9563e26ed4f8",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_32.feather",
+      "bytes": 2146962,
+      "sha256": "f323cf8f17604c1e0654d87e5afac31576eb3ed01723c7d1be1d982118600007",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_33.feather",
+      "bytes": 2145490,
+      "sha256": "d50823794e5f319436b3593e6837bd772c9606cf8eeb109bcd652666ae19a6ed",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_34.feather",
+      "bytes": 2130746,
+      "sha256": "05fcc85966baf288a7fde7063a16bc5ee20f1fbf492f2588be1017de19514ba4",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_35.feather",
+      "bytes": 2127418,
+      "sha256": "8d99d055895a7cb671bc18444b42252cc6e445f05b7e4d705df5f432615a280b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_36.feather",
+      "bytes": 2085154,
+      "sha256": "11a29448cb54899f7ea505e8b8436dd38fc6c91a5e8d4ae3a62caa40877552a7",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_5.feather",
+      "bytes": 2149362,
+      "sha256": "e8a708d96b4e5d707a424072d1542476e42658b930c960ca8b9f51b8def02113",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_9.feather",
+      "bytes": 2138610,
+      "sha256": "ea0f46673f2e2a4b32acf50b5aa1df74fd3e41925913a04f2873bd00e5b7dac4",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/vol_labels.pkl",
+      "bytes": 111,
+      "sha256": "bac5c36cec2a897eed8e39d77aa5c03d068d96ecff7dee408bf484dafdc4ffb3",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/feature_list/single_features.npy",
+      "bytes": 3152,
+      "sha256": "e6f13e77af4669aa6affb71e3eb717d882e0f702ac2b416a3245b6b0c03a08c9",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/data/feature_list/trend_features.npy",
+      "bytes": 848,
+      "sha256": "ca19f94a37d0a728300aea874534896b5b6bd9f88aa7ba5796b7eb5ce006cef5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790888070.zyydeMacBook-Air.local.87478.0",
+      "bytes": 88,
+      "sha256": "7003ea75099a777084d6c05047f0da300f0ec074f7d462831c5ab495ff055880",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/integration-check/seed_12345/log/events.out.tfevents.1790888140.zyydeMacBook-Air.local.87624.0",
+      "bytes": 88,
+      "sha256": "10300b77f151d161852ea64cd02254fe5a64004f41a0668bda9755f7be9a6c87",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "8dc941ccb8ed76c3a94dc2121c19f72cff41c9221874c679e6b044f41b31a58b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/trained_model.pkl",
+      "bytes": 64424,
+      "sha256": "dbafc0b847da40288941aa820c5e0563e5cc265dbe84bc79243ef6ebf9133947",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/action_val.npy",
+      "bytes": 16504,
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "bytes": 136,
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/final_balance_val.npy",
+      "bytes": 136,
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/require_money_val.npy",
+      "bytes": 136,
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_1/val/reward_val.npy",
+      "bytes": 16504,
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/trained_model.pkl",
+      "bytes": 64424,
+      "sha256": "f62e9f7632e7f1c8eefdb6d2fa3617ede8d47c85a8b74195cfa5ff30199cab76",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/action_val.npy",
+      "bytes": 16504,
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "bytes": 136,
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/final_balance_val.npy",
+      "bytes": 136,
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/require_money_val.npy",
+      "bytes": 136,
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/epoch_2/val/reward_val.npy",
+      "bytes": 16504,
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-action-memory-cost/seed_12345/log/events.out.tfevents.1790888046.zyydeMacBook-Air.local.87401.0",
+      "bytes": 4743,
+      "sha256": "b5051592d43881f23cfff5b54551495720d095d24d243664499824ea02790fac",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "d811df6668cafc3740d97632215857246898e43fef49e17c5442f4c820bb0286",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/trained_model.pkl",
+      "bytes": 64424,
+      "sha256": "8267110400813d1046b15818176644e67de3cea0c74d622662349f0486f9bccf",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/action_val.npy",
+      "bytes": 16504,
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "bytes": 136,
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/final_balance_val.npy",
+      "bytes": 136,
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/require_money_val.npy",
+      "bytes": 136,
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_1/val/reward_val.npy",
+      "bytes": 16504,
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/trained_model.pkl",
+      "bytes": 64424,
+      "sha256": "542c292f93672eda56eeee153355d1c3807f251c1396c1964309fadc07514a50",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/action_val.npy",
+      "bytes": 16504,
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "bytes": 136,
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/final_balance_val.npy",
+      "bytes": 136,
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/require_money_val.npy",
+      "bytes": 136,
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/epoch_2/val/reward_val.npy",
+      "bytes": 16504,
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference-fast/seed_12345/log/events.out.tfevents.1790888161.zyydeMacBook-Air.local.87656.0",
+      "bytes": 4743,
+      "sha256": "9525c828c01e9bad9a9b6a27734387e08c9ffbb4628a933a7ac39a64fdae8566",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/best_model.pkl",
+      "bytes": 64373,
+      "sha256": "c9ec99c7889766b8f7b5b3946c2a593524ec912c4492dba0ce5353a7242f135d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/trained_model.pkl",
+      "bytes": 64424,
+      "sha256": "af97cc59a53e988fb92925eb019cd613d15ced28b54dd6ccb22c98392ace8d5b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/action_val.npy",
+      "bytes": 16504,
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/commission_fee_history_val.npy",
+      "bytes": 136,
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/final_balance_val.npy",
+      "bytes": 136,
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/require_money_val.npy",
+      "bytes": 136,
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_1/val/reward_val.npy",
+      "bytes": 16504,
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/trained_model.pkl",
+      "bytes": 64424,
+      "sha256": "077671ace6ea6c440260aaa720f1446b5d3ebe3a0e9a8e7e2bf1030f495b5f62",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/action_val.npy",
+      "bytes": 16504,
+      "sha256": "2a53c4381eae92591dcda4a1cffcd1fc9a3629df84a4785c1048158abce4e502",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/commission_fee_history_val.npy",
+      "bytes": 136,
+      "sha256": "238b18d008f4f0957bd902d6ce83e81bb39b145c82b23632e8afe4405bfff835",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/final_balance_val.npy",
+      "bytes": 136,
+      "sha256": "7a4a0132f597b30c9eca7292b15a3b1c0d54b2190d48815fd33c118bc905a935",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/require_money_val.npy",
+      "bytes": 136,
+      "sha256": "d0914774423acfe719b8d9ed4f4d846f53a7c9c55923327fa6b7ef5bca78dd27",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/epoch_2/val/reward_val.npy",
+      "bytes": 16504,
+      "sha256": "f3a56881d10e88285614152111a4ad8e859cbc767f2256671a60454699aeb91c",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/high_level/ETHUSDT/smoke-reference/seed_12345/log/events.out.tfevents.1790887820.zyydeMacBook-Air.local.86502.0",
+      "bytes": 4743,
+      "sha256": "4767138927cfa4b659901b8939e6c4c1b87bc79c51b76aa29ebed15302b6ce4d",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/1/best_model.pkl",
+      "bytes": 187425,
+      "sha256": "5b6edb6095d1c8a595e0152365ab6ba1f7ce9eae166ae6c805f3611cbe3b9810",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/2/best_model.pkl",
+      "bytes": 187425,
+      "sha256": "111bcdb7512699016745b79f58b6f4c66f8fa384f8a1cfff6c73e2281438708a",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/slope/3/best_model.pkl",
+      "bytes": 187425,
+      "sha256": "3a35ff84913c1c5b4598a5a41c066b505ec16fc5d5b8f49ecfe18098165a242b",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/1/best_model.pkl",
+      "bytes": 187425,
+      "sha256": "8123553407dca732500d90b55e1eb1e336e517038c5fb3e7360be1acf88bfae5",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/2/best_model.pkl",
+      "bytes": 187425,
+      "sha256": "eace24ae14dd997cb4120ad6f074d887b2c9b8f9e7cefb512a5fd16a6ad40a58",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    },
+    {
+      "path": "vendor/MacroHFT/result/low_level/ETHUSDT/best_model/vol/3/best_model.pkl",
+      "bytes": 187425,
+      "sha256": "61897d57e41ac496231da6d3874a19097f3d13d829e4d2196c35e026c114dcb6",
+      "historical_commit": "23a4d58191b223227c142fa715bec104bb9e97c0",
+      "action": "untrack current tree only; retain originals and history"
+    }
+  ],
+  "known_stored_bytes": 1177494323,
+  "unknown_sizes": 0
+}
