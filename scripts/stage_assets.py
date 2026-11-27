@@ -45,7 +45,8 @@ if __name__=='__main__':
         if item['id'] not in a.asset:continue
         item['files']=[f for f in item['files'] if f.get('role')!='documentation']
         dependencies=select(m,item['requires']) if item.get('requires') else []
-        item['dataset_revisions']=[{k:d[k] for k in ['id','repo_id','repo_type','revision']} for d in dependencies if d['repo_type']=='dataset']
+        item['dependency_revisions']=[{k:d[k] for k in ['id','repo_id','repo_type','revision']} for d in dependencies]
+        item['dataset_revisions']=[d for d in item['dependency_revisions'] if d['repo_type']=='dataset']
         meta='metadata/'+item['id']+'/provenance.json'
         save(safe(root,meta),dict(item,split_definitions=read(Path(__file__).resolve().parents[1]/'assets/splits.json')))
         (root/'README.md').write_text(card)

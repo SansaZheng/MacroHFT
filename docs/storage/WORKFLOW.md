@@ -97,7 +97,7 @@ is produced. Stop if quota, source identity or concurrency checks fail.
 
 For models, first merge the verified dataset/expert revisions into the input manifest.
 Then use the same staging/upload commands with `--asset eth-reference-12345` and the
-selected private model repo. Each model binds dataset revisions, config, seed, source
+selected private model repo. Each model binds dataset and upstream expert-model revisions, config, seed, source
 identity and metrics. Inspect final/recovery checkpoints before adding them; do not
 upload every epoch. Full optimizer/RNG/replay resume state must be identified explicitly.
 
@@ -188,3 +188,13 @@ project-specific cache. In an explicitly authorized cleanup session:
 Do not run `cache rm` on a shared/global cache. Do not use recursive deletion of the
 original iCloud tree. Deleting current Git files does not remove historical objects;
 any history rewrite needs separate explicit approval and a verified backup.
+
+## Host network qualification
+
+c225 could clone the pinned code but its fresh environment build failed during package
+DNS resolution on this date. Build/qualify network-dependent tooling on a reachable lab
+host such as the c224 project-home staging host before scheduling private transfers.
+Do not change shared DNS, system packages or another user's environment. The optional
+`scripts/cq_existing_asset_smoke.py` can inspect and exercise this project's existing
+interpreter read-only; it records the actual client version and upload-API capabilities,
+and does not substitute for private-repository write/authentication verification.

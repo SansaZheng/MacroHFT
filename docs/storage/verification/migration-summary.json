@@ -31,12 +31,19 @@
     "inventory_bytes": 1853871386,
     "legacy_disk_free_bytes": 1151890235392,
     "output_disk_free_bytes": 5446634090496,
-    "transport_smoke_job": "j-1127-785091",
+    "transport_smoke_job": "j-1127-839cb4",
     "selected_hash_job": "j-1127-794ac6",
     "selected_hash_state": "done",
     "selected_files_verified": 193,
     "selected_bytes_hashed": 1278333903,
-    "hash_mismatches": 0
+    "hash_mismatches": 0,
+    "transport_smoke_assigned_host": "c219",
+    "transport_smoke_state": "assigned",
+    "failed_smokes": [
+      "j-1127-785091",
+      "j-1127-b2e33e"
+    ],
+    "diagnostic_job": "j-1127-c2fbc7"
   },
   "local": {
     "code_checkout": "/Users/zyy/.local/share/macrohft/repository",
@@ -50,7 +57,8 @@
     "previously_pending": 66,
     "newly_hash_readable": 64,
     "still_missing_recorded_paths": 2,
-    "temporary_tooling_env_removed_bytes": 33296384
+    "temporary_tooling_env_removed_bytes": 33296384,
+    "asset_tests_passed": 22
   },
   "confirmation_needed": [
     "HF namespace and securely configured project write authentication",

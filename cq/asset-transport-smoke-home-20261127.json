@@ -1,0 +1,77 @@
+{
+  "name": "MacroHFT clean remote official HF qualification on network-capable home host",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "980622545e41ded5a77c7e732a6b67acfca85d08"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_asset_smoke.py"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 2,
+    "disk_gb": 2
+  },
+  "limits": {
+    "max_hours": 0.5,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c224"
+    ],
+    "avoid": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c227"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/asset-transport-smoke-home-20261127",
+    "expect": [
+      {
+        "path": "receipt.json",
+        "contains": "\"complete\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "980622545e41ded5a77c7e732a6b67acfca85d08"
+      },
+      {
+        "path": "progress.log",
+        "contains": "5/5"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 10
+    }
+  },
+  "resource_basis": {
+    "scope": "Clean depth-one GitHub checkout, isolated official HF client, one 548-byte public pinned JSON fixture; code tests and deterministic gate tests only",
+    "bounds": "1 CPU, 2 GB RAM/disk conservative allowance, .5 hours; no training, GPUs, private credentials or paid capacity; own temporary files cleaned after receipt",
+    "fix": "Keep isolated official pinned bootstrap; prefer the GitHub staging home c224; avoid c225 after observed package DNS failures; c227 has no internet."
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "980622545e41ded5a77c7e732a6b67acfca85d08",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "depends_on": [
+    "j-1127-16fe1e"
+  ],
+  "replaces": [
+    "j-1127-b2e33e"
+  ]
+}

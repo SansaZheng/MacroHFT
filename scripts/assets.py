@@ -223,7 +223,8 @@ def upload(m, asset_id, source, repo_id, quota_path, output, create=False):
     if len(repo_id.split('/')) != 2: raise ValueError('Use namespace/repository')
     total = sum(f['size'] for f in a['files'])
     dependencies = select(m, a.get('requires', [])) if a.get('requires') else []
-    a['dataset_revisions'] = [{k:d[k] for k in ['id','repo_id','repo_type','revision']} for d in dependencies if d['repo_type']=='dataset']
+    a['dependency_revisions'] = [{k:d[k] for k in ['id','repo_id','repo_type','revision']} for d in dependencies]
+    a['dataset_revisions'] = [d for d in a['dependency_revisions'] if d['repo_type']=='dataset']
     source = Path(source).resolve()
     for f in a['files']:
         p = safe(source, f['path'])

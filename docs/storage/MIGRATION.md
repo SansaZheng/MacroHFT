@@ -1,6 +1,6 @@
 # GitHub / Hugging Face / remote execution migration
 
-Status: implementation in progress; HF authentication, namespace, repository discovery,
+Status: code-side migration implemented; HF authentication, namespace, repository discovery,
 write permission and account storage headroom are not established. No HF asset upload
 or private-repository creation has been performed. A null revision is a blocker, not
 an implied `main` revision. Existing private repositories cannot be discovered anonymously.
@@ -33,7 +33,7 @@ an implied `main` revision. Existing private repositories cannot be discovered a
 
 `assets/manifest.json` is the machine-readable migration ledger. Each verified asset
 must have repo_id, repo_type, immutable 40-character HF revision, required paths,
-file sizes and SHA-256. The producing source archive commit, config, seeds and metrics
+file sizes and SHA-256. The corresponding source archive commit, config, seeds and metrics
 are retained for six selected hyper-agent models. Original training Git commits were
 not recorded; the seven source hashes establish a narrower source correspondence.
 Do not relabel the archive commit as the original execution commit.
@@ -48,7 +48,10 @@ Split dates and original hashes are in `assets/splits.json`; preprocessing code 
 
 Model layout: six released experts under `released/ETHUSDT/`; six validation-selected
 hyper-agent weights under `hyperagent/ETHUSDT/{variant}/seed-{seed}/`.
-Final epoch and true resume states must be inventoried remotely before selection.
+The remote audit found six epoch-15 final weights in addition to six selected best
+weights. All 193 selected server files (1,278,333,903 bytes) passed a read-only SHA-256
+audit in CQ job `j-1127-794ac6`; final-model hashes are now recorded. No separately
+named optimizer/RNG/replay resume snapshot was found in the bounded inventory.
 A weights-only file is not a full optimizer/RNG replay recovery checkpoint. Retain
 best, final and genuine restart state; do not upload every epoch. Preserve failed-method
 selected weights because they support the published negative comparison.
@@ -90,3 +93,18 @@ The original iCloud project currently occupies about 1.49 GiB on disk, including
 1.29 GiB under vendor and 169 MiB in its old virtual environment. These are preserved
 until independent backups and asset migration are verified. This differs from the earlier
 mostly-dataless state; metadata and read checks were repeated rather than assumed.
+
+## Current qualification limits
+
+Local asset tooling has 22 passing tests; source identity has six passing tests. GitHub
+Actions checks code-only tracking, source hashes and these tests. The immutable public
+HF transport fixture was streamed and verified locally without downloading a model.
+The first c225 clean-checkout job failed because system ensurepip was unavailable;
+the isolated PyPA bootstrap fixed that step, but package installation then hit DNS
+resolution errors. Failed attempts are recorded, not counted as passes. The network
+qualification was moved away from c225 (c224 preferred; CQ selected c219); see verification receipts for
+its final status. No shared DNS or existing environment was modified.
+
+References: [official HF upload guide](https://huggingface.co/docs/huggingface_hub/guides/upload),
+[HF storage accounting](https://huggingface.co/docs/hub/storage-limits),
+[official pip bootstrap guidance](https://pip.pypa.io/en/stable/installation/).
