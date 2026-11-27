@@ -1,0 +1,33 @@
+{
+  "label": "Post-hoc arithmetic diagnostic on already observed final results; not a new model-selection criterion",
+  "rows": [
+    {
+      "seed": 12345,
+      "profit_gap_reference_minus_combined": 138.88671759999988,
+      "extra_fees_combined_minus_reference": 3.260717600000001,
+      "extra_fees_fraction_of_profit_gap": 0.023477533750858863,
+      "reference_gross_profit": 144.892,
+      "combined_gross_profit": 9.266000000000115,
+      "combined_profit_on_reference_capital_return_pct": 0.9196711950782674
+    },
+    {
+      "seed": 2024,
+      "profit_gap_reference_minus_combined": 140.85980879999983,
+      "extra_fees_combined_minus_reference": 4.1738088000000015,
+      "extra_fees_fraction_of_profit_gap": 0.02963094182476277,
+      "reference_gross_profit": 146.37000000000003,
+      "combined_gross_profit": 9.684000000000198,
+      "combined_profit_on_reference_capital_return_pct": 0.7815338511952165
+    },
+    {
+      "seed": 42,
+      "profit_gap_reference_minus_combined": 135.46063359999988,
+      "extra_fees_combined_minus_reference": 2.3426336000000005,
+      "extra_fees_fraction_of_profit_gap": 0.017293833180476153,
+      "reference_gross_profit": 125.96399999999994,
+      "combined_gross_profit": -7.153999999999942,
+      "combined_profit_on_reference_capital_return_pct": -3.3257499360124827
+    }
+  ],
+  "claim": "Recorded extra fees explain only a small part of the net profit gap; this decomposition does not establish the cause of strategy failure."
+}

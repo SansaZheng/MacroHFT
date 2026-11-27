@@ -23,3 +23,14 @@
 | Robust predictive improvement | pilot.json and activity-control.json | Unsupported; sparse trading without compelling matched-control advantage |
 | Original remote tests completed | final-summary.json unavailable | UNKNOWN on October 14 |
 | CCF A submission-ready original paper | research completion gates | Not achieved |
+
+
+## 2026-11-27 update (supersedes historical pending rows above)
+
+| Claim | Evidence | Status / limitation |
+|---|---|---|
+| ETH reference seed 12345 rounds to 39.28% | recovered final-summary.json; summary-verification.json | Summary and arithmetic verified; per-trial artifacts pending |
+| Combined outperforms reference | same six paired rows | Rejected on this period: -38.177387 pp mean difference |
+| Nine causal diagnostic tests pass | v2 results/screen-001/tests.log | Engineering property only |
+| Conditional delayed weighting improves trading | v2 synthetic diagnostic | Unsupported; only constructed MSE effects, not RL or trading |
+| Full CCF A manuscript readiness | research gates | Not achieved |

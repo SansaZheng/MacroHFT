@@ -1,0 +1,155 @@
+{
+  "status": "completed",
+  "scope": "ETH hyper-agent retraining using six authors-released subagent checkpoints; other markets and from-scratch subagent training remain unreproduced",
+  "selection": {
+    "selected_variant": "combined",
+    "validation_return_pct": {
+      "reference": 28.038337327553467,
+      "combined": 44.60615000026378,
+      "action_memory": 29.27955983352853,
+      "cost_aligned": 41.95107790003124
+    },
+    "criterion": "maximum full-validation return over 15 epochs on seed 12345 only; tie order combined, action_memory, cost_aligned",
+    "test_used_for_selection": false,
+    "additional_seed_scores_used_for_selection": false,
+    "seeds": [
+      12345,
+      2024,
+      42
+    ],
+    "frozen_at": "2026-10-02T15:49:27.983426+08:00",
+    "reference_checkpoint_sha256": "fb1a3114962d1d698bdda83c07228f20eb44231fa85b5a0a47eb4175d41a5ce8",
+    "combined_checkpoint_sha256": "78952e7b6e73c55295248ca6f04d3215b49655a54b11e03e5469c2f1c1a03b4c"
+  },
+  "published_eth_return_pct": 39.28,
+  "test_results": [
+    {
+      "variant": "reference",
+      "seed": 12345,
+      "return_pct": 39.28082734568347,
+      "profit": 142.2163908,
+      "required_capital": 362.05039560000006,
+      "fees": 2.6756092,
+      "buys": 20,
+      "position_changes": 39,
+      "rows": 219960,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 9.673423278080062,
+      "annual_volatility_pct": 20.932022761064513,
+      "annual_sharpe": 3.8868292392334185,
+      "annual_calmar": 8.410590104990504,
+      "annual_sortino": 3.134699223303735
+    },
+    {
+      "variant": "combined",
+      "seed": 12345,
+      "return_pct": 0.8116245884255114,
+      "profit": 3.3296732000001157,
+      "required_capital": 410.2479456,
+      "fees": 5.936326800000001,
+      "buys": 42,
+      "position_changes": 84,
+      "rows": 219960,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 8.778152425138497,
+      "annual_volatility_pct": 12.645248649208854,
+      "annual_sharpe": 0.21598295950308327,
+      "annual_calmar": 0.31113132862527204,
+      "annual_sortino": 0.0947956176445107
+    },
+    {
+      "variant": "reference",
+      "seed": 2024,
+      "return_pct": 39.687666950860255,
+      "profit": 143.68935520000002,
+      "required_capital": 362.05039560000006,
+      "fees": 2.6806448,
+      "buys": 20,
+      "position_changes": 39,
+      "rows": 219960,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 9.32293643763973,
+      "annual_volatility_pct": 20.575915995929748,
+      "annual_sharpe": 3.9843781560744196,
+      "annual_calmar": 8.793606047169407,
+      "annual_sortino": 3.2015134085476498
+    },
+    {
+      "variant": "combined",
+      "seed": 2024,
+      "return_pct": 0.6663777053507226,
+      "profit": 2.829546400000197,
+      "required_capital": 424.61600639999995,
+      "fees": 6.854453600000001,
+      "buys": 49,
+      "position_changes": 98,
+      "rows": 219960,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 13.308719758545816,
+      "annual_volatility_pct": 14.096956398021694,
+      "annual_sharpe": 0.1830501001914362,
+      "annual_calmar": 0.19389162352714026,
+      "annual_sortino": 0.10185509354366148
+    },
+    {
+      "variant": "reference",
+      "seed": 42,
+      "return_pct": 34.08910590898962,
+      "profit": 123.41974279999994,
+      "required_capital": 362.05039560000006,
+      "fees": 2.5442572,
+      "buys": 19,
+      "position_changes": 37,
+      "rows": 219960,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 9.32293643763973,
+      "annual_volatility_pct": 20.805870833968736,
+      "annual_sharpe": 3.472832592205074,
+      "annual_calmar": 7.7502734063162135,
+      "annual_sortino": 2.7529043558151054
+    },
+    {
+      "variant": "combined",
+      "seed": 42,
+      "return_pct": -2.952562195554738,
+      "profit": -12.040890799999943,
+      "required_capital": 407.8115888000001,
+      "fees": 4.886890800000001,
+      "buys": 35,
+      "position_changes": 70,
+      "rows": 219960,
+      "return_definition": "upstream profit / ex-post maximum cash requirement; terminal position marked to market without liquidation fee",
+      "max_drawdown_pct": 7.288631147991998,
+      "annual_volatility_pct": 11.136451983622544,
+      "annual_sharpe": -0.5873576772732847,
+      "annual_calmar": -0.8974360805688536,
+      "annual_sortino": -0.20679041112031357
+    }
+  ],
+  "aggregate": {
+    "reference": {
+      "mean_return_pct": 37.68586673517778,
+      "sample_std_return_pct": 3.121521415381672,
+      "seed_returns_pct": [
+        39.28082734568347,
+        39.687666950860255,
+        34.08910590898962
+      ],
+      "seeds": 3
+    },
+    "combined": {
+      "mean_return_pct": -0.49151996725950137,
+      "sample_std_return_pct": 2.1325620275504353,
+      "seed_returns_pct": [
+        0.8116245884255114,
+        0.6663777053507226,
+        -2.952562195554738
+      ],
+      "seeds": 3
+    }
+  },
+  "candidate_mean_exceeds_published": false,
+  "candidate_mean_exceeds_reproduced_reference": false,
+  "completed_at": "2026-10-03T04:02:27.211106+08:00",
+  "comparability_warning": "Same date splits and simulator fee. Simulator uses ex-post required capital; released expert training provenance and feature generation are not independently reconstructed. New hosts use a private PyTorch 2.8 CPU build; original c225 trials retain their running runtime. Additional seed scores were excluded from candidate selection. Seed dispersion is not statistical significance."
+}

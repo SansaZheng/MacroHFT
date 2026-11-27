@@ -1,5 +1,5 @@
 {
-  "revision": 7,
+  "revision": 8,
   "project_path": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
   "venue": {
     "name": "KDD research track (provisional)",
@@ -10,9 +10,10 @@
   },
   "research": {
     "topic": "MacroHFT regime-aware cryptocurrency trading",
-    "route_id": "cost-transport-memory-v1",
-    "route": "Audit completed reproduction; investigate cost-transported causal memory under regime shift; hypotheses provisional",
-    "method_name": null
+    "route_id": "delayed-memory-validity-v2",
+    "route": "Causal paired-error diagnostic for conditional memory validity under delayed feedback; baseline screen, novelty unproven",
+    "method_name": null,
+    "hypothesis": "Matured local paired prediction errors can identify spatially restricted stale memory; advantage over an equivalent contextual online weighting baseline is explicitly unproven."
   },
   "compute": {
     "authorized_hosts": [
@@ -30,7 +31,7 @@
     "priority": "minimize_wall_clock",
     "vast_total_usd_cap": null,
     "vast_max_runtime_hours": null,
-    "local_pilot_max_new_data_mb": 200,
+    "local_pilot_max_new_data_mb": 2,
     "cq_enabled": true,
     "cq_disabled_by_user_on": "2026-10-15",
     "cq_policy": "Use CQ for authorized MacroHFT research. Verify queue, resources and inputs before submission; do not restart cancelled jobs from other projects. Preserve artifacts and other users work. No paid cloud usage without a confirmed project budget.",
@@ -39,7 +40,9 @@
     "cq_home": {
       "name": "macrohft-recovery",
       "from": "c224"
-    }
+    },
+    "local_policy": "Code-only sparse checkout. Small synthetic diagnostics under two minutes and small evidence receipts allowed; no market data rehydration.",
+    "local_market_max_new_data_mb": 0
   },
   "experiment_targets": {
     "datasets": 10,

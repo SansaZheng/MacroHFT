@@ -1,0 +1,169 @@
+{
+  "id": "j-1127-458f37",
+  "name": "MacroHFT recover six completed trials without test rerun",
+  "work": "MacroHFT",
+  "spec": {
+    "workdir": ".",
+    "env": {
+      "SOURCE_COMMIT": "f988b17918dfbdbc9a0fd24361e83a4e563ab2a4",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "resources": {
+      "gpus": 0,
+      "gpu_mem_gb": 0,
+      "exclusive_gpu": false,
+      "cpus": 1,
+      "ram_gb": 1,
+      "disk_gb": 1,
+      "gpu_models": [],
+      "requires": []
+    },
+    "data": [],
+    "limits": {
+      "max_hours": 0.25,
+      "max_usd": 0,
+      "max_attempts": 1,
+      "max_wait_hours": 1
+    },
+    "placement": {
+      "prefer": [
+        "c225"
+      ],
+      "avoid": [],
+      "never": [
+        "c223",
+        "c219",
+        "c237",
+        "c203",
+        "c220",
+        "c221",
+        "c222",
+        "c227",
+        "c226",
+        "pc4070",
+        "c224"
+      ],
+      "allow_rent": false,
+      "target": "school"
+    },
+    "idempotent": true,
+    "depends_on": [
+      "j-1123-ef9890"
+    ],
+    "priority": 0,
+    "name": "MacroHFT recover six completed trials without test rerun",
+    "work": "MacroHFT",
+    "code": {
+      "git": "git@github.com:SuuTTT/MacroHFT.git",
+      "commit": "f988b17918dfbdbc9a0fd24361e83a4e563ab2a4",
+      "repo": "/home/sudingli/cq-home/macrohft-recovery/repo"
+    },
+    "command": [
+      "python3",
+      "scripts/collect_legacy.py"
+    ],
+    "outputs": {
+      "dest": "/home/sudingli/cq-home/macrohft-recovery/results/six-trial-recovery-20261127",
+      "expect": [
+        {
+          "path": "receipt.json",
+          "contains": "\"collection_complete\": true"
+        },
+        {
+          "path": "receipt.json",
+          "contains": "f988b17918dfbdbc9a0fd24361e83a4e563ab2a4"
+        },
+        {
+          "path": "files/results/final-summary.json",
+          "contains": "\"status\": \"completed\""
+        },
+        {
+          "path": "progress.log",
+          "contains": "77/77"
+        }
+      ],
+      "progress": {
+        "path": "progress.log",
+        "stall_min": 5
+      },
+      "direct": false
+    },
+    "resource_basis": {
+      "scope": "Read existing six trial metrics, models and source; hash existing trajectory arrays; no training or new evaluation",
+      "bounds": "16 MiB per file, 64 MiB copied bytes, 10-second per-read deadline; single CPU; 1 GB RAM/disk includes conservative overhead",
+      "prior_inventory_peak_rss_kib": 14112,
+      "capacity_checked": "c225 593 GB local disk; c224 home 45 GB local disk; no shared-disk data paths"
+    },
+    "home": {
+      "name": "macrohft-recovery",
+      "from": "c224"
+    }
+  },
+  "spec_sha": "cba5a79ba0524f512ec1728aa20ecad5ae7ff7cd6881d6d6df0f450c89b3c06d",
+  "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+  "state": "assigned",
+  "reason": "assigned to c225; copying project macrohft-recovery from c224 to c225",
+  "host": "c225",
+  "gpu": null,
+  "priority": 0,
+  "attempts": 0,
+  "lease_id": "93a7eb5e9ab64241847af63abc139982",
+  "lease_until": 1795776613.198268,
+  "created": 1795775877.646399,
+  "updated": 1795776313.2034502,
+  "started": null,
+  "finished": null,
+  "exit_code": null,
+  "detail": null,
+  "avoid": {},
+  "attempt_dir": null,
+  "last_hb": null,
+  "progress": null,
+  "progress_at": null,
+  "gpu_mem_mib": null,
+  "gpu_pids": null,
+  "limit_rev": null,
+  "mem_peak_mib": null,
+  "shared_max": null,
+  "shared_sum": null,
+  "hb_n": null,
+  "brief": {
+    "id": "j-1127-458f37",
+    "name": "MacroHFT recover six completed trials without test rerun",
+    "work": "MacroHFT",
+    "state": "assigned",
+    "host": "c225",
+    "agent_id": "codex-01a0f936-6622-7c52-83fd-6fb377bbbc06",
+    "attempt_dir": null,
+    "last_heartbeat_s": null,
+    "progress_lines": null,
+    "avoiding": [],
+    "gpu": null,
+    "agent": "MacroHFT",
+    "reason": "assigned to c225; copying project macrohft-recovery from c224 to c225",
+    "attempts": 0,
+    "submitted": "2026-11-27T10:37:57Z",
+    "started": null,
+    "phase": null,
+    "provider_status": null,
+    "provider_error": null,
+    "colab_metering": null,
+    "execution": null,
+    "transport_errors": null,
+    "first_transport_error": null,
+    "collection": null,
+    "progress": {
+      "log_age_seconds": null,
+      "stage_age_seconds": null
+    }
+  },
+  "staging": null,
+  "dispatch": {
+    "at": 1795776248.9758358,
+    "edge": "c225",
+    "lease_id": "93a7eb5e9ab64241847af63abc139982",
+    "first_in_reply": true,
+    "batch_size": 2
+  },
+  "ram": null
+}

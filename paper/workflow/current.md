@@ -1,59 +1,44 @@
-# Authorized compute fork recovery
+# Current research state — 2026-11-27
 
-Prompt 008/008b; executor Codex/CQ; configuration revision 7.
-Canonical archive: https://github.com/SansaZheng/MacroHFT .
-Compute fork: https://github.com/SuuTTT/MacroHFT .
-The owner allowlist barrier is resolved. Both main branches were verified at
-`6c88b87be654014b9b27e32d5cb51df8021093e0` before this status update.
-Both runtime branches are at `f3c7d1c44b3acaae94a1c3cf7df192425fefbdf5`.
+Executor: Codex/CQ. Configuration revision 8. KDD provisional.
+Route: delayed-memory-validity-v2, diagnostic only; novelty unproven.
 
-## Job snapshot
+## Completed this invocation
 
-Checked: 2026-11-23T07:31:30.371495+00:00
+- Retrieved completed c224/c225 CQ inventories. Recovered four original JSON
+  files with exact source SHA-256/size matches, including the final ETH summary.
+- Recomputed six trial returns/aggregates. Reference mean 37.685867%, combined
+  mean -0.491520%; paired mean difference -38.177387 percentage points. Reference
+  seed 12345 is 39.280827%, rounding to the published 39.28%. ETH hyper-agent
+  scope only; individual trial/checkpoint reconciliation is still pending.
+- Implemented a causal delayed-feedback baseline ledger; nine tests passed.
+  Frozen synthetic diagnostic: 240 streams x five predictors, 1200 score rows,
+  8.773 seconds. Local conditioning helps the constructed local/recurrent cases
+  and hurts stationary/global cases. No market performance or novelty claim.
+- Source audit distinguishes market/event staleness, representation updates,
+  stale bootstrapped Q labels, and cached replay targets. A test-time gate would
+  alter the original protocol because memory is queried during training.
 
-- j-1123-c9445b: queued; waiting: no feasible host (CPU only) — pc4070: GPU jobs only · excluded by placement.never: c203, c219, c220, c221, c222, c223, c225, c227, c237 · c224: last 8 CPUs kept for GPU jobs (8 of 16 booked) · c226: monitor only (windows)
-- j-1123-ef9890: queued; waiting: no feasible host (CPU only) — pc4070: GPU jobs only · excluded by placement.never: c203, c219, c220, c221, c222, c223, c224, c227, c237 · c225: last 96 GB RAM kept for GPU jobs (96 GB free for us) · c226: monitor only (windows)
-- j-1123-124e9b: done; outputs verified (Kaggle, 0.04 h); results in /Users/sudingli/.local/share/cq/kaggle/results/j-1123-124e9b/out; copied to /Users/sudingli/.local/share/cq/kaggle/results/macrohft-runtime-qualification-20261123/pip-bootstrap-fix
+## Active
 
-The two lab inventories read host-specific legacy locations. Their normal CQ
-CPU/RAM reservations block placement; physical availability does not override
-scheduler policy. An administrator assistance request names these two jobs.
-No other jobs or shared policy were modified. No training was launched.
+CQ j-1127-458f37: assigned; assigned to c225; copying project macrohft-recovery from c224 to c225.
+Last checked: 2026-11-27T10:46:00.198593+00:00.
+This is a read-only collection, not a training/evaluation job. It will retrieve
+six checkpoints and per-trial metrics, and hash existing trajectory arrays.
+[Prompt 009](prompts/009-evidence-recovery.md).
 
-The first numerical qualification failed output collection with an unsafe
-archive member; its numerical result is unknown. The second failed private
-venv creation. Cleanup was fixed and two local failure-path tests pass. The
-third uses --without-pip plus a hash-verified immutable official bootstrap
-inside the private job environment. No system Python modification is performed.
-The third job completed: all 10 numerical tests passed (8.740 s test-suite time;
-11.743 s wrapper-measured time; 656,183,296-byte test-child peak RSS). Fetched
-source manifest matches the published branch and both synthetic fixture hashes
-verify. Receipt, package versions, logs and fixtures are archived under
-results/compute-mirror-20261123/j-1123-124e9b. The original simulator emitted
-divide-by-zero warnings in synthetic zero-required-capital cases; these logs
-are preserved. No market-performance result is claimed.
+Stage 010 diagnostic completed; [prompt](prompts/010-delayed-validity-screen.md),
+[report](../../research/delayed-memory-validity-v2/docs/report.md).
 
-GitHub briefly refused to resolve the newest canonical commit in the fork.
-Draft PR #1 made the cross-repository change reviewable; the connector then
-fast-forwarded with expected-head protection. GitHub marked it merged by that
-fast-forward, with no extra merge commit. SSH push to the fork was rejected;
-canonical SSH and the SuuTTT connector remain the respective write routes.
+## Next evidence gates
 
-Only synthetic inputs and six released experts are used by the numerical
-qualification. It is not training, a real-data evaluation, or lab certification.
-The preserved validation-selected experiment protocol is unchanged. Legacy
-final results, method gains and CCF A submission readiness remain unverified.
-66 legacy archive files remain pending; 4 source files were reconstructed.
-Local disk is below 2 GiB, so only small evidence is retrieved; bulk output
-must remain on authorized server storage. Paid compute budget remains unset.
+Verify collected model hashes and per-trial metrics; preserve the negative
+combined result. Before integrated training, implement and compare simple
+value-target refresh, no-memory and equivalent contextual weighting baselines
+under a frozen validation-only protocol. Do not reuse the observed 2023 ETH
+final period for selecting a new method. Reserved 2026 test data remain unseen.
+All-market/from-scratch reproduction, independently established novelty,
+robust market gains and a submission-ready manuscript remain incomplete.
 
-
-## 2026-11-24 — user-requested archival and local cleanup
-
-All locally readable archive content was published and actual GitHub bytes
-verified across main and both qualification branches. The full local data
-checkout and Git object database were replaced by a shallow sparse code and
-documentation checkout at the same path. Training cannot run from this partial
-local checkout without restoring the required artifacts. No remote job,
-experiment result or model was modified. The 66 unavailable iCloud files remain
-preserved and pending. Details: ../../docs/LOCAL-STORAGE.md .
+Local checkout remains sparse; no market data were downloaded. 66 original
+iCloud files remain pending/preserved. No paid compute or other-user job change.

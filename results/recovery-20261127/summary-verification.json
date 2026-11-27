@@ -1,0 +1,40 @@
+{
+  "source_job": "j-1123-ef9890",
+  "method": "JSON contents from CQ inventory reserialized; bytes match remotely recorded SHA256 and size exactly",
+  "recovered_files": [
+    {
+      "source": "results/pipeline-status.json",
+      "path": "results/recovery-20261127/recovered-originals/pipeline-status.json",
+      "size": 55003,
+      "sha256": "3592c074f273f2ff0f5433c712cb2bc1ca46c9fa2bb7a29750f9d03e2912457b"
+    },
+    {
+      "source": "results/selection-frozen.json",
+      "path": "results/recovery-20261127/recovered-originals/selection-frozen.json",
+      "size": 740,
+      "sha256": "555f35683eb08927f7e6c74258df0284227e77c44cfa292840836b578a0bf38b"
+    },
+    {
+      "source": "results/final-summary.json",
+      "path": "results/recovery-20261127/recovered-originals/final-summary.json",
+      "size": 6027,
+      "sha256": "4f59a99958d174e512d9b7f26927d29fa28b014d8dda9db0c460fdae876e074a"
+    },
+    {
+      "source": "results/data-audit.json",
+      "path": "results/recovery-20261127/recovered-originals/data-audit.json",
+      "size": 1062,
+      "sha256": "c6b15633ee1bd2d8249123f861f30fe74193047e01e507419e8439ea59a3db64"
+    }
+  ],
+  "unique_trial_count": 6,
+  "return_arithmetic_verified": true,
+  "aggregate_mean_and_sample_sd_verified": true,
+  "mean_returns_pct": {
+    "reference": 37.68586673517778,
+    "combined": -0.49151996725950137
+  },
+  "paired_difference_pp": -38.17738670243728,
+  "individual_metrics_and_checkpoint_files_verified": false,
+  "new_market_evaluations": 0
+}

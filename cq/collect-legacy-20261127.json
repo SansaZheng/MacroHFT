@@ -1,0 +1,86 @@
+{
+  "name": "MacroHFT recover six completed trials without test rerun",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "f988b17918dfbdbc9a0fd24361e83a4e563ab2a4"
+  },
+  "command": [
+    "python3",
+    "scripts/collect_legacy.py"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 1,
+    "ram_gb": 1,
+    "disk_gb": 1
+  },
+  "limits": {
+    "max_hours": 0.25,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/six-trial-recovery-20261127",
+    "expect": [
+      {
+        "path": "receipt.json",
+        "contains": "\"collection_complete\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "f988b17918dfbdbc9a0fd24361e83a4e563ab2a4"
+      },
+      {
+        "path": "files/results/final-summary.json",
+        "contains": "\"status\": \"completed\""
+      },
+      {
+        "path": "progress.log",
+        "contains": "77/77"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 5
+    }
+  },
+  "resource_basis": {
+    "scope": "Read existing six trial metrics, models and source; hash existing trajectory arrays; no training or new evaluation",
+    "bounds": "16 MiB per file, 64 MiB copied bytes, 10-second per-read deadline; single CPU; 1 GB RAM/disk includes conservative overhead",
+    "prior_inventory_peak_rss_kib": 14112,
+    "capacity_checked": "c225 593 GB local disk; c224 home 45 GB local disk; no shared-disk data paths"
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "f988b17918dfbdbc9a0fd24361e83a4e563ab2a4",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "depends_on": [
+    "j-1123-ef9890"
+  ]
+}

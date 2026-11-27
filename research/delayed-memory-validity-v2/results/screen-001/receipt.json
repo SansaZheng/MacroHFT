@@ -1,0 +1,172 @@
+{
+  "synthetic_only": true,
+  "market_evaluations": 0,
+  "training_performed": false,
+  "protocol_sha256": "a35d3932eacfa2c91d4d760b611530a8e9c806a9b0f562e2e4d880a5790ceb2d",
+  "rows": 1200,
+  "elapsed_seconds": 8.772743458999999,
+  "summary": [
+    {
+      "scenario": "stationary",
+      "delay": 1,
+      "mean_mse": {
+        "memory": 0.009885122295373805,
+        "fallback": 4.006572420417279,
+        "equal_mix": 1.0082287713563265,
+        "global_delayed_weight": 0.010712796508494615,
+        "conditional_delayed_weight": 0.01308618621902134
+      },
+      "paired_local_minus_global_mean": 0.002373389710526727,
+      "paired_difference_sample_sd": 0.00030863999528237587
+    },
+    {
+      "scenario": "stationary",
+      "delay": 16,
+      "mean_mse": {
+        "memory": 0.009885122295373805,
+        "fallback": 4.006572420417279,
+        "equal_mix": 1.0082287713563265,
+        "global_delayed_weight": 0.02316043494881012,
+        "conditional_delayed_weight": 0.025570675297813292
+      },
+      "paired_local_minus_global_mean": 0.002410240349003169,
+      "paired_difference_sample_sd": 0.0010464453175318767
+    },
+    {
+      "scenario": "stationary",
+      "delay": 64,
+      "mean_mse": {
+        "memory": 0.009885122295373805,
+        "fallback": 4.006572420417279,
+        "equal_mix": 1.0082287713563265,
+        "global_delayed_weight": 0.06273473932923423,
+        "conditional_delayed_weight": 0.06563605933027608
+      },
+      "paired_local_minus_global_mean": 0.00290132000104184,
+      "paired_difference_sample_sd": 0.0018285976165160526
+    },
+    {
+      "scenario": "local_switch",
+      "delay": 1,
+      "mean_mse": {
+        "memory": 0.6706935966535229,
+        "fallback": 3.3443808947754285,
+        "equal_mix": 1.0075372457144756,
+        "global_delayed_weight": 0.6715212094304819,
+        "conditional_delayed_weight": 0.06542789363138082
+      },
+      "paired_local_minus_global_mean": -0.6060933157991011,
+      "paired_difference_sample_sd": 0.04751180833199177
+    },
+    {
+      "scenario": "local_switch",
+      "delay": 16,
+      "mean_mse": {
+        "memory": 0.6706935966535229,
+        "fallback": 3.3443808947754285,
+        "equal_mix": 1.0075372457144756,
+        "global_delayed_weight": 0.6839688395494199,
+        "conditional_delayed_weight": 0.08926828612322318
+      },
+      "paired_local_minus_global_mean": -0.5947005534261968,
+      "paired_difference_sample_sd": 0.04631701284096938
+    },
+    {
+      "scenario": "local_switch",
+      "delay": 64,
+      "mean_mse": {
+        "memory": 0.6706935966535229,
+        "fallback": 3.3443808947754285,
+        "equal_mix": 1.0075372457144756,
+        "global_delayed_weight": 0.7235431392659285,
+        "conditional_delayed_weight": 0.1717324933496691
+      },
+      "paired_local_minus_global_mean": -0.5518106459162594,
+      "paired_difference_sample_sd": 0.04572228108314739
+    },
+    {
+      "scenario": "global_switch",
+      "delay": 1,
+      "mean_mse": {
+        "memory": 2.678944755711675,
+        "fallback": 1.3422987205002472,
+        "equal_mix": 1.0106217381059612,
+        "global_delayed_weight": 0.21628738352021287,
+        "conditional_delayed_weight": 0.22068232797596127
+      },
+      "paired_local_minus_global_mean": 0.004394944455748404,
+      "paired_difference_sample_sd": 0.0020350208559424127
+    },
+    {
+      "scenario": "global_switch",
+      "delay": 16,
+      "mean_mse": {
+        "memory": 2.678944755711675,
+        "fallback": 1.3422987205002472,
+        "equal_mix": 1.0106217381059612,
+        "global_delayed_weight": 0.27861710216604496,
+        "conditional_delayed_weight": 0.28311597503650926
+      },
+      "paired_local_minus_global_mean": 0.0044988728704643075,
+      "paired_difference_sample_sd": 0.006670513552949787
+    },
+    {
+      "scenario": "global_switch",
+      "delay": 64,
+      "mean_mse": {
+        "memory": 2.678944755711675,
+        "fallback": 1.3422987205002472,
+        "equal_mix": 1.0106217381059612,
+        "global_delayed_weight": 0.47849454209601533,
+        "conditional_delayed_weight": 0.4859565350922309
+      },
+      "paired_local_minus_global_mean": 0.0074619929962155915,
+      "paired_difference_sample_sd": 0.010756350040127536
+    },
+    {
+      "scenario": "recurring",
+      "delay": 1,
+      "mean_mse": {
+        "memory": 0.3443364088700737,
+        "fallback": 3.670690373658646,
+        "equal_mix": 1.0075133912643597,
+        "global_delayed_weight": 0.345164078183619,
+        "conditional_delayed_weight": 0.11767876214690438
+      },
+      "paired_local_minus_global_mean": -0.2274853160367146,
+      "paired_difference_sample_sd": 0.02273634948590734
+    },
+    {
+      "scenario": "recurring",
+      "delay": 16,
+      "mean_mse": {
+        "memory": 0.3443364088700737,
+        "fallback": 3.670690373658646,
+        "equal_mix": 1.0075133912643597,
+        "global_delayed_weight": 0.35761171618172294,
+        "conditional_delayed_weight": 0.15444319721173558
+      },
+      "paired_local_minus_global_mean": -0.20316851896998733,
+      "paired_difference_sample_sd": 0.02222247734915286
+    },
+    {
+      "scenario": "recurring",
+      "delay": 64,
+      "mean_mse": {
+        "memory": 0.3443364088700737,
+        "fallback": 3.670690373658646,
+        "equal_mix": 1.0075133912643597,
+        "global_delayed_weight": 0.3971860198038761,
+        "conditional_delayed_weight": 0.2783811408362294
+      },
+      "paired_local_minus_global_mean": -0.11880487896764669,
+      "paired_difference_sample_sd": 0.021945235015986272
+    }
+  ],
+  "source_sha256": {
+    "tests/test_gate.py": "432abf8ee9cf82a8608929c231fe4b8848685419e886eb90dfbe0a02a66ab642",
+    "scripts/screen.py": "4407bd71cf196afaa7456b0af4b4c6fb6a9a2bd9950c1003ca90030bf92a7154",
+    "src/gate.py": "69c07aacd24ebbdcd4c25193c2138d362f30a60f9e9df037680e28c6e17cfaa6"
+  },
+  "limitation": "Constructed two-predictor toy with observed context/action and synthetic labels; no claim of RL performance or novelty."
+}

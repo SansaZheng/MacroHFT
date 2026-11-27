@@ -138,3 +138,12 @@ Read-only lab inventories are accepted but await scheduler reservations;
 numerical qualification retries remain separate from training. Current job
 states, evidence and limitations: [current.md](current.md). No scientific
 readiness claim and no automatic restart of legacy training.
+
+
+## 2026-11-27 — recovered negative ETH comparison and v2 diagnostic
+
+The old final result is no longer unknown: exact-hash summary retrieved via CQ;
+reference mean 37.685867%, combined -0.491520%. Raw six-trial reconciliation is
+active in j-1127-458f37. New v2 baseline diagnostic passed nine tests and records
+all 1200 synthetic score rows; it is not a new RL method. See current.md for
+active state, source audit, limitations and next evidence gates.

@@ -1,3 +1,17 @@
+# Latest update — 2026-11-27
+
+Historical ETH final summary has been recovered with exact byte hashes. The
+reference seed 12345 reproduces 39.28% after rounding; the combined modification
+fails (three-seed means 37.685867% vs -0.491520%). Underlying per-trial/model
+reconciliation is pending in CQ j-1127-458f37. No repeated test evaluation.
+See [evidence reconciliation](EVIDENCE-RECONCILIATION-20261127.md).
+
+New delayed-feedback work is a tested diagnostic baseline with mixed synthetic
+results, not a claimed novel RL method or market gain. Current active state is
+[here](../paper/workflow/current.md). Earlier entries below are historical.
+
+---
+
 # Latest update — authorized compute fork
 
 The user authorized SuuTTT/MacroHFT for CQ computation while retaining

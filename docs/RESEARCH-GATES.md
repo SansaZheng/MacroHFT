@@ -5,7 +5,7 @@ acceptance or certify CCF A quality.
 
 | Gate | Present evidence | Remaining work |
 |---|---|---|
-| Reproduction | Pinned upstream, repairs, frozen validation choice | Recover and verify all six final evaluations |
+| Reproduction | Exact-hash six-trial summary recovered; negative combined comparison | Verify underlying per-trial files/checkpoints; extend scope |
 | Data identity | Local source files and audits | Complete bytes archive, remote recovery, upstream feature-causality audit |
 | Originality | Cost-transport prototype | Distinct mechanism and current primary-source novelty review |
 | Effectiveness | Three markets, 84 validation settings | Paired seeds, comparable baselines and stable gains |

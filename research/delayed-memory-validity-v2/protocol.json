@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "registered_before_execution": true,
+  "client_date": "2026-11-27",
+  "scope": "synthetic mechanism diagnostic; no market data or policy training",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps": 1200,
+  "switch_at": 400,
+  "scenarios": [
+    "stationary",
+    "local_switch",
+    "global_switch",
+    "recurring"
+  ],
+  "delays": [
+    1,
+    16,
+    64
+  ],
+  "baselines": [
+    "memory",
+    "fallback",
+    "equal_mix",
+    "global_delayed_weight",
+    "conditional_delayed_weight"
+  ],
+  "half_life": 64,
+  "temperature": 0.1,
+  "loss_clip": 4,
+  "noise_sd": 0.1,
+  "hyperparameter_search": false,
+  "decision_order": "Settle only outcomes available by t; issue predictions at t; outcomes cannot be settled until availability timestamp. Scoring y_t is isolated from method state.",
+  "conditioning": "two observable contexts crossed with an externally supplied action label; no policy selection and no hidden regime label",
+  "primary_metric": "mean squared prediction error; report all conditions and seed dispersion",
+  "limitations": [
+    "Synthetic evidence cannot establish trading gains or novelty.",
+    "Equivalent contextual expert weighting remains an essential stronger baseline.",
+    "No confidence guarantee from correlated delayed errors.",
+    "Feedback for unchosen actions is not assumed available in RL integration."
+  ]
+}

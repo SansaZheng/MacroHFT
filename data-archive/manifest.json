@@ -106,14 +106,15 @@
     {
       "path": "docs/RESEARCH-GATES.md",
       "storage": "git",
-      "size": 2204,
-      "sha256": "5f13ca3d2a6c28b23d027c45ce30e0dc07743df1d195a494640386e02c7a5eaa"
+      "size": 2237,
+      "sha256": "8ecf33b26bcd9a02abebb58d3f0417b0e740e44df9408c543242e47d38241835",
+      "previous_snapshot_sha256": "5f13ca3d2a6c28b23d027c45ce30e0dc07743df1d195a494640386e02c7a5eaa"
     },
     {
       "path": "docs/STATUS.md",
       "storage": "git",
-      "size": 3866,
-      "sha256": "33eaa9f614fd72a863ac89ed5a146195d031223630e64d54c97c3ed51d1bedb0",
+      "size": 4518,
+      "sha256": "466e71a8d1dcccb58385e995abd371c3cbd98648a346efc51a3f2c35a37f4f4c",
       "previous_snapshot_sha256": "749e2137effde38a05efff0cae3947991bcf0ff02f79339bfabea942a7f7153d"
     },
     {
@@ -154,14 +155,15 @@
     },
     {
       "path": "paper/workflow/claim-map.md",
-      "size": 1812,
-      "sha256": "c75436b356cde981bf716218d2edf228d161a61652d5b1fae5137c6d9a369e5d",
-      "storage": "git"
+      "size": 2526,
+      "sha256": "d4b20ec95e08cdbce9815968e3530285059077935e940be75494249bff90beb9",
+      "storage": "git",
+      "previous_snapshot_sha256": "c75436b356cde981bf716218d2edf228d161a61652d5b1fae5137c6d9a369e5d"
     },
     {
       "path": "paper/workflow/config-changes.md",
-      "size": 1233,
-      "sha256": "c57b6e2490364ad4c6116e58250ca8eb014983fa350c8a7ad4ddb2ec7f5baa38",
+      "size": 1561,
+      "sha256": "17c8bd28aca9d873bf5be51a345bc390cf535ce9ff662749eeb81b53e8a3cc84",
       "storage": "git",
       "previous_snapshot_sha256": "a9007133446799174cf619183ef2018233491c0aae3220e230f2a1624be60139"
     },
@@ -203,22 +205,22 @@
     },
     {
       "path": "paper/workflow/config.json",
-      "size": 2382,
-      "sha256": "919424c83f739fefe7d055534587aa87370295878df9ff64943e875073022104",
+      "size": 2785,
+      "sha256": "1b747f38eafdaf97b1111e1d7d07f6650e9e152005677eaaa3457c0f9ba804fd",
       "storage": "git",
       "previous_snapshot_sha256": "a74abee1a5b9dc4739afcec22f85f963c43f1ad9fa0ce91f8242d1618a7a42e8"
     },
     {
       "path": "paper/workflow/current.md",
-      "size": 3974,
-      "sha256": "e1e8b8938f59af19d324f7310cda0f0087e62e6ef01bfe39e25aff43ea77e952",
+      "size": 2445,
+      "sha256": "23c0a5d48b2aa28b89ab82fa961af6b7a6c4b97f2292891efe5841e48eff0a01",
       "storage": "git",
       "previous_snapshot_sha256": "2adb1d9247514cc3b3a4d1664a15504756c0d3a03d7a593e92dd44ee48273934"
     },
     {
       "path": "paper/workflow/events.jsonl",
-      "size": 11467,
-      "sha256": "51b8bb32d0136c3747f7272627a988e7bbd26665f7dfbb5ee6b679987716afad",
+      "size": 12492,
+      "sha256": "4f1444f1db726ad6257e20d101177667db5d2df5e04010c672c9e636a3140b83",
       "storage": "git",
       "previous_snapshot_sha256": "faf7848379a058bbe434ba83872a3cf87d915d01bdbe74d54662300d351f04ee"
     },
@@ -308,8 +310,8 @@
     },
     {
       "path": "paper/workflow/state.md",
-      "size": 10844,
-      "sha256": "ed3eeeb9564646fb1448c4a2ac4d75834745cf96d1295212da8705b97f21770a",
+      "size": 11301,
+      "sha256": "401d7828ab1f5e25d187ca31180c7bee9adb8c86adb9d2bf86933aae2c8ceee9",
       "storage": "git",
       "previous_snapshot_sha256": "fcc4cdde6d7c6399e0ab3ace9ef5951819e33c47b3e07ffadf49e1a273bd69b1"
     },
@@ -3501,6 +3503,180 @@
       "storage": "git",
       "size": 18722,
       "sha256": "3f8d91d1e906ac42cd0505fc7dc2458308a8cff42820bd93603b39a279b9db69"
+    },
+    {
+      "path": "cq/collect-legacy-20261127.json",
+      "storage": "git",
+      "size": 2032,
+      "sha256": "0032de3c34adf4074cbafbce367612ac380eb87c132bb542d586ed9eee035564"
+    },
+    {
+      "path": "cq/verify_recovered.py",
+      "storage": "git",
+      "size": 3176,
+      "sha256": "04cd9360c1a08d9eca6e1b8c675dc3b5ece126d5d48737c5075d5d8baacc8007"
+    },
+    {
+      "path": "docs/EVIDENCE-RECONCILIATION-20261127.md",
+      "storage": "git",
+      "size": 3175,
+      "sha256": "7356d906fda45cec48ca34e439fd5b9a2cdbb3bc47e61a7b4833566a905d21fd"
+    },
+    {
+      "path": "docs/NOVELTY-UPDATE-20261127.md",
+      "storage": "git",
+      "size": 1824,
+      "sha256": "bced7bfc4c1f674d4d541bef56871dfa62e7a72dff398674787893b5293dd611"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-7-before-delayed-validity.json",
+      "storage": "git",
+      "size": 2382,
+      "sha256": "919424c83f739fefe7d055534587aa87370295878df9ff64943e875073022104"
+    },
+    {
+      "path": "paper/workflow/prompts/009-evidence-recovery.md",
+      "storage": "git",
+      "size": 1447,
+      "sha256": "03313fcd3a4a825940334b6e67b42cd14cf5dbc1d2c3f8450c0865744950f145"
+    },
+    {
+      "path": "paper/workflow/prompts/010-delayed-validity-screen.md",
+      "storage": "git",
+      "size": 788,
+      "sha256": "b7bb30111df771910f5387bc35319c9bd305e22193bbfc1a0c445e06b704d619"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/docs/impact.md",
+      "storage": "git",
+      "size": 782,
+      "sha256": "e68535cff3901b78d81c8042c8721c6c6204d5d129c91228b983ba21014d5005"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/docs/integration-audit.md",
+      "storage": "git",
+      "size": 2487,
+      "sha256": "5940a897b78b369620ff1f06688f831c809c91d7d62b5385b663fab8197f2f6b"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/docs/report.md",
+      "storage": "git",
+      "size": 3690,
+      "sha256": "7a7a19a8eb1667ad159ce1d23710305df742aab98b9cb84d2ab26522e5c2f405"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/protocol.json",
+      "storage": "git",
+      "size": 1497,
+      "sha256": "a35d3932eacfa2c91d4d760b611530a8e9c806a9b0f562e2e4d880a5790ceb2d"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/results/screen-001/receipt.json",
+      "storage": "git",
+      "size": 6012,
+      "sha256": "edd438f438d1c6ea4c15a8cbfd6e89e9c2b8f6c17b6acfba3d712300a51fc132"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/results/screen-001/synthetic-scores.csv",
+      "storage": "git",
+      "size": 85990,
+      "sha256": "ae6a0914757e34a5b61e66c204e81aa5266d86858121c27970a311e1fa70d16d"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/results/screen-001/tests.log",
+      "storage": "git",
+      "size": 107,
+      "sha256": "d9d734ee1c2de67b748aeef1c4126433aa438ad8375ca953916f12b1df11414d"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/scripts/screen.py",
+      "storage": "git",
+      "size": 3883,
+      "sha256": "4407bd71cf196afaa7456b0af4b4c6fb6a9a2bd9950c1003ca90030bf92a7154"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/src/gate.py",
+      "storage": "git",
+      "size": 3122,
+      "sha256": "69c07aacd24ebbdcd4c25193c2138d362f30a60f9e9df037680e28c6e17cfaa6"
+    },
+    {
+      "path": "research/delayed-memory-validity-v2/tests/test_gate.py",
+      "storage": "git",
+      "size": 2861,
+      "sha256": "432abf8ee9cf82a8608929c231fe4b8848685419e886eb90dfbe0a02a66ab642"
+    },
+    {
+      "path": "results/recovery-20261127/j-1123-c9445b/inventory.json",
+      "storage": "git",
+      "size": 2382,
+      "sha256": "62948e537d9fdd21edb0a123dfb5ddb9ba713e9d84dc8fb042fe824d7160c373"
+    },
+    {
+      "path": "results/recovery-20261127/j-1123-c9445b/progress.log",
+      "storage": "git",
+      "size": 13,
+      "sha256": "d635fa5f69be50c0577c688a93afe24fc89e80da9019aec3895a232edcb00539"
+    },
+    {
+      "path": "results/recovery-20261127/j-1123-ef9890/inventory.json",
+      "storage": "git",
+      "size": 68405,
+      "sha256": "0e3cc10ca2b361d3cb7f07673ef00164be5e686115e046befec9dd12f7023973"
+    },
+    {
+      "path": "results/recovery-20261127/j-1123-ef9890/progress.log",
+      "storage": "git",
+      "size": 13,
+      "sha256": "d635fa5f69be50c0577c688a93afe24fc89e80da9019aec3895a232edcb00539"
+    },
+    {
+      "path": "results/recovery-20261127/job-j-1127-458f37.json",
+      "storage": "git",
+      "size": 4498,
+      "sha256": "4a4979d378719a945209c113a00b630be4890972deb221860e87225c738f5361"
+    },
+    {
+      "path": "results/recovery-20261127/posthoc-accounting-diagnostic.json",
+      "storage": "git",
+      "size": 1493,
+      "sha256": "a9d050af03f552a71bdaa665c8d99988bca14720f4c03989dbbc48cff0c67fd9"
+    },
+    {
+      "path": "results/recovery-20261127/recovered-originals/data-audit.json",
+      "storage": "git",
+      "size": 1062,
+      "sha256": "c6b15633ee1bd2d8249123f861f30fe74193047e01e507419e8439ea59a3db64"
+    },
+    {
+      "path": "results/recovery-20261127/recovered-originals/final-summary.json",
+      "storage": "git",
+      "size": 6027,
+      "sha256": "4f59a99958d174e512d9b7f26927d29fa28b014d8dda9db0c460fdae876e074a"
+    },
+    {
+      "path": "results/recovery-20261127/recovered-originals/pipeline-status.json",
+      "storage": "git",
+      "size": 55003,
+      "sha256": "3592c074f273f2ff0f5433c712cb2bc1ca46c9fa2bb7a29750f9d03e2912457b"
+    },
+    {
+      "path": "results/recovery-20261127/recovered-originals/selection-frozen.json",
+      "storage": "git",
+      "size": 740,
+      "sha256": "555f35683eb08927f7e6c74258df0284227e77c44cfa292840836b578a0bf38b"
+    },
+    {
+      "path": "results/recovery-20261127/recovered-test-results.csv",
+      "storage": "git",
+      "size": 701,
+      "sha256": "b05210ab3c1f0b733512de5fa162ebe7040d207f86b8224efc65a53d53d120fc"
+    },
+    {
+      "path": "results/recovery-20261127/summary-verification.json",
+      "storage": "git",
+      "size": 1512,
+      "sha256": "fae4674513a1c3d1a379bda4df7299c84308e34725ecf4818390182a7d234a33"
     }
   ],
   "excluded": [
