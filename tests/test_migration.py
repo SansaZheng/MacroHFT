@@ -25,6 +25,16 @@ class MigrationResumeTests(unittest.TestCase):
             current['assets'][0]['files'][0]['sha256']='e'*64;save(root/'source.json',current)
             with self.assertRaises(ValueError):resume_manifest(root/'source.json',root/'saved.json')
 
+    def test_relabelled_seed_is_not_accepted_for_identical_weights(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            source={'schema_version':1,'assets':[{'id':'model','repo_id':'owner/repo',
+                'repo_type':'model','code_commit':'a'*40,'status':'pending_authentication',
+                'upload_authorization':'approved_private','revision':None,'seed':12345,'files':[]}]}
+            save(root/'saved.json',source)
+            source['assets'][0]['seed']=42;save(root/'source.json',source)
+            with self.assertRaises(ValueError):resume_manifest(root/'source.json',root/'saved.json')
+
     def test_revoked_authorization_blocks_a_resume(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder)

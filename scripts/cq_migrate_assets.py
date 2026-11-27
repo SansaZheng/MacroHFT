@@ -26,8 +26,11 @@ def resume_manifest(committed, saved):
     old = validate(read(saved))
     def identities(m):
         return {a['id']: (a['repo_id'], a['repo_type'], a['code_commit'],
-                         [(f['path'], f['size'], f['sha256']) for f in a['files']
-                          if f.get('role') != 'documentation']) for a in m['assets']}
+                         [(f['path'], f['size'], f['sha256'], f.get('source_path'), f.get('runtime_path'))
+                          for f in a['files'] if f.get('role') != 'documentation'],
+                         {key:a.get(key) for key in ['seed','configuration','evaluation_metrics',
+                          'source_archive_commit','requires','license','code_identity_note']})
+                for a in m['assets']}
     if identities(current) != identities(old):
         raise ValueError('Resume source identities changed; preserve old state')
     if any(a.get('upload_authorization') != 'approved_private' for a in current['assets']):
