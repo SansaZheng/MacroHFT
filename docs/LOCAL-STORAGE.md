@@ -1,3 +1,7 @@
+> Historical procedure. Its assets live at commit
+> `23a4d58191b223227c142fa715bec104bb9e97c0`, not the current code-only tree.
+> Use [the remote/HF workflow](storage/WORKFLOW.md) for new work.
+
 # Local storage after archival
 
 The user requested publication and removal of local MacroHFT data on

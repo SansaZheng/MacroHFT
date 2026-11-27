@@ -1,0 +1,601 @@
+{
+  "source_root": "/Users/zyy/Documents/ChatGPT/FinancialAD/macrohft",
+  "read_only": true,
+  "files": [
+    {
+      "path": "docs/legacy-tooling/restore_archive-v1.py",
+      "prior_status": "pending",
+      "expected_size": 3873,
+      "exists_at_original_path": false
+    },
+    {
+      "path": "docs/legacy-tooling/test_archive-v1.py",
+      "prior_status": "pending",
+      "expected_size": 2813,
+      "exists_at_original_path": false
+    },
+    {
+      "path": "paper/workflow/config-history/revision-3-before-research-upgrade.json",
+      "prior_status": "pending",
+      "expected_size": 787,
+      "resident": true,
+      "size": 787,
+      "sha256": "cd29d6a5379620b8aa4382daeb431bfdbe13b6a591e9e3c92fc0d6f479c75e5e",
+      "size_matches": true,
+      "new_code_archive_path": "docs/storage/recovered-legacy/paper/workflow/config-history/revision-3-before-research-upgrade.json"
+    },
+    {
+      "path": "paper/workflow/config-history/revision-4-before-cq-resume.json",
+      "prior_status": "pending",
+      "expected_size": 1521,
+      "resident": true,
+      "size": 1521,
+      "sha256": "75c9e7a972ce5c6805ca95ea28462407cd08324073c055b22f6c20b25e86ede0",
+      "size_matches": true,
+      "new_code_archive_path": "docs/storage/recovered-legacy/paper/workflow/config-history/revision-4-before-cq-resume.json"
+    },
+    {
+      "path": "paper/workflow/evidence-audit.md",
+      "prior_status": "pending",
+      "expected_size": 7296,
+      "resident": true,
+      "size": 7296,
+      "sha256": "652e5167b5b7317359e54c13ec35aab31a9728df8757705e916d59a5dabea944",
+      "size_matches": true,
+      "new_code_archive_path": "docs/storage/recovered-legacy/paper/workflow/evidence-audit.md"
+    },
+    {
+      "path": "paper/workflow/experiment-report.md",
+      "prior_status": "pending",
+      "expected_size": 8950,
+      "resident": true,
+      "size": 8950,
+      "sha256": "3cfadf476df19e1943634ded3fa24f5645d199eeb9c5e5e428bcb2ad59a84b81",
+      "size_matches": true,
+      "new_code_archive_path": "docs/storage/recovered-legacy/paper/workflow/experiment-report.md"
+    },
+    {
+      "path": "paper/workflow/prompts/006-cq-resume.md",
+      "prior_status": "pending",
+      "expected_size": 1248,
+      "resident": true,
+      "size": 1248,
+      "sha256": "addc76247815b6185cde4227f410bca31e5cf1ab80a5addc13805f5e07285827",
+      "size_matches": true,
+      "new_code_archive_path": "docs/storage/recovered-legacy/paper/workflow/prompts/006-cq-resume.md"
+    },
+    {
+      "path": "paper/workflow/results.csv",
+      "prior_status": "pending",
+      "expected_size": 20322,
+      "resident": true,
+      "size": 20322,
+      "sha256": "dfd91be88d1a57e49e158da51d9d6a0b5cca5ab8a19c2199c1467ca7a7986fdc",
+      "size_matches": true,
+      "new_code_archive_path": "docs/storage/recovered-legacy/paper/workflow/results.csv"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/docs/impact-and-gates.md",
+      "prior_status": "pending",
+      "expected_size": 2866,
+      "resident": true,
+      "size": 2866,
+      "sha256": "cc7852260b7a010ac531e8d48706d4a3fa24a3cdae14ce07264b6394b8552c8c",
+      "size_matches": true,
+      "new_code_archive_path": "docs/storage/recovered-legacy/research/cost-transport-memory-v1/docs/impact-and-gates.md"
+    },
+    {
+      "path": "research/cost-transport-memory-v1/results/pilot-diagnostic.svg",
+      "prior_status": "pending",
+      "expected_size": 95372,
+      "resident": true,
+      "size": 95372,
+      "sha256": "f6ce215d1d4c1836fcd0b6b947a4763b5dc58ac9de56977fe9d86809295a8485",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_0.feather",
+      "prior_status": "pending",
+      "expected_size": 2183410,
+      "resident": true,
+      "size": 2183410,
+      "sha256": "17470707e2d6369a526b87ff47ad776b6221b1f7792f2fcb9e6bbb4a53fb7b56",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_1.feather",
+      "prior_status": "pending",
+      "expected_size": 2185986,
+      "resident": true,
+      "size": 2185986,
+      "sha256": "6b2d6cf49edab63394df210a6eccfc08762aa0be7a99f920ca3632a4456b0035",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_103.feather",
+      "prior_status": "pending",
+      "expected_size": 2143378,
+      "resident": true,
+      "size": 2143378,
+      "sha256": "bac367a09deca5fb06f90a51bcdbb402582d74f0864915fff27100fb73909762",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_105.feather",
+      "prior_status": "pending",
+      "expected_size": 2147010,
+      "resident": true,
+      "size": 2147010,
+      "sha256": "04645fb096804d54b0241c268b31f50697b27089b542a99d810ccb5e9fd719d5",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_112.feather",
+      "prior_status": "pending",
+      "expected_size": 2116642,
+      "resident": true,
+      "size": 2116642,
+      "sha256": "02a56490cf1086fed06bd31337ac3d6703acf6044dcfb18c90a472d180146d0d",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_115.feather",
+      "prior_status": "pending",
+      "expected_size": 2163418,
+      "resident": true,
+      "size": 2163418,
+      "sha256": "7a3d67cbe4754aada1e217db9f6e2c9a0d7553263603f3e449cdac422492ac87",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_16.feather",
+      "prior_status": "pending",
+      "expected_size": 2180178,
+      "resident": true,
+      "size": 2180178,
+      "sha256": "d715471cbe4c4d4cf36ca19e75234cf0b155161977c2fea6db0d86b758c7d09e",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_18.feather",
+      "prior_status": "pending",
+      "expected_size": 2181906,
+      "resident": true,
+      "size": 2181906,
+      "sha256": "0affc6234c6e475a0af79eec6c19bf01bb80a5b536446df38074a7976d6e9e44",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_19.feather",
+      "prior_status": "pending",
+      "expected_size": 2184618,
+      "resident": true,
+      "size": 2184618,
+      "sha256": "5ee58b57f5063d4c40b976c09e42cba7a3b79e52aa1469908bd81338f30e76aa",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_2.feather",
+      "prior_status": "pending",
+      "expected_size": 2189450,
+      "resident": true,
+      "size": 2189450,
+      "sha256": "5dc6d782240f64c1a3647609d24987c90b8ebd2ea4d17da52ae2d781463ae20f",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_20.feather",
+      "prior_status": "pending",
+      "expected_size": 2180218,
+      "resident": true,
+      "size": 2180218,
+      "sha256": "e91a5662a39ac686b6df1207d1c66fb90f65bbfa683dd8844022b0485ade622e",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_25.feather",
+      "prior_status": "pending",
+      "expected_size": 2178762,
+      "resident": true,
+      "size": 2178762,
+      "sha256": "a54f5f50e3c1f4be55be84f46be90a21c787a860f196f35051ecd23e62a32bc7",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_29.feather",
+      "prior_status": "pending",
+      "expected_size": 2178802,
+      "resident": true,
+      "size": 2178802,
+      "sha256": "bd1cf13614edc79ad19f0ac5f306c2d09d25bfe56cc3dfa25b27374ce3af0778",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_30.feather",
+      "prior_status": "pending",
+      "expected_size": 2180082,
+      "resident": true,
+      "size": 2180082,
+      "sha256": "e52e9282bd0d04fa51ce4383a6f579065233b25690ba49304b8cd76df4dee4fd",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_36.feather",
+      "prior_status": "pending",
+      "expected_size": 2160802,
+      "resident": true,
+      "size": 2160802,
+      "sha256": "fb7bd1e3147b12453f8e11d0018660f67f23b09252518662c74e253b3d09763a",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_38.feather",
+      "prior_status": "pending",
+      "expected_size": 2172178,
+      "resident": true,
+      "size": 2172178,
+      "sha256": "298afc6c3ff06cc2abfe2b33ea2d53e4a0cc44ee9fbd84a36560cb48745f5b62",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_39.feather",
+      "prior_status": "pending",
+      "expected_size": 2171538,
+      "resident": true,
+      "size": 2171538,
+      "sha256": "b6ed16ad5dec6de7339ce6965f7529d1085f3d1295ee99bce4f2529b9e5ee64f",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_42.feather",
+      "prior_status": "pending",
+      "expected_size": 2164234,
+      "resident": true,
+      "size": 2164234,
+      "sha256": "f23e80c70a9a89f749a547e2686a4aad6f48daa53a05f9b3363653cba19a900c",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_45.feather",
+      "prior_status": "pending",
+      "expected_size": 2181818,
+      "resident": true,
+      "size": 2181818,
+      "sha256": "d2ac2c3d7d21bf323a8b6c17aa264c12fdc9daee42d67f65c6ae4406e7e7a1a4",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_47.feather",
+      "prior_status": "pending",
+      "expected_size": 2171626,
+      "resident": true,
+      "size": 2171626,
+      "sha256": "e5d27ad3daaba1378f30c8af7e64132ae8ddc553804b45a4fd34a42fde94b12d",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_52.feather",
+      "prior_status": "pending",
+      "expected_size": 2159330,
+      "resident": true,
+      "size": 2159330,
+      "sha256": "b03ad1c2e45387959d90bc2dd8bdcbf3bb56336056762080875f816e31322817",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_55.feather",
+      "prior_status": "pending",
+      "expected_size": 2177626,
+      "resident": true,
+      "size": 2177626,
+      "sha256": "0fbd1f5824d10473f1e2c3b01c62c4f8e15a73b3589b425ecba864aaf849bc6b",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_6.feather",
+      "prior_status": "pending",
+      "expected_size": 2187090,
+      "resident": true,
+      "size": 2187090,
+      "sha256": "b22fe626adfb4e4433151e3a313d574addf1a57ba43d2788352728794668f1d8",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_62.feather",
+      "prior_status": "pending",
+      "expected_size": 2163658,
+      "resident": true,
+      "size": 2163658,
+      "sha256": "d9b49297679ea9b77b6535257cabf2f8e691d5da79ab0eaa5d04c42337df59f9",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_63.feather",
+      "prior_status": "pending",
+      "expected_size": 2169178,
+      "resident": true,
+      "size": 2169178,
+      "sha256": "79496312dfdaedb118dc4dc87dc2322640e3ff6f38c8f6ba22fbc0739cb93e4b",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_64.feather",
+      "prior_status": "pending",
+      "expected_size": 2164402,
+      "resident": true,
+      "size": 2164402,
+      "sha256": "130162e83d8bb8584c2a8156fa02af90deb5a37c6620b38c9261ff0e84805843",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_65.feather",
+      "prior_status": "pending",
+      "expected_size": 2163698,
+      "resident": true,
+      "size": 2163698,
+      "sha256": "f5b23bb8537dbb15b7332858de80ca46924a6286360bf8e370f9b37a4d782705",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_68.feather",
+      "prior_status": "pending",
+      "expected_size": 2166458,
+      "resident": true,
+      "size": 2166458,
+      "sha256": "05d526621cb168d8c75ac581d9d78fefc24e3cb10725a81531248de80e936b3a",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_72.feather",
+      "prior_status": "pending",
+      "expected_size": 2168714,
+      "resident": true,
+      "size": 2168714,
+      "sha256": "f999b3cc03aa26560f80920e041fc71cb97daf0bde32d0b2c5cca5d3413ce3d3",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_73.feather",
+      "prior_status": "pending",
+      "expected_size": 2163834,
+      "resident": true,
+      "size": 2163834,
+      "sha256": "d4dfe5c9a23ebc52a7dfb8a076d67bfd1c1e7aefbccad8eb89cb743e97a6d4b8",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_80.feather",
+      "prior_status": "pending",
+      "expected_size": 2148978,
+      "resident": true,
+      "size": 2148978,
+      "sha256": "e638ee83a1f732385b9ce2a3e0b45f961d2cb205c1d71be7a53c335ffb247e72",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_81.feather",
+      "prior_status": "pending",
+      "expected_size": 2150154,
+      "resident": true,
+      "size": 2150154,
+      "sha256": "0dc1527b8cb107621b45a716dccde84cee4b3eb5f4bc4d73502e0a09477ae674",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_87.feather",
+      "prior_status": "pending",
+      "expected_size": 2131266,
+      "resident": true,
+      "size": 2131266,
+      "sha256": "f101a678ada939a47e74c93f71beb7b22a41ab29d5b64816f6722229456380b8",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_90.feather",
+      "prior_status": "pending",
+      "expected_size": 2154618,
+      "resident": true,
+      "size": 2154618,
+      "sha256": "a4801ca1a6927879e7addc39ef9424c0f7bc82a25cd81c7c77ea84accbdffcdd",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_91.feather",
+      "prior_status": "pending",
+      "expected_size": 2154650,
+      "resident": true,
+      "size": 2154650,
+      "sha256": "5fa59a88760e233da6277ff507497455e9b69926e1ee6daf4c1ef1f06fd73c33",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_97.feather",
+      "prior_status": "pending",
+      "expected_size": 2148746,
+      "resident": true,
+      "size": 2148746,
+      "sha256": "7f2cb5adedd8b9d9b0ebc85ed2141323d9c5ade3d202018a7e47a646690160da",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/df_99.feather",
+      "prior_status": "pending",
+      "expected_size": 2147786,
+      "resident": true,
+      "size": 2147786,
+      "sha256": "baf0b99030967644b926894d753f58bf445e32fe4a426ec07a9292e028ede6ab",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/train/vol_labels.pkl",
+      "prior_status": "pending",
+      "expected_size": 278,
+      "resident": true,
+      "size": 278,
+      "sha256": "cd15883bc1769424d6de2c98efe1284d108ec1b686ed1bee5b64ab88855467bf",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_1.feather",
+      "prior_status": "pending",
+      "expected_size": 2140186,
+      "resident": true,
+      "size": 2140186,
+      "sha256": "c8e0b2e013aa09e7a78510546d844934d35e1141fc97b009de231c3285fec4e5",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_11.feather",
+      "prior_status": "pending",
+      "expected_size": 2131770,
+      "resident": true,
+      "size": 2131770,
+      "sha256": "0728483faf81ddddc597634b5b05f3c23a2713e1f05e2eebdfbeabab25824476",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_16.feather",
+      "prior_status": "pending",
+      "expected_size": 2163538,
+      "resident": true,
+      "size": 2163538,
+      "sha256": "6d8f3a4df33a76762168f07782797f6c85e59cc5826d154f9ec925840bff94b7",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_17.feather",
+      "prior_status": "pending",
+      "expected_size": 2088346,
+      "resident": true,
+      "size": 2088346,
+      "sha256": "125709572f29df356ea28336db045f740b1f4a2906a1f1219c4095350ae53844",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_18.feather",
+      "prior_status": "pending",
+      "expected_size": 2157594,
+      "resident": true,
+      "size": 2157594,
+      "sha256": "a4ccd13e94a0a1e7b968eea8e7209e8e7d72be67cd3b899387c9cac16efaab7e",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_19.feather",
+      "prior_status": "pending",
+      "expected_size": 2144314,
+      "resident": true,
+      "size": 2144314,
+      "sha256": "a00441afe13c7fd2c8d2c0fa7cbc5836c97a65926f1264c377450db4b7239a8b",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_21.feather",
+      "prior_status": "pending",
+      "expected_size": 2143394,
+      "resident": true,
+      "size": 2143394,
+      "sha256": "1be45567fe0355b3dffebcb65f3fb71d43d7c7e353f224cc3294911218c5ecb3",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_28.feather",
+      "prior_status": "pending",
+      "expected_size": 2153146,
+      "resident": true,
+      "size": 2153146,
+      "sha256": "4c077e7b64515ada41756cbb76968ddcba16065f147e9eda52c75a8997976752",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_29.feather",
+      "prior_status": "pending",
+      "expected_size": 2125514,
+      "resident": true,
+      "size": 2125514,
+      "sha256": "e06d155695c9643bc214392f9b7cd517c4b6c6e7314e1d8c0e520df12893dcb6",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_31.feather",
+      "prior_status": "pending",
+      "expected_size": 2148522,
+      "resident": true,
+      "size": 2148522,
+      "sha256": "bd37da35e4810bacd2fa800176e76d38d3dcc6501cca3dacc038d34aa37a46e5",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_37.feather",
+      "prior_status": "pending",
+      "expected_size": 2134866,
+      "resident": true,
+      "size": 2134866,
+      "sha256": "51b2a73e7edfa28118149efb8cfa17d3f386564923ffbc298b5119b78039d5e1",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_38.feather",
+      "prior_status": "pending",
+      "expected_size": 2103562,
+      "resident": true,
+      "size": 2103562,
+      "sha256": "72b9468eb0b267b79090b62bf4b717fc4f28c63d997fac29e4e1912080dbec7f",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_39.feather",
+      "prior_status": "pending",
+      "expected_size": 2122770,
+      "resident": true,
+      "size": 2122770,
+      "sha256": "42a3e0c5ed8bc3e1eb52837f23650d416e42c00bdd6d3781a4776a951e154f9b",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_4.feather",
+      "prior_status": "pending",
+      "expected_size": 2154746,
+      "resident": true,
+      "size": 2154746,
+      "sha256": "11c040600a85c8419117d62ce810d6aca8420efd22ec098f5503fe514e01c3a6",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_6.feather",
+      "prior_status": "pending",
+      "expected_size": 2146266,
+      "resident": true,
+      "size": 2146266,
+      "sha256": "a19ff96f362143308da5350555d3a82d30a91db38b324774d201fb073d02cab2",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_7.feather",
+      "prior_status": "pending",
+      "expected_size": 2157586,
+      "resident": true,
+      "size": 2157586,
+      "sha256": "96aaec9df1496942d1c256c0650c987d51f5c32c0e094210b30568ab0a371a02",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/df_8.feather",
+      "prior_status": "pending",
+      "expected_size": 2141338,
+      "resident": true,
+      "size": 2141338,
+      "sha256": "f4827eae0453d25975e1a9a82cf686337689dfccc88d78bbf22796dc7f0c2a7f",
+      "size_matches": true
+    },
+    {
+      "path": "vendor/MacroHFT/data/ETHUSDT/val/slope_labels.pkl",
+      "prior_status": "pending",
+      "expected_size": 112,
+      "resident": true,
+      "size": 112,
+      "sha256": "9d409446a5e94cf842f86cd5eb60af1f77cfd4247d31e5b7aabef272667ff113",
+      "size_matches": true
+    }
+  ]
+}

@@ -17,8 +17,10 @@ an implied `main` revision. Existing private repositories cannot be discovered a
   `data-archive/manifest.json` remains an explicitly historical snapshot, not the current
   Git tree. Use that old commit for old restore/verification tools.
 - The historical original-file inventory describes 1,408,351,584 bytes, including
-  116,639,138 bytes in 66 pending iCloud items. These totals overlap the stored-payload
-  total and must not be added together. Pending placeholders are not independent backups.
+  116,639,138 bytes in 66 historically pending iCloud items. A fresh local read-only
+  audit now recovered hashes for 64 of these (116,632,452 bytes); two legacy-tooling
+  copies are still absent at their recorded paths. These recovered bytes are not yet HF-backed. These totals overlap the stored-payload
+  total and must not be added together. Newly readable local files are not yet independent backups; see `local-pending-audit.json`.
 - c225 original inputs: `/date/zyy/macrohft-reproduction`; prior c224 setup:
   `/date/zyy/macrohft-cluster`. Read-only audit is through CQ. Shared caches and other
   users' jobs are untouched. Only job-specific CQ output directories receive writes.
@@ -83,3 +85,8 @@ The pinned client has no `get_storage_report` API. A quota observation must be t
 from authenticated HF storage settings and recorded with namespace, time, source and
 included free bytes remaining. The uploader refuses observations older than 24 hours
 and requires 10% headroom. No public quota is assumed to be private quota.
+
+The original iCloud project currently occupies about 1.49 GiB on disk, including about
+1.29 GiB under vendor and 169 MiB in its old virtual environment. These are preserved
+until independent backups and asset migration are verified. This differs from the earlier
+mostly-dataless state; metadata and read checks were repeated rather than assumed.

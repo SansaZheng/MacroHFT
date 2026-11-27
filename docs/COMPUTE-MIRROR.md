@@ -1,3 +1,8 @@
+> Storage policy update (2026-11-27): GitHub now stores code and lightweight evidence.
+> Historical asset commits remain intact; new datasets/models belong in verified private HF
+> repositories. Use [the current workflow](storage/WORKFLOW.md) for transfers and storage.
+> Statements below describing GitHub as a data archive refer to the historical setup.
+
 # Compute and archive repositories
 
 The user authorized this arrangement on 2026-11-23:

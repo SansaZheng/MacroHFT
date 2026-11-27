@@ -27,6 +27,7 @@ def prepare(manifest, asset_root, work):
         tar.extractall(work)
     for a in selected:
         for f in a['files']:
+            if f.get('role') == 'documentation': continue
             target=safe(work,f['runtime_path']);target.parent.mkdir(parents=True,exist_ok=True)
             if target.exists():raise ValueError('Code tree unexpectedly contains an asset')
             target.symlink_to(safe(asset_root,a['id']+'/'+f['path']))

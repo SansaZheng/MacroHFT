@@ -169,23 +169,36 @@ def stream_verify(a):
     return checked
 
 
+def reserve_quota(path, namespace, size):
+    """Conservative persisted reservation survives interrupted or concurrent uploads."""
+    import fcntl
+    path=Path(path)
+    with Path(str(path)+'.lock').open('a') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX)
+        quota=read(path)
+        age=dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(quota['checked_at'])
+        if age.total_seconds()<0 or age.total_seconds()>86400 or quota['namespace']!=namespace:
+            raise ValueError('Need a matching quota observation less than 24 hours old')
+        if quota.get('charges_authorized') is not False or not quota.get('source'):
+            raise ValueError('Quota observation must identify source and prohibit charges')
+        remaining=quota['included_free_bytes_remaining']-quota.get('reserved_bytes',0)
+        if size>remaining*0.9:raise ValueError('Insufficient verified included quota headroom')
+        quota['reserved_bytes']=quota.get('reserved_bytes',0)+size
+        quota.setdefault('reservations',[]).append({'at':dt.datetime.now(dt.timezone.utc).isoformat(),'bytes':size})
+        save(path,quota)
+    # Never auto-release after errors: interrupted transfers may already use remote bytes.
+    # Refresh actual storage observation to reconcile conservative reservations.
+
+
 def upload(m, asset_id, source, repo_id, quota_path, output, create=False):
     """Bounded batches with remote hash deduplication, guarded commits, restartable calls."""
     from huggingface_hub.errors import RepositoryNotFoundError
     a = next(x for x in m['assets'] if x['id'] == asset_id)
     if a.get('upload_authorization') != 'approved_private':
         raise ValueError('Asset upload rights must be recorded before transfer')
-    if not SHA.fullmatch(a.get('code_commit') or ''): raise ValueError('Record full producing code commit')
+    if not SHA.fullmatch(a.get('code_commit') or ''): raise ValueError('Record full corresponding source commit and provenance limits')
     if len(repo_id.split('/')) != 2: raise ValueError('Use namespace/repository')
-    quota = read(quota_path)
-    age = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(quota['checked_at'])
-    if age.total_seconds() < 0 or age.total_seconds() > 86400 or quota['namespace'] != repo_id.split('/')[0]:
-        raise ValueError('Need a matching storage quota observation less than 24 hours old')
-    if quota.get('charges_authorized') is not False or not quota.get('source'):
-        raise ValueError('Quota record must identify source and explicitly prohibit charges')
     total = sum(f['size'] for f in a['files'])
-    if total > quota['included_free_bytes_remaining'] * 0.9:
-        raise ValueError('Insufficient verified included storage headroom; no paid overflow')
     dependencies = select(m, a.get('requires', [])) if a.get('requires') else []
     a['dataset_revisions'] = [{k:d[k] for k in ['id','repo_id','repo_type','revision']} for d in dependencies if d['repo_type']=='dataset']
     source = Path(source).resolve()
@@ -196,10 +209,16 @@ def upload(m, asset_id, source, repo_id, quota_path, output, create=False):
         if any(x in rel(f['path']).parts for x in ('.git','.venv','venv','.cache')) or Path(f['path']).name in ('.env','token','stored_tokens'):
             raise ValueError('Credential/environment/cache path refused')
     api = api_client(); w = api.whoami()
+    # Reserve conservatively before any repository mutation. Reconcile against actual
+    # HF usage after interrupted uploads; never silently release a reservation.
+    reserve_quota(quota_path, repo_id.split('/')[0], total)
     # Inspect possible project repositories before creating another one.
     try: info = api.repo_info(repo_id, repo_type=a['repo_type'])
     except RepositoryNotFoundError as exc:
-        if getattr(getattr(exc, 'response', None), 'status_code', None) != 404 or not create: raise
+        if not create: raise
+        namespace=repo_id.split('/')[0]
+        owners={w.get('name')} | {o.get('name') for o in w.get('orgs',[]) if o.get('roleInOrg') in ('admin','write')}
+        if namespace not in owners: raise ValueError('Namespace creation permission not established')
         method = api.list_datasets if a['repo_type'] == 'dataset' else api.list_models
         existing = [r.id for r in method(author=repo_id.split('/')[0]) if 'macrohft' in r.id.lower()]
         if existing: raise ValueError('Inspect/reuse existing project repos before creating: '+','.join(existing))

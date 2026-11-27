@@ -52,4 +52,77 @@ yet**. Historical GitHub assets remain at commit
 
 Do not run the old archive-building scripts for new results. They are retained only for
 historical recovery. Do not use an unrestricted full clone on a personal computer.
-The Mac keeps a sparse code checkout; 66 unresolved iCloud files remain preserved.
+The Mac keeps a sparse code checkout. A fresh audit recovered 64 of the 66 previously
+unavailable iCloud items; two legacy-tooling copies remain missing. Local originals are preserved.
+
+## Exact commands (inside an authorized CQ remote job)
+
+Use a clean, shallow code checkout and the job's local output directory. Run interactive
+`hf auth login` only in your own terminal with `HF_HOME` pointing to an approved private
+credential directory **outside collected outputs**. Never put a token in a job spec.
+
+```bash
+python3 -m venv "$CQ_OUTPUT_DIR/asset-env"
+export PYTHON="$CQ_OUTPUT_DIR/asset-env/bin/python"
+"$PYTHON" -m pip install --no-cache-dir -r requirements/assets.txt
+# Interactive owner terminal only, if not using an approved secret manager:
+"$CQ_OUTPUT_DIR/asset-env/bin/hf" auth login
+"$PYTHON" scripts/assets.py audit --namespace YOUR_CONFIRMED_NAMESPACE
+export MACROHFT_ASSET_ROOT="$CQ_OUTPUT_DIR/assets"
+export MACROHFT_HF_CACHE="$CQ_OUTPUT_DIR/cache/hub"
+export HF_HUB_CACHE="$MACROHFT_HF_CACHE"
+export HF_XET_CACHE="$CQ_OUTPUT_DIR/cache/xet"
+"$PYTHON" scripts/assets.py validate
+# These project-asset commands block until actual HF pins are in the manifest:
+"$PYTHON" scripts/assets.py fetch --asset eth-prepared --asset feature-definitions --asset released-experts
+"$PYTHON" scripts/assets.py fetch --asset eth-prepared --file prepared/ETHUSDT/train/data.feather
+"$PYTHON" scripts/assets.py verify --asset eth-prepared
+"$PYTHON" scripts/assets.py stream-verify --asset eth-prepared
+```
+
+For an isolated minimal runtime check and a validation-only experiment:
+
+```bash
+python3.11 -m venv "$CQ_OUTPUT_DIR/research-env"
+"$CQ_OUTPUT_DIR/research-env/bin/python" -m pip install --no-cache-dir -r requirements/research-cpu.txt
+"$CQ_OUTPUT_DIR/research-env/bin/python" scripts/remote_run.py \
+  --work-dir "$CQ_OUTPUT_DIR/check" --check-only
+"$CQ_OUTPUT_DIR/research-env/bin/python" scripts/remote_run.py \
+  --work-dir "$CQ_OUTPUT_DIR/run-12345" --variant reference --seed 12345 --epochs 1 --device cpu
+```
+
+For an authorized new dataset, use explicit source files and a current quota observation:
+
+```bash
+"$PYTHON" scripts/stage_assets.py --asset eth-prepared \
+  --legacy-root /date/zyy/macrohft-reproduction --root "$CQ_OUTPUT_DIR/stage" \
+  --output-manifest "$CQ_OUTPUT_DIR/upload-plan.json"
+"$PYTHON" scripts/assets.py --manifest "$CQ_OUTPUT_DIR/upload-plan.json" upload \
+  --asset eth-prepared --source "$CQ_OUTPUT_DIR/stage" \
+  --repo-id YOUR_NAMESPACE/YOUR_PRIVATE_DATASET_REPO \
+  --quota-record "$CQ_OUTPUT_DIR/quota.json" \
+  --output-manifest "$CQ_OUTPUT_DIR/verified-manifest.json"
+# For selected models: use --asset eth-reference-12345 and your private model repo,
+# after the required dataset/expert revisions have been verified and merged.
+cp "$CQ_OUTPUT_DIR/verified-manifest.json" assets/manifest.json
+"$PYTHON" scripts/assets.py validate
+git add assets/manifest.json
+git commit -m 'Pin verified HF assets'
+git push origin main
+```
+
+Add `--create-repo` only after checking that no suitable repo exists. Every newly created
+repo is private. Keep cards, provenance, splits and original bytes; do not upload all epochs.
+The [full runbook](docs/storage/WORKFLOW.md) specifies quota fields, interrupted-upload
+recovery, the clean-checkout commands and model retention.
+
+Only after verified uploads, pinned recovery and an independent backup, and with cleanup
+authorized, inspect and remove an exact revision in the **project-specific** cache:
+
+```bash
+"$CQ_OUTPUT_DIR/asset-env/bin/hf" cache ls --revisions --cache-dir "$MACROHFT_HF_CACHE"
+"$CQ_OUTPUT_DIR/asset-env/bin/hf" cache rm EXACT_REVISION_ID --cache-dir "$MACROHFT_HF_CACHE" --dry-run
+# Review the dry run, then rerun without --dry-run; retain interactive confirmation.
+```
+
+No originals, shared caches or Git history are deleted by these setup commands.
