@@ -1,0 +1,99 @@
+{
+  "name": "MacroHFT authorized private dataset and selected model migration",
+  "work": "MacroHFT",
+  "code": {
+    "git": "SuuTTT/MacroHFT",
+    "commit": "5907201ae26a22af9a8f29bc09c6bebb1f4612ed"
+  },
+  "command": [
+    "python3",
+    "scripts/cq_migrate_assets.py"
+  ],
+  "resources": {
+    "gpus": 0,
+    "cpus": 2,
+    "ram_gb": 4,
+    "disk_gb": 8
+  },
+  "limits": {
+    "max_hours": 2,
+    "max_attempts": 1,
+    "max_wait_hours": 1,
+    "max_usd": 0
+  },
+  "placement": {
+    "target": "school",
+    "prefer": [
+      "c225"
+    ],
+    "allow_rent": false,
+    "never": [
+      "c223",
+      "c219",
+      "c237",
+      "c203",
+      "c220",
+      "c221",
+      "c222",
+      "c227",
+      "c226",
+      "pc4070",
+      "c224"
+    ]
+  },
+  "outputs": {
+    "dest": "/home/sudingli/cq-home/macrohft-recovery/results/hf-private-migration-20261128",
+    "expect": [
+      {
+        "path": "receipt.json",
+        "contains": "\"complete\": true"
+      },
+      {
+        "path": "receipt.json",
+        "contains": "5907201ae26a22af9a8f29bc09c6bebb1f4612ed"
+      },
+      {
+        "path": "verified-manifest.json",
+        "contains": "\"status\": \"verified\""
+      },
+      {
+        "path": "progress.log",
+        "contains": "12/12"
+      }
+    ],
+    "progress": {
+      "path": "progress.log",
+      "stall_min": 30
+    }
+  },
+  "resource_basis": {
+    "scope": "Upload 12 explicitly authorized logical assets, 202 existing payload files about 1.30 GB, to existing private dataset/model repositories; verify every file by immutable-revision streaming; no training",
+    "bounds": "2 CPUs, 4 GB RAM, 8 GB temporary disk, 2 hours, no GPUs or paid capacity. Staging/cache/client remain on /date; CQ outputs contain small metadata only.",
+    "authentication": "Official HF client reads the project login from a protected directory outside collected outputs; no credential value in this spec",
+    "resume": "Each verified asset produces a pinned manifest. Any retry checks source identity and skips already verified assets; no automatic retry."
+  },
+  "home": {
+    "name": "macrohft-recovery",
+    "from": "c224"
+  },
+  "env": {
+    "SOURCE_COMMIT": "5907201ae26a22af9a8f29bc09c6bebb1f4612ed",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "REQUESTS_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt",
+    "SSL_CERT_FILE": "/etc/ssl/certs/ca-certificates.crt",
+    "PIP_CERT": "/etc/ssl/certs/ca-certificates.crt",
+    "PIP_RETRIES": "1",
+    "PIP_DEFAULT_TIMEOUT": "15",
+    "HF_HOME": "/date/zyy/macrohft-reproduction/.hf",
+    "MACROHFT_MIGRATION_ROOT": "/date/zyy/macrohft-assets/migration-20261128",
+    "HF_HUB_CACHE": "/date/zyy/macrohft-assets/migration-20261128/cache/hub",
+    "HF_XET_CACHE": "/date/zyy/macrohft-assets/migration-20261128/cache/xet",
+    "HF_HUB_DISABLE_PROGRESS_BARS": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2"
+  },
+  "depends_on": [
+    "j-1128-7b3618"
+  ],
+  "replaces": []
+}
